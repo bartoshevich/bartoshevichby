@@ -291,24 +291,14 @@ footer {
   color: #ababab;
   width: 240px;
   height: auto;
-  margin-right: -24px;
+  margin-right: auto 0;
   padding-left: 1em;
   float: right;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-  @include mobile {
-	   font-size: 19px;
-    line-height: 1.45;
-    text-align: center;
-    width: 720px;
-    float: none;
-    margin: auto 0;
-    padding: 1em;
-    border: solid #f7f7f7;
-    border-width: 1px 0;
-  }
+
 .aside-text-right:before {
   content: "";
   display: block;
@@ -326,7 +316,7 @@ footer {
     border: 0;
 }
 .wtf {
-font-size:12px;line-height:15px;}
+font-size:13px;line-height:15px;}
 
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
