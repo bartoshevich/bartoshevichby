@@ -16,3 +16,16 @@ layout: default
     </article>
   {% endfor %}
 </div>
+
+
+<ul class="archive-list">
+    <p>Всего записей в блоге: <b>{{ site.posts | size }}</b>.</p>
+    {% for post in site.posts %}{% unless post.next %}
+    <h3 class="archive-post-year">{{ post.date | date: '%Y' }}</h3>{% else %}{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}{% if year != nyear %}
+    <h3 class="archive-post-year">{{ post.date | date: '%Y' }}</h3>{% endif %}{% endunless %}
+    <li>
+        <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" | replace: 'January', 'январь' | replace: 'February', 'февраль' | replace: 'March', 'март' | replace: 'April', 'апрель' | replace: 'May', 'май' | replace: 'June', 'июнь' | replace: 'July', 'июль' | replace: 'August', 'август' | replace: 'September', 'сентябрь' | replace: 'October', 'октябрь' | replace: 'November', 'ноябрь' | replace: 'December', 'декабрь' }}</time>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
