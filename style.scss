@@ -298,6 +298,17 @@ footer {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+  @include mobile {
+	   font-size: 19px;
+    line-height: 1.45;
+    text-align: center;
+    width: 720px;
+    float: none;
+    margin: auto 0;
+    padding: 1em;
+    border: solid #f7f7f7;
+    border-width: 1px 0;
+  }
 .aside-text-right:before {
   content: "";
   display: block;
@@ -305,6 +316,9 @@ footer {
   width: 30%;
   margin-bottom: 10px;
 }
+ @include mobile {
+	 content: none;
+  }
 .aside-text-right img {
   margin-top: 10px;
 }
