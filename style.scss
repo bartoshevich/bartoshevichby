@@ -285,6 +285,61 @@ footer {
   text-align: center;
 }
 
+.aside-text-right {
+  font-size: 13px;
+  line-height: 16px;
+  color: #ababab;
+  width: 240px;
+  height: auto;
+  margin-right: -240px;
+  padding-left: 1em;
+  float: right;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.aside-text-right:before {
+  content: "";
+  display: block;
+  border-top: 1px solid #f7f7f7;
+  width: 30%;
+  margin-bottom: 10px;
+}
+.aside-text-right img {
+  margin-top: 10px;
+}
+.aside-text-right a {
+    border: 0;
+}
+
+@media screen and (max-width: 1380px) {
+  .aside-text-right {
+    width: 140px;
+    margin-right: -140px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .aside-text-right {
+    font-size: 19px;
+    line-height: 1.45;
+    text-align: center;
+    width: 720px;
+    float: none;
+    margin: auto 0;
+    padding: 1em;
+    border: solid #f7f7f7;
+    border-width: 1px 0;
+  }
+  .aside-text-right:before {
+    content: none;
+  }
+}
+@media screen and (max-width: 960px) 
+  .aside-text-right {
+    width: 80%;
+    font-size: 16px;
+  }
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
