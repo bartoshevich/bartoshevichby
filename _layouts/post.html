@@ -5,14 +5,12 @@ layout: default
 <article class="post">
   <h1>{{ page.title }}</h1>
   
-  {% include share.html %}
-
-  <div class="entry">
+   <div class="entry">
     {{ content }}
   </div>
 
   <div class="date">
-    Опубликовано: {{ page.date | date: "%B %e, %Y" | replace: 'January', 'январь' | replace: 'February', 'февраль' | replace: 'March', 'март' | replace: 'April', 'апрель' | replace: 'May', 'май' | replace: 'June', 'июнь' | replace: 'July', 'июль' | replace: 'August', 'август' | replace: 'September', 'сентябрь' | replace: 'October', 'октябрь' | replace: 'November', 'ноябрь' | replace: 'December', 'декабрь' }}
+    Опубликовал: {{ page.date | date: "%B %e, %Y" | replace: 'January', 'январь' | replace: 'February', 'февраль' | replace: 'March', 'март' | replace: 'April', 'апрель' | replace: 'May', 'май' | replace: 'June', 'июнь' | replace: 'July', 'июль' | replace: 'August', 'август' | replace: 'September', 'сентябрь' | replace: 'October', 'октябрь' | replace: 'November', 'ноябрь' | replace: 'December', 'декабрь' }}
 
   </div>
 
