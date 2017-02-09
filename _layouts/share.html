@@ -1,13 +1,7 @@
-<div class="share">
-    {% if post.title %}
-    <div class="share-btn share-vk"><div id="vk_like"></div><script type="text/javascript">VK.Widgets.Like("vk_like", {type: "mini", pageTitle: '{{ post.title }}', pageUrl: '{{ post.url | prepend: site.url }}', pageImage: '{{ post.cover | prepend: site.url }}', width: 80, height: 20});</script></div>
-    <div class="share-btn share-fb"><div class="fb-share-button" data-href="{{ post.url | prepend: site.url }}" data-layout="button_count"></div></div>
-    <div class="share-btn share-tw"><a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ post.url | prepend: site.url }}" data-text="RT @{{ site.twitter }} {{ post.title }}" data-count="true" data-related="bizi">Tweet</a></div>
-    <div class="btn-help-text">Понравилась заметка? Поделись с друзьями!</div>
-    {% else %}
-    <div class="share-btn share-vk"><div id="vk_like"></div><script type="text/javascript">VK.Widgets.Like("vk_like", {type: "mini", pageTitle: '{{ page.title }}', pageUrl: '{{ page.url | prepend: site.url }}', pageImage: '{{ page.cover | prepend: site.url }}', width: 80, height: 20});</script></div>
-    <div class="share-btn share-fb"><div class="fb-share-button" data-href="{{ page.url | prepend: site.url }}" data-layout="button_count"></div></div>
-    <div class="share-btn share-tw"><a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ page.url | prepend: site.url }}" data-text="RT @{{ site.twitter }} {{ page.title }}" data-count="true" data-related="bizi" data-lang="en">Tweet</a></div>
-    <div class="btn-help-text">Понравилась заметка? Поделись с друзьями!</div>
-    {% endif %}
+<div class="social-likes">
+   <div data-service="twitter" title="Twitter">твитнуть</div>
+   <div data-service="facebook" title="Facebook">поделиться</div>
+    <div data-service="vkontakte" title="ВКонтакте">рассказать</div>
+ <div data-service="linkedin" title="linkedIn" data-media="image link, required">сообщить</div>
+<div data-service="telegram" title="Telegram">отправить</div>
 </div>
