@@ -41,8 +41,6 @@ description: "Дмитрий Бартошевич - маркетолог, отк
 				<tr> 
 					<td>Эл. почта: <strong>dmitry@bartoshevich.by</strong> Телефон: <strong>+375 29 <nobr class="phone">775-33-40</nobr></strong></td>
  				</tr>
-				<tr> 
-					<td>Свяжитесь со&nbsp;мной. Вместе мы&nbsp;определим алгоритм действий, выберем правильные маркетинговые инструменты и&nbsp;ускорим развитие вашего бизнеса.</td>
- 				</tr>
+			
  			</tbody>
  		</table>
