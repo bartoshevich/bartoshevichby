@@ -31,7 +31,7 @@ description: "Дмитрий Бартошевич - маркетолог, кон
 <table><caption> </caption>
 <tbody>
 <tr>
-<td rowspan="5"> ![Дмитрий Бартошевич](/images/180-ios.png) </td>
+<td rowspan="5">![Дмитрий Бартошевич](/images/180-ios.png)</td>
 <td>ИП Бартошевич Дмитрий Александрович</td>
 </tr>
 <tr>
