@@ -3,18 +3,18 @@ layout: default
 ---
 
 <article class="post">
+  <div class="date">
+    {{ page.date | date: "%B %e, %Y" | replace: 'January', 'январь' | replace: 'February', 'февраль' | replace: 'March', 'март' | replace: 'April', 'апрель' | replace: 'May', 'май' | replace: 'June', 'июнь' | replace: 'July', 'июль' | replace: 'August', 'август' | replace: 'September', 'сентябрь' | replace: 'October', 'октябрь' | replace: 'November', 'ноябрь' | replace: 'December', 'декабрь' }}
+  </div>
   <h1>{{ page.title }}</h1>
   
    <div class="entry">
     {{ content }}
   </div>
 
-  <div class="date">
-    {{ page.date | date: "%B %e, %Y" | replace: 'January', 'январь' | replace: 'February', 'февраль' | replace: 'March', 'март' | replace: 'April', 'апрель' | replace: 'May', 'май' | replace: 'June', 'июнь' | replace: 'July', 'июль' | replace: 'August', 'август' | replace: 'September', 'сентябрь' | replace: 'October', 'октябрь' | replace: 'November', 'ноябрь' | replace: 'December', 'декабрь' }}
+  
 
-  </div>
-
-  <p>&nbsp;</p>
+  
   {% include share.html %}
   <p>&nbsp;</p>
   {% include mailchimp.html %}
