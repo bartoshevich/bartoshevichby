@@ -13,8 +13,8 @@ permalink: /tags/
 {% for post in posts %}
   {% if post.tags contains t %}
     <a class="post-index-item" href="{{ post.url }}">
-      <span class="date">{{ post.date | localize: "%d %b, %Y" }}</span>
-      <span class="article">{{ post.title }}</span>
+      <span class="date">{{ post.date |  date: "%B %e, %Y" | replace: 'January', 'январь' | replace: 'February', 'февраль' | replace: 'March', 'март' | replace: 'April', 'апрель' | replace: 'May', 'май' | replace: 'June', 'июнь' | replace: 'July', 'июль' | replace: 'August', 'август' | replace: 'September', 'сентябрь' | replace: 'October', 'октябрь' | replace: 'November', 'ноябрь' | replace: 'December', 'декабрь' }}</span>
+                <span class="article">{{ post.title }}</span>
     </a>
   {% endif %}
 {% endfor %}
