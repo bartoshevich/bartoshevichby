@@ -13,9 +13,9 @@ tags: "net promoter score, лояльность, оценка лояльност
 <img src="/images/nps1.jpg" alt="Билл Гейтс">
 <div> 
 <ul> 
-<li><a href="http://www.bartoshevich.by/instrukcii/feedback/#_NPS">1&nbsp;Индекс лояльности (NPS). История и&nbsp;значение</a></li>
-<li><a href="http://www.bartoshevich.by/instrukcii/feedback/#i">2&nbsp;Как определить индекс лояльности клиентов</a></li>
-<li><a href="http://www.bartoshevich.by/instrukcii/feedback/#i-2">3&nbsp;Как использовать индекс лояльности правильно</a></li>
+<li><a href="{{ site.url }}/instrukcii/feedback/#_NPS">1&nbsp;Индекс лояльности (NPS). История и&nbsp;значение</a></li>
+<li><a href="{{ site.url }}/instrukcii/feedback/#i">2&nbsp;Как определить индекс лояльности клиентов</a></li>
+<li><a href="{{ site.url }}/instrukcii/feedback/#i-2">3&nbsp;Как использовать индекс лояльности правильно</a></li>
  </ul>
  </div>
 <h2>Индекс лояльности (NPS). История и&nbsp;значение</h2>
