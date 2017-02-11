@@ -14,11 +14,11 @@ tags: "маркетолог"
 <tbody> 
 <tr> 
 <td><img src="/images/sto1.jpg" alt="Катерина Пажитных" width="150" height="150"/></td>
-<td class="a_b"><em><strong>Екатерина Пажитных</strong>, </em><em>маркетолог</em>|</td>
+<td class="a_b"><em><strong>&nbsp;Екатерина Пажитных</strong>, </em><em>маркетолог</em></td>
  </tr>
 <tr> 
 <td><img src="/images/sto2.jpg" alt="Алексей Шлома" width="150" height="150"/></td>
-<td class="a_b"> <em><strong>Алексей Шлома</strong>,</em> <em>бренд-менеджер Condor</em></td>
+<td class="a_b"> <em><strong>&nbsp;Алексей Шлома</strong>,</em> <em>бренд-менеджер Condor</em></td>
  </tr>
  </tbody>
  </table>
