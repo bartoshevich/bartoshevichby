@@ -24,14 +24,14 @@ tags: "маркетолог"
  </table>
  
  <table> 
-<tbody> 
+<tbody class="center"> 
 <tr> 
 <td><img src="/images/sto1.jpg" alt="Катерина Пажитных" width="150" height="150"/></td>
 <td><img src="/images/sto2.jpg" alt="Алексей Шлома" width="150" height="150"/></td>
  </tr>
 <tr> 
-<td><em><strong>&nbsp;Екатерина Пажитных</strong>, </em> <br /><em>&nbsp;маркетолог</em></td>
-<td> <em><strong>&nbsp;Алексей Шлома</strong>,</em> <br /><em>&nbsp;бренд-менеджер Condor</em></td>
+<td><em><strong>Екатерина Пажитных</strong>, </em> <br /><em>маркетолог</em></td>
+<td> <em><strong>Алексей Шлома</strong>,</em> <br /><em>бренд-менеджер Condor</em></td>
  </tr>
  </tbody>
  </table>
