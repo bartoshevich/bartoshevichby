@@ -23,15 +23,15 @@ tags: "маркетолог"
  </tbody>
  </table>
  
- <table> 
+ <table  align=center> 
 <tbody> 
 <tr> 
-<td   align=center><img src="/images/sto1.jpg" alt="Катерина Пажитных" width="150" height="150"/></td>
-<td   align=center><img src="/images/sto2.jpg" alt="Алексей Шлома" width="150" height="150"/></td>
+<td><img src="/images/sto1.jpg" alt="Катерина Пажитных" width="150" height="150"/></td>
+<td><img src="/images/sto2.jpg" alt="Алексей Шлома" width="150" height="150"/></td>
  </tr>
 <tr> 
-<td   align=center><em><strong>Екатерина Пажитных</strong>, </em> <br /><em>маркетолог</em></td>
-<td   align=center> <em><strong>Алексей Шлома</strong>,</em> <br /><em>бренд-менеджер Condor</em></td>
+<td><em><strong>Екатерина Пажитных</strong>, </em> <br /><em>маркетолог</em></td>
+<td> <em><strong>Алексей Шлома</strong>,</em> <br /><em>бренд-менеджер Condor</em></td>
  </tr>
  </tbody>
  </table>
