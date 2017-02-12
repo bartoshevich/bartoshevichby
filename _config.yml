@@ -73,6 +73,18 @@ kramdown:
 # Set the Sass partials directory, as we're using @imports
 sass:
   style: :compressed #:expanded or :compressed
+  
+sitemap:
+    filename: "/sitemap.xml"
+    exclude:
+        - "/atom.xml"
+        - "/feed.xml"
+        - "/feed/index.xml"
+    include_posts:
+        - "/index.html"
+        - "/me.markdown"
+    change_frequency_name: "change_frequency"
+    priority_name: "priority"
 
 # Use the following plug-ins
 gems:
