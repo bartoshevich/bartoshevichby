@@ -336,6 +336,16 @@ border-radius:6px;
 margin-bottom: 2em;
 max-width: 760px;}
 
+.t2{    background: linear-gradient(#42a1ec, #0070c9);
+    border-color: #07c;
+    color: #fff;
+    font-size: 13px;
+    line-height: 1.54615;
+    font-weight: 500;
+    letter-spacing: normal;
+    padding: 0 10px;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
