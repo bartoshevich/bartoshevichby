@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page2
 title: Кто я и чем полезен
 permalink: /me/
 description: "Дмитрий Бартошевич - маркетолог, консультант. "
