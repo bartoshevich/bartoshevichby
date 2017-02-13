@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
 
   line-height: 1.2;
-  margin: 2em 0 15px;
+  margin: 1.1em 0 15px;
   padding: 0;
 
   @include mobile {
@@ -121,7 +121,7 @@ img {
   font-style: italic;
   color: $gray;
 	font-size: .8125em;
-  margin-bottom: -50px;
+  margin-bottom: -30px;
 }
 
 // Specify the color of the selection
