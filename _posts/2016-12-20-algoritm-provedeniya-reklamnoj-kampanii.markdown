@@ -121,7 +121,7 @@ Media Group Head</td>
 <ul>
  	<li>Легко считывается и коротко формулируется. Содержание рекламы построено вокруг одного ключевого послания. Нет второстепенных деталей и смыслов.</li>
 </ul>
-<table style="border: 1px; font-size: 85%; margin: 30px 0px 30px 0px;">
+<div class="address"><table style="border: 1px; font-size: 85%; margin: 30px 0px 30px 0px;">
 <tbody>
 <tr>
 <td class="a_c" style="width: 310px;"><strong>Нет</strong></td>
@@ -132,7 +132,7 @@ Media Group Head</td>
 <td class="a_m a_c" style="width: 305px;">«Наши диваны тестируют каждую ночь»</td>
 </tr>
 </tbody>
-</table>
+</table></div>
 <ul>
  	<li>Перекликается с ценностями целевой аудитории и мотивами, влияющими на выбор товара.</li>
  	<li>Поддерживает и укрепляет отличия бренда.<br/>
