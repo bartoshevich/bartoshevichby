@@ -68,16 +68,17 @@ tags: "рекламное объявление, текст"
 и&nbsp;книгу Уильяма Зинсера <a href="http://mastersloga.ru/files/kak_pisat_horosho.pdf">«Как писать хорошо»</a>.</p>
 <h3>6) <a href="https://soviet.glvrd.ru/?from=www.bartoshevich.by">Советы и&nbsp;статьи о&nbsp;тексте, редактуре и&nbsp;рекламе</a></h3>
 <p>Вы&nbsp;узнаете, как объяснить сложные вещи, сделать занудное описание интересным, подтолкнуть человека к&nbsp;полезному действию и&nbsp;многое другое. Каждый совет с&nbsp;примерами.</p>
-<h3>7) Редполитики <a href="https://docs.google.com/document/d/14XdGIjVJLM_FsjHzyh5ca8PkffngykzXd2bLPHzA2ME/edit#heading=h.1xvoj9mbqgeo">Тинькофф-журнала</a>и <a href="https://docs.google.com/document/d/1c_2uP1PpiM12h1ee8egVXAoUCJ9mE9r68zMqrqmS8VA/edit#heading=h.qfb376lrh4iy">Модульбанка</a></h3>
-<p>Привожу как пример принципов работы с&nbsp;текстом, ориентированных на&nbsp;пользу и&nbsp;развитие доверия у&nbsp;читателей.</p>
-<img src="/images/text2.jpg" alt="выдержка из редполитики Тинькофф-журнала" /> 
-<div class="notetip">выдержка из&nbsp;редполитики Тинькофф-журнала</div>
-
-<h3>8) Блоги</h3>
+<h3>7) Блоги</h3>
 <ul> 
 	<li><a href="http://maximilyahov.ru/blog/?from=www.bartoshevich.by">Блог Максима Ильяхова</a> о&nbsp;сильном тексте</li>
 	<li><a href="http://kompotique.ru/?from=www.bartoshevich.by">Блог Люды Сарычевой</a> о&nbsp;редактуре о&nbsp;работе редактора</li>
 	<li><a href="http://sashavolkova.ru/?from=www.bartoshevich.by">Саша Волкова</a> о&nbsp;текстах и&nbsp;работе редактора</li>
  </ul>
-<h3>9) Книга <a href="http://royallib.com/book/klark_roy_piter/50_priemov_pisma.html">«50&nbsp;приемов письма»</a> Роя Питера Кларка</h3>
+<h3>8) Книга <a href="http://royallib.com/book/klark_roy_piter/50_priemov_pisma.html">«50&nbsp;приемов письма»</a> Роя Питера Кларка</h3>
 <p>Ресурс для «отличников». После каждой главы вас ждут задания. Пригодятся карандаши, толстые газеты, книги и&nbsp;черновики. Результат&nbsp;— научитесь более осознанно выбирать слова, строить фразы и&nbsp;предложения.</p>
+<h3>9) Редполитики <a href="https://docs.google.com/document/d/14XdGIjVJLM_FsjHzyh5ca8PkffngykzXd2bLPHzA2ME/edit#heading=h.1xvoj9mbqgeo">Тинькофф-журнала</a>и <a href="https://docs.google.com/document/d/1c_2uP1PpiM12h1ee8egVXAoUCJ9mE9r68zMqrqmS8VA/edit#heading=h.qfb376lrh4iy">Модульбанка</a></h3>
+<p>Привожу как пример принципов работы с&nbsp;текстом, ориентированных на&nbsp;пользу и&nbsp;развитие доверия у&nbsp;читателей.</p>
+<img src="/images/text2.jpg" alt="выдержка из редполитики Тинькофф-журнала" /> 
+<div class="notetip">выдержка из&nbsp;редполитики Тинькофф-журнала</div>
+
+
