@@ -74,11 +74,12 @@ tags: "рекламное объявление, текст"
 	<li><a href="http://kompotique.ru/?from=www.bartoshevich.by">Блог Люды Сарычевой</a> о&nbsp;редактуре о&nbsp;работе редактора</li>
 	<li><a href="http://sashavolkova.ru/?from=www.bartoshevich.by">Саша Волкова</a> о&nbsp;текстах и&nbsp;работе редактора</li>
  </ul>
-<h3>8) Книга <a href="http://royallib.com/book/klark_roy_piter/50_priemov_pisma.html">«50&nbsp;приемов письма»</a> Роя Питера Кларка</h3>
-<p>Ресурс для «отличников». После каждой главы вас ждут задания. Пригодятся карандаши, толстые газеты, книги и&nbsp;черновики. Результат&nbsp;— научитесь более осознанно выбирать слова, строить фразы и&nbsp;предложения.</p>
-<h3>9) Редполитики <a href="https://docs.google.com/document/d/14XdGIjVJLM_FsjHzyh5ca8PkffngykzXd2bLPHzA2ME/edit#heading=h.1xvoj9mbqgeo">Тинькофф-журнала</a>и <a href="https://docs.google.com/document/d/1c_2uP1PpiM12h1ee8egVXAoUCJ9mE9r68zMqrqmS8VA/edit#heading=h.qfb376lrh4iy">Модульбанка</a></h3>
+ <h3>8) Редполитики <a href="https://docs.google.com/document/d/14XdGIjVJLM_FsjHzyh5ca8PkffngykzXd2bLPHzA2ME/edit#heading=h.1xvoj9mbqgeo">Тинькофф-журнала</a>и <a href="https://docs.google.com/document/d/1c_2uP1PpiM12h1ee8egVXAoUCJ9mE9r68zMqrqmS8VA/edit#heading=h.qfb376lrh4iy">Модульбанка</a></h3>
 <p>Привожу как пример принципов работы с&nbsp;текстом, ориентированных на&nbsp;пользу и&nbsp;развитие доверия у&nbsp;читателей.</p>
+<p><em>выдержка из&nbsp;редполитики Тинькофф-журнала:</em></p>
 <img src="/images/text2.jpg" alt="выдержка из редполитики Тинькофф-журнала" /> 
-<div class="notetip">выдержка из&nbsp;редполитики Тинькофф-журнала</div>
+<h3>9) Книга <a href="http://royallib.com/book/klark_roy_piter/50_priemov_pisma.html">«50&nbsp;приемов письма»</a> Роя Питера Кларка</h3>
+<p>Ресурс для «отличников». После каждой главы вас ждут задания. Пригодятся карандаши, толстые газеты, книги и&nbsp;черновики. Результат&nbsp;— научитесь более осознанно выбирать слова, строить фразы и&nbsp;предложения.</p>
+
 
 
