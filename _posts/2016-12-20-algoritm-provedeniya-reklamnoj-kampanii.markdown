@@ -14,7 +14,7 @@ tags: "реклама, рекламная кампания, алгоритм п�
 
 
 
-<table style="background: #ffffff;">
+<p><table style="background: #ffffff;">
 <tbody>
 <tr style="background: #ffffff;">
 <td style="width: 200px;"> <img src="/images/grigoruev.jpg" alt="Дмитрий Григорьев" /></td>
@@ -27,7 +27,7 @@ New Business Director</td>
 Media Group Head</td>
 </tr>
 </tbody>
-</table>
+</table></p>
 
 <p>Если вы хотите вложиться в рекламу с умом — используйте статью как инструкцию.</p>
 
