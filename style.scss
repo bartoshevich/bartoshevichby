@@ -340,7 +340,7 @@ max-width: 760px;}
 
 // таблицы
 
-.post-content table {
+table {
 	border-collapse: collapse;
     border-spacing: 0;
     empty-cells: show;
@@ -349,35 +349,23 @@ max-width: 760px;}
     margin-bottom: 1.1em;
 }
 
-.post-content th,
-.post-content td {
+th,
+td {
 	padding: 2%;
 	margin: 0;
 	overflow: visible;
 	line-height: 120%;
 	border-bottom: 1px solid #DDD;
 }
+th { padding-top: 0;
+font-weight: bold;
+	color: #111;}
 
-.post-content th { padding-top: 0; }
-
-.post-content caption {
-	color: #111;
-	text-align: center;
-	padding: 2%;
-}
-
-.post-content thead {
+thead {
 	vertical-align: bottom;
 	white-space: nowrap;
 }
-
-.post-content th {
-	font-weight: bold;
-	color: #111;
-}
-
-.post-content table tbody > tr:nth-child(odd) > td { background: #f9f9f9; }
-
+	
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
