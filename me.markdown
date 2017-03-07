@@ -1,14 +1,13 @@
 ---
 layout: page2
-title: Кто я и чем полезен
+title: 
 permalink: /me/
 description: "Дмитрий Бартошевич - маркетолог, консультант. "
 ---
-<div class="hip2">Объясню, как усилить отличия вашей компании в&nbsp;глазах потенциальных клиентов </div>
+<div class="hip2">
+Маркетолог. Опираюсь на&nbsp;исследования и&nbsp;анализ данных, <a href="http://www.bartoshevich.by/mnenie/otlichie-marketologa-ot-brexuna/">избегаю брехни</a>. Ориентирован на&nbsp;<a href="http://www.bartoshevich.by/mnenie/konkurentnoe-preimushhestvo/">пользу и&nbsp;доверие</a>.</div>
 
-<p>Опираюсь на&nbsp;исследования и&nbsp;анализ данных. <a href="http://www.bartoshevich.by/mnenie/otlichie-marketologa-ot-brexuna/">Избегаю брехни.</a> Ориентирован на&nbsp;<a href="http://www.bartoshevich.by/mnenie/konkurentnoe-preimushhestvo/">пользу и&nbsp;доверие</a>. </p>
-
-<p>Если в&nbsp;компании нет маркетолога, возьму его функции на&nbsp;себя. Не&nbsp;дам халтурить подрядчикам. Сам <a href="http://www.bartoshevich.by/opyt/autsorsing-marketinga/">поставлю задачи и&nbsp;проконтролирую исполнение</a>. </p><p>Если маркетолог в&nbsp;штате есть, усилю маркетинг предприятия, увеличу отдачу от&nbsp;вложений в&nbsp;продвижение.</p> <p>Работаю по&nbsp;договору, поэтому отвечаю за&nbsp;результат и&nbsp;сроки.</p>
+<p>Если в&nbsp;компании нет маркетолога, беру его функции на&nbsp;себя. Не&nbsp;даю халтурить подрядчикам. Сам <a href="http://www.bartoshevich.by/opyt/autsorsing-marketinga/">ставлю задачи и&nbsp;контролирую исполнение</a>. </p><p>Если маркетолог в&nbsp;штате есть, усиливаю маркетинг предприятия, увеличиваю отдачу от&nbsp;вложений в&nbsp;продвижение.</p> <p>Работаю по&nbsp;договору, поэтому отвечаю за&nbsp;результат и&nbsp;сроки.</p>
 <p> Клиенты платят не&nbsp;за&nbsp;время с&nbsp;9:00 до&nbsp;18:00, а&nbsp;за&nbsp;результат. Без отчислений в&nbsp;ФСЗН, оплаты подоходного налога, больничных и&nbsp;отпусков. </p>
 
 ![Дмитрий Бартошевич](/images/me.png)
