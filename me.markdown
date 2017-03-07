@@ -4,7 +4,7 @@ title: Кто я и чем полезен
 permalink: /me/
 description: "Дмитрий Бартошевич - маркетолог, консультант. "
 ---
-<div class="hip2">Объясню, как вы&nbsp;сможете выгодно отличаться от&nbsp;конкурентов и&nbsp;как грамотно донести преимущества до&nbsp;потенциальных клиентов. </div>
+<div class="hip2">Объясню, как усилить отличия вашей компании в&nbsp;глазах потенциальных клиентов </div>
 
 <p>Опираюсь на&nbsp;исследования и&nbsp;анализ данных. <a href="http://www.bartoshevich.by/mnenie/otlichie-marketologa-ot-brexuna/">Избегаю брехни.</a> Ориентирован на&nbsp;<a href="http://www.bartoshevich.by/mnenie/konkurentnoe-preimushhestvo/">пользу и&nbsp;доверие</a>. </p>
 
