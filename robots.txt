@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+sitemap: http://www.bartoshevich.by/sitemap.xml
+Host: www.bartoshevich.by
