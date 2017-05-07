@@ -58,6 +58,9 @@ h2 {
 .posts h2 a {
     font-size:30px;
     color: #333;
+   &:hover, &:active {
+    color: $blue;
+  }
   }
 
 h3 {
