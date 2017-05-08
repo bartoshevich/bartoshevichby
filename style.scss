@@ -63,6 +63,25 @@ h2 {
   }
   }
 
+.site-info h2 a {
+  margin: 0;
+  color: $darkGray;
+  cursor: pointer;
+  font-family: $helveticaNeue;
+  font-weight: 300;
+  font-size: 28px;
+  letter-spacing: 1px;
+ 
+  &:hover, &:active {
+    color: $blue;
+  }
+    @include mobile {
+    float: none;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
 h3 {
   font-size: 20px;
 }
