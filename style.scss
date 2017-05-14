@@ -383,6 +383,48 @@ max-width: 760px;}
 
 mark {background-color:#ffffaa;}
 
+// выделение тегов
+.blocks ul, ol {
+     margin: 15px 0;
+    padding-left: 0px;
+}
+
+.blocks li {
+     background-color: #95a5a6;
+     border-radius: 5px;
+     display: inline-block;
+     margin: 4px 0px 0px;
+     padding: 0px 10px;
+     
+}
+
+.blocks li a {
+     color: #ffffff;
+     display: inline-block;
+     line-height: 1.8em;
+     background-color: #95a5a6;
+          }
+
+
+//.blocks li:nth-child(5n+1) a {background-color: #1abc9c;}
+
+//.blocks li:nth-child(5n+2) {background-color: #2ecc71;}
+
+//.blocks li:nth-child(5n+3) {background-color: #3498db;}
+
+//.blocks li:nth-child(5n+4) {     background-color: #f1c40f;}
+
+//.blocks li:nth-child(5n+5) {     background-color: #f39c12;}
+
+//.blocks li:nth-child(5n+6) {     background-color: #e74c3c;}
+
+//.blocks li:nth-child(5n+7) {     background-color: #34495e;}
+
+//.blocks li:nth-child(5n+8) {     background-color: #95a5a6;}
+
+//.blocks li:nth-child(5n+9) {     background-color: #ff6600;}
+
+
 // таблицы 
 
 table {
