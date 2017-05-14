@@ -5,7 +5,7 @@ description: "На примере сайтов агроусадеб расска
 date:   2016-07-20 01:18:33 +0300
 categories: мнение
 permalink: "mnenie/sajt-agrousadby/"
-tags: "разработка сайта, агротуризм, Про бизнес."
+tags: "интернет-маркетинг бизнес"
 ---
 
 <p>Портал «Про бизнес.» выпустил мою очередную <a href="http://probusiness.by/tech/2323-eti-elementarnye-oshibki-na-saytakh-meshayut-kompaniyam-privlekat-klientov-inostrancev-primer-agrousadeb.html">статью</a>. На&nbsp;примере сайтов агроусадеб рассказываю об&nbsp;ошибках, которые мешают привлечь иностранных туристов. Публикую версию для блога.</p><!--more-->

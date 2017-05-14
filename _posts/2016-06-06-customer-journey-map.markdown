@@ -5,7 +5,7 @@ description: "Карта потребительского опыта (customer j
 date:   2016-06-06 01:18:33 +0300
 categories: инструкции
 permalink: "instrukcii/customer-journey-map/"
-tags: "Карта потребительского опыта, customer journey map, cjm, Про бизнес."
+tags: "инструменты бизнес"
 ---
 
 <p>Портал «Про бизнес.» выпустил мою <a href="http://probusiness.by/tech/2150-kak-vzglyanut-na-rabotu-kompanii-glazami-klientov-chtoby-povysit-prodazhi-metodika-customer-journey-mapping.html">статью о&nbsp;картах потребительского опыта</a>. Публикую версию для блога.</p><!--more-->
