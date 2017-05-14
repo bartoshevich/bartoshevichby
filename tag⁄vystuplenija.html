@@ -1,0 +1,24 @@
+---
+layout: default
+tag: выступления
+permalink: /tag/vystuplenija
+---
+
+<em>Записи с тегом «выступления»</em>
+
+{% for post in site.tags[page.tag] %}
+
+   <div class="posts">
+    <article class="post">
+
+      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Читать</a>
+    </article>
+    </div>
+ 
+{% endfor %}
