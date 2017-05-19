@@ -79,8 +79,7 @@ sitemap:
     exclude:
         - "/atom.xml"
         - "/feed.xml"
-        - "/feed/index.xml"
-        - "/tag/*"       
+        - "/feed/index.xml"           
     include_posts:
         - "/index.html"
         - "/me.markdown"
@@ -89,7 +88,7 @@ sitemap:
 
 # Use the following plug-ins
 gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  #- jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-seo-tag
   
