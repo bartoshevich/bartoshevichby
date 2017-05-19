@@ -80,6 +80,7 @@ sitemap:
         - "/atom.xml"
         - "/feed.xml"
         - "/feed/index.xml"
+        - "/tag/*"       
     include_posts:
         - "/index.html"
         - "/me.markdown"
