@@ -16,9 +16,6 @@ layout: null
     </url>
   {% endfor %}
 <url>
-<loc>http://www.bartoshevich.by/404.html</loc>
-</url>
-<url>
 <loc>http://www.bartoshevich.by/</loc>
 <changefreq>weekly</changefreq>
       <priority>1.0</priority>
