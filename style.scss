@@ -448,6 +448,29 @@ mark {background-color:#ffffaa;}
 #mc_embed_signup #mce-success-response {color:#529214; display:none;}
 #mc_embed_signup label.error {display:block; float:none; width:auto; margin-left:1.05em; text-align:left; padding:.5em 0;}
 
+// телефон в шапке
+
+.tel a { 
+  text-align: left; 
+    margin: -5px 0 0 0;
+  color: $gray;
+  font-size: 13px;
+
+  @include mobile {
+    margin: 3px 0;
+  }
+}
+  
+  .tel a:hover { 
+  text-align: left; 
+    margin: -5px 0 0 0;
+  color: $blue;
+  font-size: 13px;
+
+  @include mobile {
+    margin: 3px 0;
+  }
+}
 
 // related
 
