@@ -4,7 +4,7 @@ permalink: /me/
 description: "Дмитрий Бартошевич - маркетолог, консультант."
 ---
 
-<p> Я&nbsp;маркетолог. Опираюсь на&nbsp;исследования и&nbsp;анализ данных, <a href="http://www.bartoshevich.by/mnenie/otlichie-marketologa-ot-brexuna/">избегаю брехни</a>. Ориентируюсь на&nbsp;<a href="http://www.bartoshevich.by/mnenie/konkurentnoe-preimushhestvo/">пользу и&nbsp;доверие</a>. Помогаю с маркетингом интересным проектам и компаниям.</p>
+<p> Я&nbsp;маркетолог. Опираюсь на&nbsp;исследования и&nbsp;анализ данных, <a href="http://www.bartoshevich.by/mnenie/otlichie-marketologa-ot-brexuna/">избегаю брехни</a>. Ориентируюсь на&nbsp;<a href="http://www.bartoshevich.by/mnenie/konkurentnoe-preimushhestvo/">пользу и&nbsp;доверие</a>. Помогаю с&nbsp;маркетингом интересным проектам и&nbsp;компаниям.</p>
 <div class="hip2">
 Создаю концепции бренда, разрабатываю рекламные кампании, развиваю сайты и&nbsp;интернет-магазины, выявляю точки роста компании. </div>
 - Если в&nbsp;компании нет маркетолога, беру его функции на&nbsp;себя. Не&nbsp;даю халтурить подрядчикам. Сам <a href="http://www.bartoshevich.by/opyt/autsorsing-marketinga/">ставлю задачи и&nbsp;контролирую исполнение</a>. 
