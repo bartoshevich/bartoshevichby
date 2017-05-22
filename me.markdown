@@ -3,10 +3,10 @@ layout: page2
 permalink: /me/
 description: "Дмитрий Бартошевич - маркетолог, консультант."
 ---
-<div class="hip2">
-Я&nbsp;маркетолог. Опираюсь на&nbsp;исследования и&nbsp;анализ данных, <a href="http://www.bartoshevich.by/mnenie/otlichie-marketologa-ot-brexuna/">избегаю брехни</a>. Ориентируюсь на&nbsp;<a href="http://www.bartoshevich.by/mnenie/konkurentnoe-preimushhestvo/">пользу и&nbsp;доверие</a>.</div>
 
-<p>Помогаю с маркетингом интересным проектам и компаниям. Создаю концепции бренда, разрабатываю рекламные кампании, развиваю сайты и&nbsp;интернет-магазины, выявляю точки роста компании. </p>
+Я&nbsp;маркетолог. Опираюсь на&nbsp;исследования и&nbsp;анализ данных, <a href="http://www.bartoshevich.by/mnenie/otlichie-marketologa-ot-brexuna/">избегаю брехни</a>. Ориентируюсь на&nbsp;<a href="http://www.bartoshevich.by/mnenie/konkurentnoe-preimushhestvo/">пользу и&nbsp;доверие</a>.
+<div class="hip2">
+<p>Помогаю с маркетингом интересным проектам и компаниям. Создаю концепции бренда, разрабатываю рекламные кампании, развиваю сайты и&nbsp;интернет-магазины, выявляю точки роста компании. </p></div>
 - Если в&nbsp;компании нет маркетолога, беру его функции на&nbsp;себя. Не&nbsp;даю халтурить подрядчикам. Сам <a href="http://www.bartoshevich.by/opyt/autsorsing-marketinga/">ставлю задачи и&nbsp;контролирую исполнение</a>. 
 - Если маркетолог в&nbsp;штате есть, усиливаю маркетинг предприятия, увеличиваю отдачу от&nbsp;вложений в&nbsp;продвижение. 
   
