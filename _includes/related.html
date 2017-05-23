@@ -3,7 +3,7 @@
 <div class="rect">
   
 <div>
-  <b>Читайте также</b>
+  <b>Читайте также</b><br />
  
   {% assign maxRelated = 4 %}
   {% assign minCommonTags =  1 %}
@@ -28,9 +28,9 @@
 
     {% if sameTagCount >= minCommonTags %}
     
-     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-          </li>
+    
+    - <a href="{{ post.url }}">{{ post.title }}</a><br />
+         
     
        
 
