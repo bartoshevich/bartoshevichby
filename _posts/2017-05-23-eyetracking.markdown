@@ -17,7 +17,7 @@ tags: "реклама инструменты интервью"
 <tr>
 <td> <img src="/images/MariaRaiskaya.jpg" alt="Мария Райская" /></td></tr>
 <tr>
-<td ><strong>Мария Райская</strong>, ведущий руководитель проектов <a href="http://masmi.by/">МАСМИ</a></td>
+<td ><strong>Мария Райская</strong>, ведущий руководитель проектов <a href="https://goo.gl/t7o309">МАСМИ</a></td>
 </tr>
 </tbody>
 </table></p>
