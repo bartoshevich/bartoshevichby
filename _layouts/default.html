@@ -48,6 +48,11 @@ ul {
   list-style: none;
 }
 
+table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+	  
 *,
 ::before,
 ::after {
@@ -266,27 +271,23 @@ nav a {
     padding-left: 0px;
   }
 
-  .blocks li {
-    background-color: rgb(149, 165, 166);
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    display: inline-block;
-    margin: 4px 0px 0px;
-    padding: 0px 10px;
+table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    empty-cells: show;
+    font-size: 0.9em;
+    width: 100%;
+    margin-bottom: 1.1em;
   }
 
-  .blocks li a {
-    color: rgb(255, 255, 255);
-    display: inline-block;
-    line-height: 1.4em;
-    background-color: rgb(149, 165, 166);
-  }
-
-  body {
-    color: rgb(32, 32, 32);
-  }
+  td {
+    padding: 2%;
+    margin: 0px;
+    overflow: visible;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(221, 221, 221);
+  }  
 }
 .tel a { 
   text-align: left; 
