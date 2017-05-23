@@ -36,7 +36,7 @@ tags: "управление"
 <p>Вот почему все большее значение приобретает способность маркетолога правильно и&nbsp;быстро работать с&nbsp;внешними стимулами.</p>
 <h2>5) Использование эмоций в&nbsp;маркетинговых коммуникациях</h2>
 <p>Если раньше акцент в&nbsp;дифференциации брендов делали на&nbsp;характеристиках товара или услуги, то&nbsp;сейчас компании отстраиваются от&nbsp;конкурентов с&nbsp;помощью эмоций. Эмоциональные ценности используются для позиционирования, дифференциации и&nbsp;легенды торговой марки.</p>
-<div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/zvgyWsSQOh8?rel=0" frameborder="0" allowfullscreen></iframe></div>
+<p><div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/zvgyWsSQOh8?rel=0" frameborder="0" allowfullscreen></iframe></div></p>
 <p>В&nbsp;начале 2016г. компания Нильсен опубликовала результаты исследования, которое показало, что <a href="http://www.nielsen.com/us/en/insights/news/2016/were-ruled-by-our-emotions-and-so-are-the-ads-we-watch.html" target="_blank">эмоциональная реклама увеличивает рост продаж</a>. Ожидаю, эмоций в&nbsp;рекламе станет больше.</p>
 <p>Работая над маркетинговым мероприятием, по&nbsp;меньшей мере задумайтесь, найдет&nbsp;ли кампания эмоциональный отклик у&nbsp;потребителя и&nbsp;какой.</p>
 <h2>6) Рост качества контента</h2>
