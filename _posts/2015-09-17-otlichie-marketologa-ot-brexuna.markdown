@@ -6,7 +6,7 @@ date:   2015-09-17 01:18:33 +0300
 categories: мнение
 permalink: "mnenie/otlichie-marketologa-ot-brexuna/"
 tags: "инструменты маркетолог"
-images: /images/breh1.jpg
+image: /images/breh1.jpg
 ---
 
 <p>Здорово, когда директор рассматривает маркетолога как помощника в&nbsp;управлении бизнесом. Когда маркетолог <a href="http://www.bartoshevich.by/instrukcii/3-pravila-marketingovyx-issledovanij/">исследует рынок</a>, действия конкурентов, реакции потребителей и&nbsp;предоставляет руководству необходимую для принятия решений информацию. Только так маркетинг принесет пользу компании.</p>
