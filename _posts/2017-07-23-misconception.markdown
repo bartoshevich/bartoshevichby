@@ -11,7 +11,7 @@ tags: "интернет-маркетинг семинары управление
 
 <p>19&nbsp;июля я&nbsp;выступил на&nbsp;мастер-классе «Торговый маркетинг: от&nbsp;выбора месторасположения до&nbsp;привлечения посетителей и&nbsp;покупателей». Рассказал о&nbsp;пяти заблуждениях о&nbsp;маркетинге, из-за которых владельцы магазинов и&nbsp;торговых павильонов теряют деньги. В&nbsp;статье&nbsp;— основные идеи.</p><!--more-->
 
-![заблуждения о маркетинге](/images/m19jul.jpg)
+<p><iframe src="//www.slideshare.net/slideshow/embed_code/key/69TA554xqOUxa6" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> </p>
 
 <h2>Заблуждение&nbsp;1: «Маркетинг&nbsp;— это определение и&nbsp;удовлетворение потребностей» </h2>
 <p>Когда-то действительно успех бизнеса зависел от&nbsp;способности предприятия найти потребность клиента и&nbsp;удовлетворить&nbsp;ее. Если в&nbsp;городе не&nbsp;было гречки, а&nbsp;вы&nbsp;ее&nbsp;завезли и&nbsp;начали продавать, вы&nbsp;молодец. </p>
@@ -76,4 +76,4 @@ tags: "интернет-маркетинг семинары управление
 <p>Часто сталкиваюсь, когда рекламу заказывают по&nbsp;знакомству, без должных расчетов по&nbsp;охвату максимума человек из&nbsp;целевой аудитории. Когда на&nbsp;рекламу возлагают несвойственные ей&nbsp;задачи и&nbsp;функции, а&nbsp;затем разочаровываются и&nbsp;обвиняют все и&nbsp;вся. </p>
 <p>Если для решения задач бизнеса не&nbsp;требуется увеличить уровень осведомленности или изменить восприятие клиентов, не&nbsp;рекламируйтесь. Если все это требуется, следуйте <a href="http://www.bartoshevich.by/instrukcii/algoritm-provedeniya-reklamnoj-kampanii/">алгоритму проведения рекламной кампании</a>. </p>
 
-<p><iframe src="//www.slideshare.net/slideshow/embed_code/key/69TA554xqOUxa6" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> </p>
+
