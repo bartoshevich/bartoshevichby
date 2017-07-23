@@ -9,7 +9,7 @@ image: /images/misconceptions.jpg
 tags: "интернет-маркетинг семинары управление"
 ---
 
-<p>19&nbsp;июля я&nbsp;выступил на&nbsp;мастер-классе «Торговый маркетинг: от&nbsp;выбора месторасположения до&nbsp;привлечения посетителей и&nbsp;покупателей». Рассказал о&nbsp;пяти заблуждениях о&nbsp;маркетинге, из-за которых владельцы магазинов и&nbsp;торговых павильонов теряют деньги. В&nbsp;статье&nbsp;— основные идеи.</p><!--more-->
+<p>19&nbsp;июля состоялся мастер-класс «Торговый маркетинг: от&nbsp;выбора месторасположения до&nbsp;привлечения посетителей и&nbsp;покупателей», который организовала <a href="http://www.konferencii.by/" target="_blank">медиагруппа «Арт-Престиж»</a>. Я&nbsp;был в&nbsp;числе спикеров и&nbsp;рассказал о&nbsp;пяти заблуждениях о&nbsp;маркетинге, из-за которых владельцы магазинов и&nbsp;торговых павильонов теряют деньги. В&nbsp;статье&nbsp;— основные идеи.</p><!--more-->
 
 <p><iframe src="//www.slideshare.net/slideshow/embed_code/key/69TA554xqOUxa6" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> </p>
 
@@ -68,8 +68,8 @@ tags: "интернет-маркетинг семинары управление
 </ul>
 <div class="rect">
 <p>Сервисы для анализа скорости загрузки сайтов: <br />
-- <a href="https://gtmetrix.com/">Gtmetrix.com</a><br />
-- <a href="https://testmysite.thinkwithgoogle.com">Testmysite.thinkwithgoogle.com</a></p>
+- <a href="https://gtmetrix.com/" target="_blank">Gtmetrix.com</a><br />
+- <a href="https://testmysite.thinkwithgoogle.com" target="_blank">Testmysite.withgoogle.com</a></p>
 </div>
 <p>&nbsp;</p>
 <h2>Заблуждение&nbsp;5: «Реклама решит все проблемы с&nbsp;продажами»</h2>
