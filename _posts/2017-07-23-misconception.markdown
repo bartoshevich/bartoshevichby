@@ -11,7 +11,7 @@ tags: "интернет-маркетинг семинары управление
 
 <p>19&nbsp;июля состоялся мастер-класс «Торговый маркетинг: от&nbsp;выбора месторасположения до&nbsp;привлечения посетителей и&nbsp;покупателей», который организовала <a href="http://www.konferencii.by/" target="_blank">медиагруппа «Арт-Престиж»</a>. Я&nbsp;был в&nbsp;числе спикеров и&nbsp;рассказал о&nbsp;пяти заблуждениях о&nbsp;маркетинге, из-за которых владельцы магазинов и&nbsp;торговых павильонов теряют деньги. В&nbsp;статье&nbsp;— основные идеи.</p><!--more-->
 
-<p><iframe src="//www.slideshare.net/slideshow/embed_code/key/69TA554xqOUxa6" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> </p>
+<p><iframe src="https://www.slideshare.net/slideshow/embed_code/key/69TA554xqOUxa6" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> </p>
 
 <h2>Заблуждение&nbsp;1: «Маркетинг&nbsp;— это определение и&nbsp;удовлетворение потребностей» </h2>
 <p>Когда-то действительно успех бизнеса зависел от&nbsp;способности предприятия найти потребность клиента и&nbsp;удовлетворить&nbsp;ее. Если в&nbsp;городе не&nbsp;было гречки, а&nbsp;вы&nbsp;ее&nbsp;завезли и&nbsp;начали продавать, вы&nbsp;молодец. </p>
