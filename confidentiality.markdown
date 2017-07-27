@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /confidentiality/
-description: "Политика конфиденциальности"
+description: "Посещая www.bartoshevich.by, вы даете свое безоговорочное согласие с этой политикой. В случае несогласия, не открывайте сайт."
 title: "Политика конфиденциальности"
 ---
 
