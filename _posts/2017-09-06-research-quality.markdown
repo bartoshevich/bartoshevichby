@@ -15,12 +15,12 @@ image: /images/control0609.jpg
 <p><table>
 <tbody>
 <tr >
-<td style="width: 200px;"> <img src="/images/burgazliev.png" alt="Сергей Бургазлиев" width="150" height="150" /></td>
-<td style="width: 200px;"><img src="/images/palhovskaya.png" alt="Екатерина Палховская" width="150" height="150" /></td>
+<td > <img src="/images/burgazliev.png" alt="Сергей Бургазлиев" width="150" height="150" /></td>
+<td ><img src="/images/palhovskaya.png" alt="Екатерина Палховская" width="150" height="150" /></td>
 </tr>
 <tr>
-<td><strong>Сергей Бургазлиев</strong>
-<p>Управляющий партнер в&nbsp;EURussia-Partners</p>
+<td ><strong>Сергей Бургазлиев</strong>
+<p>Управляющий партнер в&nbsp;<nobr>EURussia-Partners</nobr></p>
 <br/>
 
 В&nbsp;исследованиях с&nbsp;2005г.
@@ -28,7 +28,7 @@ image: /images/control0609.jpg
 <a href="https://www.linkedin.com/in/sergey-burgazliev-mba-4486061a/" target="_blank" rel="nofollow">Профиль в&nbsp;LinkedIn</a>
 
 </td>
-<td> 
+<td > 
 <strong>Екатерина Палховская</strong><br/>
  <p>Strategy &amp;&nbsp;insight manager Danone Belarus, кандидат социологических наук </p>
 <br/>
