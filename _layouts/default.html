@@ -309,7 +309,20 @@ table {
   @include mobile {
     margin: 3px 0;
   }
-}	
+}
+
+	  [class*="c-"] {
+  grid-column: span 12 / auto;
+  padding: 10px;
+  max-width: 30rem;
+}
+
+@media only screen and (min-width: 720px) {
+  .c-6 {
+    grid-column: span 6 / auto;
+  }
+}
+	  
   </style>
   
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" /> 
