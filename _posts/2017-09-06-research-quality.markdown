@@ -15,31 +15,29 @@ image: /images/control0609.jpg
 <p><table>
 <tbody>
 <tr >
-<td > <img src="/images/burgazliev.png" alt="Сергей Бургазлиев" width="150" height="150" /></td>
-<td ><img src="/images/palhovskaya.png" alt="Екатерина Палховская" width="150" height="150" /></td>
+<td > <img src="/images/burgazliev.png" alt="Сергей Бургазлиев" width="150px" height="150px" /></td>
+<td><img src="/images/palhovskaya.png" alt="Екатерина Палховская" width="150px" height="150px" /></td>
 </tr>
 <tr>
-<td ><strong>Сергей Бургазлиев</strong>
-<p>Управляющий партнер в&nbsp;<nobr>EURussia-Partners</nobr></p>
+<td ><strong>Сергей Бургазлиев</strong><br />
+Управляющий партнер в&nbsp;<nobr>EURussia-Partners</nobr>, MBA.<br />
+<em>в&nbsp;исследованиях с&nbsp;2005г.
 <br/>
-
-В&nbsp;исследованиях с&nbsp;2005г.
-<br/>
-<a href="https://www.linkedin.com/in/sergey-burgazliev-mba-4486061a/" target="_blank" rel="nofollow">Профиль в&nbsp;LinkedIn</a>
+<a href="https://www.linkedin.com/in/sergey-burgazliev-mba-4486061a/" target="_blank" rel="nofollow">профиль в&nbsp;LinkedIn</a></em>
 
 </td>
 <td > 
 <strong>Екатерина Палховская</strong><br/>
- <p>Strategy &amp;&nbsp;insight manager Danone Belarus, кандидат социологических наук </p>
+Strategy&insight manager Danone Belarus, кандидат социологических наук. <br />
+<em>в&nbsp;исследованиях с&nbsp;2008г. 
 <br/>
-
-В&nbsp;исследованиях с&nbsp;2008г. 
-<br/>
-<a href="https://www.linkedin.com/in/%D0%BA%D0%B0%D1%82%D1%8F-%D0%BF%D0%B0%D0%BB%D1%85%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F-654978b3/" target="_blank" rel="nofollow">Профиль в&nbsp;LinkedIn</a>
+<a href="https://www.linkedin.com/in/%D0%BA%D0%B0%D1%82%D1%8F-%D0%BF%D0%B0%D0%BB%D1%85%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F-654978b3/" target="_blank" rel="nofollow">профиль в&nbsp;LinkedIn</a></em>
  </td>
  </tr>
  		</tbody>
  	</table></p>
+	
+	
  <p>&nbsp;</p>	
  <h2>Принципы контроля работы с&nbsp;исследовательскими агентствами</h2>
 
