@@ -19,16 +19,16 @@ image: /images/control0609.jpg
 			<td style="width: 200px;"><img src="http://www.bartoshevich.by/images/burgazliev.png" alt="Сергей Бургазлиев" width="150px" height="150px"/></td>
 			<td style="width: 200px;"> <strong>Сергей Бургазлиев</strong><br/>
  Управляющий партнер в&nbsp;EURussia-Partners, MBA.<br/>
- <em>В&nbsp;исследованиях с&nbsp;2005г. <br/>
-				<a href="https://www.linkedin.com/in/sergey-burgazliev-mba-4486061a/" target="_blank">Профиль в&nbsp;LinkedIn</a> </em>
+ <em>в&nbsp;исследованиях с&nbsp;2005г. <br/>
+				<a href="https://www.linkedin.com/in/sergey-burgazliev-mba-4486061a/" target="_blank">профиль в&nbsp;LinkedIn</a> </em>
 			</td>
  		</tr>
 		<tr> 
 			<td> <img src="http://www.bartoshevich.by/images/palhovskaya.png" alt="Екатерина Палховская" width="150px" height="150px" /></td>
 			<td> <strong>Екатерина Палховская</strong><br/>
  Strategy&amp;insight manager Danone Belarus, кандидат социологических наук. <br/>
- <em>В&nbsp;исследованиях с&nbsp;2008г. <br/>
-				<a href="https://www.linkedin.com/in/%D0%BA%D0%B0%D1%82%D1%8F-%D0%BF%D0%B0%D0%BB%D1%85%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F-654978b3/" target="_blank">Профиль в&nbsp;LinkedIn</a> </em>
+ <em>в&nbsp;исследованиях с&nbsp;2008г. <br/>
+				<a href="https://www.linkedin.com/in/%D0%BA%D0%B0%D1%82%D1%8F-%D0%BF%D0%B0%D0%BB%D1%85%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F-654978b3/" target="_blank">профиль в&nbsp;LinkedIn</a> </em>
 			</td>
  		</tr>
  	</tbody>
