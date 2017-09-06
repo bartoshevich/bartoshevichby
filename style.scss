@@ -522,7 +522,6 @@ td {
 	margin: 0;
 	overflow: visible;
 	line-height: 120%;
-	vertical-align: bottom;
 	border-bottom: 1px solid #DDD;
 }
 th { padding-top: 0;
@@ -539,3 +538,83 @@ thead {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+
+
+// text in grid (описание фото)
+
+.person {
+  
+  font-size: 0.9em;
+  border-top:1px solid #DDD; 
+  
+  
+}
+
+//grid
+.row {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 10px
+}
+
+[class*="c-"] {
+    grid-column: span 12;
+    padding: 10px;
+    max-width: 30rem;
+}
+
+
+ /* 720px */
+@media only screen and (min-width: 720px) { 
+    
+
+    .c-1 {
+        grid-column: span 1
+    }
+
+    .c-2 {
+        grid-column: span 2
+    }
+
+    .c-3 {
+        grid-column: span 3
+    }
+
+    .c-4 {
+        grid-column: span 4
+    }
+
+    .c-5 {
+        grid-column: span 5
+    }
+
+    .c-6 {
+        grid-column: span 6
+    }
+
+    .c-7 {
+        grid-column: span 7
+    }
+
+    .c-8 {
+        grid-column: span 8
+    }
+
+    .c-9 {
+        grid-column: span 9
+    }
+
+    .c-10 {
+        grid-column: span 10
+    }
+
+    .c-11 {
+        grid-column: span 11
+    }
+
+    .c-12 {
+        grid-column: span 12
+    }
+  
+}
