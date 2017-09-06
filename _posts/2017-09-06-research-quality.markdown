@@ -6,7 +6,7 @@ date:   2017-09-06
 categories: инструкции
 permalink: "instrukcii/research-quality/"
 tags: "управление инструменты интервью"
-image: /images/control_market_agency.jpg
+image: /images/agency-min.jpg
 ---
 
 
