@@ -14,7 +14,7 @@ tags: "инструменты интервью"
 <p><table>
 <tbody>
 <tr>
-<td> <img src="/images/newyear1.jpg" alt="Александра Назаркина" /></td></tr>
+<td> <img src="/images/newyear1.jpg" alt="Александра Назаркина" width="150px" height="150px"/></td></tr>
 <tr>
 <td ><strong>Аля Назаркина</strong>, руководитель проекта «Магазин под ключ», <a href="http://nzr.by/?from=www.bartoshevich.by">nzr.by</a></td>
 </tr>
