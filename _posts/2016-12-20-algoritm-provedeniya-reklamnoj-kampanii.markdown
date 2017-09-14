@@ -14,8 +14,8 @@ tags: "реклама инструменты интервью"
 <p><table style="background: #ffffff;">
 <tbody>
 <tr style="background: #ffffff;">
-<td style="width: 200px;"> <img src="/images/grigoruev.jpg" alt="Дмитрий Григорьев" /></td>
-<td style="width: 200px;"><img src="/images/bukhovets.jpg" alt="Дмитрий Буховец"  /></td>
+<td style="width: 200px;"> <img src="/images/grigoruev.jpg" alt="Дмитрий Григорьев" width="150px" height="150px"/></td>
+<td style="width: 200px;"><img src="/images/bukhovets.jpg" alt="Дмитрий Буховец" width="150px" height="150px" /></td>
 </tr>
 <tr>
 <td><strong>Дмитрий Григорьев</strong><br />
