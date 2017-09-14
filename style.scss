@@ -539,7 +539,13 @@ thead {
 @import "highlights";
 @import "svg-icons";
 
+//responsive
 
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 // text in grid (описание фото)
 
