@@ -14,8 +14,8 @@ tags: "маркетолог интервью"
  <table> 
 <tbody> 
 <tr> 
-<td><img src="/images/sto1.jpg" alt="Катерина Пажитных" /></td>
-<td><img src="/images/sto2.jpg" alt="Алексей Шлома" /></td>
+<td><img src="/images/sto1.jpg" alt="Катерина Пажитных" width="150px" height="150px"/></td>
+<td><img src="/images/sto2.jpg" alt="Алексей Шлома" width="150px" height="150px" /></td>
  </tr>
 <tr> 
 <td><em><strong>Екатерина Пажитных</strong>, </em> <br /><em>маркетолог</em></td>
