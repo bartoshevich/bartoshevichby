@@ -11,18 +11,22 @@ tags: "маркетолог интервью"
 <p>Что должен знать маркетолог, как следует себя вести и&nbsp;выстраивать отношения с&nbsp;коллегами, чтобы адаптация к&nbsp;новому рабочему месту прошла максимально гладко. Своим мнением со&nbsp;мной поделились Екатерина Пажитных и&nbsp;Алексей Шлома.</p> <!--more-->
 <p><strong>Эксперты:</strong></p>
 
- <table> 
-<tbody> 
-<tr> 
-<td><img src="/images/sto1.jpg" alt="Катерина Пажитных" width="150px" height="150px"/></td>
-<td><img src="/images/sto2.jpg" alt="Алексей Шлома" width="150px" height="150px" /></td>
- </tr>
-<tr> 
-<td><em><strong>Екатерина Пажитных</strong>, </em> <br /><em>маркетолог</em></td>
-<td> <em><strong>Алексей Шлома</strong>,</em> <br /><em>бренд-менеджер Condor</em></td>
- </tr>
- </tbody>
- </table>
+ 
+<div class="row">
+    <div class="c-6">
+       <p class="item"><img src="/images/sto1.jpg" alt="Катерина Пажитных" width="150px" height="150px"/></p>
+                  <div class="person"><strong>Екатерина Пажитных</strong><br/>
+ маркетолог</div>
+                  
+  </div>
+  <div class="c-6">
+       <p class="item"><img src="/images/sto2.jpg" alt="Алексей Шлома" width="150px" height="150px" /></p>
+                  <div class="person"><strong>Алексей Шлома</strong><br/>
+ бренд-менеджер Condor (Беларусь)</div>
+                  
+  </div>  
+   </div>
+
 
 
 <h2>Ситуация&nbsp;— маркетолог только пришел в&nbsp;компанию. Что он&nbsp;должен сделать в&nbsp;первые 100 дней на&nbsp;новом рабочем месте?</h2>
