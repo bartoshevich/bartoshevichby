@@ -11,20 +11,25 @@ tags: "реклама инструменты интервью"
 
 <p>Как правильно разрабатывать рекламную кампанию обсудил со специалистами международного рекламного холдинга — Дмитрием Буховцом и Дмитрием Григорьевым. Обсуждение резюмировал, свел в систему и получил общий алгоритм проведения рекламной кампании.</p> <!--more-->
 
-<p><table style="background: #ffffff;">
-<tbody>
-<tr style="background: #ffffff;">
-<td style="width: 200px;"> <img src="/images/grigoruev.jpg" alt="Дмитрий Григорьев" width="150px" height="150px"/></td>
-<td style="width: 200px;"><img src="/images/bukhovets.jpg" alt="Дмитрий Буховец" width="150px" height="150px" /></td>
-</tr>
-<tr>
-<td><strong>Дмитрий Григорьев</strong><br />
-New Business Director</td>
-<td><strong>Дмитрий Буховец</strong><br />
-Media Group Head</td>
-</tr>
-</tbody>
-</table></p>
+
+<div class="row">
+    <div class="c-6">
+       <p class="item"><img src="/images/grigoruev.jpg" alt="Дмитрий Григорьев" width="150px" height="150px"/></p>
+                  <div class="person"><strong>Дмитрий Григорьев</strong><br/>
+ New Business Director</div>
+                  
+  </div>
+  <div class="c-6">
+       <p class="item"><img src="/images/bukhovets.jpg" alt="Дмитрий Буховец" width="150px" height="150px" /></p>
+                  <div class="person"><strong>Дмитрий Буховец</strong><br/>
+ Media Group Head</div>
+                  
+  </div>  
+   </div>
+
+
+
+
 
 <p>Если вы хотите вложиться в рекламу с умом — используйте статью как инструкцию.</p>
 <p>***</p>
