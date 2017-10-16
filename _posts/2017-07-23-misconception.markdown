@@ -19,269 +19,269 @@ tags: "интернет-маркетинг семинары управление
    
 
 <input class="car-open" type="radio" id="car-1" name="car" aria-hidden="true" hidden="" checked="checked">
-<div class="car-item"> <img src="/images/tradeconf1.jpg" width="1024" height="798" alt="заблуждения маркетинга 1" /> </div>
+<div class="car-item"> <img src="/images/tradeconf1.jpg" width="720" height="540" alt="заблуждения маркетинга 1" /> </div>
         
 
 <input class="car-open" type="radio" id="car-2" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf2.jpg" width="1024" height="798" alt="заблуждения маркетинга 2" />  </div>
+<div class="car-item"> <img src="/images/tradeconf2.jpg" width="720" height="540" alt="заблуждения маркетинга 2" />  </div>
 
 
 <input class="car-open" type="radio" id="car-3" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf3.jpg" width="1024" height="798" alt="заблуждения маркетинга 3" />  </div>
+<div class="car-item"> <img src="/images/tradeconf3.jpg" width="720" height="540" alt="заблуждения маркетинга 3" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-4" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf4.jpg" width="1024" height="798" alt="заблуждения маркетинга 4" />  </div>
+<div class="car-item"> <img src="/images/tradeconf4.jpg" width="720" height="540" alt="заблуждения маркетинга 4" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-5" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf5.jpg" width="1024" height="798" alt="заблуждения маркетинга 5" />  </div>
+<div class="car-item"> <img src="/images/tradeconf5.jpg" width="720" height="540" alt="заблуждения маркетинга 5" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-6" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf6.jpg" width="1024" height="798" alt="заблуждения маркетинга 6" />  </div>
+<div class="car-item"> <img src="/images/tradeconf6.jpg" width="720" height="540" alt="заблуждения маркетинга 6" />  </div>
 
 
 <input class="car-open" type="radio" id="car-7" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf7.jpg" width="1024" height="798" alt="заблуждения маркетинга 7" />  </div>
+<div class="car-item"> <img src="/images/tradeconf7.jpg" width="720" height="540" alt="заблуждения маркетинга 7" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-8" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf8.jpg" width="1024" height="798" alt="заблуждения маркетинга 8" />  </div>
+<div class="car-item"> <img src="/images/tradeconf8.jpg" width="720" height="540" alt="заблуждения маркетинга 8" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-9" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf9.jpg" width="1024" height="798" alt="заблуждения маркетинга 9" />  </div>
+<div class="car-item"> <img src="/images/tradeconf9.jpg" width="720" height="540" alt="заблуждения маркетинга 9" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-10" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf10.jpg" width="1024" height="798" alt="заблуждения маркетинга 10" />  </div>
+<div class="car-item"> <img src="/images/tradeconf10.jpg" width="720" height="540" alt="заблуждения маркетинга 10" />  </div>
 
 <input class="car-open" type="radio" id="car-11" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf11.jpg" width="1024" height="798" alt="заблуждения маркетинга 11" />  </div>
+<div class="car-item"> <img src="/images/tradeconf11.jpg" width="720" height="540" alt="заблуждения маркетинга 11" />  </div>
 
 
 <input class="car-open" type="radio" id="car-12" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf12.jpg" width="1024" height="798" alt="заблуждения маркетинга 12" />  </div>
+<div class="car-item"> <img src="/images/tradeconf12.jpg" width="720" height="540" alt="заблуждения маркетинга 12" />  </div>
 
 
 <input class="car-open" type="radio" id="car-13" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf13.jpg" width="1024" height="798" alt="заблуждения маркетинга 13" />  </div>
+<div class="car-item"> <img src="/images/tradeconf13.jpg" width="720" height="540" alt="заблуждения маркетинга 13" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-14" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf14.jpg" width="1024" height="798" alt="заблуждения маркетинга 14" />  </div>
+<div class="car-item"> <img src="/images/tradeconf14.jpg" width="720" height="540" alt="заблуждения маркетинга 14" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-15" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf15.jpg" width="1024" height="798" alt="заблуждения маркетинга 15" />  </div>
+<div class="car-item"> <img src="/images/tradeconf15.jpg" width="720" height="540" alt="заблуждения маркетинга 15" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-16" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf16.jpg" width="1024" height="798" alt="заблуждения маркетинга 16" />  </div>
+<div class="car-item"> <img src="/images/tradeconf16.jpg" width="720" height="540" alt="заблуждения маркетинга 16" />  </div>
 
 
 <input class="car-open" type="radio" id="car-17" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf17.jpg" width="1024" height="798" alt="заблуждения маркетинга 17" />  </div>
+<div class="car-item"> <img src="/images/tradeconf17.jpg" width="720" height="540" alt="заблуждения маркетинга 17" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-18" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf18.jpg" width="1024" height="798" alt="заблуждения маркетинга 18" />  </div>
+<div class="car-item"> <img src="/images/tradeconf18.jpg" width="720" height="540" alt="заблуждения маркетинга 18" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-19" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf19.jpg" width="1024" height="798" alt="заблуждения маркетинга 19" />  </div>
+<div class="car-item"> <img src="/images/tradeconf19.jpg" width="720" height="540" alt="заблуждения маркетинга 19" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-20" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf20.jpg" width="1024" height="798" alt="заблуждения маркетинга 20" />  </div>
+<div class="car-item"> <img src="/images/tradeconf20.jpg" width="720" height="540" alt="заблуждения маркетинга 20" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-21" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf21.jpg" width="1024" height="798" alt="заблуждения маркетинга 21" />  </div>
+<div class="car-item"> <img src="/images/tradeconf21.jpg" width="720" height="540" alt="заблуждения маркетинга 21" />  </div>
 
 
 <input class="car-open" type="radio" id="car-22" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf22.jpg" width="1024" height="798" alt="заблуждения маркетинга 22" />  </div>
+<div class="car-item"> <img src="/images/tradeconf22.jpg" width="720" height="540" alt="заблуждения маркетинга 22" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-23" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf23.jpg" width="1024" height="798" alt="заблуждения маркетинга 23" />  </div>
+<div class="car-item"> <img src="/images/tradeconf23.jpg" width="720" height="540" alt="заблуждения маркетинга 23" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-24" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf24.jpg" width="1024" height="798" alt="заблуждения маркетинга 24" />  </div>
+<div class="car-item"> <img src="/images/tradeconf24.jpg" width="720" height="540" alt="заблуждения маркетинга 24" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-25" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf25.jpg" width="1024" height="798" alt="заблуждения маркетинга 25" />  </div>
+<div class="car-item"> <img src="/images/tradeconf25.jpg" width="720" height="540" alt="заблуждения маркетинга 25" />  </div>
 
 
 <input class="car-open" type="radio" id="car-26" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf26.jpg" width="1024" height="798" alt="заблуждения маркетинга 26" />  </div>
+<div class="car-item"> <img src="/images/tradeconf26.jpg" width="720" height="540" alt="заблуждения маркетинга 26" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-27" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf27.jpg" width="1024" height="798" alt="заблуждения маркетинга 27" />  </div>
+<div class="car-item"> <img src="/images/tradeconf27.jpg" width="720" height="540" alt="заблуждения маркетинга 27" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-28" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf28.jpg" width="1024" height="798" alt="заблуждения маркетинга 28" />  </div>
+<div class="car-item"> <img src="/images/tradeconf28.jpg" width="720" height="540" alt="заблуждения маркетинга 28" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-29" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf29.jpg" width="1024" height="798" alt="заблуждения маркетинга 29" />  </div>
+<div class="car-item"> <img src="/images/tradeconf29.jpg" width="720" height="540" alt="заблуждения маркетинга 29" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-30" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf30.jpg" width="1024" height="798" alt="заблуждения маркетинга 30" />  </div>
+<div class="car-item"> <img src="/images/tradeconf30.jpg" width="720" height="540" alt="заблуждения маркетинга 30" />  </div>
 
 
 <input class="car-open" type="radio" id="car-31" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf31.jpg" width="1024" height="798" alt="заблуждения маркетинга 31" />  </div>
+<div class="car-item"> <img src="/images/tradeconf31.jpg" width="720" height="540" alt="заблуждения маркетинга 31" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-32" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf32.jpg" width="1024" height="798" alt="заблуждения маркетинга 32" />  </div>
+<div class="car-item"> <img src="/images/tradeconf32.jpg" width="720" height="540" alt="заблуждения маркетинга 32" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-33" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf33.jpg" width="1024" height="798" alt="заблуждения маркетинга 33" />  </div>
+<div class="car-item"> <img src="/images/tradeconf33.jpg" width="720" height="540" alt="заблуждения маркетинга 33" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-34" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf34.jpg" width="1024" height="798" alt="заблуждения маркетинга 34" />  </div>
+<div class="car-item"> <img src="/images/tradeconf34.jpg" width="720" height="540" alt="заблуждения маркетинга 34" />  </div>
 
 
 <input class="car-open" type="radio" id="car-35" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf35.jpg" width="1024" height="798" alt="заблуждения маркетинга 35" />  </div>
+<div class="car-item"> <img src="/images/tradeconf35.jpg" width="720" height="540" alt="заблуждения маркетинга 35" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-36" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf36.jpg" width="1024" height="798" alt="заблуждения маркетинга 36" />  </div>
+<div class="car-item"> <img src="/images/tradeconf36.jpg" width="720" height="540" alt="заблуждения маркетинга 36" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-37" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf37.jpg" width="1024" height="798" alt="заблуждения маркетинга 37" />  </div>
+<div class="car-item"> <img src="/images/tradeconf37.jpg" width="720" height="540" alt="заблуждения маркетинга 37" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-38" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf38.jpg" width="1024" height="798" alt="заблуждения маркетинга 38" />  </div>
+<div class="car-item"> <img src="/images/tradeconf38.jpg" width="720" height="540" alt="заблуждения маркетинга 38" />  </div>
 
 
 <input class="car-open" type="radio" id="car-39" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf39.jpg" width="1024" height="798" alt="заблуждения маркетинга 39" />  </div>
+<div class="car-item"> <img src="/images/tradeconf39.jpg" width="720" height="540" alt="заблуждения маркетинга 39" />  </div>
 
 
 <input class="car-open" type="radio" id="car-40" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf40.jpg" width="1024" height="798" alt="заблуждения маркетинга 40" />  </div>
+<div class="car-item"> <img src="/images/tradeconf40.jpg" width="720" height="540" alt="заблуждения маркетинга 40" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-41" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf41.jpg" width="1024" height="798" alt="заблуждения маркетинга 41" />  </div>
+<div class="car-item"> <img src="/images/tradeconf41.jpg" width="720" height="540" alt="заблуждения маркетинга 41" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-42" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf42.jpg" width="1024" height="798" alt="заблуждения маркетинга 42" />  </div>
+<div class="car-item"> <img src="/images/tradeconf42.jpg" width="720" height="540" alt="заблуждения маркетинга 42" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-43" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf43.jpg" width="1024" height="798" alt="заблуждения маркетинга 43" />  </div>
+<div class="car-item"> <img src="/images/tradeconf43.jpg" width="720" height="540" alt="заблуждения маркетинга 43" />  </div>
 
 
 <input class="car-open" type="radio" id="car-44" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf44.jpg" width="1024" height="798" alt="заблуждения маркетинга 44" />  </div>
+<div class="car-item"> <img src="/images/tradeconf44.jpg" width="720" height="540" alt="заблуждения маркетинга 44" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-45" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf45.jpg" width="1024" height="798" alt="заблуждения маркетинга 45" />  </div>
+<div class="car-item"> <img src="/images/tradeconf45.jpg" width="720" height="540" alt="заблуждения маркетинга 45" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-46" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf46.jpg" width="1024" height="798" alt="заблуждения маркетинга 46" />  </div>
+<div class="car-item"> <img src="/images/tradeconf46.jpg" width="720" height="540" alt="заблуждения маркетинга 46" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-47" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf47.jpg" width="1024" height="798" alt="заблуждения маркетинга 47" />  </div>
+<div class="car-item"> <img src="/images/tradeconf47.jpg" width="720" height="540" alt="заблуждения маркетинга 47" />  </div>
 
 
 <input class="car-open" type="radio" id="car-48" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf48.jpg" width="1024" height="798" alt="заблуждения маркетинга 48" />  </div>
+<div class="car-item"> <img src="/images/tradeconf48.jpg" width="720" height="540" alt="заблуждения маркетинга 48" />  </div>
 
 
 <input class="car-open" type="radio" id="car-49" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf49.jpg" width="1024" height="798" alt="заблуждения маркетинга 49" />  </div>
+<div class="car-item"> <img src="/images/tradeconf49.jpg" width="720" height="540" alt="заблуждения маркетинга 49" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-50" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf50.jpg" width="1024" height="798" alt="заблуждения маркетинга 50" />  </div>
+<div class="car-item"> <img src="/images/tradeconf50.jpg" width="720" height="540" alt="заблуждения маркетинга 50" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-51" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf51.jpg" width="1024" height="798" alt="заблуждения маркетинга 51" />  </div>
+<div class="car-item"> <img src="/images/tradeconf51.jpg" width="720" height="540" alt="заблуждения маркетинга 51" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-52" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf52.jpg" width="1024" height="798" alt="заблуждения маркетинга 52" />  </div>
+<div class="car-item"> <img src="/images/tradeconf52.jpg" width="720" height="540" alt="заблуждения маркетинга 52" />  </div>
 
 
 <input class="car-open" type="radio" id="car-53" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf53.jpg" width="1024" height="798" alt="заблуждения маркетинга 53" />  </div>
+<div class="car-item"> <img src="/images/tradeconf53.jpg" width="720" height="540" alt="заблуждения маркетинга 53" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-54" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf54.jpg" width="1024" height="798" alt="заблуждения маркетинга 54" />  </div>
+<div class="car-item"> <img src="/images/tradeconf54.jpg" width="720" height="540" alt="заблуждения маркетинга 54" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-55" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf55.jpg" width="1024" height="798" alt="заблуждения маркетинга 55" />  </div>
+<div class="car-item"> <img src="/images/tradeconf55.jpg" width="720" height="540" alt="заблуждения маркетинга 55" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-56" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf56.jpg" width="1024" height="798" alt="заблуждения маркетинга 56" />  </div>
+<div class="car-item"> <img src="/images/tradeconf56.jpg" width="720" height="540" alt="заблуждения маркетинга 56" />  </div>
 
 
 
 <input class="car-open" type="radio" id="car-57" name="car" aria-hidden="true" hidden="">
-<div class="car-item"> <img src="/images/tradeconf57.jpg" width="1024" height="798" alt="заблуждения маркетинга 57" />  </div>
+<div class="car-item"> <img src="/images/tradeconf57.jpg" width="720" height="540" alt="заблуждения маркетинга 57" />  </div>
 
 
 
