@@ -8,6 +8,8 @@
 <meta name="wot-verification" content="9e40d766e6d6b17ee528"/> 
 <meta name="author" content="{{ site.name }}" />  
  <meta name="copyright" content="Все права принадлежат Дмитрию Бартошевичу - www.bartoshevich.by"> 
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
 
 <link rel="canonical" href="{{ page.url | prepend: site.url }}">
 <link rel="author" href="http://google.com/+DmitryBartoshevich"/>
@@ -28,6 +30,9 @@
 <meta name="twitter:site" content="@dbartoshevich" />
 <meta name="twitter:creator" content="@dbartoshevich">
 <meta name="twitter:card" content="summary">
+{% if page.image %}
+  <meta name="twitter:image:src" content="{{ site.url }}{{ page.image }}">
+{% endif %}
 
 <script type="application/ld+json">
 {
