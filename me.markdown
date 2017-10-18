@@ -1,6 +1,7 @@
 ---
 layout: page2
 permalink: /me/
+image: /images/avatar.png
 description: "Дмитрий Бартошевич - маркетолог, консультант."
 ---
 
