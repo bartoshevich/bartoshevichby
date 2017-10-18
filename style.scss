@@ -638,6 +638,7 @@ thead {
   -webkit-box-shadow: 0 0 1px #777;
   box-shadow: 0 0 1px #777;
   border-radius: 3px;
+ font-size: 14px;
   padding: 5px 12px;
   margin-right: 5px;
   margin-bottom: 5px;
@@ -677,3 +678,8 @@ thead {
   .l:hover {
     color: #fff;
     background-color: #0077b5; }
+
+.share-buttons {
+    padding-bottom: 0.65rem;
+//  text-align: right;
+}
