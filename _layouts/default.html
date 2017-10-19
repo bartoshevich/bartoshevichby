@@ -361,7 +361,28 @@ table {
     border-top: 1px solid #b4b4b4;
     padding-top: 15px;
     margin:0 auto;
-}  
+} 
+	  
+.aside-text-right {
+  font-size: 13px;
+  line-height: 16px;
+  color: rgb(119, 119, 119);
+  width: 240px;
+  height: auto;
+  padding-left: 1em;
+  float: right;
+  box-sizing: border-box;
+}
+
+.aside-text-right::before {
+  content: "";
+  display: block;
+  border-top: 1px solid rgb(247, 247, 247);
+  width: 30%;
+  margin-bottom: 10px;
+}	  
+	  
+	  
   </style>
   
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" /> 
