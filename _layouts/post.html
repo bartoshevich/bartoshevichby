@@ -3,11 +3,16 @@ layout: default
 ---
 
 <article class="post">
-  <div class="date">
-    {{ page.date | date: "%B %e, %Y" | replace: 'January', 'январь' | replace: 'February', 'февраль' | replace: 'March', 'март' | replace: 'April', 'апрель' | replace: 'May', 'май' | replace: 'June', 'июнь' | replace: 'July', 'июль' | replace: 'August', 'август' | replace: 'September', 'сентябрь' | replace: 'October', 'октябрь' | replace: 'November', 'ноябрь' | replace: 'December', 'декабрь' }}
-  </div>
-  <h1>{{ page.title }}</h1>
-  {% include sharetop.html %}
+ <h1>{{ page.title }}</h1>
+          
+          <div class="rect">
+            <div class="date">
+ 
+    {{ page.date | date: "%e %B %Y" | replace: 'January', 'января' | replace: 'February', 'февраля' | replace: 'March', 'марта' | replace: 'April', 'апреля' | replace: 'May', 'мая' | replace: 'June', 'июня' | replace: 'July', 'июля' | replace: 'August', 'августа' | replace: 'September', 'сентября' | replace: 'October', 'октября' | replace: 'November', 'ноября' | replace: 'December', 'декабря' }}
+               </div>
+             {% include sharetop.html %}
+                      </div>
+      <p><b></b></p>
    <div class="entry">
     {{ content }}
   </div>
