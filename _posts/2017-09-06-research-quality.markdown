@@ -15,7 +15,7 @@ image: /images/control0609.jpg
 
 <div class="row">
     <div class="c-6">
-       <p class="item"><img src="http://www.bartoshevich.by/images/palhovskaya.png" alt="Екатерина Палховская" width="150px" height="150px" /></p>
+       <p class="item"><img src="http://www.bartoshevich.by/images/palhovskaya.png" alt="Екатерина Палховская" width="150" height="150" /></p>
                   <div class="person"><strong>Екатерина Палховская</strong><br/>
  Strategy&amp;insight manager Danone Belarus, кандидат социологических наук. <br/>
  <em>в&nbsp;исследованиях с&nbsp;2008г. <br/>
@@ -23,7 +23,7 @@ image: /images/control0609.jpg
                   
   </div>
  <div class="c-6">
-                  <p class="item"><img src="http://www.bartoshevich.by/images/burgazliev.png" alt="Сергей Бургазлиев" width="150px" height="150px"/></p>
+                  <p class="item"><img src="http://www.bartoshevich.by/images/burgazliev.png" alt="Сергей Бургазлиев" width="150" height="150"/></p>
                   <div class="person"><strong>Сергей Бургазлиев</strong><br/>
  Управляющий партнер в&nbsp;EURussia-Partners, MBA.<br/>
  <em>в&nbsp;исследованиях с&nbsp;2005г. <br/>
@@ -37,7 +37,7 @@ image: /images/control0609.jpg
  <h2>Принципы контроля работы с&nbsp;исследовательскими агентствами</h2>
 
 <p><strong>Екатерина Палховская:</strong> Сбор информации&nbsp;— фундамент, на&nbsp;котором стоит маркетинговое исследование. Если собранные данные недостоверны, то&nbsp;бессмысленно приступать к&nbsp;обработке и&nbsp;анализу результатов. Более того, решения, основанные на&nbsp;неточной и&nbsp;ненадежной информации о&nbsp;рынке, могут разорить компанию.</p>
-<p>
+
 <div class="address">
 <p>Если вы&nbsp;заказали исследование, рекомендую держать в&nbsp;поле внимания четыре параметра:
 <ul> 
@@ -53,7 +53,7 @@ image: /images/control0609.jpg
 	<li> 
 		<p>Точность фиксации ответов&nbsp;— ответы на&nbsp;открытые вопросы записаны дословно, без интерпретаций интервьюера? </p>
  	</li>
- </ul></p></div></p>
+ </ul></p></div><p><b></b></p>
 <p>Десяти или пятнадцатилетний опыт маркетингового агентства&nbsp;— не&nbsp;повод не&nbsp;проверять его работу. Возможно компания зарабатывала стаж на&nbsp;заказчиках, которые не&nbsp;вникали в&nbsp;детали исследования. А&nbsp;если&nbsp;бы начали вникать, то&nbsp;давно сбежали&nbsp;бы.</p>
 <p> 
  В&nbsp;договоре с&nbsp;агентством отразите, как вы&nbsp;будете контролировать качество сбора информации. Оговорите штрафные санкции за&nbsp;предоставление некачественных данных. Например, 10% анкет с&nbsp;ошибками&nbsp;— размер оплаты уменьшается на&nbsp;30%, 20% анкет с&nbsp;ошибками&nbsp;— работа агентства не&nbsp;принимается, предоплата возвращается. 
