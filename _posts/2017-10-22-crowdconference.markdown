@@ -23,7 +23,7 @@ image: /images/conf20102017.jpg
 <p>Инвестиции в&nbsp;продукты&nbsp;— это инвестиции с&nbsp;самым высоким риском. Сегодня не&nbsp;продукты конкурируют друг с&nbsp;другом, а&nbsp;бизнес-модели и&nbsp;стили управления. Убер, Фейсбук, Алибаба&nbsp;— это история не&nbsp;о&nbsp;продуктах, а&nbsp;о&nbsp;бизнес-моделях. </p>
 <div class="address"><p><b>Пример</b><br> Мы&nbsp;привыкли, что магазин обуви&nbsp;— это торговый зал, склад и&nbsp;большой ассортимент. <a href="http://www.else-corp.com/">Компания ELSE Corp.</a> предлагает иное видение. Магазин обуви&nbsp;— это несколько компьютеров и&nbsp;биометрическое сканирование ступней.</p>
 
-<div class="wtf"><img src="http://www.bartoshevich.by/images/conf201020172.jpg" alt="ELSE Corp." width="720" height="328"/>
+<div class="wtf"><img src="http://www.bartoshevich.by/images/conf201020172.jpg" alt="ELSE Corp." width="720" height="328" class="img-responsive"/>
 слайд из&nbsp;презентации ELSE Corp. </div>
 <p><b></b></p>
 
@@ -36,7 +36,7 @@ image: /images/conf20102017.jpg
 <h2>Идете к&nbsp;клиентам&nbsp;— подумайте об&nbsp;обертке</h2>
 <p>Встречают по&nbsp;одежке. Это подчеркивали, когда обсуждали типичные ошибки краудфандинговых проектов. Сэкономили на&nbsp;дизайне презентации&nbsp;— проект обошли стороной. Но&nbsp;здесь я&nbsp;приведу другой пример. Один из&nbsp;спикеров вышел на&nbsp;сцену в&nbsp;майке, мастерке и&nbsp;джинсах. Первые минуты выступления аудитория обращала внимание не&nbsp;на&nbsp;содержание слов, а&nbsp;на&nbsp;форму подачи. 
 
-<div class="wtf"><img src="http://www.bartoshevich.by/images/conf21202017.jpg" alt="crowdconference" width="720" height="479"/>
+<div class="wtf"><img src="http://www.bartoshevich.by/images/conf21202017.jpg" alt="crowdconference" width="720" height="479" class="img-responsive"/>
 Реакция на&nbsp;спикера в&nbsp;телеграм-чате конференции</div>
 <p><b></b></p>
 <p>Это удивило. Каждый из&nbsp;спикеров достиг в&nbsp;своей сфере больше большинства присутствующих на&nbsp;конференции. Экспертность спикеров подтвердили и&nbsp;организаторы&nbsp;— бизнес-школа ИПМ и&nbsp;Белгазпромбанк. Но&nbsp;вместо того, чтобы узнать больше и&nbsp;чему-то научиться, люди принялись обсуждать внешний вид. </p>
