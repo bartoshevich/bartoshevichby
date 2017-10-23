@@ -9,32 +9,45 @@ layout: compress
   {% include meta.html %}  <!--  [if lt IE 9]>  
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>  <![endif]-->  
   <style>
+
 html,
 body,
 div,
+iframe,
 h1,
 h2,
 p,
+blockquote,
 a,
+em,
 img,
+strong,
+b,
+i,
 ul,
 li,
+table,
+tbody,
+tr,
+td,
 article,
 header,
 nav {
   margin: 0px;
   padding: 0px;
   border: 0px;
-  font-family: inherit;
-  font-size: inherit;
   font-style: inherit;
   font-variant: inherit;
   font-weight: inherit;
+  font-stretch: inherit;
+  font-size: inherit;
   line-height: inherit;
+  font-family: inherit;
   vertical-align: baseline;
 }
 
 article,
+aside,
 header,
 nav {
   display: block;
@@ -44,10 +57,26 @@ body {
   line-height: 1;
 }
 
+
+blockquote {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after {
+  content: none;
+}
+
 ul {
   list-style: none;
 }
-	  
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+
+
 *,
 ::before,
 ::after {
@@ -59,27 +88,17 @@ html {
 }
 
 body {
-  background-color: rgb(255, 255, 255);
+  background: rgb(255, 255, 255);
   font-style: normal;
   font-variant: normal;
   font-weight: normal;
+  font-stretch: normal;
   font-size: 18px;
   line-height: 1.4;
   font-family: Helvetica, Arial, sans-serif;
   color: rgb(51, 51, 51);
-  background-position: initial initial;
-  background-repeat: initial initial;
 }
 
-table {
-    border-collapse: collapse;
-    border-spacing: 0px;
-    empty-cells: show;
-    font-size: 0.9em;
-     width: 100%;
-    margin-bottom: 1.1em;
-  }	  
-	  
 .container {
   margin: 0px auto;
   max-width: 740px;
@@ -89,7 +108,7 @@ table {
 
 h1,
 h2 {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: rgb(17, 17, 17);
   font-weight: bold;
   line-height: 1.3;
@@ -108,20 +127,26 @@ h1 {
   font-size: 34px;
 }
 
-h1 a {
-  color: inherit;
-}
-
-.posts h2 a {
-  font-size: 30px;
-  color: rgb(51, 51, 51);
-}
-	  
 h2 {
   font-size: 26px;
 }
 
+.site-info h2 a {
+  margin: 0px;
+  color: rgb(51, 51, 51);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
 
+@media screen and (max-width: 640px) {
+  .site-info h2 a {
+    float: none;
+    display: block;
+    margin: 0px auto;
+  }
+}
 
 p {
   margin: 0px 0px 1.5em;
@@ -133,6 +158,14 @@ a {
   text-decoration: none;
 }
 
+i {
+  font-style: italic;
+}
+
+em {
+  font-style: italic;
+}
+
 ul {
   margin: 15px 0px;
   padding-left: 30px;
@@ -142,13 +175,26 @@ ul {
   list-style-type: disc;
 }
 
+
+strong,
+b {
+  font-weight: bold;
+}
+
 img {
   max-width: 100%;
 }
 
+.date {
+  font-style: italic;
+  color: rgb(102, 102, 102);
+  font-size: 0.8125em;
+  margin-bottom: -30px;
+}
+
 .clearfix::before,
 .clearfix::after {
-  content: ' ';
+  content: " ";
   display: table;
 }
 
@@ -162,9 +208,7 @@ img {
 
 .masthead {
   padding: 20px 0px;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: rgb(238, 238, 238);
+  border-bottom: 1px solid rgb(238, 238, 238);
 }
 
 @media screen and (max-width: 640px) {
@@ -189,10 +233,7 @@ img {
 }
 
 .site-avatar img {
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
+  border-radius: 5px;
 }
 
 .site-info {
@@ -210,7 +251,7 @@ img {
 .site-name {
   margin: 0px;
   color: rgb(51, 51, 51);
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -231,7 +272,7 @@ img {
 nav {
   float: right;
   margin-top: 23px;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
 }
 
@@ -259,112 +300,13 @@ nav a {
   }
 }
 
-.posts > .post {
-  padding-bottom: 2em;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: rgb(238, 238, 238);
+.address {
+  padding: 3% 3.5%;
+  background: rgb(241, 241, 241);
+  display: inline-block;
 }
 
-.post .read-more {
-  text-transform: uppercase;
-  font-size: 15px;
-}
 
-@media screen and (max-width: 640px) {
-  .blocks ul {
-    margin: 15px 0px;
-    padding-left: 0px;
-  }
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0px;
-    empty-cells: show;
-    font-size: 0.9em;
-     width: 100%;
-    margin-bottom: 1.1em;
-  }
-
-  td {
-    padding: 2%;
-    margin: 0px;
-    overflow: visible;
-    line-height: 120%;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: rgb(221, 221, 221);
-  }  
-}
-.tel a { 
-  text-align: left; 
-    margin: -5px 0 0 0;
-  color: $gray;
-  font-size: 13px;
-
-  @include mobile {
-    margin: 3px 0;
-  }
-}
-  
-.tel a:hover { 
-  text-align: left; 
-    margin: -5px 0 0 0;
-  color: $blue;
-  font-size: 13px;
-
-  @include mobile {
-    margin: 3px 0;
-  }
-}
-
-.row {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-gap: 10px
-}
-	  
-[class*="c-"] {
-  grid-column: span 12 / auto;
-  padding: 10px;
-  max-width: 30rem;
-}
-
- 
-@media only screen and (min-width: 720px) {
-  .c-6 {
-    grid-column: span 6 
-  }
-}
-
-.date {
-    font-style: italic;
-    color: #666;
-    font-size: .8125em;
-    margin-bottom: -30px;
-}
-.img-responsive {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-	  
-.person {
-  font-size: 0.9em;
-  border-top:1px solid #DDD;  
-}
-
-.share-buttons {
-    padding-bottom: 0.75rem;
-    text-align: right;
-}
-
-.rect {
-    border-top: 1px solid #b4b4b4;
-    padding-top: 15px;
-    margin:0 auto;
-} 
-	  
 .aside-text-right {
   font-size: 13px;
   line-height: 16px;
@@ -382,36 +324,131 @@ table {
   border-top: 1px solid rgb(247, 247, 247);
   width: 30%;
   margin-bottom: 10px;
-}	  
+}
+
+.post blockquote {
+  margin: 1.8em 0.8em;
+  border-left: 2px solid rgb(102, 102, 102);
+  padding: 0.1em 1em;
+  color: rgb(102, 102, 102);
+  font-size: 20px;
+  font-style: italic;
+}
+
+.hip {
+  border: 14px solid rgba(0, 182, 242, 0.56);
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  padding: 20px 20px 25px;
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 1.2em;
+  max-width: 760px;
+}
+
+.notetip {
+  width: 90%;
+  font-size: 13px;
+  line-height: 15px;
+  border-radius: 10px;
+  padding: 5px 5px 5px 50px;
+  margin: 0px;
+  overflow: hidden;
+  position: relative;
+  bottom: 6px;
+  right: 6px;
+  border: 0px solid rgb(0, 146, 224);
+  background-position: 20px 50%;
+  background-repeat: no-repeat;
+  height: auto !important;
+}
 
 .wtf { text-align: left; font-size:13px;line-height:19px;}
 
-.hip {
-
-border: 14px solid rgba(0, 182, 242, 0.56);
-text-align: center;
-font-size: 26px;
-font-weight: bold;
-padding: 20px 20px 25px 20px;
-width: 100%;
-border-radius:6px;
-margin-bottom: 1.2em;
-max-width: 760px;}
-	  
-.post blockquote {
-    margin: 1.8em .8em;
-    border-left: 2px solid #666;
-    padding: 0.1em 1em;
-    color: #666;
-    font-size: 20px;
-    font-style: italic;
+.tel a {
+  text-align: left;
+  margin: -5px 0px 0px;
+  color: rgb(102, 102, 102);
+  font-size: 13px;
 }
-.address {
-	padding: 3% 3.5%;
-	background: #F1F1F1;
-       display: inline-block;
-}  
-	  
+
+@media screen and (max-width: 640px) {
+  .tel a {
+    margin: 3px 0px;
+  }
+}
+
+.rect {
+  border-top: 1px solid rgb(180, 180, 180);
+  padding-top: 15px;
+  margin: 0px auto;
+}
+
+.person {
+  font-size: 0.9em;
+  border-top: 1px solid rgb(221, 221, 221);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px 10px;
+}
+
+[class*="c-"] {
+  grid-column: span 12 / auto;
+  padding: 10px;
+  max-width: 30rem;
+}
+
+@media only screen and (min-width: 720px) {
+  .c-6 {
+    grid-column: span 6 / auto;
+  }
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.video {
+  width: 100%;
+  position: relative;
+  padding-top: 56.25%;
+}
+
+.video iframe {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+  empty-cells: show;
+  font-size: 0.9em;
+  width: 100%;
+  margin-bottom: 1.1em;
+}
+
+td {
+  padding: 2%;
+  margin: 0px;
+  overflow: visible;
+  line-height: 120%;
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+.share-buttons {
+  padding-bottom: 0.75rem;
+  text-align: right;
+}	  
   </style>
   
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" /> 
