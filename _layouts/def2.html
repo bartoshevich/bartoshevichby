@@ -13,10 +13,10 @@ html,
 body,
 div,
 h1,
-h2,
 p,
 a,
 img,
+strong,
 ul,
 li,
 article,
@@ -25,12 +25,13 @@ nav {
   margin: 0px;
   padding: 0px;
   border: 0px;
-  font-family: inherit;
-  font-size: inherit;
   font-style: inherit;
   font-variant: inherit;
   font-weight: inherit;
+  font-stretch: inherit;
+  font-size: inherit;
   line-height: inherit;
+  font-family: inherit;
   vertical-align: baseline;
 }
 
@@ -59,16 +60,15 @@ html {
 }
 
 body {
-  background-color: rgb(255, 255, 255);
+  background: rgb(255, 255, 255);
   font-style: normal;
   font-variant: normal;
   font-weight: normal;
+  font-stretch: normal;
   font-size: 18px;
   line-height: 1.4;
   font-family: Helvetica, Arial, sans-serif;
   color: rgb(51, 51, 51);
-  background-position: initial initial;
-  background-repeat: initial initial;
 }
 
 .container {
@@ -78,9 +78,8 @@ body {
   width: 100%;
 }
 
-h1,
-h2 {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: rgb(17, 17, 17);
   font-weight: bold;
   line-height: 1.3;
@@ -89,27 +88,17 @@ h2 {
 }
 
 @media screen and (max-width: 640px) {
-  h1,
-  h2 {
+  h1 {
     line-height: 1.4;
   }
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 34px;
 }
 
 h1 a {
   color: inherit;
-}
-
-h2 {
-  font-size: 24px;
-}
-
-.posts h2 a {
-  font-size: 30px;
-  color: rgb(51, 51, 51);
 }
 
 p {
@@ -131,13 +120,17 @@ ul {
   list-style-type: disc;
 }
 
+strong {
+  font-weight: bold;
+}
+
 img {
   max-width: 100%;
 }
 
 .clearfix::before,
 .clearfix::after {
-  content: ' ';
+  content: " ";
   display: table;
 }
 
@@ -151,9 +144,7 @@ img {
 
 .masthead {
   padding: 20px 0px;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: rgb(238, 238, 238);
+  border-bottom: 1px solid rgb(238, 238, 238);
 }
 
 @media screen and (max-width: 640px) {
@@ -178,10 +169,7 @@ img {
 }
 
 .site-avatar img {
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
+  border-radius: 5px;
 }
 
 .site-info {
@@ -199,7 +187,7 @@ img {
 .site-name {
   margin: 0px;
   color: rgb(51, 51, 51);
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -220,7 +208,7 @@ img {
 nav {
   float: right;
   margin-top: 23px;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
 }
 
@@ -248,67 +236,30 @@ nav a {
   }
 }
 
-.posts > .post {
-  padding-bottom: 2em;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: rgb(238, 238, 238);
+.hip2 {
+  background-color: rgb(238, 238, 238);
+  font-size: 26px;
+  font-weight: bold;
+  padding: 20px 20px 25px;
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 1.3em;
+  max-width: 760px;
 }
 
-.post .read-more {
-  text-transform: uppercase;
-  font-size: 15px;
+.tel a {
+  text-align: left;
+  margin: -5px 0px 0px;
+  color: rgb(102, 102, 102);
+  font-size: 13px;
 }
 
 @media screen and (max-width: 640px) {
-  .blocks ul {
-    margin: 15px 0px;
-    padding-left: 0px;
+  .tel a {
+    margin: 3px 0px;
   }
-
-  .blocks li {
-    background-color: rgb(149, 165, 166);
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    display: inline-block;
-    margin: 4px 0px 0px;
-    padding: 0px 10px;
-  }
-
-  .blocks li a {
-    color: rgb(255, 255, 255);
-    display: inline-block;
-    line-height: 1.4em;
-    background-color: rgb(149, 165, 166);
-  }
-
-  body {
-    color: rgb(32, 32, 32);
-  }
-}
-.tel a { 
-  text-align: left; 
-    margin: -5px 0 0 0;
-  color: $gray;
-  font-size: 13px;
-
-  @include mobile {
-    margin: 3px 0;
-  }
-}
-  
-  .tel a:hover { 
-  text-align: left; 
-    margin: -5px 0 0 0;
-  color: $blue;
-  font-size: 13px;
-
-  @include mobile {
-    margin: 3px 0;
-  }
-}		  
+}  
+	  
   </style>
   
  
