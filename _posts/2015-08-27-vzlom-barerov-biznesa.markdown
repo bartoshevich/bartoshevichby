@@ -11,11 +11,11 @@ tags: "семинары"
 <p>Двадцатого августа мы&nbsp;с&nbsp;Дмитрием Григорьевым, Сергеем Дробышевским и&nbsp;Павлом Вилюхой провели Практикум «Взлом барьеров развития бизнеса».</p> 
 <p>Обсуждали с&nbsp;позиций продаж, маркетинга и&nbsp;рекламы, что тормозит рост белорусских предприятий и&nbsp;как придать бизнесу ускорение.</p> <!--more-->
 <p>Как это было (фото Павла Вилюхи):<br/>
-<img src='/images/bar1.jpg' alt="Дмитрий Бартошевич">
+<img src='/images/bar1.jpg' alt="Дмитрий Бартошевич" width="695" height="462" class="img-responsive"/>
 
-<img src='/images/bar2.jpg' alt="Дмитрий Григорьев">
+<img src='/images/bar2.jpg' alt="Дмитрий Григорьев" width="695" height="509" class="img-responsive"/>
 
-<img src='/images/bar3.jpg' alt="Сергей Дробышевский">
+<img src='/images/bar3.jpg' alt="Сергей Дробышевский" width="695" height="550" class="img-responsive"/>
 
 <p>Выдержки из&nbsp;отзывов участников мероприятия:</p>
 <p><em>«интересно и&nbsp;самое главное&nbsp;— понятно»</em><br/>
@@ -25,7 +25,7 @@ tags: "семинары"
 	<em>«вначале непонятно к&nbsp;чему все идет, потом все круто»</em> 
 </p>
 <p>Обратная связь официально:<br/>
-<img src='/images/bar4.jpg' alt="отзыв">
+<img src='/images/bar4.jpg' alt="отзыв" width="695" height="782" class="img-responsive" />
 </p>
 <p>Спасибо участникам!<br/>
  И&nbsp;до&nbsp;встречи на&nbsp;следующих мероприятиях! 
