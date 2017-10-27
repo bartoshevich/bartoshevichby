@@ -12,9 +12,9 @@ tags: "семинары"
 <p>Обсуждали с&nbsp;позиций продаж, маркетинга и&nbsp;рекламы, что тормозит рост белорусских предприятий и&nbsp;как придать бизнесу ускорение.</p> <!--more-->
 <p>Как это было (фото Павла Вилюхи):<br/>
 <img src='/images/bar1.jpg' alt="Дмитрий Бартошевич" width="695" height="462" class="img-responsive"/>
-
+<br>
 <img src='/images/bar2.jpg' alt="Дмитрий Григорьев" width="695" height="509" class="img-responsive"/>
-
+<br>
 <img src='/images/bar3.jpg' alt="Сергей Дробышевский" width="695" height="550" class="img-responsive"/>
 
 <p>Выдержки из&nbsp;отзывов участников мероприятия:</p>
