@@ -1,5 +1,6 @@
 User-agent: *
 Disallow: /tag
 Disallow: /404.html
+Disallow: /confidentiality/
 sitemap: http://www.bartoshevich.by/sitemap.xml
 Host: www.bartoshevich.by
