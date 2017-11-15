@@ -33,8 +33,8 @@ tags: "инструменты"
 
 
 <table> 
-	<tbody> 
-		<tr> 
+	
+<tr> 
 			<td colspan="3" class="a_c"><strong>уровни анализа данных</strong></td>
  		</tr>
 		<tr> 
@@ -52,7 +52,7 @@ tags: "инструменты"
 			<td>ответ на&nbsp;вопрос: «Что делать?» </td>
 			<td><em>Я&nbsp;предлагаю сделать...</em></td>
  		</tr>
- 	</tbody>
+ 	
  </table>
 
 
