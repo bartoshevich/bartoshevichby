@@ -513,6 +513,7 @@ border-bottom: none;
 #ya-site-form0 .ya-site-form__wrap {
     width: 70%; 
 }
+.wrapper-masthead img {display: unset !important;}
   </style>
   
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" /> 
@@ -532,6 +533,7 @@ border-bottom: none;
           <nav>
             <a href="{{ site.baseurl }}/">Блог</a>
            <a href="{{ site.baseurl }}/me">Обо мне</a>
+		  {% include search.html %}
 		           </nav>
         </header>
       </div>
