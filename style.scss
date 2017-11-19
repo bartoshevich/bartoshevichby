@@ -15,12 +15,15 @@
 
 html {
   font-size: 100%;
+height: 100%;
 }
 
 body {
 	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
+	display: flex;
+flex-direction: column;
 
 }
 
@@ -29,6 +32,7 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
+	 flex-grow: 1;
   
 }
 
