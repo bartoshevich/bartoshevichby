@@ -1,0 +1,569 @@
+---
+layout: compress
+---
+
+
+<!DOCTYPE html>
+<html lang="ru">
+  <head>  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} </title> 
+  {% include meta.html %}  <!--  [if lt IE 9]>  
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>  <![endif]-->  
+  <style>
+* {
+  margin: 0;
+            }
+html, body {
+  height: 100%;
+display: flex;
+    flex-direction: column;
+}
+	  
+html,
+body,
+div,
+iframe,
+h1,
+h2,
+h3,
+h4,
+p,
+blockquote,
+a,
+em,
+img,
+strong,
+b,
+i,
+ul,
+li,
+table,
+tbody,
+tr,
+td,
+article,
+header,
+nav {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  font-style: inherit;
+  font-variant: inherit;
+  font-weight: inherit;
+  font-stretch: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+	  
+article,
+aside,
+header,
+nav {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+
+blockquote {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after {
+  content: none;
+}
+
+ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+}
+
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  background: rgb(255, 255, 255);
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+  color: rgb(51, 51, 51);
+	
+	
+}
+
+.container {
+  margin: 0px auto;
+  max-width: 740px;
+  padding: 0px 10px;
+  width: 100%;
+flex-grow: 1;
+
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgb(17, 17, 17);
+  font-weight: bold;
+  line-height: 1.3;
+  margin: 1.1em 0px 15px;
+  padding: 0px;
+}
+
+@media screen and (max-width: 640px) {
+  h1,
+  h2 {
+    line-height: 1.4;
+  }
+}
+
+h1 {
+  font-size: 34px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+    font-size: 20px;
+}
+	  
+h4 {
+    font-size: 18px; 
+	color: #666;
+	  }
+	  
+.posts h2 a {
+  font-size: 30px;
+  color: rgb(51, 51, 51);
+}
+
+.site-info h2 a {
+  margin: 0px;
+  color: rgb(51, 51, 51);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 640px) {
+  .site-info h2 a {
+    float: none;
+    display: block;
+    margin: 0px auto;
+  }
+}
+
+p {
+  margin: 0px 0px 1.5em;
+  max-width: 50rem;
+}
+
+a {
+  color: rgb(65, 131, 196);
+  text-decoration: none;
+}
+
+i {
+  font-style: italic;
+}
+
+em {
+  font-style: italic;
+}
+
+ul {
+  margin: 15px 0px;
+  padding-left: 30px;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+
+strong,
+b {
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+.date {
+  font-style: italic;
+  color: rgb(102, 102, 102);
+  font-size: 0.8125em;
+  margin-bottom: -30px;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+.wrapper-masthead {
+  margin-bottom: 30px;
+}
+
+.masthead {
+  padding: 20px 0px;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+@media screen and (max-width: 640px) {
+  .masthead {
+    text-align: center;
+  }
+}
+
+.site-avatar {
+  float: left;
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 640px) {
+  .site-avatar {
+    float: none;
+    display: block;
+    margin: 0px auto;
+  }
+}
+
+.site-avatar img {
+  border-radius: 5px;
+}
+
+.site-info {
+  float: left;
+}
+
+@media screen and (max-width: 640px) {
+  .site-info {
+    float: none;
+    display: block;
+    margin: 0px auto;
+  }
+}
+
+.site-name {
+  margin: 0px;
+  color: rgb(51, 51, 51);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+.site-description {
+  margin: -5px 0px 0px;
+  color: rgb(102, 102, 102);
+  font-size: 14px;
+}
+
+@media screen and (max-width: 640px) {
+  .site-description {
+    margin: 3px 0px;
+  }
+}
+
+nav {
+  float: right;
+  margin-top: 23px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 640px) {
+  nav {
+    float: none;
+    margin-top: 9px;
+    display: block;
+    font-size: 16px;
+  }
+}
+
+nav a {
+  margin-left: 20px;
+  color: rgb(51, 51, 51);
+  text-align: right;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 640px) {
+  nav a {
+    margin: 0px 10px;
+    color: rgb(65, 131, 196);
+  }
+}
+
+.address {
+  padding: 3% 3.5%;
+  background: rgb(241, 241, 241);
+  display: inline-block;
+}
+
+
+.aside-text-right {
+  font-size: 13px;
+  line-height: 16px;
+  color: rgb(119, 119, 119);
+  width: 240px;
+  height: auto;
+  padding-left: 1em;
+  float: right;
+  box-sizing: border-box;
+}
+
+.aside-text-right::before {
+  content: "";
+  display: block;
+  border-top: 1px solid rgb(247, 247, 247);
+  width: 30%;
+  margin-bottom: 10px;
+}
+
+.post blockquote {
+  margin: 1.8em 0.8em;
+  border-left: 2px solid rgb(102, 102, 102);
+  padding: 0.1em 1em;
+  color: rgb(102, 102, 102);
+  font-size: 20px;
+  font-style: italic;
+}
+
+.hip {
+  border: 14px solid rgba(0, 182, 242, 0.56);
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  padding: 20px 20px 25px;
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 1.2em;
+  max-width: 760px;
+}
+	  
+.hip2 {
+  background-color: #f7f5ec;
+  font-size: 26px;
+  font-weight: bold;
+  padding: 20px 20px 25px;
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 1.3em;
+  max-width: 760px;
+}
+
+.posts > .post {
+  padding-bottom: 2em;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.posts > .post:last-child {
+  padding-bottom: 1em;
+  border-bottom: none;
+}
+
+.post .read-more {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+	  
+.notetip {
+  width: 90%;
+  font-size: 13px;
+  line-height: 15px;
+  border-radius: 10px;
+  padding: 5px 5px 5px 50px;
+  margin: 0px;
+  overflow: hidden;
+  position: relative;
+  bottom: 6px;
+  right: 6px;
+  border: 0px solid rgb(0, 146, 224);
+  background-position: 20px 50%;
+  background-repeat: no-repeat;
+  height: auto !important;
+}
+
+.wtf { text-align: left; font-size:13px;line-height:19px;}
+
+.tel a {
+  text-align: left;
+  margin: -5px 0px 0px;
+  color: rgb(102, 102, 102);
+  font-size: 13px;
+}
+
+@media screen and (max-width: 640px) {
+  .tel a {
+    margin: 3px 0px;
+  }
+}
+
+.rect {
+  border-top: 1px solid rgb(180, 180, 180);
+  padding-top: 15px;
+  margin: 0px auto;
+}
+
+.person {
+  font-size: 0.9em;
+  border-top: 1px solid rgb(221, 221, 221);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px 10px;
+}
+
+[class*="c-"] {
+  grid-column: span 12 / auto;
+  padding: 10px;
+  max-width: 30rem;
+}
+
+@media only screen and (min-width: 720px) {
+  .c-6 {
+    grid-column: span 6 / auto;
+  }
+}
+
+.video {
+  width: 100%;
+  position: relative;
+  padding-top: 56.25%;
+}
+
+.video iframe {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+  empty-cells: show;
+  font-size: 0.9em;
+  width: 100%;
+  margin-bottom: 1.1em;
+}
+
+td {
+  padding: 2%;
+  margin: 0px;
+  overflow: visible;
+  line-height: 120%;
+  border-bottom: 1px solid rgb(221, 221, 221);
+}
+	  
+.svg-icon {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+}  
+
+.sha2re-buttons {
+  padding-bottom: 0.75rem;
+  text-align: right;
+}
+
+.searchtop {
+height:50px;
+}
+
+.ya-site-form__search-wrap td {
+border-bottom: none;
+}
+.ya-site-form__form td {
+padding: 0%;
+border-bottom: none;
+}
+#ya-site-form0 .ya-site-form__search-input {
+    padding: 0px;
+}
+#ya-site-form0 .ya-site-form__wrap {
+    width: 70%; 
+}
+.wrapper-masthead img {display: unset !important;}
+.searchpage {min-height: 20em;}
+  </style>
+  
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" /> 
+    </head>
+	
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+<a href="{{ site.baseurl }}/" class="site-avatar"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMDAwMDAwQEBAQFBQUFBQcHBgYHBwsICQgJCAsRCwwLCwwLEQ8SDw4PEg8bFRMTFRsfGhkaHyYiIiYwLTA+PlQBAwMDAwMDBAQEBAUFBQUFBwcGBgcHCwgJCAkICxELDAsLDAsRDxIPDg8SDxsVExMVGx8aGRofJiIiJjAtMD4+VP/CABEIAGQAZAMBIgACEQEDEQH/xAAcAAACAwEBAQEAAAAAAAAAAAAHCAUGCQQKAwL/2gAIAQEAAAAAzgi5n8N5PSCsfPh0n6m089EbLFUhXs6X1PVr0v6mt89EdLSZ+KrZFGj5B6QS7Q+erhlSsbIthjTfMYNDrcyvnn47Y03DGQLrkDMZ7L6xPni5bS3dnjRs8xSxwf4pH3zv88uwRzH8a8kdmW/JgO/nb+EwY2Rq1qeFCljeo7mrzt2mxT7RVKfOylCBz2RMeSsKNLHzMo0Y2MVb7bUUstKdKUej6MRKa6B/S0kbpQunEGgD0bGQTt2cfmSq4sHzliqFVINk1Q9JKleh1//EABkBAQEBAQEBAAAAAAAAAAAAAAUEAwIGAf/aAAgBAhAAAACLrL729GZKC8kxDCBAqu7JDH5RpZ+aWEVX0G80GKKfWOZ+jXuPA8c//8QAGQEAAgMBAAAAAAAAAAAAAAAABQYBAwQC/9oACAEDEAAAADc75zKdp8g6ryuvdnHcpjTlOwoYfMSeo8ld7eBVscGbsmEZb2XkYjN83//EACwQAAEEAQQBAgYBBQAAAAAAAAMBAgQFBgAHERITITEIFBYiJTJRFSMkNUH/2gAIAQEAAQwArfWK/Un911SeopaaKiqVjUTl2IZJUYhQTK64cUcscSsyesiV748sY5+xwLuE4dfLO1+c7UZdg8kp50RSw6xPxDvXWGfbkJufRNjUUgIKP1QPR02exF5dX+sCJqsVfli6k/uv80XCslc620FRCny5s5WvlV8DGHzCnjRUkPFCkTEH44znaxTHMqjMZGEqIyxwa9mAeEsFhU3e2gNtt4JccbmQcWTpkRkVUTWzDPl304Fd99IxrZ85yNTmr+6rhLqrX+wXUn911Qe0tONVgDuserVciUMV8ASBai8YtYz40wXVvdK58iS6IdrPElfNkv6qiqi7848LK9rrh6j7HoWImRkTWzRfNkAk1UN62MxNU6/iIOqteAF1J/ddY+vBJKaxKq8rkN15cUQIQHeVyNbEyWtYiojpDX7c7nqIXhmOI6MHcGuq3jsLJVjxRZXjWV1E+NEmNelCqpko045XZJ/GSsZzqAPx281vslK7mngLqtfwIiJo7uXrrAo0eXeKM7UcNuIUclyDQaMLd48AKOfESQpK7FrJ0sDyzbNWxKyUC2MA5SOdl22k6yx7H7LGnthjgY5dU23lgJ88z1sLll3uPOshsE1mzHCZbJIir0YPxZHZMT2oPWkgLqAvDCaKqq5dYRJZGvWPe9GDpoBoNvPMRUIj0E5FVyIqltxRAEF3dzXWInpIlSCOG7D8/LG2slLYQTPce/qIOC3NrGGxB1DEZl42r7bFFV9iVy6ks4yy0TWPO/BwNQl+0vHu/wBV51Qessqa21yq0tbuNTziNKwyNcFXNXlb4jRBI9RueuPOZJuK8Bsemy9Rbr6a26lRpOP3Kwd25IcY2UIGGrmNrl65iz2TWyREZJEPle1k3rmNkmsa/wBHC1CX9099PXldUDuJ7tbbRBRM1qnSEMyRJV0R72q3kckEYqq9y6xCtxSbZx2yphmJS0lRV0Do4LFx6/eHc+HntuyspjISjjIqZnHX/u0T2tso726u2IzNJ/8AGNetHD1D93c+mqLBMryVWvr60yhrsZHj83k8gMuT82uP2GO3pEVwznDNA0gnsIybFaZjkROrsKwG1yOWggEcxu8WDzqzaevxsF2Rk0ezm4uLtkR5dKU6oF4syhoqK121UloL0UflUW9TnLyP1i680cX11HxvDsca9a+ljeXJL62azxg8zlgqb5kpCOar2Rm29bPiuTqu22cS6sKV09XPhrVElRxnEnYewVW+BVTElORW/GDkogRsHqQqpX4uhctwWgtJZHOmnpsZzUqiySkj2BhbO4+C1BYUs40KRkFVPFdCmqLuDE1T+hg1Mq3sQPZFI2Carm5AOBKK+ILL8MHEYgAB66gMfHmoqNRrbQRcfzkkkTGPFsZCg2uEsfICigzHeCl2aDGAOLKsT5z8Qk7MrN9mGlaCdsHlMjL9rIzJB0WfZZWagLOjzq9CrjGZRMibLSMOUIjJYpsNwjKrmYZkkVaEbTSeDDGJz0c70bkGEJfwmniK0cvD1+q4DqW3Gg722wFfMWRwrlyzH4c/GrdjwFNMh1OTx62BPxu5K15od9lOCU91aCc1bLbmZ5xTaXlkn4XrhImSbg4sdsRC7p00g9aWwiHc1+1gBTa22OFEE6slvRJADqrzYdaD63ovdgE/xHt5XgkkomReFTV2rq2LGvoq+KfdVsRjYnDPuNXQ0zKDG8aKAyrLnkE9Va3Fjmn4HWjK9yMx45kbOc96kd8OthMjb/r0K7VxFFKjy45Oem00QMaPORiLwZetvEM1Ea7GIwet07hE1//EADUQAAICAQMCBAQFAgYDAAAAAAECAxEABBIhMUEFEyJREGGBsRRCcZGhssEjMmJygqIVUlP/2gAIAQEADT8AB/t8Nqn+ThegKsk9s1mmljGlQB5Y94I3OpICV7E3kMyyrK8yIWYKVFeigCD0wqeQyShT23KQp/nFajqYgxVOQAJFIDJ9RRObj+1YIyevs4zzJR8jvXFjUke3XPIT7fC8Ean+cjStGD1iY9ZRYI3dgcLC5WNjd3rr1z0gFAeDdVjA0zkAhhzt+t4w22FRwyuKZX7FT7VzniDuRD1ED1YRT12MAduCJv6xhkLN9VxkFmvmc/Dp9vj5Y++OdrAEgEcWMHPbLsgmgfa8ZAXAN2COv0rKUEUQevIrNBpX1cJ6kGMbyB8zWGJub/1DBqPT8gErNh++fh0+Bzyf740hokccGrGKvqJ++Kw2ssZcHvdDpkreWrywuipwT/mIrJgDEXUqTx7ZqNFOFtSqupjN7dw5PyAxoWH8jEm+6jAGFf8ALPwyZV/BdPNIym6bykLgNX5SRzWaOQIAjsqgFQZCqKQEDMT25rGoczyyULuwGYgZEbMSz7AVrhTTBiOOvXJZqUyuZGEYNk81yB3PfJvDoIZYoQiO7RliW9VA8OCAcHhriSDUou7zBHRCE8FXuyBk+r1LJsQJalyVZgPzEck9zglQKfckC8Esw/Zzn4dPtm34MhjldugjkIRyfkFJzXHzCSaaEoxPlsL56kgjjLIwL6aPQ4+pIQKll07MT2HF9qzw1YJdjRMRNp3dVdw1UAAdwbIfBtVqQ3cqkLNX1GKzmv8AjeNNFKD862nPOn/rOeQubfgYGse/IyHRzHTPVSl4wNqsw6gLYw85tPoUWzHsBfzwyIZNM00cAcA2V3biKyUGKKWQwzKqTsVAk8pvQsV1ZBBGa6LTaGH9JJd7L9Yo2ynP/U4RZ+uGRz+9HPKGFfh5L5MupaBBSrsETKxa7J60FGNZBA6ZfvfHywcysh2kVyQPYGuubLJmfcQlchmbsM8FtNPKlgaiUqA8oBA9K1tTG80f9DhAUj9GHOE3+6A4I/75tONdaiUeVER3p2rd+i2cqh5D/wCFFZ62QCzcewAzQajZqHW3IimtXN96DWMdAyOCCCG5BBHbLvg1jH1GgLF11zxrxrTaFZp5mSFh5UkhjkKg0jFQDkbFmOkZdSdtdSiEuB8yMDuCDwQdh4IPTBs+4x4IT+8S4A39RwEBJ5r1DhhzuUykhcbh2B5C1ZP79+uMSfUlA8n+RV++PCQqdCGAIUge9ivashfZZ5bTFjQB77Ce/Y44tSBYr6Y826MY/jE000SizXktGCR7Avi6EDcp2uXRim6yOr7c0jeSs8ibNTEQLqOZCHC/JTRORLYglfzonF2BZAcf7ras/DxRtKh3KHC1RHUfUDNz/wBRxibASyea496GTN5PmKAp30QBTXts0Lo4oEimrY8823fCwLBgex5FfXrk8M2oaFgQskfllpYj/uAoexx4xJppfeNxa831o8jHLMIICAFRfzSMxpLPTGjaHTyzTjUiBXFExpsUFvYt3zw9pdHPLGFStRA1vQUAWbsYuuYpPCVQushFkj83WjVCxmgmRG81VFM67lKspO4UObF46FXIPVWFEXwQfY5FPqIJmCFA8unkMMrhV4AZ0JGIGF10pevb9P1zfY/1AGqJAvPCYWDxt1niq45UJJsXw2KWDgH1H3Ne9cjNBp/xOlljH+KEhNzqSbpfKLMe3AyJB5CxMdLqiu4tRAPqIPSiSwoHpni51OnbVqhCrMiklV5O1gpBIOSahW0+m/8AlHYCMT2axeR/h9dUAdImmf0zFVYsQAWGRkOy7QS/pFU3YWATYybUqZE/9dkS2QCvJs2OxByG7SgAa9QKj5jkZF49rwlsoIV38z392zY2MsrGx3o5otdHGkigANHLMIXRx3V1bkZPON7n/N6Sqjnvwx65q5Pw88f5XimGx1I9irkZofDPN0+0kFHUCjiayaYIpIXe2qkTdt6WFYgHsMh0wZCwFg2fas1v/kYp7/OlF/uuGVk4JBA243ibA2SeGjFjHjdWoAWEPGHx/wAT7DtOwz//xAAtEQACAgECAwYFBQAAAAAAAAABAgADEQQhBRIiEzFBUWFxECMyM5FCcnOBsf/aAAgBAgEBPwBD81hFXmuIyBmNqeQ9mtq9IxgGJZay5DF/QxAdyQRKhin8Q5zFHzXmtu7FXM0xexy3nuZprVpYBiysfAiN1byreo+0Y7mAfMacX7VdShDEApsM+M09tgIy353lNqubBYSBjbHpKSnIArZHfmU/aPtG+owDDma6ut6rOcAkISvuBB0uMDxmm5yjkLglSO+aZORAPQSjHZ/1GOGMKorZZvxLMOxz9PcR6GXaFqLcN7g+YnDFVray46ebGJZoAjsFO6kgg+kq6VwY3eYyFmM5PSJw+ziOmCDJNRLYABPljGRNLwW7S01vpRzsVBcgBmBO+3kRLMi20McsGOT37g7wQohOcT9JieM4T9q796/4ZpulNNy7ZpUnHieWL9yz+VoO74f/xAAtEQACAQMCBAUDBQEAAAAAAAABAgMABBESIQUxQXETMlGBsRQjNAYiYXOhkf/aAAgBAwEBPwCX8aE/xW/06YBPP5qGwaQeK1u5DHOSKuLW3U6WUR+h5f8ARU5H28EHB5jlVz+QPelP7R2pzm1i7VwyAXHhg9N6nMcMaqcDGwq+tnu42aMI6AbEH/O9RqYwU6Bth6Zq42nWl8o7UWJt4h3r9NJbScJmDqpcS5bbJwQMfBqa1hkBAQDtt8VPZyxRRGEBmMqggkjZgR7c6uhJ9Q+tdJyBjtV0PvikI0r2FZ+ynvXCZ5oZYRG5UPIFYA8wTilclTkgdM1xCWyjgjVslhIrasnfHbkavH8V2fOdTk1d7TjvQOwpSzIqgcs7mo3MKqUIyCCD6Eb5q14hHewa15nzDqD6GuNO+HjiYggKdX+0nFpWjXxEBHqDg1PIsjqwochSuFG1BlNHiQ4VcuekwUZJKgdc9avuNrdyyCZtCBjoBOkED170mNCAYA0r2wRtR2bGKVpAAM0etZOkd64t57c9dDfNXBLCfVvplIGeg1VNyT+tfij5vel5Cv/Z" alt="Дмитрий Бартошевич" width="70" height="70"/></a>
+          <div class="site-info">
+            <h2 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h2>
+            <p class="site-description">{{ site.description }}</p>
+		   <strong class="tel"><a href="tel:+375297753340">+375 (29) 775-33-40</a> - <a href="mailto:dmitry@bartoshevich.by">dmitry@bartoshevich.by</a></strong>
+          </div>
+
+          <nav>
+            <a href="{{ site.baseurl }}/">Блог</a>
+           <a href="{{ site.baseurl }}/me">Обо мне</a>
+		  {% include search.html %}
+		           </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      {{ content }}
+    </div>
+
+    {% include footer.html %}
+
+
+    {% include analytics.html %}
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  
+	     
+	
+	</body>
+</html>
