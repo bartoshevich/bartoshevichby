@@ -142,8 +142,7 @@ strong, b {
 
 img {
   max-width: 100%;
-  display: block;
-  height: auto;
+    height: auto;
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -550,7 +549,7 @@ thead {
 //responsive
 
 .img-responsive {
-    display: block;
+   
     max-width: 100%;
     height: auto;
     
