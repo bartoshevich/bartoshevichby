@@ -33,7 +33,7 @@ tags: "интернет-маркетинг интервью"
 <!--<p><img src="/images/delovoy2.png" alt="рейтинг белорусских интернет-магазинов канцелярских товаров" srcset="/images/delovoy2-377.png 370w, /images/delovoy2-500.png 500w, /images/delovoy2.png 720w" width="720" height="531" class="img-shadow"/></p>-->
 
 <picture>
-	<source media="(min-width: 550px)" srcset="/images/delovoy2.png">
+	<source media="(min-width: 500px)" srcset="/images/delovoy2.png">
 	<source media="(min-width: 350px)" srcset="/images/delovoy2-500.png">
     <source media="(min-width: 200px)" srcset="/images/delovoy2-377.png">
 	<img src="/images/delovoy2.png" alt="рейтинг белорусских интернет-магазинов канцелярских товаров" width="720" height="531" class="img-shadow" >
