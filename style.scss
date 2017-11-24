@@ -65,6 +65,7 @@ h2 {
     color: #333;
    &:hover, &:active {
     color: $blue;
+	    text-decoration: none;
   }
   }
 
@@ -79,11 +80,13 @@ h2 {
  
   &:hover, &:active {
     color: $blue;
+	   text-decoration: none;
   }
     @include mobile {
     float: none;
     display: block;
     margin: 0 auto;
+	     
   }
 }
 
@@ -487,6 +490,7 @@ mark {background-color:#ffea96;}
     margin: -5px 0 0 0;
   color: $blue;
   font-size: 13px;
+	   text-decoration: none;
 
   @include mobile {
     margin: 3px 0;
