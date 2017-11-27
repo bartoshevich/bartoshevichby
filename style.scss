@@ -499,9 +499,7 @@ mark {background-color:#ffea96;}
   color: $gray;
   font-size: 13px;
 	
-	&:hover, &:active {
-    	   text-decoration: none;
-  }
+   &:hover, &:active {text-decoration: none;}
 
   @include mobile {
     margin: 3px 0;
