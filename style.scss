@@ -251,6 +251,15 @@ img {
   letter-spacing: 1px;
 }
 
+.site-name a,
+.site-name2 a {
+
+	 &:hover, &:active {
+    	   text-decoration: none;
+  }
+}
+
+
 .site-description {
   margin: -5px 0 0 0;
   color: $gray;
