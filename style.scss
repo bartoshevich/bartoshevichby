@@ -1,13 +1,10 @@
 ---
 ---
 
-//
-// IMPORTS
-//
 
 @import "reset";
 @import "variables";
-// Syntax highlighting @import is at the bottom of this file
+
 
 /**************/
 /* BASE RULES */
@@ -150,7 +147,7 @@ img {
     height: auto;
 }
 
-// Fixes images in popup boxes from Google Translate
+/* Fixes images in popup boxes from Google Translate */
 .gmnoprint img {
   max-width: none;
 }
@@ -162,7 +159,7 @@ img {
   margin-bottom: -30px;
 }
 
-// Specify the color of the selection
+/* Specify the color of the selection */
 ::-moz-selection {
   color: $black;
   background: $lightGray;
@@ -172,8 +169,7 @@ img {
   background: $lightGray;
 }
 
-// Nicolas Gallagher's micro clearfix hack
-// http://nicolasgallagher.com/micro-clearfix-hack/
+/* Nicolas Gallagher's micro clearfix hack http://nicolasgallagher.com/micro-clearfix-hack*/
 .clearfix:before,
 .clearfix:after {
     content: " ";
@@ -188,9 +184,8 @@ img {
 /* LAYOUT / SECTIONS */
 /*********************/
 
-//
-// .masthead
-//
+
+/* .masthead */
 
 .wrapper-masthead {
   margin-bottom: 50px;
@@ -273,7 +268,7 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  margin-top: 23px; 
   font-family: $helveticaNeue;
   font-size: 18px;
 
@@ -302,9 +297,7 @@ nav {
   }
 }
 
-//
-// .main
-//
+/*.main */
 
 .posts > .post {
   padding-bottom: 2em;
@@ -378,9 +371,9 @@ footer {
 .aside-text-right a {
     border: 0;
 }
-// для текста в футере
+/* для текста в футере */
 .wtf { text-align: left; font-size:13px;line-height:19px;}
-// синяя рамка
+/* синяя рамка*/
 .wff {background-color:#fff;margin:30px 0 30px 0;border-radius:6px;padding:15px 15px 15px;border:#4183C4 2px solid}
 .notetip{width:90%;font-size:13px;line-height:15px;-webkit-border-radius:10px 10px;padding:5px 5px 5px 50px;margin:0;height:auto!important;overflow:hidden;position:relative;bottom:6px;right:6px;border:0 solid #0092e0;background-position:20px 50%;background-repeat:no-repeat}
 .address {
@@ -388,9 +381,8 @@ footer {
 	background: #f2f2f2;
        display: inline-block;
 }
-// для выделения текста
+/* для выделения текста*/
 .hip {
-// border: 2px solid #4183C4;
 border: 14px solid rgba(0, 182, 242, 0.56);
 text-align: center;
 font-size: 26px;
@@ -400,7 +392,7 @@ width: 100%;
 border-radius:6px;
 margin-bottom: 1.2em;
 max-width: 760px;}
-// для утп
+/*для утп*/
 .hip2 {
 background-color:#f2f2f2;
 font-size: 26px;
@@ -411,17 +403,15 @@ border-radius:6px;
 margin-bottom: 1.3em;
 max-width: 760px;}
 
-// онлайн-решения
+/* онлайн-решения*/
 .wtf2 { text-align: left; font-size:14px;line-height:19px;}
 
-// подчеркивание 
+/* подчеркивание */
 
-//mark {background-color:#ffffa1;}
-//mark {background-color:#ffdc33;} gold
 mark {background-color:#ffea96;}
 
 
-// выделение тегов
+/* выделение тегов*/
 .blocks ul, ol {
      margin: 15px 0;
     padding-left: 0px;
@@ -452,7 +442,7 @@ mark {background-color:#ffea96;}
 
 
 
-//.blocks li:nth-child(5n+1) a {background-color: #1abc9c;}
+/*.blocks li:nth-child(5n+1) a {background-color: #1abc9c;}
 
 //.blocks li:nth-child(5n+2) {background-color: #2ecc71;}
 
@@ -468,9 +458,9 @@ mark {background-color:#ffea96;}
 
 //.blocks li:nth-child(5n+8) {     background-color: #95a5a6;}
 
-//.blocks li:nth-child(5n+9) {     background-color: #ff6600;}
+//.blocks li:nth-child(5n+9) {     background-color: #ff6600;}*/
 
-// mailchimp
+/* mailchimp*/
 #mc_embed_signup form {background-color: #161616; color: #ffffff; text-align:center; border: 1px solid #161616; border-radius: 6px; padding:40px 0 40px 0; }
 .mc-field-group { display: inline-block; } /* positions input field horizontally */
 #mc_embed_signup input.email {font-family: Helvetica,Verdana,sans-serif; font-size: 15px; border: 1px solid #ffffff; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; color: #3a3329; background-color: #fff; box-sizing:border-box; height:32px; padding: 0px 0.4em; display: inline-block; margin: 0; width:350px; vertical-align:top;}
@@ -491,7 +481,7 @@ mark {background-color:#ffea96;}
     #mc_embed_signup .clear {display: block; width: 100% }
     #mc_embed_signup .button {width: 90%; margin:0; }
 }
-// телефон в шапке
+/* телефон в шапке*/
 
 .tel a { 
   text-align: left; 
@@ -507,7 +497,7 @@ mark {background-color:#ffea96;}
 
 .tel a:hover, .tel a:active { color: $blue; text-decoration: none;}
 
-// related
+/* related*/
 
 .rect {
     border-top: 1px solid #b4b4b4;
@@ -515,7 +505,7 @@ mark {background-color:#ffea96;}
     margin:0 auto;
 }
 
-// video
+/* video*/
 
 .video {
   width: 100%;
@@ -530,7 +520,7 @@ mark {background-color:#ffea96;}
   height: 100%;
 }
 
-// таблицы 
+/* таблицы */
 
 table {
 	border-collapse: collapse;
@@ -559,12 +549,12 @@ thead {
 }
 	
 
-// Settled on moving the import of syntax highlighting to the bottom of the CSS
-// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+/* Settled on moving the import of syntax highlighting to the bottom of the CSS
+// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start*/
 @import "highlights";
 @import "svg-icons";
 
-//responsive
+/*responsive*/
 
 .img-responsive {
    
@@ -574,7 +564,7 @@ thead {
 }
 
 .img-shadow {box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);}
-// text in grid (описание фото)
+/* подпись к фото респондента */
 
 .person {
   
@@ -584,7 +574,7 @@ thead {
   
 }
 
-//grid
+/*grid */
 .row {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -652,10 +642,10 @@ thead {
   
 }
 
-// карусель
+/* карусель*/
 .car,.car-inner{position:relative}#title,.car-indicators{padding:0;text-align:center}#title,.car-control,.car-indicators{text-align:center}.car{box-shadow:0 1px 6px rgba(0,0,0,.64);margin-top:26px;margin-bottom:20px}.car-inner{overflow:hidden;width:100%}.car-open:checked+.car-item{position:static;opacity:100}#title,.car-control,.car-indicators,.car-item{position:absolute}.car-item{opacity:0;-webkit-transition:opacity .6s ease-out;transition:opacity .6s ease-out}.car-item img{display:block;height:auto;max-width:100%}.car-control{background:rgba(0,0,0,.28);border-radius:50%;color:#fff;display:none;font-size:40px;height:40px;line-height:35px;top:50%;-webkit-transform:translate(0,-50%);cursor:pointer;-ms-transform:translate(0,-50%);transform:translate(0,-50%);width:40px;z-index:10}.car-control.prev{left:2%}.car-control.next{right:2%}.car-control:hover{background:rgba(0,0,0,.8);color:#aaa}#car-1:checked~.control-1,#car-2:checked~.control-2,#car-3:checked~.control-3,#car-4:checked~.control-4,#car-5:checked~.control-5,#car-6:checked~.control-6,#car-7:checked~.control-7,#car-8:checked~.control-8,#car-9:checked~.control-9,#car-10:checked~.control-10,#car-11:checked~.control-11,#car-12:checked~.control-12,#car-13:checked ~ .control-13,#car-14:checked ~ .control-14,#car-15:checked ~ .control-15,#car-16:checked ~ .control-16,#car-17:checked ~ .control-17,#car-18:checked ~ .control-18,#car-19:checked ~ .control-19,#car-20:checked ~ .control-20,#car-21:checked ~ .control-21,#car-22:checked ~ .control-22,#car-23:checked ~ .control-23,#car-24:checked ~ .control-24,#car-25:checked ~ .control-25,#car-26:checked ~ .control-26,#car-27:checked ~ .control-27,#car-28:checked ~ .control-28,#car-29:checked ~ .control-29,#car-30:checked ~ .control-30,#car-31:checked ~ .control-31,#car-32:checked ~ .control-32,#car-33:checked ~ .control-33,#car-34:checked ~ .control-34,#car-35:checked ~ .control-35,#car-36:checked ~ .control-36,#car-37:checked ~ .control-37,#car-38:checked ~ .control-38,#car-39:checked ~ .control-39,#car-40:checked ~ .control-40,#car-41:checked ~ .control-41,#car-42:checked ~ .control-42,#car-43:checked ~ .control-43,#car-44:checked ~ .control-44,#car-45:checked ~ .control-45,#car-46:checked ~ .control-46,#car-47:checked ~ .control-47,#car-48:checked ~ .control-48,#car-49:checked ~ .control-49,#car-50:checked ~ .control-50,#car-51:checked ~ .control-51,#car-52:checked ~ .control-52,#car-53:checked ~ .control-53,#car-54:checked ~ .control-54,#car-55:checked ~ .control-55,#car-56:checked ~ .control-56,#car-57:checked ~ .control-57{display:block}.car-indicators{list-style:none;margin:0;bottom:2%;left:0;right:0;z-index:10}.car-indicators li{display:inline-block;margin:0 5px}.car-bullet{color:#fff;cursor:pointer;display:block;font-size:35px}.car-bullet:hover{color:#aaa}#car-1:checked~.control-1~.car-indicators li:nth-child(1) .car-bullet,#car-2:checked~.control-2~.car-indicators li:nth-child(2) .car-bullet,#car-3:checked~.control-3~.car-indicators li:nth-child(3) .car-bullet,#car-4:checked~.control-4~.car-indicators li:nth-child(4) .car-bullet,#car-5:checked~.control-5~.car-indicators li:nth-child(5) .car-bullet,#car-6:checked~.control-6~.car-indicators li:nth-child(6) .car-bullet,#car-7:checked~.control-7~.car-indicators li:nth-child(7) .car-bullet{color:#428bca}#title{width:100%;margin:0 auto;font-size:27px;color:rgba(255,255,255,1);font-family:'Open Sans',sans-serif;z-index:9999;text-shadow:0 1px 2px rgba(0,0,0,.33),-1px 0 2px rgba(255,255,255,0)}
 
-// социальные кнопки 
+/* социальные кнопки */
 
 .share-box a {
   display: inline-block;
