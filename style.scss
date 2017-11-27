@@ -697,11 +697,13 @@ thead {
 .sha2re-buttons {
     padding-bottom: 0.75rem;
  text-align: right;
-	&:hover, &:active {
-  	text-decoration: underline;
-    }
-	
 }
+
+.sha2re-buttons a:hover,
+.sha2re-buttons a:active {
+  	text-decoration: none;
+    }
+
 .ya-site-form__search-wrap td {
 
 border-bottom: none;
