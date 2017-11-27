@@ -697,6 +697,9 @@ thead {
 .sha2re-buttons {
     padding-bottom: 0.75rem;
  text-align: right;
+	&:hover, &:active {
+  	text-decoration: underline;
+    }
 	
 }
 .ya-site-form__search-wrap td {
