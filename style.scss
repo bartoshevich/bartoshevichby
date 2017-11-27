@@ -281,6 +281,7 @@ nav {
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
+	   text-decoration: none;
 
     @include mobile {
       margin: 0 10px;
@@ -430,7 +431,13 @@ mark {background-color:#ffea96;}
      line-height: 1.4em;
      background-color: #95a5a6;
 	border-bottom-width: 0;
-          }
+	
+	&:hover, &:active {
+    color: $blue;
+	   text-decoration: none;
+  }
+}
+
 
 
 //.blocks li:nth-child(5n+1) a {background-color: #1abc9c;}
