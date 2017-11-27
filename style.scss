@@ -499,14 +499,13 @@ mark {background-color:#ffea96;}
   color: $gray;
   font-size: 13px;
 	
-   &:hover, &:active {text-decoration: none;}
-
+  
   @include mobile {
     margin: 3px 0;
   }
 }
-  
-  
+
+.tel a:hover, .tel a:active {text-decoration: none;}
 
 // related
 
