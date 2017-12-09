@@ -675,6 +675,11 @@ border-bottom: none;
 // .share-box {min-height: 30px;}
 .share-down {padding: 24px 1px 0; min-height: 30px; text-align: right;}
 
+.share-down a:hover,
+.share-down a:active {
+  	text-decoration: none;
+    }
+
 .wrapper-masthead img {display: unset !important;}
 
 /*****social*****/
