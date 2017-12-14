@@ -6,7 +6,7 @@ categories: опыт
 permalink: "/opyt/delayu-sajt-detskogo-psixologa/"
 tags: "кейсы интернет-маркетинг"
 ---
-<p>Для детского психолога Натальи Масюкевич сверстал сайт — <a href="http://www.vitaline.by" target="_blank">www.vitaline.by</a>. Наталья обозначила: «Как сделаешь — так и будет» и предоставила полную свободу для экспериментов. О ходе работы расскажу в статье.</p> <!--more-->
+<p>Для детского психолога Натальи Масюкевич сверстал сайт — <a href="http://www.vitaline.by" target="_blank" rel="noopener">www.vitaline.by</a>. Наталья обозначила: «Как сделаешь — так и будет» и предоставила полную свободу для экспериментов. О ходе работы расскажу в статье.</p> <!--more-->
 
 <p><img src="http://www.bartoshevich.by/images/vitaline_site.jpg" alt="сайт психолога" width="720" height="470" class="img-shadow" title="главная страница vitaline.by" /></p>
 
