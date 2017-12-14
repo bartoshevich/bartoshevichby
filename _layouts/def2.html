@@ -5,7 +5,9 @@ layout: compress
 <!DOCTYPE html>
 <html lang="ru">
   <head>   <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title> 
-  {% include meta.html %}    
+  {% include criticalme.html %}
+	  {% include meta.html %}    
+	  
   
    
   <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />  
@@ -40,6 +42,6 @@ layout: compress
   
     
 	{% include meta-footer.html %}    
-
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" /> 
   </body>
 </html>
