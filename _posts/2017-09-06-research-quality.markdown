@@ -19,7 +19,7 @@ image: /images/control0609.jpg
                   <div class="person"><strong>Екатерина Палховская</strong><br/>
  Strategy&amp;insight manager Danone Belarus, кандидат социологических наук. <br/>
  <em>в&nbsp;исследованиях с&nbsp;2008г. <br/>
-<a href="https://www.linkedin.com/in/%D0%BA%D0%B0%D1%82%D1%8F-%D0%BF%D0%B0%D0%BB%D1%85%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F-654978b3/" target="_blank">профиль в&nbsp;LinkedIn</a> </em></div>
+<a href="https://www.linkedin.com/in/%D0%BA%D0%B0%D1%82%D1%8F-%D0%BF%D0%B0%D0%BB%D1%85%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F-654978b3/" target="_blank" rel="noopener">профиль в&nbsp;LinkedIn</a> </em></div>
                   
   </div>
  <div class="c-6">
@@ -27,7 +27,7 @@ image: /images/control0609.jpg
                   <div class="person"><strong>Сергей Бургазлиев</strong><br/>
  Управляющий партнер в&nbsp;EURussia-Partners, MBA.<br/>
  <em>в&nbsp;исследованиях с&nbsp;2005г. <br/>
-				<a href="https://www.linkedin.com/in/sergey-burgazliev-mba-4486061a/" target="_blank">профиль в&nbsp;LinkedIn</a> </em></div>
+				<a href="https://www.linkedin.com/in/sergey-burgazliev-mba-4486061a/" target="_blank" rel="noopener">профиль в&nbsp;LinkedIn</a> </em></div>
            </div>
   </div>
 
