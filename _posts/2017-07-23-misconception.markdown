@@ -70,8 +70,8 @@ tags: "интернет-маркетинг семинары управление
 </ul>
 <div class="rect">
 <p>Сервисы для анализа скорости загрузки сайтов: <br />
-- <a href="https://gtmetrix.com/" target="_blank">Gtmetrix.com</a><br />
-- <a href="https://testmysite.thinkwithgoogle.com" target="_blank">Testmysite.withgoogle.com</a></p>
+- <a href="https://gtmetrix.com/" target="_blank" rel="noopener">Gtmetrix.com</a><br />
+- <a href="https://testmysite.thinkwithgoogle.com" target="_blank" rel="noopener">Testmysite.withgoogle.com</a></p>
 </div>
 <p>&nbsp;</p>
 <h2>Заблуждение&nbsp;5: «Реклама решит все проблемы с&nbsp;продажами»</h2>
