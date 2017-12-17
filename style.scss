@@ -372,6 +372,7 @@ position: relative;
     width: 100%;
     max-width: 25%;
     padding-left: 40px;
+ margin-right: -30%;
     text-align: left;
     position: relative;
  font-size: 13px;
@@ -379,7 +380,12 @@ position: relative;
     color: #a0a0a0;
  margin-bottom: 15px;
 
-@media (max-width: 940px) {
+@media (max-width: 1150px) {
+            margin-right: 0px;
+        
+    }
+
+@media (max-width: 840px) {
             float: none;
         max-width: 80%;
         display: inline-block;
@@ -406,7 +412,11 @@ margin-left: 50px;
     border: 0;
 }
 
-
+.aside-text-right:hover {
+    zoom: 1;
+    color: #666;
+   
+}
 
 /* для текста в футере */
 .wtf { text-align: left; font-size:13px;line-height:19px;}
