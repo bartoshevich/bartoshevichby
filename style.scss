@@ -298,6 +298,24 @@ nav {
   }
 }
 
+.current-link {
+   
+    border-radius: 4px;
+  background: #ececec;
+  margin-left: 20px;
+    color: $darkGray;
+    text-align: right;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+  @include mobile {
+      color: $blue;
+margin: 0 10px;
+  }
+ 
+}
+
+
 /*.main */
 
 .posts > .post {
