@@ -281,7 +281,8 @@ nav {
   }
 
   a {
-    margin-left: 20px;
+//    margin-left: 20px;
+	  padding: 2px 8px;
     color: $darkGray;
     text-align: right;
     font-weight: 300;
@@ -299,10 +300,10 @@ nav {
 }
 
 .current-link {
-   
+   padding: 2px 8px;
     border-radius: 4px;
   background: #ececec;
-  margin-left: 20px;
+//  margin-left: 20px;
     color: $darkGray;
     text-align: right;
     font-weight: 300;
