@@ -14,7 +14,7 @@ description: "Дмитрий Бартошевич - маркетолог, кон
 <p>Живу в&nbsp;Минске (Беларусь). Работаю по&nbsp;договору, поэтому отвечаю за&nbsp;результат и&nbsp;сроки.</p>
 <p>Клиенты платят не&nbsp;за&nbsp;время с&nbsp;9:00 до&nbsp;18:00, а&nbsp;за&nbsp;результат. Без отчислений в&nbsp;ФСЗН, оплаты подоходного налога, больничных и&nbsp;отпусков. </p>
 <picture>
-  <source srcset="/me.webp" type="image/webp">
+  <source srcset="/images/me.webp" type="image/webp">
 <img src="/images/me.jpg" width="720" height="682" alt="Дмитрий Бартошевич" class="img-responsive" />
 </picture>
 <h2>Развиваю бренды</h2>
