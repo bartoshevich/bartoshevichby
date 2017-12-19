@@ -628,7 +628,8 @@ thead {
 .row {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-gap: 10px
+    grid-gap: 10px;
+	margin-bottom: 1em;
 }
 
 [class*="c-"] {
