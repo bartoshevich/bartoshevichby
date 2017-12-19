@@ -29,7 +29,7 @@ tags: "управление"
 <div class="c-6">
 <picture> 
    <source srcset="/images/1712ad350.webp 1x, /images/1712ad350.webp 2x, /images/1712ad350.webp 3x"  type="image/webp">
-  <img src="/images/1712cola350.jpg" alt="реклама целофана" width="350" height="445"/>
+  <img src="/images/1712ad350.jpg" alt="реклама целофана" width="350" height="445"/>
        
    </picture> 
    
