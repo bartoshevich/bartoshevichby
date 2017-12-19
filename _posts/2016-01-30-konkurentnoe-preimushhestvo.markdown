@@ -17,10 +17,23 @@ tags: "управление"
 
 <div class="row">
     <div class="c-6">
-<img src="/images/1712cola350.jpg" alt="реклама CocaCola" srcset="/images/1712cola350.webp 1x, /images/1712cola500.webp 2x, /images/1712cola600.webp 3x" width="350" height="449"/>
+	    
+<picture> 
+ <source srcset="/images/1712cola350.webp 1x, /images/1712cola500.webp 2x, /images/1712cola600.webp 3x" type="image/webp">
+ <img src="/images/1712cola350.jpg" alt="реклама CocaCola"  width="350" height="449"/>
+       
+   </picture> 
+   
+
 </div>
 <div class="c-6">
-<img src="/images/1712cola350.jpg" alt="реклама целофана" srcset="/images/1712ad350.webp 1x, /images/1712ad350.webp 2x, /images/1712ad350.webp 3x" width="350" height="445"/>
+<picture> 
+   <source srcset="/images/1712ad350.webp 1x, /images/1712ad350.webp 2x, /images/1712ad350.webp 3x"  type="image/webp">
+  <img src="/images/1712cola350.jpg" alt="реклама целофана" width="350" height="445"/>
+       
+   </picture> 
+   
+
 </div>
 </div>
 
@@ -33,7 +46,7 @@ tags: "управление"
   <img src="/images/k2.jpg" alt="ружье Cricket" />
        
    </picture> 
-   
+   <br/>
    
 <p>Для сравнения приведу пример упаковки опасных для здоровья вещей.</p>
 
@@ -42,7 +55,7 @@ tags: "управление"
   <img src="/images/k3.jpg" alt="упаковка опасного вещества" />
        
    </picture> 
-
+<br/>
 <p>Представьте последствия, если&nbsp;бы тару с&nbsp;ядохимикатами оформляли в&nbsp;фирменном стиле магазинов детских товаров.</p>
 <p><mark>Потребление как ценность постепенно уступает место новой ценности&nbsp;— полезности.</mark> Поэтому развиваются проекты OpenStreetMap, Wikipedia и&nbsp;краудфандинговые площадки подобные <a href="http://ulej.by/" target="_blank" rel="noopener">Улей</a>. Поэтому <a href="http://www.campaignlive.com/article/end-false-recognitions/1379124" target="_blank" rel="noopener">Амир Кассей</a>, получивший больше <nobr>60-ти</nobr> Канских Львов, призывает рекламщиков решать реальные проблемы компаний и&nbsp;общества в&nbsp;целом, а&nbsp;не&nbsp;работать ради наград на&nbsp;фестивалях.</p>
 <p>В&nbsp;новой ценностной картине мира хвалебно-назойливый маркетинг обречен. Обречен на&nbsp;короткий взлет продаж и&nbsp;последующий спад, постоянный поиск новых и&nbsp;новых клиентов. Для маркетинга, акцентированного на&nbsp;пользу, характерен медленный, но&nbsp;стабильный рост продаж, постоянные и&nbsp;лояльные клиенты.</p>
