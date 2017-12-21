@@ -5,7 +5,7 @@ image: /images/avatar.png
 description: "Дмитрий Бартошевич - маркетолог, консультант."
 ---
 
-<p> Я&nbsp;Дмитрий Бартошевич, маркетолог с&nbsp;ИП (открыл в&nbsp;2015 году). Живу в&nbsp;Минске (Беларусь). Помогаю с&nbsp;маркетингом интересным проектам и&nbsp;компаниям. Опираюсь на&nbsp;исследования, анализ данных, <a href="http://www.bartoshevich.by/mnenie/otlichie-marketologa-ot-brexuna/">избегаю брехни</a>. Ориентируюсь на&nbsp;<a href="http://www.bartoshevich.by/mnenie/konkurentnoe-preimushhestvo/">пользу и&nbsp;доверие</a>. </p>
+<p> Я&nbsp;Дмитрий Бартошевич, маркетолог&nbsp;— индивидуальный предприниматель (с&nbsp;2015&nbsp;года). Живу в&nbsp;Минске (Беларусь). Помогаю с&nbsp;маркетингом интересным проектам и&nbsp;компаниям. Опираюсь на&nbsp;исследования, анализ данных, <a href="http://www.bartoshevich.by/mnenie/otlichie-marketologa-ot-brexuna/">избегаю брехни</a>. Ориентируюсь на&nbsp;<a href="http://www.bartoshevich.by/mnenie/konkurentnoe-preimushhestvo/">пользу и&nbsp;доверие</a>. </p>
 <div class="hip2">
 Добиваюсь, чтобы маркетинг в&nbsp;компании стал понятной системой действий, когда директор и&nbsp;сотрудники знают, что, для чего, когда следует делать. </div>
 - Если в&nbsp;компании нет маркетолога, беру его функции на&nbsp;себя. Не&nbsp;даю халтурить подрядчикам. Сам ставлю задачи, контролирую исполнение. 
