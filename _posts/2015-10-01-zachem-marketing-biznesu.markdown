@@ -5,6 +5,7 @@ description: "Эксперты по продажам объясняют заче
 date:   2015-10-01 01:18:33 +0300
 categories: мнение
 permalink: "mnenie/zachem-marketing-biznesu/"
+image: /images/expsal15.jpg
 tags: "управление интервью"
 ---
 
