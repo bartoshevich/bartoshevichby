@@ -22,9 +22,9 @@ image: /images/conf20102017.jpg
 <p>Если допустить, что через несколько лет у&nbsp;большинства компаний будет доступ к&nbsp;технологиям, то&nbsp;конкуренция между предприятиями перейдет на&nbsp;уровень владения данными. Если вы&nbsp;еще не&nbsp;собираете информацию о&nbsp;потребительском опыте клиентов&nbsp;— заручитесь поддержкой юристов и&nbsp;начинайте. </p>
 <h2>Фокусируйтесь не&nbsp;на&nbsp;продуктах, а&nbsp;на&nbsp;бизнес-моделях </h2>
 <p>Инвестиции в&nbsp;продукты&nbsp;— это инвестиции с&nbsp;самым высоким риском. Сегодня не&nbsp;продукты конкурируют друг с&nbsp;другом, а&nbsp;бизнес-модели и&nbsp;стили управления. Убер, Фейсбук, Алибаба&nbsp;— это история не&nbsp;о&nbsp;продуктах, а&nbsp;о&nbsp;бизнес-моделях. </p>
-<div class="address"><p><b>Пример</b><br> Мы&nbsp;привыкли, что магазин обуви&nbsp;— это торговый зал, склад и&nbsp;большой ассортимент. <a href="http://www.else-corp.com/" target="_blank" rel="noopener">Компания ELSE Corp.</a> предлагает иное видение. Магазин обуви&nbsp;— это несколько компьютеров и&nbsp;биометрическое сканирование ступней.</p>
+<div class="address"><p><b>Пример</b><br> Мы&nbsp;привыкли, что магазин обуви&nbsp;— это торговый зал, склад и&nbsp;большой ассортимент. <a href="//www.else-corp.com/" target="_blank" rel="noopener">Компания ELSE Corp.</a> предлагает иное видение. Магазин обуви&nbsp;— это несколько компьютеров и&nbsp;биометрическое сканирование ступней.</p>
 
-<div class="wtf"><img src="http://www.bartoshevich.by/images/conf201020172.jpg" alt="ELSE Corp." width="720" height="328" class="img-responsive"/>
+<div class="wtf"><img src="/images/conf201020172.jpg" alt="ELSE Corp." width="720" height="328" class="img-responsive"/>
 слайд из&nbsp;презентации ELSE Corp. </div>
 <p><b></b></p>
 

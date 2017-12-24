@@ -14,8 +14,8 @@ tags: "инструменты"
 <h3>1) Главред&nbsp;— <a href="https://glvrd.ru/?from=www.bartoshevich.by">glvrd.ru</a></h3>
 <p>Сервис беспощадно отмечает и&nbsp;просит убрать из&nbsp;текста стоп-слова, рекламные штампы, канцелярит и&nbsp;плохой синтаксис. Последуете советам&nbsp;— текст станет короче, понятнее и&nbsp;информативнее.</p>
 <p>Когда я&nbsp;узнал о&nbsp;Главреде, пробовал писать новые статьи в&nbsp;браузере на&nbsp;странице сервиса. Результат&nbsp;— «зависал» на&nbsp;первом абзаце, который полировал несколько часов. Не&nbsp;повторяйте ошибки&nbsp;— проверяйте и&nbsp;редактируйте уже написанный текст.</p>
-<p>Также советую ознакомиться с&nbsp;<a href="http://maximilyahov.ru/blog/all/glvrd-7/">рекомендациями Максима Ильяхова&nbsp;</a>— автора Главреда&nbsp;— по&nbsp;работе с&nbsp;сервисом.</p>
-<h3>2) Оценка читабельности текста&nbsp;— <a href="http://readability.io/?from=www.bartoshevich.by">readability.io</a></h3>
+<p>Также советую ознакомиться с&nbsp;<a href="//maximilyahov.ru/blog/all/glvrd-7/">рекомендациями Максима Ильяхова&nbsp;</a>— автора Главреда&nbsp;— по&nbsp;работе с&nbsp;сервисом.</p>
+<h3>2) Оценка читабельности текста&nbsp;— <a href="//readability.io/?from=www.bartoshevich.by">readability.io</a></h3>
 <p>Сервис считает длину слов и&nbsp;предложений, долю сложных слов и&nbsp;терминов, уровень абстрактности лексики и&nbsp;прочее, чтобы определить легкость восприятия текста. После вычислений показывает индекс уровня читабельности и&nbsp;возраст человека, которому текст будет понятен.</p>
 <p><em>Пример использования:</em> взял заведомо сложный материал&nbsp;— несколько глав из&nbsp;«Критики чистого разума» Канта&nbsp;— и&nbsp;оцифровал легкость восприятия. Уровень читабельности&nbsp;— 17.2. Аудитория&nbsp;— <nobr>4-6</nobr> курсы ВУЗа. Эти показатели&nbsp;— точка отсчета. По&nbsp;отношению к&nbsp;ним рассмотрел другие, случайно выбранные статьи. Обнаружил, что Нацбанк РБ&nbsp;описывает работу с&nbsp;обращениями граждан сложнее, чем Кант рассуждал о&nbsp;категориях рассудка и&nbsp;антиномиях разума.</p>
 
@@ -35,50 +35,50 @@ tags: "инструменты"
 	<td>—</td>
  		</tr>
 		<tr> 
-	<td>статья <a href="http://www.bartoshevich.by/mnenie/effektivnost-vlozhenij-v-marketing/">«Как увеличить отдачу от&nbsp;вложений в&nbsp;маркетинг»</a></td>
+	<td>статья <a href="/mnenie/effektivnost-vlozhenij-v-marketing/">«Как увеличить отдачу от&nbsp;вложений в&nbsp;маркетинг»</a></td>
 	<td>10.33</td>
 	<td><nobr>10-11</nobr> класс</td>
 	<td>воспринимается легче</td>
  		</tr>
 		<tr> 
-<td>сказка папы-маркетолога <a href="http://www.bartoshevich.by/mnenie/skazki-papy-marketologa/">«Бульба»</a></td>
+<td>сказка папы-маркетолога <a href="/mnenie/skazki-papy-marketologa/">«Бульба»</a></td>
 	<td>4.41</td>
 	<td><nobr>4-6</nobr> класс</td>
 	<td>воспринимается легче</td>
  		</tr>
 		<tr> 
-	<td>страница сайта Нацбанка РБ&nbsp;<a href="http://www.nbrb.by/today/applications/">«Работа с&nbsp;обращениями граждан и&nbsp;юридических лиц»</a> (15.10.2016)</td>
+	<td>страница сайта Нацбанка РБ&nbsp;<a href="//www.nbrb.by/today/applications/">«Работа с&nbsp;обращениями граждан и&nbsp;юридических лиц»</a> (15.10.2016)</td>
 	<td>21.87</td>
 	<td>аспирантура, ученая степень</td>
 	<td>воспринимается тяжелее, нужно изменить</td>
  	</tr>
  	</tbody>
  </table></div>
-<h3>3) Проверка текста на&nbsp;уникальность&nbsp;— <a href="http://text.ru/?from=www.bartoshevich.by">text.ru</a></h3>
+<h3>3) Проверка текста на&nbsp;уникальность&nbsp;— <a href="//text.ru/?from=www.bartoshevich.by">text.ru</a></h3>
 <p>Сервис проверит орфографию, наличие дубликатов в&nbsp;сети и&nbsp;проведет SEO-анализ текста.</p>
 <p>Перед публикацией статьи убеждаюсь, что уникальность близка или равна 100%. Несколько раз проверял и&nbsp;после опубликования. Дважды находил воров&nbsp;— люди скопировали мои записи и&nbsp;выдали за&nbsp;свои.</p>
-<h3>4) <a href="http://www.artlebedev.ru/tools/typograf/?from=www.bartoshevich.by">Типограф</a> Студии Артемия Лебедева</h3>
+<h3>4) <a href="//www.artlebedev.ru/tools/typograf/?from=www.bartoshevich.by">Типограф</a> Студии Артемия Лебедева</h3>
 <p>Типограф грамотно оформляет статью перед публикацией в&nbsp;интернете: расставляет правильные кавычки, правильное тире между словами и&nbsp;дефис для двойных слов, убирает лишние пробелы и&nbsp;т.д. С&nbsp;типографом статьи выглядят опрятно.</p>
 <p><img src="/images/text1.jpg" alt="работа типографа" /></p>
 <h2>Знания</h2>
-<h3>5) Основной <a href="http://maximilyahov.ru/blog/all/availability/">курс по&nbsp;информационному стилю</a></h3>
+<h3>5) Основной <a href="//maximilyahov.ru/blog/all/availability/">курс по&nbsp;информационному стилю</a></h3>
 <p>Текст в&nbsp;информационном стиле&nbsp;— лаконичный, честный и&nbsp;интересный. Рассылку базового курса Максим Ильяхов выложил в&nbsp;сеть. Изучите и&nbsp;оставьте «Главред» без работы </p>
 <p>Как дополнение к&nbsp;рассылке рекомендую
-книгу Норы Галь <a href="http://lib.ru/TRANSLATORS/NORA_GAL/slowo.txt"> «Слово живое и&nbsp;мертвое»</a> 
-и&nbsp;книгу Уильяма Зинсера <a href="http://mastersloga.ru/files/kak_pisat_horosho.pdf">«Как писать хорошо»</a>.</p>
+книгу Норы Галь <a href="//lib.ru/TRANSLATORS/NORA_GAL/slowo.txt"> «Слово живое и&nbsp;мертвое»</a> 
+и&nbsp;книгу Уильяма Зинсера <a href="//mastersloga.ru/files/kak_pisat_horosho.pdf">«Как писать хорошо»</a>.</p>
 <h3>6) <a href="https://soviet.glvrd.ru/?from=www.bartoshevich.by">Советы и&nbsp;статьи о&nbsp;тексте, редактуре и&nbsp;рекламе</a></h3>
 <p>Вы&nbsp;узнаете, как объяснить сложные вещи, сделать занудное описание интересным, подтолкнуть человека к&nbsp;полезному действию и&nbsp;многое другое. Каждый совет с&nbsp;примерами.</p>
 <h3>7) Блоги</h3>
 <ul> 
-	<li><a href="http://maximilyahov.ru/blog/?from=www.bartoshevich.by">Блог Максима Ильяхова</a> о&nbsp;сильном тексте</li>
-	<li><a href="http://kompotique.ru/?from=www.bartoshevich.by">Блог Люды Сарычевой</a> о&nbsp;редактуре о&nbsp;работе редактора</li>
-	<li><a href="http://sashavolkova.ru/?from=www.bartoshevich.by">Саша Волкова</a> о&nbsp;текстах и&nbsp;работе редактора</li>
+	<li><a href="//maximilyahov.ru/blog/?from=www.bartoshevich.by">Блог Максима Ильяхова</a> о&nbsp;сильном тексте</li>
+	<li><a href="//kompotique.ru/?from=www.bartoshevich.by">Блог Люды Сарычевой</a> о&nbsp;редактуре о&nbsp;работе редактора</li>
+	<li><a href="//sashavolkova.ru/?from=www.bartoshevich.by">Саша Волкова</a> о&nbsp;текстах и&nbsp;работе редактора</li>
  </ul>
  <h3>8) Редполитики <a href="https://docs.google.com/document/d/14XdGIjVJLM_FsjHzyh5ca8PkffngykzXd2bLPHzA2ME/edit#heading=h.1xvoj9mbqgeo">Тинькофф-журнала</a>&nbsp;и <a href="https://docs.google.com/document/d/1c_2uP1PpiM12h1ee8egVXAoUCJ9mE9r68zMqrqmS8VA/edit#heading=h.qfb376lrh4iy">Модульбанка</a></h3>
 <p>Привожу как пример принципов работы с&nbsp;текстом, ориентированных на&nbsp;пользу и&nbsp;развитие доверия у&nbsp;читателей.</p>
 <p><em>выдержка из&nbsp;редполитики Тинькофф-журнала:</em></p>
 <img src="/images/text2.jpg" alt="выдержка из редполитики Тинькофф-журнала" /> 
-<h3>9) Книга <a href="http://royallib.com/book/klark_roy_piter/50_priemov_pisma.html">«50&nbsp;приемов письма»</a> Роя Питера Кларка</h3>
+<h3>9) Книга <a href="//royallib.com/book/klark_roy_piter/50_priemov_pisma.html">«50&nbsp;приемов письма»</a> Роя Питера Кларка</h3>
 <p>Ресурс для «отличников». После каждой главы вас ждут задания. Пригодятся карандаши, толстые газеты, книги и&nbsp;черновики. Результат&nbsp;— научитесь более осознанно выбирать слова, строить фразы и&nbsp;предложения.</p>
 
 

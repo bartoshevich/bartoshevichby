@@ -20,7 +20,7 @@ tags: "реклама инструменты интервью"
                   
   </div>
   <div class="c-6">
-       <p class="item"><img src="http://www.bartoshevich.by/images/bukhovets.jpg" alt="Дмитрий Буховец" width="150" height="150" /></p>
+       <p class="item"><img src="/images/bukhovets.jpg" alt="Дмитрий Буховец" width="150" height="150" /></p>
                   <div class="person"><strong>Дмитрий Буховец</strong><br/>
  Media Group Head</div>
                   
@@ -33,7 +33,7 @@ tags: "реклама инструменты интервью"
 
 <p>Если вы хотите вложиться в рекламу с умом — используйте статью как инструкцию.</p>
 <p>***</p>
-<img src="http://www.bartoshevich.by/images/rek1lama.jpg" alt="алгоритм рекламной кампании" width="695" height="583"/>
+<img src="/images/rek1lama.jpg" alt="алгоритм рекламной кампании" width="695" height="583"/>
 <h2>Шаг 1. Убедитесь в необходимости рекламной кампании</h2>
 <p>Разрабатывать рекламную кампанию следует тогда, когда вы изучили ситуацию на рынке и пришли к выводу, что без рекламы задач бизнеса не решить.</p>
 
