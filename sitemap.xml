@@ -16,14 +16,14 @@ layout: null
     </url>
   {% endfor %}
 <url>
-<loc>http://www.bartoshevich.by/</loc>
+<loc>{{ site.url }}</loc>
 <changefreq>weekly</changefreq>
       <priority>1.0</priority>
 </url>
 <url>
-<loc>http://www.bartoshevich.by/me/</loc>
+<loc>{{ site.url }}/me/</loc>
 </url>
 <url>
-<loc>http://www.bartoshevich.by/online</loc>
+<loc>{{ site.url }}/online</loc>
 </url>
 </urlset>
