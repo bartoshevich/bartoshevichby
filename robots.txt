@@ -3,5 +3,5 @@ Disallow: /tag
 Disallow: /404.html
 Disallow: /confidentiality/
 Disallow: /search
-sitemap: //bartoshevich.by/sitemap.xml
+sitemap: http://bartoshevich.by/sitemap.xml
 Host: bartoshevich.by
