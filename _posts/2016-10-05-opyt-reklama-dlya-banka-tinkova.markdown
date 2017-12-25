@@ -27,5 +27,15 @@ tags: "реклама кейсы"
 <p><div class="wtf"><div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/LcRjumujYws?rel=0" frameborder="0" allowfullscreen></iframe></div>ролик с&nbsp;идеей рекламы</div></p>
 <p>А&nbsp;затем подумал, что буду вечно гадать, как отреагировал&nbsp;бы Олег Тиньков на&nbsp;мою идею. Выложил видео на&nbsp;youtube, написал в&nbsp;твитере «если&nbsp;бы я&nbsp;делал рекламу для банка Тинькова, это выглядело&nbsp;бы примерно так». Поставил ссылку на&nbsp;видео и&nbsp;упомянул аккаунт Тинькова и&nbsp;его банка.</p>
 <p>И&nbsp;через минут 15&nbsp;получил обратную связь.</p>
-<p><img src="/images/tin2.jpg" alt="обратная связь Тинькова" /></p>
+
+<picture>
+	<source
+		srcset="/images/tin2-400.webp 1x, /images/tin2-800.webp 2x"
+		type="image/webp">
+	<img
+		src="/images/tin2.jpg" alt="обратная связь Тинькова" width="400" height="483"
+		srcset="/images/tin2-800.jpg 2x">
+</picture>
+
+
 <p>Примерно в&nbsp;тот&nbsp;же момент получил письма от&nbsp;друзей, которые откликнулись на&nbsp;мою просьбу. Ролик разнесли в&nbsp;пух и&nbsp;прах. И&nbsp;слишком быстро, и&nbsp;какая-то полоса по&nbsp;середине дергается, и&nbsp;т.д. :-)</p>
