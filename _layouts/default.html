@@ -6,6 +6,7 @@ layout: compress
 <!DOCTYPE html>
 <html lang="ru">
   <head>  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} </title> 
+	   {% include analytics.html %}
   {% include meta.html %}    
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" /> 
 	  
@@ -39,7 +40,7 @@ layout: compress
     {% include footer.html %}
 
 
-    {% include analytics.html %}
+   
      
 	   {% include meta-footer.html %}  
 	
