@@ -164,7 +164,7 @@ img {
   margin-bottom: -30px;
 }
 
-/* Specify the color of the selection */
+/* Specify the color of the selection 
 ::-moz-selection {
   color: $black;
   background: $lightGray;
@@ -172,7 +172,7 @@ img {
 ::selection {
   color: $black;
   background: $lightGray;
-}
+} */
 
 /* Nicolas Gallagher's micro clearfix hack http://nicolasgallagher.com/micro-clearfix-hack*/
 .clearfix:before,
