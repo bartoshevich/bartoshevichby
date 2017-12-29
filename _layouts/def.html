@@ -3,7 +3,12 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru-BY">
+<!--[if IE 7]><html lang="ru" class="ie7"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="ie8"><![endif]-->
+<!--[if IE 9]><html lang="ru" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><html lang="ru"><![endif]-->
+<!--[if !IE]><html lang="ru-BY"><![endif]-->
   <head>    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title> 
 	   {% include analytics.html %}
   {% include criticalmain.html %}
