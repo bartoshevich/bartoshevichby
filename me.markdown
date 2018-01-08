@@ -1,7 +1,7 @@
 ---
 layout: page2
 permalink: /me/
-image: /images/avatar.png
+image: /apple-touch-icon-400x400.png
 description: "Дмитрий Бартошевич - маркетолог, консультант."
 ---
 
