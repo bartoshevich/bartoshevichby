@@ -6,9 +6,10 @@ permalink: /tag/kejsy
 
 <em><strong>Кейсы:</strong>&nbsp;делюсь тем, что сделал и&nbsp;чем могу поделиться</em>
 
+<div class="posts">
 {% for post in site.tags[page.tag] %}
 
-   <div class="posts">
+   
     <article class="post">
 
       <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
@@ -17,8 +18,9 @@ permalink: /tag/kejsy
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Читать</a>
+      <!--<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Читать</a>-->
+       
+   
     </article>
+          {% endfor %}
     </div>
- 
-{% endfor %}
