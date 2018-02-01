@@ -7,9 +7,10 @@ permalink: /tag/reklama
 
 <em>Записи с тегом «реклама»</em>
 
+<div class="posts">
 {% for post in site.tags[page.tag] %}
 
-   <div class="posts">
+   
     <article class="post">
 
       <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
@@ -18,8 +19,9 @@ permalink: /tag/reklama
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Читать</a>
+      <!--<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Читать</a>-->
+       
+   
     </article>
+          {% endfor %}
     </div>
- 
-{% endfor %}
