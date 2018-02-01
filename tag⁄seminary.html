@@ -6,9 +6,10 @@ permalink: /tag/seminary
 
 <em><strong>Семинары:</strong> рассказываю о&nbsp;семинарах и&nbsp;конференциях, где участвовал или выступал.</em>
 
+<div class="posts">
 {% for post in site.tags[page.tag] %}
 
-   <div class="posts">
+   
     <article class="post">
 
       <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
@@ -17,8 +18,9 @@ permalink: /tag/seminary
         {{ post.excerpt }}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Читать</a>
+      <!--<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Читать</a>-->
+       
+   
     </article>
+          {% endfor %}
     </div>
- 
-{% endfor %}
