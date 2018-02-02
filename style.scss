@@ -456,7 +456,13 @@ max-width: 760px;}
 .wtf2 { text-align: left; font-size:14px;line-height:19px;}
 
 /* шрифт на кегль меньше для таблиц*/
-.fontme { text-align: left; font-size:14px;line-height:19px;}
+.fontme { font-size:14px;line-height:19px;
+
+@include mobile {
+        font-size: 18px;
+	line-height:25px;
+  }
+}
 
 /* подчеркивание */
 
