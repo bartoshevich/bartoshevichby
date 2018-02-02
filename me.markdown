@@ -25,13 +25,13 @@ description: "Дмитрий Бартошевич - маркетолог, кон
 
 <div class="row">
 <div class="c-4">
-<p>Работаю по&nbsp;договору, <a href="/mnenie/igra/">не&nbsp;играю в&nbsp;«Спасителя»</a>. Опираюсь на&nbsp;исследования, анализ данных, <a href="/mnenie/otlichie-marketologa-ot-brexuna/">избегаю брехни</a>. Ориентируюсь на&nbsp;<a href="/mnenie/konkurentnoe-preimushhestvo/">пользу и&nbsp;доверие</a>.</p>
+Работаю по&nbsp;договору, <a href="/mnenie/igra/">не&nbsp;играю в&nbsp;«Спасителя»</a>. Опираюсь на&nbsp;исследования, анализ данных, <a href="/mnenie/otlichie-marketologa-ot-brexuna/">избегаю брехни</a>. Ориентируюсь на&nbsp;<a href="/mnenie/konkurentnoe-preimushhestvo/">пользу и&nbsp;доверие</a>.
 </div>
 <div class="c-4">
 Если в&nbsp;компании нет маркетолога, беру его функции на&nbsp;себя. Не&nbsp;даю халтурить подрядчикам. Сам ставлю задачи, контролирую исполнение.
 </div>
 <div class="c-4">
-<p>Клиенты платят не&nbsp;за&nbsp;время с&nbsp;9:00 до&nbsp;18:00, а&nbsp;за&nbsp;результат. Без отчислений в&nbsp;ФСЗН, оплаты подоходного налога, больничных и&nbsp;отпусков. </p> 
+Клиенты платят не&nbsp;за&nbsp;время с&nbsp;9:00 до&nbsp;18:00, а&nbsp;за&nbsp;результат. Без отчислений в&nbsp;ФСЗН, оплаты подоходного налога, больничных и&nbsp;отпусков. 
 </div>
 </div>
 
