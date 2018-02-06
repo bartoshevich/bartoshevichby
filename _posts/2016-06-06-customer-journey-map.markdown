@@ -8,7 +8,7 @@ permalink: "instrukcii/customer-journey-map/"
 tags: "инструменты бизнес"
 ---
 
-<p>Портал «Про бизнес.» выпустил мою <a href="//probusiness.io/tech/2150-kak-vzglyanut-na-rabotu-kompanii-glazami-klientov-chtoby-povysit-prodazhi-metodika-customer-journey-mapping.html">статью о&nbsp;картах потребительского опыта</a>. Публикую версию для блога.</p><!--more-->
+<p>Портал «Про бизнес» выпустил мою <a href="//probusiness.io/tech/2150-kak-vzglyanut-na-rabotu-kompanii-glazami-klientov-chtoby-povysit-prodazhi-metodika-customer-journey-mapping.html">статью о&nbsp;картах потребительского опыта</a>. Публикую версию для блога.</p><!--more-->
 <p>***</p>
 <p>Иван Петрович в&nbsp;печали. Пять месяцев назад он&nbsp;открыл сервисный центр по&nbsp;ремонту компьютеров и&nbsp;все еще не&nbsp;получает прибыль. Надежды на&nbsp;«сарафанное радио» не&nbsp;оправдались. За&nbsp;неделю в&nbsp;центр приходит всего <nobr>1-2 клиента.</nobr> Иван Петрович понимает, что что-то делает не&nbsp;так, но&nbsp;не&nbsp;знает, что именно.</p>
 <p>Знакомый рекомендовал методику «Customer Journey Map», которая&nbsp;— если верить интернету&nbsp;— выявляет проблемные места бизнеса. Поисковик выдал десятки непонятных и&nbsp;непохожих друг на&nbsp;друга графиков, статьи с&nbsp;одними и&nbsp;теми&nbsp;же общими фразами и&nbsp;Иван Петрович еще больше запутался.</p>
