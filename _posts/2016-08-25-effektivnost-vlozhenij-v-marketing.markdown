@@ -8,7 +8,7 @@ permalink: "mnenie/effektivnost-vlozhenij-v-marketing/"
 tags: "управление бизнес"
 ---
 
-<p>Выделил и&nbsp;рассказал порталу «Про бизнес.» <a href="//probusiness.io/do_it/2445-ne-stavte-telegu-vperedi-loshadi-veshchi-kotorye-obyazatelno-dolzhen-znat-i-delat-marketolog.html">три принципа результативного маркетинга</a>. Публикую версию для блога.</p><!--more-->
+<p>Выделил и&nbsp;рассказал порталу «Про бизнес» <a href="//probusiness.io/do_it/2445-ne-stavte-telegu-vperedi-loshadi-veshchi-kotorye-obyazatelno-dolzhen-znat-i-delat-marketolog.html">три принципа результативного маркетинга</a>. Публикую версию для блога.</p><!--more-->
 <h2>Создавайте и&nbsp;подкрепляйте отличия бренда</h2>
 <p>Эффективность маркетинга начинается с&nbsp;идеи. Идеи, которая укрепляет конкурентные преимущества бренда. Эту мысль маркетологи забывают, предпочитая ориентироваться на&nbsp;клики, «лайки», перепосты и&nbsp;прочее.</p>
 <p>«А&nbsp;давайте разбросаем в&nbsp;торговом центре 3&nbsp;тысячи долларов и&nbsp;выложим видео на&nbsp;youtube. Это&nbsp;же столько просмотров наберет... Или&nbsp;же предложим скидку тому, кто выложит в&nbsp;сеть, как он&nbsp;громит свою кухню». И&nbsp;уже никто не&nbsp;думает, как это соотносится с&nbsp;позиционированием бренда.</p>
