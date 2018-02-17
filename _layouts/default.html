@@ -6,7 +6,7 @@ layout: compress
 <!DOCTYPE html>
 <html lang="ru">
   <head>  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} </title> 
-	   {% include analytics.html %}
+	   
   {% include meta.html %}    
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" /> 
 	  
@@ -14,10 +14,6 @@ layout: compress
     </head>
 	
   <body>
-	  <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TNMMV2C"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 	  
 	  
     <div class="wrapper-masthead">
@@ -49,6 +45,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    
      
 	   {% include meta-footer.html %}  
-	
+	{% include analytics.html %}
 	</body>
 </html>
