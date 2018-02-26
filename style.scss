@@ -483,7 +483,7 @@ mark {background: #ffffa1; padding: 1px 0; }
 
 .blocks li {
      background-color: #95a5a6;
-     border-radius: 5px;
+     border-radius: 3px;
      display: inline-block;
      margin: 4px 0px 0px;
     
@@ -497,6 +497,7 @@ mark {background: #ffffa1; padding: 1px 0; }
      background-color: #95a5a6;
 	border-bottom-width: 0;
 	 padding: 0px 10px;
+	border: 1px solid #95a5a6;
 	&:hover, &:active {
    border: 1px solid #777;
 	   text-decoration: none;
@@ -769,5 +770,6 @@ border-bottom: none;
 .btn:hover {
  border: 1px solid #777;
    color: #fff;
+	 text-decoration: none;
 }
 
