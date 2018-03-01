@@ -22,7 +22,7 @@ description: "что делает маркетолог Дмитрий Барто
 <div class="fontme">
 <div class="row">
 <div class="c-4">
-Работаю по&nbsp;договору, <a href="/mnenie/igra/">не&nbsp;играю в&nbsp;«Спасителя»</a>. Опираюсь на&nbsp;исследования, анализ данных, <a href="/mnenie/otlichie-marketologa-ot-brexuna/">избегаю брехни</a>. Ориентируюсь на&nbsp;<a href="/mnenie/konkurentnoe-preimushhestvo/">пользу и&nbsp;доверие</a>.
+Опираюсь на&nbsp;исследования, анализ данных, <a href="/mnenie/otlichie-marketologa-ot-brexuna/">избегаю брехни</a>. Ориентируюсь на&nbsp;<a href="/mnenie/konkurentnoe-preimushhestvo/">пользу и&nbsp;доверие</a>. Работаю по&nbsp;договору, <a href="/mnenie/igra/">не&nbsp;играю в&nbsp;«Спасителя»</a>.
 </div>
 <div class="c-4">
 Если в&nbsp;компании нет маркетолога, беру его функции на&nbsp;себя. Не&nbsp;даю халтурить подрядчикам. Сам ставлю задачи, контролирую исполнение.
