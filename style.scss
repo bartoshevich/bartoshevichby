@@ -65,6 +65,9 @@ h2 {
 .posts h2 a {
     font-size:30px;
     color: #333;
+border-bottom-style: solid;
+border-bottom-color: #e2e2e2;
+    border-bottom-width: 1px;	
    &:hover, &:active {
     color: $blue;
 	    text-decoration: none;
