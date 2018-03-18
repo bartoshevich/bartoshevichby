@@ -23,7 +23,4 @@ layout: null
 <url>
 <loc>{{ site.url }}/me/</loc>
 </url>
-<url>
-<loc>{{ site.url }}/online</loc>
-</url>
 </urlset>

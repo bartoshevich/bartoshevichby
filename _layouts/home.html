@@ -1,0 +1,127 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>маркетолог Дмитрий Бартошевич</title>
+	{% include criticalhome.html %}
+	
+	<link rel="stylesheet" type="text/css" href="/styles/head_style.css">
+	{% include meta.html %} 
+</head>
+<body>
+<div class="all-site">	
+	{% include menu.html %}
+	<div class="conteiner">
+		<div class="head">
+			<div class="head-about">
+				<h1>
+					Дмитрий Бартошевич
+				</h1>
+				<p>
+				Маркетолог, консультант по&nbsp;маркетингу. Помогаю клиентам отстроиться от&nbsp;конкурентов и&nbsp;занять четко выраженное место в&nbsp;сознании потребителя. <br>Связаться: <a href="mailto:dmitry@bartoshevich.by">dmitry@bartoshevich.by</a>
+				</p>
+			</div>
+		</div>
+		<div class="head2">
+			<h2>
+				Проекты
+			</h2>
+			<div class="head-client">
+				<div class="head-item">
+					<picture>
+  						<source srcset="/images/head_flexnroll.webp" type="image/webp">
+						<img src="/images/head_flexnroll.jpg" width="242" height="82" alt="Flex-n-Roll" />
+					</picture>
+				<h3>
+					Flex-n-Roll
+				</h3>
+				<p class="subtitle" >типография, лидер в&nbsp;РБ в&nbsp;сегменте самоклеящихся этикеток</p>
+				<p >
+					Изучил конкурентное окружение, разработал техническое задание на&nbsp;проведение агентством маркетингового исследования, контролировал качество проведения исследования и&nbsp;обработку данных, создал структуру бренда <nobr>«Флекс-н-Ролл»</nobr> и&nbsp;стратегию развития.
+				</p>
+				</div>
+				<div class="head-item">
+					<picture>
+  						<source srcset="/images/head_uvi.webp" type="image/webp">
+						<img src="/images/head_uvi.jpg" width="242" height="82" alt="ЮВИ Электроникс" />
+					</picture>
+				<h3>
+					ЮВИ Электроникс
+				</h3>
+				<p class="subtitle">производство и&nbsp;поставки промышленных нагревателей и&nbsp;комплектующих </p>
+				<p >
+					Изучил конкурентное окружение и&nbsp;целевую аудиторию (опрос, составление карт потребительского опыта), разработал концепцию торговой марки и&nbsp;принципы коммуникативной политики компании.
+				</p>
+				</div>
+				<div class="head-item">
+					<picture>
+  						<source srcset="/images/head_giperlink.webp" type="image/webp">
+						<img src="/images/head_giperlink.jpg" width="242" height="82" alt="Giperlink" />
+					</picture>
+				<h3>
+					Giperlink
+				</h3>
+				<p class="subtitle">интернет-агентство</p>
+				<p >
+					Изучил конкурентное окружение, составил карты потребительского опыта и&nbsp;создал платформу бренда, разработал принципы развития агентства.
+				</p>
+				</div>
+				<div class="head-item">
+					<a href="/opyt/3dom-mebel-dlya-semi/">
+					<picture>
+  						<source srcset="/images/head_3Dom.webp" type="image/webp">
+						<img src="/images/head_3Dom.jpg" width="242" height="82" alt="3Dom"  />
+					</picture>
+					
+				<h3>
+					3Dom
+				</h3>
+				<p class="subtitle">производство и&nbsp;продажа корпусной мебели</p>
+				<p >
+					Создал стратегию развития торговой марки 3Dom, разрабатывал и&nbsp;координировал проведение рекламных акций.
+				</p>
+					</a>
+				</div>
+				
+			</div>
+			<br>
+			<p>
+					<a href="/me/">Узнать больше &#8594;</a>
+				</p>
+		</div>
+		<div class="head3">
+			<h2>
+				Пишу о маркетинге, за который не стыдно
+			</h2>
+			<P>подписаться на обновления: <a href="/feed.xml">RSS</a>, <a href="//eepurl.com/cmkKcz">эл.почта</a></P>
+		</div>
+				
+		<div class="content">
+			{% for post in site.posts %}
+			<div class="item">
+				<a href="{{ site.baseurl }}{{ post.url }}" class="caption">
+				<h3 class="caption-title">
+				{{ post.title }}
+				</h3>
+				<p class="item-date">
+				{{ post.date | date: "%e %B %Y" | replace: 'January', 'января' | replace: 'February', 'февраля' | replace: 'March', 'марта' | replace: 'April', 'апреля' | replace: 'May', 'мая' | replace: 'June', 'июня' | replace: 'July', 'июля' | replace: 'August', 'августа' | replace: 'September', 'сентября' | replace: 'October', 'октября' | replace: 'November', 'ноября' | replace: 'December', 'декабря' }}
+				</p>
+				
+				</a>
+
+			</div>
+			 {% endfor %}
+		</div>
+		{% include footer.html %}
+		</div>
+	<div class="aside">
+		<a href="#" class="btn">наверх</a>
+	</div>
+</div>
+  {% include meta-footer.html %}
+      {% include analytics.html %}
+</body>
+</html>

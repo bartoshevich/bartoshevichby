@@ -1,30 +1,53 @@
 ---
-layout: default
+layout: compress
 ---
 
-<article class="post">
- <h1>{{ page.title }}</h1>
-          
-          <div class="rect">
-            <div class="date">
- 
-    {{ page.date | date: "%e %B %Y" | replace: 'January', 'января' | replace: 'February', 'февраля' | replace: 'March', 'марта' | replace: 'April', 'апреля' | replace: 'May', 'мая' | replace: 'June', 'июня' | replace: 'July', 'июля' | replace: 'August', 'августа' | replace: 'September', 'сентября' | replace: 'October', 'октября' | replace: 'November', 'ноября' | replace: 'December', 'декабря' }}
-               </div>
-             {% include sharetop.html %}
-                      </div>
-      <p><b></b></p>
-   <div class="entry">
-    {{ content }}
-  </div>
-
-  <br>
-<br>
-  {% include related.html %}
-<br>
-  
-
-  {% include post-after.html %}
-
-     
- 
-</article>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{ page.title }}</title>
+	
+	<link rel="stylesheet" type="text/css" href="/styles/post_style.css">
+	{% include meta.html %} 
+</head>
+<body>
+<div class="all-site">	
+	{% include menu.html %}
+	<div class="conteiner">
+		<div class="article-header">
+			<h3><a href="/">Дмитрий Бартошевич</a><h3>
+		</div>
+		
+		
+				
+		<div class="content">
+			<div class="article">
+				<h1>{{ page.title }}</h1>
+				<div class="rect">
+            	<div class="date">
+     			{{ page.date | date: "%e %B %Y" | replace: 'January', 'января' | replace: 'February', 'февраля' | replace: 'March', 'марта' | replace: 'April', 'апреля' | replace: 'May', 'мая' | replace: 'June', 'июня' | replace: 'July', 'июля' | replace: 'August', 'августа' | replace: 'September', 'сентября' | replace: 'October', 'октября' | replace: 'November', 'ноября' | replace: 'December', 'декабря' }}
+            	</div>
+             	{% include sharetop.html %}
+        		</div>
+      			<p><b></b></p>
+		{{ content }}
+		<br>
+		{% include related.html %}
+		<br>
+		{% include mailchimp.html %}
+		    </div>
+		
+		
+		</div>	
+			
+		{% include footer.html %}
+		</div>
+		
+	<div class="aside">
+		<a href="#" class="btn">наверх</a>
+	</div>
+</div>
+  {% include meta-footer.html %}
+      {% include analytics.html %}
+</body>
+</html>

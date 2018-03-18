@@ -1,0 +1,296 @@
+---
+---
+
+@import "reset"; 
+@import "variables";
+@import "menu";
+@import "basis";
+
+
+
+.all-site {
+	display:flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 900px) {
+	.all-site {
+		flex-direction: row;
+	}
+	.conteiner {
+		max-width: 75vw;
+		
+	}
+	
+	.content,
+	.article-header {
+		padding-left: 2rem;
+	}
+	.content {
+	padding-bottom:2rem;
+	flex-grow:1;
+	}
+}
+
+.conteiner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #f7f7f7;
+
+}
+
+
+.article-header {
+	margin-top: 20px;
+	margin-bottom:20px;
+@media (max-width: 899px) {
+	margin-top: 10px;
+	margin-bottom:20px;
+	}
+}
+
+
+.article-header a {
+	color: #111;
+	max-width: 800px;
+	font-size: 21px;
+	line-height: 29px;
+	text-decoration: none;
+	cursor: pointer;
+	border-bottom: 1px solid $linkbottom;
+	font-weight: normal;
+}
+
+.article-header a:hover {
+	color: $linkhover;
+	text-decoration: none;
+}
+
+
+@media (max-width: 899px) {
+	
+	.article-header {
+	padding: 1rem;
+	}
+}
+
+
+.slogan {
+	margin-top:2vw;
+	padding: 5vw 2rem;
+	background-color: #f9f0eb;
+	
+}
+
+.slogan p {
+	color: #333;
+	font-weight: normal;
+	margin: 0 0 .5em;
+	max-width:100rem;
+	font-size: calc(2vw + 2vh + .1vmin);
+	line-height: 1.05;
+	font-weight: 600;
+	letter-spacing: -.015em;
+
+}
+
+
+.me-head {
+	display:flex;
+	flex-wrap: wrap;
+	align-content: center;
+	margin: 2vw 0 0 0;
+	padding: 2rem 0;
+}
+
+
+.me-head h1 {
+  font-size: 1.55em;
+  font-weight: normal;
+  line-height: 1.1;
+  margin: 0.1818182em 0 1.09090909em;  
+}
+
+.me-head h2 {
+  font-size: 1.4em;
+  font-weight: normal;
+  line-height: 1.2;
+  margin: 3em 0 1em;
+}
+
+
+.me-head h3 {
+  font-size: 1.28571429em;
+  font-weight: normal;
+  line-height: 1.3;
+  margin: 3.33333333em 0 1.33333333em;
+}
+
+.me-head h1 + h2 {
+  margin-top: .1em;
+}
+
+
+@media (min-width: 768px) {
+  .me-head h1 {
+    font-size: 2.2375em;
+    margin-top: 0.07692308em;
+    margin-bottom: 0.31538462em;
+  }
+  .me-head h2 {
+    font-size: 1.7375em;
+    margin-top: 1.8em;
+    margin-bottom: 0.77419355em;
+  }
+  .me-head h3 {
+    font-size: 1.3625em;
+    margin-top: 1.4em;
+    margin-bottom: 0.66em;
+  }
+
+	.me-head h1 + h2,
+	.me-text h1 +h2 {
+  	margin-top: .7em;
+}
+}
+
+
+
+
+.me-head-block {
+	display:flex;
+	flex-direction:column;
+	flex: 1;
+	flex-basis: 330px;
+}
+
+
+.me-head-item {
+	padding: 1rem 0;
+	margin: auto 2rem;
+	min-height: 30vh;	
+}
+
+
+.break {
+	height:1.5vw;
+	//background: url('/images/head_cover.jpg') repeat fixed 100%;
+	background-color: #fff;
+}
+
+
+
+.me-head-item p {	
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: normal;
+	font-weight: 400;
+}
+
+
+.me-head a,
+.me-text a,
+.me-text-2 a {
+
+	color: $link;
+    text-decoration: none;
+	cursor: pointer;
+	&:hover, &:active {
+    color: $link;
+	text-decoration: underline;
+	border-bottom: 0;
+    }	
+}
+
+
+.row ul{list-style:none;padding:0px;margin:0px;}
+.row li{margin-bottom:0.8em; color: #111; line-height:18px;}
+	
+
+.me-text {
+	padding: 3rem 2rem;
+	background-color: #fafafa //#f9f0eb;
+}
+
+.me-text h2,
+.me-text h3  {
+  	margin: .4em 0;
+}
+
+.me-text-2 {
+	padding: 3rem 2rem;
+	background-color: #f7f7f7;
+}
+
+.me-text-head {
+	padding: 3rem 0 0 2rem;
+}
+
+.workdate {
+	font-size: 15px;
+	margin-top: 0;
+	margin-bottom: 1em;
+ 	line-height: 1.3em;
+ 	color: #333;
+}
+
+.row p {
+	max-width: 40rem;
+}
+
+.me-text img,
+.me-text-2 img,
+.work-item {
+	
+	margin: 2rem 0 1rem 0;
+	
+}
+
+
+.wtf {
+    
+    color: #333;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.wtf a {
+	border-bottom: 0;
+}
+
+img,
+.img-responsive,
+.img-shadow  {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.img-shadow {box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+}
+
+
+
+
+// video
+
+.video {
+  	width: 100%;
+  	position: relative;
+  	padding-top: 56.25%;
+}
+.video iframe, .video object, .video embed{
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+}
+
+
+
+@import "grid";
+@import "footer";
+@import "svg-icons";

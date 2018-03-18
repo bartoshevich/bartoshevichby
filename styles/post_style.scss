@@ -1,0 +1,293 @@
+---
+---
+
+@import "reset"; 
+@import "variables";
+@import "menu";
+@import "basis";
+@import "article-h";
+
+.article a {
+
+	color: $link;
+    text-decoration: none;
+	cursor: pointer;
+	&:hover, &:active {
+    color: $link;
+	text-decoration: underline;
+	border-bottom: 0;
+    }	
+}
+
+
+.all-site {
+	display:flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 900px) {
+	.all-site {
+		flex-direction: row;
+	}
+	.conteiner {
+		max-width: 75vw;
+		padding-right: 1rem;
+	}
+	
+	.content,
+	.article-header {
+		padding-left: 2rem;
+	}
+	.content {
+	padding-bottom:2rem;
+	}
+}
+
+.conteiner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #f7f7f7;
+
+}
+
+
+.article-header {
+	margin-top: 20px;
+	margin-bottom:20px;
+@media (max-width: 899px) {
+	margin-top: 10px;
+	margin-bottom:20px;
+	}
+}
+
+
+.article-header a {
+	color: #111;
+	max-width: 800px;
+	font-size: 21px;
+	line-height: 29px;
+	text-decoration: none;
+	cursor: pointer;
+	border-bottom: 1px solid $linkbottom;
+	font-weight: normal;
+}
+
+.article-header a:hover {
+	color: $linkhover;
+	text-decoration: none;
+}
+
+
+.article {
+    max-width: 740px;
+	margin-top: 50px;
+@media (max-width: 899px) {
+	margin-top: 10px;
+
+	}
+}
+
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: stretch;
+	flex-grow: 1;
+	
+}
+
+
+@media (max-width: 899px) {
+	.content {
+	justify-content:center;
+	align-content: center;
+	padding: 1rem;
+	}
+	.article-header {
+	padding: 1rem;
+	}
+}
+
+.wtf {
+    
+    color: #333;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.wtf a {
+	border-bottom: 0;
+}
+
+img,
+.img-responsive,
+.img-shadow  {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.img-shadow {box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+}
+
+
+.address {
+	padding: 3% 3.5%;
+	background: #e3e3e3;
+    display: inline-block;
+	width: 100%;
+}
+
+
+
+.date {
+  	font-style: italic;
+  	color: #666;
+	font-size: .8125em;
+  	margin-bottom: -30px;
+}
+
+
+.article {
+  blockquote {
+    font-style: italic;
+	border-left: 1px solid #a73147;
+    padding-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    margin-left: 30px;  
+  }
+  
+}
+
+
+// для выделения текста
+.hip {
+	border: 2px solid #ffa600;
+	font-size: 26px;
+	font-weight: bold;
+	padding: 20px 20px 25px 20px;
+	width: 100%;
+	margin-bottom: 1.2em;
+	max-width: 760px;
+}
+
+
+//для утп
+.hip2 {
+	background-color:#e9fbe9;
+	font-size: 26px;
+	font-weight: bold;
+	padding: 20px 20px 25px 20px;
+	width: 100%;
+	border-radius:6px;
+	margin-bottom: 1.3em;
+	max-width: 760px;
+}
+
+
+
+// подчеркивание 
+mark {background: #ffffa1; padding: 1px 0; }
+
+
+
+// related
+.rect {
+    border-top: 1px solid #b4b4b4;
+    padding-top: 15px;
+    margin:0 auto;
+}
+
+// шрифт на кегль меньше для таблиц
+.fontme { font-size:14px;line-height:19px;
+@media (max-width: 716px) {
+    font-size: 18px;
+	line-height:25px;
+  }
+}
+
+
+// синяя рамка
+.wff {background-color:#fff;margin:30px 0 30px 0;border-radius:6px;padding:15px 15px 15px;border:#4183C4 2px solid}
+
+
+.notetip {width:90%;font-size:14px;line-height:15px; border-radius:5px 5px;padding:5px 5px 5px 50px;margin:0;height:auto!important;overflow:hidden;position:relative;bottom:6px;right:6px;border:0 solid #0092e0;background-position:20px 50%;background-repeat:no-repeat}
+
+
+// video
+
+.video {
+  	width: 100%;
+  	position: relative;
+  	margin-top: 20px;
+  	padding-top: 56.25%;
+}
+.video iframe, .video object, .video embed{
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+}
+
+/* таблицы */
+
+table {
+	border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    font-size: 0.9em;
+    width: 100%;
+    margin-bottom: 1.1em;
+}
+
+th,
+td {
+	padding: 2%;
+	margin: 0;
+	overflow: visible;
+	line-height: 120%;
+	border-bottom: 1px solid #cfcfcf;
+	vertical-align: top;
+}
+th { padding-top: 0;
+	font-weight: bold;
+	color: #111;}
+
+thead {
+	vertical-align: bottom;
+	white-space: nowrap;
+}
+
+
+
+//подпись к фото респондента 
+.person {
+  font-size: 0.9em;
+  border-top:1px solid #DDD; 
+}
+
+
+
+// кнопки поделиться в статье
+.sha2re-buttons {
+    padding-bottom: 0.75rem;
+ 	text-align: right;
+ 	text-decoration: none;
+ 	border-bottom: 0;
+}
+
+.sha2re-buttons a:hover,
+.sha2re-buttons a:active {
+  	text-decoration: none;
+}
+
+
+@import "aside-right";
+@import "grid";
+@import "mailchimp";
+@import "footer";
+@import "svg-icons";

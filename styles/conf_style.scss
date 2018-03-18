@@ -1,0 +1,167 @@
+---
+---
+
+@import "reset"; 
+@import "variables";
+@import "menu";
+@import "basis";
+
+
+
+.article a {
+
+	//background-color: transparent;
+	color: $link;
+    text-decoration: none;
+	cursor: pointer;
+	&:hover, &:active {
+    color: $link;
+	text-decoration: underline;
+	border-bottom: 0;
+    }	
+}
+
+
+.all-site {
+	display:flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 900px) {
+	.all-site {
+		flex-direction: row;
+	}
+	.conteiner {
+		max-width: 75vw;
+		padding-right: 1rem;
+	}
+	
+	.content,
+	.article-header {
+		padding-left: 2rem;
+	}
+	.content {
+	padding-bottom:2rem;
+	}
+}
+
+.conteiner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+background-color: #f7f7f7;
+
+}
+
+
+.article-header {
+	margin-top: 20px;
+	margin-bottom:20px;
+@media (max-width: 899px) {
+	margin-top: 10px;
+	margin-bottom:20px;
+	}
+}
+
+
+.article-header a {
+	color: #111;
+	max-width: 800px;
+	font-size: 21px;
+	line-height: 29px;
+	text-decoration: none;
+	cursor: pointer;
+	border-bottom: 1px solid $linkbottom;
+	font-weight: normal;
+}
+
+.article-header a:hover {
+	color: $linkhover;
+	text-decoration: none;
+}
+
+
+.article {
+    max-width: 740px;
+	margin-top: 50px;
+@media (max-width: 899px) {
+	margin-top: 10px;
+
+	}
+}
+
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: stretch;
+	flex-grow: 1;
+	
+}
+
+
+
+@media (max-width: 899px) {
+	.content {
+	justify-content:center;
+	align-content: center;
+	padding: 1rem;
+	}
+	.article-header {
+	padding: 1rem;
+	}
+}
+
+.wtf {
+    
+    color: #333;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.wtf a {
+	border-bottom: 0;
+}
+
+img,
+.img-responsive,
+.img-shadow  {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.img-shadow {box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+}
+
+
+
+.address {
+	padding: 3% 3.5%;
+	background: #e3e3e3;
+    display: inline-block;
+	width: 100%;
+}
+
+
+.article {
+  blockquote {
+    font-style: italic;
+	border-left: 1px solid #a73147;
+    padding-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    margin-left: 30px;  
+  }
+  
+}
+
+
+// подчеркивание 
+mark {background: #ffffa1; padding: 1px 0; }
+
+
+@import "article-h";
+@import "footer";
+@import "svg-icons";
