@@ -1,6 +1,8 @@
 .menu {
 	background-color: $menubackground;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	color: $menutext;
 	padding: 1rem;
 	}
@@ -27,10 +29,17 @@
 
 @media (max-width: 899px) {
 	.menu {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-		flex-direction: row;
-	    justify-content: space-around;
-	    flex-wrap: wrap;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+	    -ms-flex-pack: distribute;
+	        justify-content: space-around;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
 	}
 	.menu-item {
 	    margin-right: 20px;
@@ -47,10 +56,17 @@
 		position: fixed;
 		height: 100vh;
 		min-height: 800px;
+		display: -webkit-box;
+		display: -ms-flexbox;
 		display: flex;
-		flex-direction: column;
-	    justify-content: space-around;
-	    flex-wrap: nowrap;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	    -ms-flex-pack: distribute;
+	        justify-content: space-around;
+	    -ms-flex-wrap: nowrap;
+	        flex-wrap: nowrap;
 	}
 	.menu-item {
 		margin: 0;
