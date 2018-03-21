@@ -14,6 +14,7 @@
 	-ms-flex-line-pack: center; 
 	    align-content: center;
 	min-height: 20vh;
+	width:100%
 	
 }
 
@@ -31,7 +32,7 @@
 }
 
 .footer-item {
-	padding: 1vw;
+	padding: 2vw;
 	-ms-flex-item-align:center;
 	    -ms-grid-row-align:center;
 	    align-self:center;
@@ -48,14 +49,13 @@
 
 @media (max-width: 899px) {
 	.footer-item {
-    margin-bottom: 20px;
+   margin-bottom: 20px;
 	}
 }
 
 @media only screen and (min-width: 900px) {
 	.footer {
 	padding-left: 2rem;
-	width: 75vw;
 	}
 }
 

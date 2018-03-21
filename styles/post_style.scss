@@ -6,6 +6,7 @@
 @import "menu";
 @import "basis";
 @import "article-h";
+@import "article-header";
 
 
 
@@ -41,14 +42,15 @@
 		    -ms-flex-direction: row;
 		        flex-direction: row;
 	}
+
 	.conteiner {
-		max-width: 75vw;
-		padding-right: 1rem;
+	width:75vw;
 	}
-	
-	.content,
-	.article-header {
+
+
+	.article {
 		padding-left: 2rem;
+
 	}
 	.content {
 	padding-bottom:2rem;
@@ -71,36 +73,13 @@
 }
 
 
-.article-header {
-	margin-top: 20px;
-	margin-bottom:20px;
-@media (max-width: 899px) {
-	margin-top: 10px;
-	margin-bottom:20px;
-	}
-}
 
-
-.article-header a {
-	color: #111;
-	max-width: 800px;
-	font-size: 21px;
-	line-height: 29px;
-	text-decoration: none;
-	cursor: pointer;
-	border-bottom: 1px solid $linkbottom;
-	font-weight: normal;
-}
-
-.article-header a:hover {
-	color: $linkhover;
-	text-decoration: none;
-}
 
 
 .article {
     max-width: 740px;
 	margin-top: 50px;
+	padding-right:1rem;
 @media (max-width: 899px) {
 	margin-top: 10px;
 
@@ -119,6 +98,7 @@
 	-webkit-box-flex: 1;
 	    -ms-flex-positive: 1;
 	        flex-grow: 1;
+
 	
 }
 
@@ -132,9 +112,7 @@
 	    align-content: center;
 	padding: 1rem;
 	}
-	.article-header {
-	padding: 1rem;
-	}
+	
 }
 
 .wtf {

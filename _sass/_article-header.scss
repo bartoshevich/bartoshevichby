@@ -1,0 +1,39 @@
+
+.article-header, 
+.article-header p,
+.article-header h3 {
+	margin-top: 20px;
+	margin-bottom:30px;
+	
+@media (max-width: 899px) {
+	margin-top: 10px;
+	margin-bottom:20px;
+	}
+
+}
+
+.article-header a {
+	color: #111;
+	max-width: 740px;
+	text-decoration: none;
+	cursor: pointer;
+	border-bottom: 1px solid $linkbottom;
+	font-weight: normal;
+@media (max-width: 899px) {
+	font-size: 19px;
+	line-height: 27px;
+	margin-left: 1rem;
+	}
+@media only screen and (min-width: 900px) {
+	font-size: 21px;
+	line-height: 29px;
+	margin-left: 2rem;
+	}	
+}
+
+.article-header a:hover {
+	color: $linkhover;
+	text-decoration: none;
+}
+
+

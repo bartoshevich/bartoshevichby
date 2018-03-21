@@ -6,7 +6,7 @@
 @import "menu";
 @import "basis";
 @import "article-h";
-
+@import "article-header";
 
 
 .ya-site-form__search-wrap td {
@@ -60,12 +60,12 @@ border-bottom: none;
 		        flex-direction: row;
 	}
 	.conteiner {
-		max-width: 75vw;
+		width: 75vw;
 	}
-	
-	.content,
-	.article-header {
-		padding-left: 2rem;
+
+	.article {
+	padding-right:1rem;
+	padding-left: 2rem;
 	}
 	.content {
 	padding-bottom:2rem;
@@ -86,32 +86,9 @@ border-bottom: none;
 	background-color: #f7f7f7;
 }
 
-.article-header, 
-.article-header p {
-	margin-top: 20px;
-	margin-bottom:20px;
-@media (max-width: 899px) {
-	margin-top: 10px;
-	margin-bottom:20px;
-	}
-}
 
 
-.article-header a {
-	color: #111;
-	max-width: 800px;
-	font-size: 21px;
-	line-height: 29px;
-	text-decoration: none;
-	cursor: pointer;
-	border-bottom: 1px solid $linkbottom;
-	font-weight: normal;
-}
 
-.article-header a:hover {
-	color: $linkhover;
-	text-decoration: none;
-}
 
 
 .article {
@@ -149,9 +126,7 @@ border-bottom: none;
 	    align-content: center;
 	padding: 1rem;
 	}
-	.article-header {
-	padding: 1rem;
-	}
+	
 }
 
 .wtf {
