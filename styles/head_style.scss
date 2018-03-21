@@ -5,6 +5,7 @@
 @import "variables";
 @import "menu";
 @import "basis";
+@import "cover";
 
 
 
@@ -71,7 +72,6 @@ a:hover, a:active {
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
 	        justify-content: center;
-	background: url('/images/head_cover.jpg') repeat fixed 100%;
 	}
 
 .head {
