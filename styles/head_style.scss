@@ -5,11 +5,6 @@
 @import "variables";
 @import "menu";
 @import "basis";
-@import "cover";
-
-
-
-
 
 
 a {
@@ -62,6 +57,7 @@ a:hover, a:active {
 }
 
 .conteiner {
+    background: url('/images/head_cover.jpg') repeat fixed 100%;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
