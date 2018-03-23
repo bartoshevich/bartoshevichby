@@ -8,28 +8,7 @@
 
 
 
-.cover_preload {
-                width: 1px;
-                height: 1px;
-                display: inline;
-                background-image: url('/images/head_cover.jpg');
-                /* другие изображеня для предварительной загрузки */
-               }
 
-
-
-a {
-	background-color: transparent;
-	color: $link;
-    text-decoration: none;
-	cursor: pointer;
-	border-bottom: 1px solid $linkbottom;
-}
-
-a:hover, a:active {
-    color: $linkhover;
-	text-decoration: none;
-}
 
 .all-site {
 	display:-webkit-box;
@@ -268,6 +247,20 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+a {
+	background-color: transparent;
+	color: $link;
+    text-decoration: none;
+	cursor: pointer;
+	border-bottom: 1px solid $linkbottom;
+}
+
+a:hover, a:active {
+    color: $linkhover;
+	text-decoration: none;
+}
+
 
 @import "footer";
 @import "svg-icons";
