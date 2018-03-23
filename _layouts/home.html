@@ -10,6 +10,8 @@ layout: compress
 	<link rel="prefetch" href="/images/head_cover.jpg" as="image">
 		<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
 	{% include criticalhome.html %}
+	<link rel="preload" href="/styles/head_style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" href="/styles/head_style.css"></noscript>
 	
 </head>
 <body>
@@ -124,7 +126,7 @@ layout: compress
 		<a href="#" class="btn">наверх</a>
 	</div>
 </div>
-	<link rel="stylesheet" type="text/css" href="/styles/head_style.css">
+	
   {% include meta-footer.html %}
       {% include analytics.html %}
 </body>
