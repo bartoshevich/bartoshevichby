@@ -10,17 +10,7 @@
 
 
 
-.article a {
 
-	color: $link;
-    text-decoration: none;
-	cursor: pointer;
-	&:hover, &:active {
-    color: $link;
-	text-decoration: underline;
-	border-bottom: 0;
-    }	
-}
 
 
 .all-site {
@@ -75,9 +65,9 @@
 
 
 
-
 .article {
     max-width: 740px;
+  //  min-width:260px;
 	margin-top: 50px;
 	padding-right:1rem;
 @media (max-width: 899px) {
@@ -104,15 +94,11 @@
 
 
 @media (max-width: 899px) {
-	.content {
-	-webkit-box-pack:center;
-	    -ms-flex-pack:center;
-	        justify-content:center;
-	-ms-flex-line-pack: center;
-	    align-content: center;
+	.content {	
+	    -ms-flex-line-pack: center;	
+	        align-content: center;
 	padding: 1rem;
-	}
-	
+	}	
 }
 
 .wtf {
@@ -243,12 +229,14 @@ mark {background: #ffffa1; padding: 1px 0; }
 /* таблицы */
 
 table {
+
 	border-collapse: collapse;
     border-spacing: 0;
     empty-cells: show;
-    font-size: 0.9em;
-    width: 100%;
-    margin-bottom: 1.1em;
+    font-size: 0.8em;
+    width: 95%;
+    margin: .1em 0 1.1em 0;
+    
 }
 
 th,
@@ -277,6 +265,17 @@ thead {
   border-top:1px solid #DDD; 
 }
 
+.article a {
+
+	color: $link;
+    text-decoration: none;
+	cursor: pointer;
+	&:hover, &:active {
+    color: $link;
+	text-decoration: underline;
+	border-bottom: 0;
+    }	
+}
 
 
 // кнопки поделиться в статье
