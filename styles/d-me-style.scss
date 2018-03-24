@@ -4,7 +4,7 @@
 @import "d-menu";
 @import "d-article-header";
 
-@media only screen and (min-width: 900px) {
+
 	.all-site {
 		-webkit-box-orient: horizontal;
 		-webkit-box-direction: normal;
@@ -25,6 +25,6 @@
 	    -ms-flex-positive:1;
 	        flex-grow:1;
 	}
-}
+
 
 @import "d-footer";
