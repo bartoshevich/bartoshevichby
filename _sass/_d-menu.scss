@@ -1,0 +1,39 @@
+
+
+
+	.menu-side {
+		width: 6vw;
+		height: 100vh;
+	}
+	.menu {
+		width: 6vw;
+		position: fixed;
+		height: 100vh;
+		min-height: 800px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	    -ms-flex-pack: distribute;
+	        justify-content: space-around;
+	    -ms-flex-wrap: nowrap;
+	        flex-wrap: nowrap;
+	}
+	.menu-item {
+		margin: 0;
+		-webkit-transform: rotate(-90deg);
+		-moz-transform: rotate(-90deg);
+		-ms-transform: rotate(-90deg);
+		-o-transform: rotate(-90deg);
+		filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+	}
+
+
+	@media (max-height: 750px) {  
+  .menu {
+		min-height: 680px;
+}
+}

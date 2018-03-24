@@ -27,57 +27,13 @@
 	color: $menutext;
 }
 
-@media (max-width: 899px) {
-	.menu {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-		-webkit-box-orient: horizontal;
-		-webkit-box-direction: normal;
-		    -ms-flex-direction: row;
-		        flex-direction: row;
-	    -ms-flex-pack: distribute;
-	        justify-content: space-around;
-	    -ms-flex-wrap: wrap;
-	        flex-wrap: wrap;
-	}
-	.menu-item {
-	    margin-right: 20px;
-	}
-}
-
-@media only screen and (min-width: 900px) {
-	.menu-side {
-		width: 6vw;
-		height: 100vh;
-	}
-	.menu {
-		width: 6vw;
-		position: fixed;
-		height: 100vh;
-		min-height: 800px;
-		display: -webkit-box;
-		display: -ms-flexbox;
-		display: flex;
-		-webkit-box-orient: vertical;
-		-webkit-box-direction: normal;
-		    -ms-flex-direction: column;
-		        flex-direction: column;
-	    -ms-flex-pack: distribute;
-	        justify-content: space-around;
-	    -ms-flex-wrap: nowrap;
-	        flex-wrap: nowrap;
-	}
-	.menu-item {
-		margin: 0;
-		-webkit-transform: rotate(-90deg);
-		-moz-transform: rotate(-90deg);
-		-ms-transform: rotate(-90deg);
-		-o-transform: rotate(-90deg);
-		filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-	}
-}
-
 .grey a {
 	color: #d6d6d6;
 }
+
+
+@media (max-height: 750px) {
+  .menu-item {
+    font-size: 14px;
+  }
+ }

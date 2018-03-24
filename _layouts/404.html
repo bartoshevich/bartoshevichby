@@ -6,10 +6,14 @@ layout: compress
 <html>
 <head>
 	<title> 404 — Страница не найдена </title>
-	{% include critical404.html %}
 	
-	<link rel="stylesheet" type="text/css" href="/styles/search_style.css">
+	
 	{% include meta.html %} 
+
+	<link rel="stylesheet" type="text/css" href="/styles/search-style.css">
+	<link rel="stylesheet" type="text/css" href="/styles/m-search-style.css" media="screen and (max-width: 899px)">
+	<link rel="stylesheet" type="text/css" href="/styles/d-search-style.css" media="screen and (min-width: 900px)">
+	<link rel="stylesheet" type="text/css" href="/styles/icons.css" media="none" onload="if(media!='all')media='all'">
 </head>
 <body>
 <div class="all-site">	

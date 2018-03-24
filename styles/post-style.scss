@@ -5,7 +5,6 @@
 @import "variables";
 @import "menu";
 @import "basis";
-@import "article-h";
 @import "article-header";
 
 
@@ -25,27 +24,7 @@
 	    flex-wrap: wrap;
 }
 
-@media only screen and (min-width: 900px) {
-	.all-site {
-		-webkit-box-orient: horizontal;
-		-webkit-box-direction: normal;
-		    -ms-flex-direction: row;
-		        flex-direction: row;
-	}
 
-	.conteiner {
-	width:75vw;
-	}
-
-
-	.article {
-		padding-left: 2rem;
-
-	}
-	.content {
-	padding-bottom:2rem;
-	}
-}
 
 .conteiner {
 	display: -webkit-box;
@@ -67,13 +46,8 @@
 
 .article {
     max-width: 740px;
-  //  min-width:260px;
-	margin-top: 50px;
+    min-width:280px;
 	padding-right:1rem;
-@media (max-width: 899px) {
-	margin-top: 10px;
-
-	}
 }
 
 
@@ -93,13 +67,7 @@
 }
 
 
-@media (max-width: 899px) {
-	.content {	
-	    -ms-flex-line-pack: center;	
-	        align-content: center;
-	padding: 1rem;
-	}	
-}
+
 
 .wtf {
     
@@ -284,6 +252,7 @@ thead {
  	text-align: right;
  	text-decoration: none;
  	border-bottom: 0;
+ 	height: 28px;
 }
 
 .sha2re-buttons a:hover,
@@ -296,4 +265,4 @@ thead {
 @import "grid";
 @import "mailchimp";
 @import "footer";
-@import "svg-icons";
+

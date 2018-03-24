@@ -3,8 +3,8 @@
 
 @import "reset"; 
 @import "variables";
-@import "menu";
-@import "basis";
+
+
 
 
 
@@ -23,31 +23,16 @@
 }
 
 
-@media only screen and (min-width: 900px) {
-	.all-site {
-		-webkit-box-orient: horizontal;
-		-webkit-box-direction: normal;
-		    -ms-flex-direction: row;
-		        flex-direction: row;
-	}
-	.conteiner {
-		width: 75vw;
-	}
-	.head {		
-		padding: 7vw 5vw 1vw 2rem;
-}
-	.head2,
-	.head3,
-	.content {
-		padding-left: 2rem;
-	}
-	.content {
-	padding-bottom:2rem;
-	}
-}
+
+
+
+@import "menu";
+@import "basis";
+
+
+
 
 .conteiner {
-    background: url('/images/head_cover.jpg') repeat fixed 100%;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -58,6 +43,7 @@
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
 	        justify-content: center;
+	        background: url('/images/head_cover.jpg') repeat fixed 100%;
 	}
 
 .head {
@@ -216,21 +202,7 @@
 }
 
 
-@media (max-width: 899px) {
-	.content {
-	-webkit-box-pack:center;
-	    -ms-flex-pack:center;
-	        justify-content:center;
-	-ms-flex-line-pack: center;
-	    align-content: center;
-	padding: 1rem;
-	}
-	.head,
-	.head2,
-	.head3 {
-	padding: 1rem;
-	}
-}
+
 
 .wtf {
     
@@ -263,4 +235,4 @@ a:hover, a:active {
 
 
 @import "footer";
-@import "svg-icons";
+

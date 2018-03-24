@@ -7,7 +7,10 @@ layout: compress
 <head>
 	<title>{{ page.title }}</title>
 	{% include meta.html %} 
-	<link rel="stylesheet" type="text/css" href="/styles/post_style.css">
+	<link rel="stylesheet" type="text/css" href="/styles/post-style.css">
+	<link rel="stylesheet" type="text/css" href="/styles/m-post-style.css" media="screen and (max-width: 899px)">
+	<link rel="stylesheet" type="text/css" href="/styles/d-post-style.css" media="screen and (min-width: 900px)">
+	<link rel="stylesheet" type="text/css" href="/styles/icons.css" media="none" onload="if(media!='all')media='all'">
 	<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
 	
 </head>
