@@ -1,13 +1,7 @@
----
----
+
 
 @import "reset"; 
 @import "variables";
-
-
-
-
-
 
 
 .all-site {
@@ -45,6 +39,8 @@
 	        justify-content: center;
 	        background: url('/images/head_cover.jpg') repeat fixed 100%;
 	}
+
+
 
 .head {
 	background-color: #f9f0eb;
@@ -234,5 +230,5 @@ a:hover, a:active {
 }
 
 
-@import "footer";
+
 

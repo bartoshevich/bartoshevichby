@@ -1,11 +1,11 @@
----
----
+
 
 
 @import "d-menu";
-
 @import "d-article-h";
 @import "d-article-header";
+
+
 
 
 .all-site {
@@ -14,17 +14,21 @@
 		    -ms-flex-direction: row;
 		        flex-direction: row;
 	}
+
 .conteiner {
-		width: 75vw;
+	width:75vw;
 	}
 
+
 .article {
-	padding-right:1rem;
-	padding-left: 2rem;
+		padding-left: 2rem;
+		margin-top: 50px;
 	}
+
 .content {
 	padding-bottom:2rem;
 	}
 
 
-@import "d-footer";
+
+

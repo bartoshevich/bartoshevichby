@@ -7,8 +7,21 @@ layout: compress
 <head>
 	<title>поиск по сайту </title>
 	{% include meta.html %} 
-	<link rel="stylesheet" type="text/css" href="/styles/search-style.css">
-	{% include criticalsearch.html %} 
+	
+	<style type="text/css">
+    {% capture criticalcss %}
+      {% include search-style.scss %}
+  @media only screen and (max-width:899px) {
+      {% include m-search-style.scss %}
+  }
+  @media only screen and (min-width:900px) {
+        {% include d-search-style.scss %}
+    }    
+    {% endcapture %}
+    {{ criticalcss | scssify }}
+  </style>
+
+
 	<link rel="stylesheet" type="text/css" href="/styles/icons.css" media="none" onload="if(media!='all')media='all'">
 	
 </head>

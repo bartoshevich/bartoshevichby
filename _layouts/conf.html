@@ -8,9 +8,19 @@ layout: compress
 	<title>{{ page.title }}</title>
 	{% include meta.html %} 
 	
+	<style type="text/css">
+    {% capture criticalcss %}
+      {% include conf-style.scss %}
+  @media only screen and (max-width:899px) {
+      {% include m-conf-style.scss %}
+  }
+  @media only screen and (min-width:900px) {
+        {% include d-conf-style.scss %}
+    }    
+    {% endcapture %}
+    {{ criticalcss | scssify }}
+  </style>
 	
-	<link rel="stylesheet" type="text/css" href="/styles/conf-style.css">
-	{% include criticalconf.html %} 
 	<link rel="stylesheet" type="text/css" href="/styles/icons.css" media="none" onload="if(media!='all')media='all'">
 	
 </head>
