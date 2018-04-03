@@ -37,14 +37,14 @@
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
 	        justify-content: center;
-	        background: url('/images/head_cover.jpg') repeat fixed 100%;
+	        background-color: #ffffff;
 	}
 
 
 
 .head {
 	background-color: #f9f0eb;
-	margin-bottom: 20px;
+	margin-bottom: 2vh;
 }
 
 .head-about {
@@ -96,14 +96,14 @@
 }
 
 .head2 {
-	margin-top: 40px;
+//	margin-top: 40px;
 	background-color: #fafafa;
 	padding-top:30px;
 	
 }
 
 .head3 {
-	margin-top: 60px;
+	margin-top: 2vh;
 	padding-top:30px;
 	background-color: #fff;
 }
