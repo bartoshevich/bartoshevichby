@@ -31,7 +31,7 @@ image: /images/flex_label-420.jpg
 </picture>
                   
                   <div class="person"><strong>Елена Горбачева</strong><br/>
- генеральный директор <a href="//flex-n-roll.ru/" target="_blank" rel="noopener"><nobr>ООО «Флекс-н-Ролл»</nobr></a>
+ генеральный директор <a href="http://flex-n-roll.ru/" target="_blank" rel="noopener"><nobr>ООО «Флекс-н-Ролл»</nobr></a>
 
   </div>                  
   </div>   </div>
