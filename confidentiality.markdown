@@ -2,7 +2,7 @@
 layout: conf
 permalink: /confidentiality/
 description: "Посещая bartoshevich.by, вы соглашаетесь с этой политикой. В ином случае — закройте сайт."
-title: "Политика конфиденциаль&shy;ности"
+title: "Политика конфиден&shy;циаль&shy;ности"
 ---
 
 
