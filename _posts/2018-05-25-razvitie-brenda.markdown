@@ -70,8 +70,9 @@ image: /images/viral.jpg
 
 <p>Желающим узнать по&nbsp;теме больше, рекомендую видео, в&nbsp;котором <a href="https://ru.wikipedia.org/wiki/%D0%90%D1%88%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2,_%D0%98%D0%B3%D0%BE%D1%80%D1%8C_%D0%A1%D1%82%D0%B0%D0%BD%D0%B8%D1%81%D0%BB%D0%B0%D0%B2%D0%BE%D0%B2%D0%B8%D1%87" target="_blank" rel="noopener">Игорь Ашманов</a> рассказывает о&nbsp;механике распространения вирусов и&nbsp;новостных вбросов. </p>
 
-<div class="wtf"><p><div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/I33IM8MRHIo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
-Игорь Ашманов рассказывает о&nbsp;механике распространения вирусов</p></div>
+<div class="wtf"><div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/I33IM8MRHIo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>
+Игорь Ашманов рассказывает о&nbsp;механике распространения вирусов</div>
+<p></p>
 
 <p>Бесплатность вирусного маркетинга&nbsp;— миф. Вам придется найти «агентов влияния» в&nbsp;своей сфере и&nbsp;стимулировать публиковать ваш контент. И&nbsp;делать это регулярно. </p>
 
