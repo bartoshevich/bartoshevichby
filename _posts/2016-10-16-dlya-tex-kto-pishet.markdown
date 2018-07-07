@@ -31,19 +31,19 @@ tags: "инструменты"
 		<tr> 
 	<td>главы «Критики чистого разума»</td>
 	<td>17.2</td>
-	<td><nobr>4-6</nobr> курс ВУЗа</td>
+	<td><span class="noperenos">4-6</span> курс ВУЗа</td>
 	
  		</tr>
 		<tr> 
 	<td>статья <a href="/mnenie/effektivnost-vlozhenij-v-marketing/">«Как увеличить отдачу от&nbsp;вложений в&nbsp;маркетинг»</a></td>
 	<td>10.33</td>
-	<td><nobr>10-11</nobr> класс</td>
+	<td><span class="noperenos">10-11</span> класс</td>
 	
  		</tr>
 		<tr> 
 <td>сказка папы-маркетолога <a href="/mnenie/skazki-papy-marketologa/">«Бульба»</a></td>
 	<td>4.41</td>
-	<td><nobr>4-6</nobr> класс</td>
+	<td><span class="noperenos">4-6</span> класс</td>
 	
  		</tr>
 		<tr> 
