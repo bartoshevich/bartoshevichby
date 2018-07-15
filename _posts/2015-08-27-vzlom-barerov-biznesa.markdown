@@ -16,7 +16,7 @@ tags: "семинары"
 <img src='/images/bar2.jpg' alt="Дмитрий Григорьев" width="695" height="509" class="img-responsive"/>
 <br>
 <img src='/images/bar3.jpg' alt="Сергей Дробышевский" width="695" height="550" class="img-responsive"/>
-
+</p>
 <p>Выдержки из&nbsp;отзывов участников мероприятия:</p>
 <p><em>«интересно и&nbsp;самое главное&nbsp;— понятно»</em><br/>
 	<em>«прекрасные факты в&nbsp;доступной визуализации»</em><br/>
