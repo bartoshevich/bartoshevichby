@@ -40,6 +40,7 @@ tags: "инструменты"
  </ul>
 <ul> 
 	<li>Сарафанное радио. Необычный тест-драйв побудит людей поделиться информацией о&nbsp;продукте. Возьмем блендер и&nbsp;попробуем перемолоть iPhone 6&nbsp;Plus и&nbsp;Samsung Galaxy Note&nbsp;3, снимем процесс на&nbsp;видео, разместим на&nbsp;youtube и&nbsp;наберем свыше 4&nbsp;млн. просмотров. Как это сделал Blendtec.</li>
+</ul>
  
-<i class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/lBUJcD6Ws6s?rel=0" allowfullscreen></iframe></i></ul>
+<div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/lBUJcD6Ws6s?rel=0" allowfullscreen></iframe></div>
 
