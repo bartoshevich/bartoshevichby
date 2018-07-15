@@ -211,10 +211,15 @@ mark {background: #ffffa1; padding: 1px 0; }
   	height: 100%;
 }
 
+iframe {
+	border:0;
+	overflow:hidden;
+}
+
 /* таблицы */
 
 table {
-
+    background-color : #f2f2f2;
 	border-collapse: collapse;
     border-spacing: 0;
     empty-cells: show;
@@ -244,6 +249,10 @@ thead {
 }
 
 
+
+.Gainsboro {
+	background-color: Gainsboro;
+}
 
 //подпись к фото респондента 
 .person {

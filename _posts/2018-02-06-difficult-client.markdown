@@ -19,7 +19,7 @@ image: /images/problemclient1802.png
 <table> 
 		<colgroup><col/><col/></colgroup>
 		<tbody> 
-			<tr bgcolor="Gainsboro"> 
+			<tr class="Gainsboro"> 
 				<td> 
 					Описание ситуации
 				</td>
@@ -27,7 +27,7 @@ image: /images/problemclient1802.png
 					Проблема в&nbsp;клиенте?
 				</td>
 			</tr>
-			<tr bgcolor="#f2f2f2"> 
+			<tr > 
 				<td> 
 					Веб-студия значимо задерживает согласованные ранее сроки разработки сайта, заказчик настаивает на&nbsp;применении штрафных санкций.
 				</td>
@@ -35,7 +35,7 @@ image: /images/problemclient1802.png
 					нет
 				</td>
 			</tr>
-			<tr bgcolor="#f2f2f2"> 
+			<tr > 
 				<td> 
 					Заказ выполнен. Заказчик указал на&nbsp;несоответствие с&nbsp;техническим заданием и&nbsp;отказывается оплачивать услугу до&nbsp;устранения замечаний.
 				</td>
@@ -43,7 +43,7 @@ image: /images/problemclient1802.png
 					нет
 				</td>
 			</tr>
-			<tr bgcolor="#f2f2f2"> 
+			<tr > 
 				<td> 
 					В&nbsp;семье и&nbsp;на&nbsp;работе человек постоянно раздражен, часто критикует других, провоцирует конфликты и&nbsp;хамит. Модель поведения не&nbsp;зависит от&nbsp;ситуации: будь-то «медленное» обслуживание кассиром в&nbsp;супермаркете или «холодная» шаурма в&nbsp;закусочной.
 				</td>
@@ -73,8 +73,8 @@ image: /images/problemclient1802.png
 
 <table> 
 	
-	<tbody> 
-		<tr bgcolor="Gainsboro"> 
+<tbody> 
+		<tr class="Gainsboro"> 
 			<td> 
 				Сотрудник
 			</td>
@@ -88,7 +88,7 @@ image: /images/problemclient1802.png
 				Цена сервиса, год, у.е. 
 			</td>
 		</tr>
-		<tr bgcolor="#f2f2f2"> 
+		<tr > 
 			<td><br/>
 			</td>
 			<td> 
@@ -101,7 +101,7 @@ image: /images/problemclient1802.png
 				<i>A*B*12</i>
 			</td>
 		</tr>
-		<tr bgcolor="#f2f2f2"> 
+		<tr > 
 			<td> 
 				<i>маркетолог</i>
 			</td>
@@ -115,7 +115,7 @@ image: /images/problemclient1802.png
 				<i>4320</i>
 			</td>
 		</tr>
-		<tr bgcolor="#f2f2f2"> 
+		<tr > 
 			<td> 
 				<i>руководитель отдела </i>
 			</td>
@@ -129,7 +129,7 @@ image: /images/problemclient1802.png
 				<i>2400</i>
 			</td>
 		</tr>
-		<tr bgcolor="#f2f2f2"> 
+		<tr > 
 			<td> 
 				<i>директор </i>
 			</td>
@@ -143,8 +143,7 @@ image: /images/problemclient1802.png
 				<i>2400</i>
 			</td>
 		</tr>
-
-		<tr bgcolor="#f2f2f2"> 
+		<tr > 
 			<td colspan="3"> 
 				Итого
 			</td>
@@ -157,8 +156,7 @@ image: /images/problemclient1802.png
 <div class="wtf">* с&nbsp;учетом налогов и&nbsp;необходимых выплат</div><br/>
 			</td>
 		</tr>
-
-		<tr bgcolor="#f2f2f2"> 
+		<tr > 
 			<td colspan="3"> 
 				Депозитная ставка в&nbsp;банке, %
 			</td>
@@ -166,7 +164,7 @@ image: /images/problemclient1802.png
 				5%
 			</td>
 		</tr>
-		<tr bgcolor="#f2f2f2"> 
+		<tr > 
 			<td colspan="3"> 
 				Минимальная цена услуг для&nbsp;Х (стоимость обслуживания + сумма по&nbsp;депозиту), у.е.
 			</td>
