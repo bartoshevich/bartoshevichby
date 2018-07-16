@@ -224,8 +224,8 @@ table {
     border-spacing: 0;
     empty-cells: show;
     font-size: 0.8em;
-    width: 95%;
-    margin: .1em 0 1.1em 0;
+    width: 100%;
+    margin: 1.5em 0 1.5em 0;
     text-align: left;
     
 }
@@ -237,7 +237,7 @@ td {
 	overflow: visible;
 	line-height: 120%;
 	border: 1px solid #cfcfcf;
-	vertical-align: top;
+	
 }
 th { padding-top: 0;
 	font-weight: bold;
@@ -252,6 +252,10 @@ thead {
 
 .Gainsboro {
 	background-color: Gainsboro;
+}
+
+.topverticalalign {
+	vertical-align: top;
 }
 
 //подпись к фото респондента 

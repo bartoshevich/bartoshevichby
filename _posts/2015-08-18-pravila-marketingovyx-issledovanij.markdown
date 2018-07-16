@@ -34,8 +34,8 @@ tags: "инструменты"
 <div class="">
 <table> 
 	
-<tr> 
-			<td colspan="3" class="a_c"><strong>Уровни анализа данных</strong></td>
+<tr class="Gainsboro"> 
+			<td colspan="3" ><strong>Уровни анализа данных</strong></td>
  		</tr>
  		<tr> 
 			<td>&nbsp; &nbsp;&nbsp;</td>
@@ -43,7 +43,7 @@ tags: "инструменты"
 			<td>Пример</td>
  		</tr>
 		<tr> 
-			<td><strong>0 </strong>&nbsp;&nbsp;&nbsp;</td>
+			<td><strong>0 </strong></td>
 			<td>констатация фактов, идей, значений </td>
 			<td>«В&nbsp;прошлом месяце от&nbsp;нас отказалось 13&nbsp;клиентов».</td>
  		</tr>

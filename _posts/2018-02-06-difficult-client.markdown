@@ -10,7 +10,7 @@ image: /images/problemclient1802.png
 ---
 
 <p>Я&nbsp;работаю с&nbsp;клиентами с&nbsp;2003&nbsp;года. Работал в&nbsp;разных странах и&nbsp;на&nbsp;разных позициях. С&nbsp;разными заказчиками. В&nbsp;том числе и&nbsp;с&nbsp;теми, которых обычно причисляют к&nbsp;проблемным. Для портала «Про бизнес» я&nbsp;обобщил опыт и&nbsp;поделился мнением, <a href="//probusiness.io/management/4239-neadekvaty-ikholodnaya-shaurma-kak-rabotat-sproblemnymi-klientami.html">как работать с&nbsp;проблемными клиентами</a>. Публикую версию для блога. </p><!--more-->
-<br>
+
 <p>***</p>
 <p>Тему «проблемного клиента» можно рассмотреть с&nbsp;двух позиций&nbsp;— сотрудника и&nbsp;предприятия. Это определяет видение темы и&nbsp;подход в&nbsp;работе.</p>
 <h2>Проблемный клиент и&nbsp;сотрудник компании </h2>
@@ -20,7 +20,7 @@ image: /images/problemclient1802.png
 		<colgroup><col/><col/></colgroup>
 		<tbody> 
 			<tr class="Gainsboro"> 
-				<td> 
+				<td style="width: 80%"> 
 					Описание ситуации
 				</td>
 				<td> 

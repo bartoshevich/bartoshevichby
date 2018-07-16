@@ -17,15 +17,15 @@ tags: "управление"
 	
 
 
-<table bgcolor="#f2f2f2">
+<table >
 <tbody>
-<tr>
-<td class="a_c" ><strong>Нет</strong></td>
-<td class="a_c" ><strong>Да</strong></td>
+<tr  class="Gainsboro">
+<td  ><strong>Нет</strong></td>
+<td  ><strong>Да</strong></td>
 </tr>
 <tr>
-<td class="a_m a_c" >«За&nbsp;последний месяц у&nbsp;нас упали продажи на&nbsp;10%. Почему нет продаж?»</td>
-<td class="a_m a_c" ><ul> 
+<td  >«За&nbsp;последний месяц у&nbsp;нас упали продажи на&nbsp;10%. Почему нет продаж?»</td>
+<td  ><ul> 
 	<li>«Мы&nbsp;провели две акции. Какие результаты, что следует пересмотреть и&nbsp;учесть в&nbsp;будущих кампаниях?»</li>
 	<li>«Что мы&nbsp;сделали для роста продаж товара Х?»</li>
 	<li>«Какие наши действия тормозили продажи товара Y?»</li>
