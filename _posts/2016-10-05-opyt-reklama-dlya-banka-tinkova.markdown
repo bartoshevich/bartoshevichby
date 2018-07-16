@@ -24,7 +24,7 @@ tags: "реклама кейсы"
  </ul>
 <p>Попробовал переложить идею рекламы на&nbsp;слайды в&nbsp;Prezi. Готовую презентацию показал сам себе, записывая ее&nbsp;с&nbsp;экрана ноутбука. На&nbsp;видео наложил музыку. С&nbsp;песней Цоя возился долго. Опыта работы в&nbsp;музыкальных редакторах не&nbsp;было. И&nbsp;пока не&nbsp;догадался использовать несколько дорожек, никак не&nbsp;получалось вырезать и&nbsp;склеить фрагменты песни правильно. Готовый набросок&nbsp;— ролик не&nbsp;более, чем набросок рекламы&nbsp;— отправил друзьям, попросил поделиться впечатлениями.</p>
 
-<div class="wtf1"><div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/LcRjumujYws?rel=0" allowfullscreen></iframe></div>ролик с&nbsp;идеей рекламы</div>
+<div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/LcRjumujYws?rel=0" allowfullscreen></iframe></div> <p class="videoname">ролик с&nbsp;идеей рекламы</p>
 <p>А&nbsp;затем подумал, что буду вечно гадать, как отреагировал&nbsp;бы Олег Тиньков на&nbsp;мою идею. Выложил видео в&nbsp;ютуб, поставил ссылку на&nbsp;видео в&nbsp;твитере, где упомянул аккаунт Тинькова и&nbsp;его банка. И&nbsp;через минут 15&nbsp;получил обратную связь.</p>
 <p>
 <picture>
