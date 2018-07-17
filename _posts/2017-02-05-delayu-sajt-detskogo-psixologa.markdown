@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Кейс: делаю сайт детского психолога"
+title: "Делаю сайт психолога"
+name: "Кейс: делаю сайт детского психолога"
 date:   2017-02-05 01:18:33 +0300
 categories: опыт
 permalink: "/opyt/delayu-sajt-detskogo-psixologa/"

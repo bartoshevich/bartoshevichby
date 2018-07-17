@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Почему нет продаж и что делать"
+title: "Почему нет продаж"
+name: "Почему нет продаж и что делать"
 description: "Что делать, когда нет продаж: конструктивный подход к обсуждению падения продаж"
 date:   2016-03-26 01:18:33 
 categories: мнение
 permalink: "mnenie/pochemu-net-prodazh/"
-image: /images/avatar.png
 tags: "управление"
 ---
 
