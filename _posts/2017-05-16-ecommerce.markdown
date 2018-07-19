@@ -14,13 +14,8 @@ tags: "интернет-маркетинг семинары"
 
 
 <picture>
-					<source
-					
-									srcset="/images/seminar110517.webp"
-									type="image/webp">
-								<img
-									src="/images/seminar110517.jpg" title="Фото: Арина Чернышева" alt="Дмитрий Бартошевич на конференции"  class="img-responsive" >
-							</picture>
+	<source srcset="/images/seminar110517.webp" type="image/webp"> 	<img src="/images/seminar110517.jpg" title="Фото: Арина Чернышева" alt="Дмитрий Бартошевич на конференции"  class="img-responsive" >
+</picture>
 
 
 
@@ -30,8 +25,10 @@ tags: "интернет-маркетинг семинары"
 
 <h2>Составляйте карты потребительского опыта</h2>
 
-<aside class="aside-text-right">Карта потребительского опыта&nbsp;— отображение процесса взаимодействия человека с&nbsp;компанией, от&nbsp;момента осознания потребности до&nbsp;рекомендации предприятия. См. <a href="/instrukcii/customer-journey-map/">алгоритм составления</a>.</aside>
+
+<div class="with-side">
 <p>О&nbsp;важности клиентов говорить модно. Чтобы забота о&nbsp;клиенте не&nbsp;превратилась в&nbsp;пустой лозунг, переходите от&nbsp;слов к&nbsp;инструментам&nbsp;— составляйте карты потребительского опыта (customer journey map). </p>
+<div class="side">Карта потребительского опыта&nbsp;— отображение процесса взаимодействия человека с&nbsp;компанией, от&nbsp;момента осознания потребности до&nbsp;рекомендации предприятия. См. <a href="/instrukcii/customer-journey-map/">алгоритм составления</a>.</div></div>
 
 
 Польза карт:<br/>
