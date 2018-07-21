@@ -1,3 +1,7 @@
+---
+layout: null
+---
+
 {
     "@context": "http://schema.org",
     "@type": "LocalBusiness",
