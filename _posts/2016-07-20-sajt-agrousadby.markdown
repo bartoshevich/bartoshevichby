@@ -7,6 +7,7 @@ date:   2016-07-20 01:18:33 +0300
 categories: мнение
 permalink: "mnenie/sajt-agrousadby/"
 tags: "интернет-маркетинг бизнес"
+keywords: "интернет-маркетинг"
 ---
 
 <p>Портал «Про бизнес» выпустил статью, где на&nbsp;примере сайтов агроусадеб я&nbsp;рассказываю об&nbsp;<a href="//probusiness.io/tech/2323-eti-elementarnye-oshibki-na-saytakh-meshayut-kompaniyam-privlekat-klientov-inostrancev-primer-agrousadeb.html">ошибках, которые мешают привлечь иностранных туристов</a>. Публикую версию для блога.</p><!--more-->

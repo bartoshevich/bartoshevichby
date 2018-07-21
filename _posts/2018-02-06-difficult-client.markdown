@@ -8,6 +8,7 @@ categories: мнение
 permalink: "/mnenie/difficult-clients/"
 tags: "бизнес"
 image: /images/problemclient1802.png
+keywords: "проблемный клиент"
 ---
 
 <p>Я&nbsp;работаю с&nbsp;клиентами с&nbsp;2003&nbsp;года. Работал в&nbsp;разных странах и&nbsp;на&nbsp;разных позициях. С&nbsp;разными заказчиками. В&nbsp;том числе и&nbsp;с&nbsp;теми, которых обычно причисляют к&nbsp;проблемным. Для портала «Про бизнес» я&nbsp;обобщил опыт и&nbsp;поделился мнением, <a href="//probusiness.io/management/4239-neadekvaty-ikholodnaya-shaurma-kak-rabotat-sproblemnymi-klientami.html">как работать с&nbsp;проблемными клиентами</a>. Публикую версию для блога. </p><!--more-->

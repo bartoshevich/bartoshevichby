@@ -7,6 +7,7 @@ date:   2015-11-18 01:18:33 +0300
 categories: инструкции	
 permalink: "instrukcii/feedback/"
 tags: "инструменты"
+keywords: "Net Promoter Score, NPS"
 ---
 
 <p>Измерение индекса лояльности (Net Promoter Score, NPS)&nbsp;— быстрый и&nbsp;легкий способ получить информативную обратную связь от&nbsp;клиента.</p> <!--more-->

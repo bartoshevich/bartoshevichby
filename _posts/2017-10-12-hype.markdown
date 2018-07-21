@@ -8,6 +8,7 @@ categories: мнение
 permalink: "mnenie/hype/"
 tags: "маркетолог"
 image: /images/hype1.jpg
+keywords: "маркетинг"
 ---
 
 
