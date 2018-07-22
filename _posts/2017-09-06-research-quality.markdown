@@ -8,7 +8,7 @@ categories: инструкции
 permalink: "instrukcii/research-quality/"
 tags: "управление инструменты интервью"
 image: /images/control0609.jpg
-keywords: "маркетинговые исследования"
+keywords: "контроль исследовательских агентств"
 ---
 
 

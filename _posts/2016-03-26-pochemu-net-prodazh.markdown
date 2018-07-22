@@ -7,7 +7,7 @@ date:   2016-03-26 01:18:33
 categories: мнение
 permalink: "mnenie/pochemu-net-prodazh/"
 tags: "управление"
-keywords: продажи
+keywords: "нет продаж"
 ---
 
 

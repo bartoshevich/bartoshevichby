@@ -7,7 +7,7 @@ date:   2016-12-20 01:18:33 +0300
 categories: инструкции
 permalink: "instrukcii/algoritm-provedeniya-reklamnoj-kampanii/"
 tags: "реклама инструменты интервью"
-keywords:  "рекламная кампания"
+keywords:  "алгоритм рекламной кампании"
 ---
 
 

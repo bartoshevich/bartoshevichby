@@ -8,7 +8,7 @@ categories: опыт
 permalink: "/opyt/brand-strategy-flex-n-roll/"
 tags: "кейсы"
 image: /images/flex_label-420.jpg
-keywords: "брендинг"
+keywords: "стратегия бренда Флекс-н-Ролл"
 ---
 
 <div class="with-side">
