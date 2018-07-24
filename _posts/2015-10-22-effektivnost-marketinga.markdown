@@ -26,7 +26,7 @@ keywords: "оценка эффективности маркетинга"
 <table> 
 	<thead> 
 		<tr  class="Gainsboro"> 
-			<th><strong>Название категории</strong></th>
+			<th><strong>Название категории&nbsp;</strong></th>
 			<th><strong>Примеры активности</strong></th>
  		</tr>
  	</thead>
