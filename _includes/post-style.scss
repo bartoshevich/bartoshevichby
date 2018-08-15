@@ -299,6 +299,24 @@ thead {
   	text-decoration: none;
 }
 
+.flex-in {
+display: flex;
+flex-direction: row; flex-wrap: wrap; align-items: center;
+margin-bottom: 2rem;
+}
+
+.flex-1 {
+-webkit-flex: 1;
+flex: 1;
+min-width: 270px; max-width: 310px;
+padding:0 15px 0 0;
+}
+
+.flex-2 {
+-webkit-flex: 2;
+flex: 2;
+min-width: 300px;
+}
 
 
 @import "grid";

@@ -6,6 +6,7 @@ layout: compress
 <html lang="ru">
 <head>
 	<title>поиск по сайту </title>
+	{% include google_tag_head.html %} 
 	{% include meta.html %} 
 	
 	<style>
@@ -26,6 +27,7 @@ layout: compress
 	<meta name="robots" content="noindex,nofollow">
 </head>
 <body>
+{% include google_tag_body.html %} 
 <div class="all-site">	
 	{% include menu.html %}
 	<div class="conteiner">
@@ -51,7 +53,6 @@ layout: compress
 		</div>
 	
 </div>
- 
-      {% include analytics.html %}
+
 </body>
 </html>

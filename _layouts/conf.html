@@ -6,7 +6,9 @@ layout: compress
 <html lang="ru">
 <head>
 	<title>{{ page.title }}</title>
+	{% include google_tag_head.html %} 
 	{% include meta.html %} 
+	
 	
 	<style>
     {% capture criticalcss %}
@@ -26,6 +28,7 @@ layout: compress
 	
 </head>
 <body>
+	{% include google_tag_body.html %} 
 <div class="all-site">	
 	{% include menu.html %}
 	<div class="conteiner">
@@ -52,6 +55,6 @@ layout: compress
 	
 </div>
 
-      {% include analytics.html %}
+      
 </body>
 </html>
