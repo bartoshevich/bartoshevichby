@@ -108,6 +108,13 @@ img,
 	width: 100%;
 }
 
+.markedfield {
+	padding: 3% 3.5%;
+	background: #e3e3e3;
+    display: inline-block;
+	width: 100%;
+}
+
 .focus {
 	padding: 2% 3%;
 	background: #e3e3e3;
@@ -297,6 +304,12 @@ thead {
 .sha2re-buttons a:hover,
 .sha2re-buttons a:active {
   	text-decoration: none;
+}
+
+.flex-block {
+display: flex;
+flex-direction: row; flex-wrap: wrap; 
+margin-bottom: 2rem;
 }
 
 .flex-in {
