@@ -6,7 +6,7 @@ description: "Тезисы выступления на мастер-классе
 date:   2017-07-23 
 categories: мнение
 permalink: "/mnenie/misconceptions/"
-image: /images/misconceptions.jpg
+image: /images/tizer-43.jpg
 tags: "интернет-маркетинг семинары управление"
 keywords: "мифы о маркетинге"
 ---

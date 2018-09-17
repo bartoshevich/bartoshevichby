@@ -7,7 +7,7 @@ date:   2018-02-06 01:18:33 +0300
 categories: мнение
 permalink: "/mnenie/difficult-clients/"
 tags: "бизнес"
-image: /images/problemclient1802.png
+image: /images/tizer-47.jpg
 keywords: "проблемный клиент"
 ---
 

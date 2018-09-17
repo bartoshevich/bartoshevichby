@@ -7,7 +7,7 @@ date:   2018-04-18 09:18:33 +0300
 categories: опыт
 permalink: "/opyt/brand-strategy-flex-n-roll/"
 tags: "кейсы"
-image: /images/flex_label-420.jpg
+image: /images/tizer-48.jpg
 keywords: "стратегия бренда Флекс-н-Ролл"
 ---
 

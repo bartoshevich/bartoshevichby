@@ -7,7 +7,7 @@ date:   2017-09-06
 categories: инструкции
 permalink: "instrukcii/research-quality/"
 tags: "управление инструменты интервью"
-image: /images/control0609.jpg
+image: /images/tizer-44.jpg
 keywords: "контроль исследовательских агентств"
 ---
 

@@ -8,6 +8,7 @@ categories: инструкции
 permalink: "instrukcii/algoritm-provedeniya-reklamnoj-kampanii/"
 tags: "реклама инструменты интервью"
 keywords:  "алгоритм рекламной кампании"
+image: /images/tizer-35.jpg
 ---
 
 

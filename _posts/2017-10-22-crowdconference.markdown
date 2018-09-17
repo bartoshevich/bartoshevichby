@@ -7,7 +7,7 @@ date:   2017-10-22
 categories: мнение
 permalink: "mnenie/crowdconference/"
 tags: "семинары"
-image: /images/conf20102017.jpg
+image: /images/tizer-46.jpg
 keywords: "семинар Новая реальность"
 ---
 

@@ -7,7 +7,7 @@ date:   2018-05-25 09:18:33 +0300
 categories: мнение
 permalink: "/mnenie/razvitie-brenda/"
 tags: "управление"
-image: /images/viral.jpg
+image: /images/tizer-49.jpg
 keywords: "маркетинг без вирусов"
 ---
 
