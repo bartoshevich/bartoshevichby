@@ -8,6 +8,7 @@ categories: опыт
 permalink: "opyt/vzlom-barerov-biznesa/"
 tags: "семинары"
 keywords: "семинар по маркетингу"
+image: /images/tizer-4.jpg
 ---
 
 <p>Двадцатого августа мы&nbsp;с&nbsp;Дмитрием Григорьевым, Сергеем Дробышевским и&nbsp;Павлом Вилюхой провели Практикум «Взлом барьеров развития бизнеса».</p> 

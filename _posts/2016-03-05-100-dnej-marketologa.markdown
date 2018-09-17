@@ -7,7 +7,7 @@ date:   2016-03-05 01:18:33 +0300
 categories: мнение
 permalink: "mnenie/100-dnej-marketologa/"
 tags: "маркетолог интервью"
-image: /images/100dneymarketologa.jpg
+image: /images/tizer-17.jpg
 keywords: "новое рабочее место маркетолога"
 ---
 

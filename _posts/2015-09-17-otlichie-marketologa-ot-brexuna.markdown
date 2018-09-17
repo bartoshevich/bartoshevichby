@@ -7,7 +7,7 @@ date:   2015-09-17 01:18:33 +0300
 categories: мнение
 permalink: "mnenie/otlichie-marketologa-ot-brexuna/"
 tags: "инструменты маркетолог"
-image: /images/breh1.jpg
+image: /images/tizer-6.jpg
 keywords: "характеристика маркетолога"
 ---
 
