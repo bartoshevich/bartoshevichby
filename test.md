@@ -7,4 +7,5 @@ name: "тест "
 keywords: "оптимизация изображений"
 ---
 
-<img src="/images/test_original.jpg" alt="оригинал" />
+<p> jkjjkjjjdfsjj sjsjsjsjsfd fjslksajsjsda;sadf sdfaksjksad; </p>
+<img src="/images/test_original.jpg" width="720" alt="оригинал" />
