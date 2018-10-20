@@ -2,6 +2,7 @@
 layout: post
 title: "Делаю сайт психолога"
 name: "Кейс: делаю сайт детского психолога"
+description: "Рассказываю, как верстал сайт психолога – от чего отталкивался в содержании, дизайне и выборе движка сайта."
 date:   2017-02-05 01:18:33 +0300
 categories: опыт
 permalink: "/opyt/delayu-sajt-detskogo-psixologa/"
@@ -73,14 +74,14 @@ image: /images/tizer-36.jpg
 
 
 
-<div class="with-side  markedfield ">	
+<div class="with-side  markedfield ">
 
 <strong>Updated</strong>
 <p>После изучения и&nbsp;тестирования я&nbsp;полностью перевел сайт на&nbsp;Jekyll&nbsp;— генератор статических сайтов.</p>
 <div class="flex-block">
 <div class="flex-1">
 <p>Плюсы: </p>
-<ul> 
+<ul>
 	<li>нет баз данных → высокая скорость загрузки;</li>
 	<li>нет лишней функциональности;</li>
 	<li>100% контроль работы;</li>
@@ -90,7 +91,7 @@ image: /images/tizer-36.jpg
 </div>
 <div class="flex-1">
 <p>Минусы:</p>
-<ul> 
+<ul>
 	<li>более высокий «порог входа» (в&nbsp;сравнении с&nbsp;тем&nbsp;же wordpress)</li>
  </ul>
 </div>
@@ -98,7 +99,7 @@ image: /images/tizer-36.jpg
 
  <div class="side">
 <p>Ссылки для интересующихся:</p>
-<ul> 
+<ul>
 	<li><a href="http://prgssr.ru/documentation/" target="_blank" rel="noopener">Документация Jekyll</a></li>
 	<li><a href="https://ines.io/blog/the-ultimate-guide-static-websites-jekyll" target="_blank" rel="noopener">Ultimate guide to&nbsp;statis website</a></li>
 	<li><a href="https://blog.webjeda.com/jekyll-tutorials/" target="_blank" rel="noopener">Jekyll Basics</a></li>
