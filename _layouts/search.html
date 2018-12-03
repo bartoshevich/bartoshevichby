@@ -5,10 +5,13 @@ layout: compress
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.5'>
 	<title>поиск по сайту </title>
-	{% include google_tag_head.html %} 
-	{% include meta.html %} 
-	
+	{% include google_tag_head.html %}
+	{% include meta.html %}
+
 	<style>
     {% capture criticalcss %}
       {% include search-style.scss %}
@@ -17,7 +20,7 @@ layout: compress
   }
   @media only screen and (min-width:900px) {
         {% include d-search-style.scss %}
-    }    
+    }
     {% endcapture %}
     {{ criticalcss | scssify }}
   </style>
@@ -27,31 +30,31 @@ layout: compress
 	<meta name="robots" content="noindex,nofollow">
 </head>
 <body>
-{% include google_tag_body.html %} 
-<div class="all-site">	
+{% include google_tag_body.html %}
+<div class="all-site">
 	{% include menu.html %}
 	<div class="conteiner">
 		<div class="article-header">
 			<h3><a href="/">&larr; на главную страницу</a></h3>
 		</div>
-		
-		
-				
+
+
+
 		<div class="content">
 			<div class="article">
 				<h1>{{ page.title }}</h1>
-				
+
 		{{ content }}
 		<br>
-		
+
 		    </div>
-		
-		
-		</div>	
-			
+
+
+		</div>
+
 		{% include footer.html %}
 		</div>
-	
+
 </div>
 
 </body>
