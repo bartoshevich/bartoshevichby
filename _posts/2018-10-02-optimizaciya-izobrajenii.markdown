@@ -48,9 +48,18 @@ keywords: "оптимизация изображений"
 </div>
 
 <p>Уменьшили размер фото&nbsp;— можно публиковать. В&nbsp;код html-страницы добавляем такую строку: </p>
-<code>
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+
+<div class="code-highlight">
+<pre class="prettyprint">
+<code class="prettyprint">
 &lt;img src="путь к изображению" alt="описание, что изображено" width="ширина" height="высота"&gt;
 </code>
+</pre>
+</div>
+
+
+
 
 
 <p>Раньше этих действий было достаточно. Сейчас&nbsp;— нет. Назову три причины:</p>
@@ -87,14 +96,18 @@ keywords: "оптимизация изображений"
 </picture>
 
 <p>А&nbsp;вот как это работает:</p>
-<code>
-&lt;picture&gt;<br/>
-    &lt;source media="(min-width: 650px)" srcset="...kitten-large.png"&gt;<br/>
-    &lt;source media="(min-width: 465px)" srcset="...kitten-medium.png"&gt;<br/>
-    &lt;img src="...kitten-small.png" alt="a cute kitten" &gt;<br/>
- &lt;/picture&gt;
+<div class="code-highlight">
+<pre class="prettyprint">
+<code class="prettyprint">
+&lt;picture&gt;
+    &lt;source media="(min-width: 650px)" srcset="...kitten-large.png"&gt;
+    &lt;source media="(min-width: 465px)" srcset="...kitten-medium.png"&gt;
+    &lt;img src="...kitten-small.png" alt="a cute kitten" &gt;
+&lt;/picture&gt;
 </code>
-<br/>
+</pre>
+</div>
+
 <p>Атрибут srcset указывает путь изображения для загрузки. Тег &lt;source&gt; и&nbsp;атрибут media указывают условия появления каждой из&nbsp;картинок. Если ширина экрана больше 650px, показывается зевающий кот, если от&nbsp;465px до&nbsp;650px&nbsp;— кот сидит. Если экран меньше 465px или если браузер не&nbsp;распознает тег &lt;picture&gt;, вы&nbsp;увидите спящего кота. </p>
 
 <p>В&nbsp;блоге Opera есть <a href="https://dev.opera.com/articles/responsive-images/" target="_blank" rel="noopener">15&nbsp;примеров использования тега &lt;picture&gt;</a> (на&nbsp;англ.). Я&nbsp;заглядываю туда как в&nbsp;шпаргалку по&nbsp;синтаксису: какой код нужен, чтобы для ретины загружать изображения с&nbsp;высоким разрешением, чтобы показывать разные фото для разных экранов, чтобы предлагать WebP там, где браузеры распознают этот формат, чтобы все эти условия указать разом для одного изображения. </p>
@@ -109,9 +122,21 @@ keywords: "оптимизация изображений"
 
 <img src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1538445318/copy_cloudinary.jpg" />
 
-<p>Адрес фото: https://res.cloudinary.com/bartoshevich/image/upload/v1538423803/coin_original.jpg</p>
+<p>Адрес фото:</p>
+<div class="code-highlight">
+<pre class="prettyprint">
+<code class="prettyprint">
+&lt;img src="https://res.cloudinary.com/bartoshevich/image/upload/v1538423803/coin_original.jpg" alt="" &gt;
+</code>
+</pre></div>
 
-<p>Все, что требуется,&nbsp;— это после upload/ в&nbsp;адресе добавить q_auto,f_auto/. Новый адрес: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1538423803/coin_original.jpg </p>
+<p>Все, что требуется,&nbsp;— это после upload/ в&nbsp;адресе добавить q_auto,f_auto/. Новый адрес:</p>
+<div class="code-highlight">
+<pre class="prettyprint">
+<code class="prettyprint">
+&lt;img src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1538423803/coin_original.jpg" alt="" &gt;
+</code>
+</pre></div>
 
 <p>На&nbsp;этом работа по&nbsp;оптимизации картинки завершена. Сервис автоматически изменит качество и&nbsp;формат изображения в&nbsp;зависимости от&nbsp;экрана, на&nbsp;котором открывают адрес картинки. Не&nbsp;нужно готовить много вариантов изображения, прописывать условия для «ретины» и&nbsp;WebP. Все это уже «зашито» в&nbsp;адресе. Код картинки снова умещается в&nbsp;одну строку. </p>
 
