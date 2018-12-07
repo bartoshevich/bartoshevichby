@@ -120,7 +120,7 @@ keywords: "оптимизация изображений"
 
 <p>C&nbsp;Cloudinary работа по&nbsp;оптимизации изображений сводится к&nbsp;корректировке адреса картинки, загруженной в&nbsp;облако сервиса. Поясню на&nbsp;примере. Давайте войдем в&nbsp;Cloudinary, добавим фотографию монеты из&nbsp;примера выше и&nbsp;скопируем url картинки. </p>
 
-<img src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1538445318/copy_cloudinary.jpg" />
+<img src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1538445318/copy_cloudinary.jpg" alt="пример работы с Cloudinary"/>
 
 <p>Адрес фото:</p>
 <div class="code-highlight">
@@ -128,7 +128,8 @@ keywords: "оптимизация изображений"
 <code class="prettyprint">
 &lt;img src="https://res.cloudinary.com/bartoshevich/image/upload/v1538423803/coin_original.jpg" alt="" &gt;
 </code>
-</pre></div>
+</pre>
+</div>
 
 <p>Все, что требуется,&nbsp;— это после upload/ в&nbsp;адресе добавить q_auto,f_auto/. Новый адрес:</p>
 <div class="code-highlight">
@@ -136,7 +137,8 @@ keywords: "оптимизация изображений"
 <code class="prettyprint">
 &lt;img src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1538423803/coin_original.jpg" alt="" &gt;
 </code>
-</pre></div>
+</pre>
+</div>
 
 <p>На&nbsp;этом работа по&nbsp;оптимизации картинки завершена. Сервис автоматически изменит качество и&nbsp;формат изображения в&nbsp;зависимости от&nbsp;экрана, на&nbsp;котором открывают адрес картинки. Не&nbsp;нужно готовить много вариантов изображения, прописывать условия для «ретины» и&nbsp;WebP. Все это уже «зашито» в&nbsp;адресе. Код картинки снова умещается в&nbsp;одну строку. </p>
 
