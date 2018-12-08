@@ -48,19 +48,9 @@ keywords: "оптимизация изображений"
 </div>
 
 <p>Уменьшили размер фото&nbsp;— можно публиковать. В&nbsp;код html-страницы добавляем такую строку: </p>
-<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
-
-<div class="code-highlight">
-<pre class="prettyprint">
-<code class="prettyprint">
-&lt;img src="путь к изображению" alt="описание, что изображено" width="ширина" height="высота"&gt;
-</code>
-</pre>
-</div>
-
-
-
-
+```terminal
+<img src="путь к изображению" alt="описание,что изображено" width="ширина" height="высота"/>
+```
 
 <p>Раньше этих действий было достаточно. Сейчас&nbsp;— нет. Назову три причины:</p>
 
@@ -90,23 +80,19 @@ keywords: "оптимизация изображений"
 <div class="side">Пример взят <a href="https://cloudfour.com/examples/img-currentsrc/" target="_blank" rel="noopener">отсюда</a></div></div>
 
 <picture>
-    <source media="(min-width: 650px)" srcset="/images/kitten-large.png">
-    <source media="(min-width: 465px)" srcset="/images/kitten-medium.png">
-    <img src="/images/kitten-small.png" alt="a cute kitten" >
+  <source media="(min-width: 650px)" srcset="/images/kitten-large.png">
+  <source media="(min-width: 465px)" srcset="/images/kitten-medium.png">
+  <img src="/images/kitten-small.png" alt="a cute kitten" >
 </picture>
 
 <p>А&nbsp;вот как это работает:</p>
-<div class="code-highlight">
-<pre class="prettyprint">
-<code class="prettyprint">
-&lt;picture&gt;
-    &lt;source media="(min-width: 650px)" srcset="...kitten-large.png"&gt;
-    &lt;source media="(min-width: 465px)" srcset="...kitten-medium.png"&gt;
-    &lt;img src="...kitten-small.png" alt="a cute kitten" &gt;
-&lt;/picture&gt;
-</code>
-</pre>
-</div>
+```terminal
+<picture>
+  <source media="(min-width: 650px)" srcset="...kitten-large.png">
+  <source media="(min-width: 465px)" srcset="...kitten-medium.png">
+  <img src="...kitten-small.png" alt="a cute kitten">
+</picture>
+```
 
 <p>Атрибут srcset указывает путь изображения для загрузки. Тег &lt;source&gt; и&nbsp;атрибут media указывают условия появления каждой из&nbsp;картинок. Если ширина экрана больше 650px, показывается зевающий кот, если от&nbsp;465px до&nbsp;650px&nbsp;— кот сидит. Если экран меньше 465px или если браузер не&nbsp;распознает тег &lt;picture&gt;, вы&nbsp;увидите спящего кота. </p>
 
@@ -120,25 +106,20 @@ keywords: "оптимизация изображений"
 
 <p>C&nbsp;Cloudinary работа по&nbsp;оптимизации изображений сводится к&nbsp;корректировке адреса картинки, загруженной в&nbsp;облако сервиса. Поясню на&nbsp;примере. Давайте войдем в&nbsp;Cloudinary, добавим фотографию монеты из&nbsp;примера выше и&nbsp;скопируем url картинки. </p>
 
-<img src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1538445318/copy_cloudinary.jpg" alt="пример работы с Cloudinary"/>
+<img src="//res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1538445318/copy_cloudinary.jpg" alt="пример работы с Cloudinary" width="519" height="478"/>
+
 
 <p>Адрес фото:</p>
-<div class="code-highlight">
-<pre class="prettyprint">
-<code class="prettyprint">
-&lt;img src="https://res.cloudinary.com/bartoshevich/image/upload/v1538423803/coin_original.jpg" alt="" &gt;
-</code>
-</pre>
-</div>
+```terminal
+//res.cloudinary.com/bartoshevich/image/upload/v1538423803/coin_original.jpg
+```
 
 <p>Все, что требуется,&nbsp;— это после upload/ в&nbsp;адресе добавить q_auto,f_auto/. Новый адрес:</p>
-<div class="code-highlight">
-<pre class="prettyprint">
-<code class="prettyprint">
-&lt;img src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1538423803/coin_original.jpg" alt="" &gt;
-</code>
-</pre>
-</div>
+```terminal
+//res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1538423803/coin_original.jpg
+```
+
+
 
 <p>На&nbsp;этом работа по&nbsp;оптимизации картинки завершена. Сервис автоматически изменит качество и&nbsp;формат изображения в&nbsp;зависимости от&nbsp;экрана, на&nbsp;котором открывают адрес картинки. Не&nbsp;нужно готовить много вариантов изображения, прописывать условия для «ретины» и&nbsp;WebP. Все это уже «зашито» в&nbsp;адресе. Код картинки снова умещается в&nbsp;одну строку. </p>
 
