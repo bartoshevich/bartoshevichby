@@ -1,6 +1,6 @@
 
 
-@import "reset"; 
+@import "reset";
 @import "variables";
 @import "menu";
 @import "basis";
@@ -62,12 +62,12 @@
 	    -ms-flex-positive: 1;
 	        flex-grow: 1;
 
-	
+
 }
 
 
 .wtf1 {
-    
+
     color: #333;
     font-size: 13px;
     line-height: 19px;
@@ -76,7 +76,7 @@
 }
 
 .wtf {
-    
+
     color: #333;
     font-size: 13px;
     line-height: 19px;
@@ -147,9 +147,9 @@ margin-top: .5em !important;
     padding-left: 20px;
     margin-top: 30px;
     margin-bottom: 35px;
-    margin-left: 30px;  
+    margin-left: 30px;
   }
-  
+
 }
 
 
@@ -179,7 +179,7 @@ margin-top: .5em !important;
 
 
 
-// подчеркивание 
+// подчеркивание
 mark {background: #ffffa1; padding: 1px 0; }
 
 
@@ -247,7 +247,7 @@ table {
     width: 100%;
     margin: 1.5em 0 1.5em 0;
     text-align: left;
-    
+
 }
 
 th,
@@ -257,8 +257,8 @@ td {
 	overflow: visible;
 	line-height: 120%;
 	border: 1px solid #cfcfcf;
-	
-	
+
+
 }
 th { padding-top: 0;
 	font-weight: bold;
@@ -279,10 +279,10 @@ thead {
 	vertical-align: top;
 }
 
-//подпись к фото респондента 
+//подпись к фото респондента
 .person {
   font-size: 0.9em;
-  border-top:1px solid #DDD; 
+  border-top:1px solid #DDD;
 }
 
 .article a {
@@ -294,7 +294,7 @@ thead {
     color: $link;
 	text-decoration: underline;
 	border-bottom: 0;
-    }	
+    }
 }
 
 
@@ -314,7 +314,7 @@ thead {
 
 .flex-block {
 display: flex;
-flex-direction: row; flex-wrap: wrap; 
+flex-direction: row; flex-wrap: wrap;
 margin-bottom: 2rem;
 }
 
@@ -342,4 +342,3 @@ min-width: 300px;
 @import "subscription";
 @import "side";
 @import "footer";
-

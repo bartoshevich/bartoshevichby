@@ -8,14 +8,14 @@
 .all-site {
 		-webkit-box-orient: horizontal;
 		-webkit-box-direction: normal;
-		    -ms-flex-direction: row;
-		        flex-direction: row;
+	//	    -ms-flex-direction: row;
+	//	        flex-direction: row;
 	}
 .conteiner {
 		width: 75vw;
 		max-width: 1700px;
 	}
-	.head {		
+	.head {
 		padding: 7vw 5vw 1vw 2rem;
 }
 .head2,

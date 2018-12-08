@@ -9,17 +9,20 @@ $border-color: mix(#fff, $base-color, 80%);
 
 .language-terminal {
   position: relative;
-  margin-bottom: 1.5em;
-  padding: 1em;
-  border: 1px solid $border-color;
-  border-radius: $border-radius;
-  box-shadow: 0 0.25em 1em rgba($base-color, 0.25);
-  background-color: $base-color;
-  overflow: auto;
-  overflow-x: scroll;
-  font-size: .8em;
-word-wrap:break-word;
-  -webkit-overflow-scrolling: touch;
+   margin-bottom: 1.5em;
+   padding: 1em;
+   border: 1px solid $border-color;
+   border-radius: $border-radius;
+   box-shadow: 0 0.25em 1em rgba($base-color, 0.25);
+   background-color: $base-color;
+   white-space: pre-wrap;
+
+
+ overflow: auto;
+ font-size: .8em;
+ word-wrap:break-word;
+ -webkit-overflow-scrolling: touch;
+
 
 
   .highlight {
