@@ -17,7 +17,7 @@ $border-color: mix(#fff, $base-color, 80%);
   background-color: $base-color;
   overflow: auto;
   overflow-x: scroll;
-  font-size: .7em;
+  font-size: .8em;
 word-wrap:break-word;
   -webkit-overflow-scrolling: touch;
 
@@ -28,8 +28,4 @@ word-wrap:break-word;
     background-color: initial;
     color: #fff;
   }
-}
-
-.footer {
-  position:fixed;
 }
