@@ -34,16 +34,16 @@ layout: compress
 {% include google_tag_body.html %}
 <div class="all-site">
 	{% include menu.html %}
-	<div class="conteiner">
+	<div class="conteiner" itemscope itemtype="http://schema.org/Article">
 		<div class="article-header">
-			<h3><a href="/">Дмитрий Бартошевич</a></h3>
+			<h3><a href="/"><span itemprop="author">Дмитрий Бартошевич</span></a></h3>
 		</div>
 
 
 
 		<div class="content">
-			<div class="article">
-				<h1>{{ page.name }}</h1>
+			<div class="article" >
+				<h1 itemprop="name">{{ page.name }}</h1>
 				<div class="rect">
             	<div class="date">
      			{{ page.date | date: "%e %B %Y" | replace: 'January', 'января' | replace: 'February', 'февраля' | replace: 'March', 'марта' | replace: 'April', 'апреля' | replace: 'May', 'мая' | replace: 'June', 'июня' | replace: 'July', 'июля' | replace: 'August', 'августа' | replace: 'September', 'сентября' | replace: 'October', 'октября' | replace: 'November', 'ноября' | replace: 'December', 'декабря' }}
@@ -51,7 +51,9 @@ layout: compress
              	{% include sharetop.html %}
         		</div>
       			<p>&nbsp;</p>
+						<div itemprop="articleBody">
 		{{ content }}
+						</div>
 		<br>
 		<br>
 		{% include related.html %}
