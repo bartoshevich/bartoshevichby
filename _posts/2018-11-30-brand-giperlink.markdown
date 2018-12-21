@@ -3,7 +3,7 @@ layout: post
 title:  "Разработка концепции бренда на примере интернет-агентства Giperlink"
 name: "Концепция бренда интернет-агентства Giperlink"
 description: "Разработка концепции бренда интернет-агентства Giperlink: рассказываю об этапах работы и результатах"
-date:   2018-11-30 06:18:33 +0300
+date:   2018-11-30
 categories: опыт
 permalink: "/opyt/brand-giperlink/"
 tags: "кейсы"

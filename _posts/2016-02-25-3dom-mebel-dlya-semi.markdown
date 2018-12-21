@@ -3,7 +3,7 @@ layout: post
 title:  "Стратегия бренда 3Dom"
 name: "Кейс: концепция бренда 3Dom"
 description: "Возрождение бренда 3Dom. Рассказываю, как создавал и развивал концепцию бренда корпусной мебели."
-date:   2016-02-25 01:18:33 +0300
+date:   2016-02-25
 categories: опыт
 permalink: "opyt/3dom-mebel-dlya-semi/"
 tags: "кейсы"
