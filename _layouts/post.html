@@ -41,7 +41,7 @@ layout: compress
 
 <meta itemprop="image" content="{{ site.url }}{{ page.image }}">
 <meta itemprop="headline" content="{{ page.title }}">
-<meta itemprop="datePublished" content="{{ page.date }} ">
+<meta itemprop="datePublished" content="{{ page.date | date: "%Y-%m-%e" }} ">
 <div itemprop="author" itemscope itemtype="https://schema.org/Person">
 <meta itemprop="name" content="Дмитрий Бартошевич">
 </div>
@@ -49,9 +49,11 @@ layout: compress
 <meta itemprop="name" content="Дмитрий Бартошевич">
 <meta itemprop="address" content="г. Минск, ул. Ольшевского, 22">
 <meta itemprop="telephone" content="+375297753340">
+<link itemprop="url" href="https://bartoshevich.by">
 <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
 <meta itemprop="height" content="60">
 <meta itemprop="image" content="https://bartoshevich.by/apple-touch-icon-60x60.png">
+<link itemprop="url" href="https://bartoshevich.by/apple-touch-icon-60x60.png">
 <meta itemprop="width" content="60">
 </div>
 </div>
