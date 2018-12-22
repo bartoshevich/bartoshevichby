@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Customer journey map"
+title:  "Customer journey map (карта потребительского опыта)"
 name: "Customer journey map: как вернуть контроль над бизнесом"
 description: "Карта потребительского опыта (customer journey map): пошаговая инструкция по составлению и использованию."
 date:   2016-06-06 
