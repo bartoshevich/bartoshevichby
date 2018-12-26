@@ -17,7 +17,7 @@ div.highlighter-rouge.language-console,
    background-color: $base-color;
    white-space: pre-wrap;
      width: 100%;
- overflow: auto;
+ overflow-x: scroll;
  font-size: .8em;
 //  word-wrap: normal;
   -webkit-overflow-scrolling: touch;
