@@ -221,12 +221,14 @@ layout: compress
 		<div class="content">
 			{% for post in site.posts %}
 			<div class="item">
-
+	<a href="{{ site.baseurl }}{{ post.url }}" class="caption">
 				<div class="hid">
-								<a href="{{ site.baseurl }}{{ post.image }}" class="progressive replace">
+								<figure data-href="{{ site.baseurl }}{{ post.image }}" class="progressive replace">
 				  				<img src="https://res.cloudinary.com/bartoshevich/image/upload/w_20/v1546021407/tizers/tizer-40.jpg" class="preview" alt="{{ post.title }}" />
-								</a>
+								</figure>
 				</div>
+
+	
 
 				<a href="{{ site.baseurl }}{{ post.url }}" class="caption">
 
