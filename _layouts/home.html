@@ -28,6 +28,7 @@ layout: compress
   </style>
 
 	<link rel="stylesheet" type="text/css" href="/styles/icons.css" media="none" onload="if(media!='all')media='all'">
+	<link rel="stylesheet" href="/styles/progressive-image.min.css">
 
 </head>
 <body>
@@ -220,8 +221,21 @@ layout: compress
 		<div class="content">
 			{% for post in site.posts %}
 			<div class="item">
+
+				<div class="hid">
+								<a href="{{ site.baseurl }}{{ post.image }}" class="progressive replace">
+				  				<img src="https://res.cloudinary.com/bartoshevich/image/upload/w_20/v1546021407/tizers/tizer-40.jpg" class="preview" alt="{{ post.title }}" />
+								</a>
+				</div>
+
 				<a href="{{ site.baseurl }}{{ post.url }}" class="caption">
-					<img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}">
+
+
+
+	<!--			<img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}"> -->
+
+
+
 				<h3 class="caption-title">
 				{{ post.name }}
 				</h3>
@@ -242,5 +256,6 @@ layout: compress
 		</div>
 
 </div>
+	<script src="styles/progressive-image.min.js"></script>
 </body>
 </html>

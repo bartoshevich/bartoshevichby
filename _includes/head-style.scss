@@ -177,9 +177,7 @@
 
 }
 
-.item img {
-		display: none;
-}
+
 
 .item a,
 .head-item a {
@@ -200,7 +198,7 @@
 
 .item h3 {
 	font-size: 1.3em;
-	margin: 1em 0;
+	margin: .6em 0;
 	font-weight: 600;
 }
 
@@ -210,11 +208,14 @@
   grid-row-end: span 2;
 }
 
-.item:nth-child(4n+1) img {
-	display: inline-grid;
-	max-width: 100%;
-	height: auto;
+.hid {
+		display: none;
 }
+
+.item:nth-child(4n+1) div.hid {
+	display: inline-grid;
+}
+
 
 .item:nth-child(4n+3) {
   background-color: #323232;
