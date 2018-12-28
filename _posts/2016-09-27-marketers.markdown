@@ -8,7 +8,7 @@ categories: мнение
 permalink: "mnenie/marketers/"
 tags: "маркетолог"
 keywords: "отличия маркетера от маркетолога"
-image: /images/tizer-29.jpg
+image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021412/tizers/tizer-29.jpg
 ---
 
 <p>Предприниматель Андрей решил пригласить в&nbsp;компанию маркетолога. Разместил объявление и&nbsp;получил десятки резюме. Кто-то представился маркетологом, кто-то&nbsp;— маркетером. Андрей засомневался, отличается&nbsp;ли один специалист от&nbsp;другого. Если&nbsp;да, то&nbsp;кто нужен компании. Давайте разбираться вместе.</p><!--more-->

@@ -7,7 +7,7 @@ date:   2018-02-06
 categories: мнение
 permalink: "/mnenie/difficult-clients/"
 tags: "бизнес"
-image: /images/tizer-47.jpg
+image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021404/tizers/tizer-47.jpg
 keywords: "проблемный клиент"
 ---
 

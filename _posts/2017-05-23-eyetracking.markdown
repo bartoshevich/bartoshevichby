@@ -6,7 +6,7 @@ description: "Айтрекинг — точный и технологичный 
 date:   2017-05-23 
 categories: мнение
 permalink: "/mnenie/eye-tracking/"
-image: /images/tizer-41.jpg
+image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021407/tizers/tizer-41.jpg
 tags: "реклама инструменты интервью"
 keywords: "айтрекинг"
 ---

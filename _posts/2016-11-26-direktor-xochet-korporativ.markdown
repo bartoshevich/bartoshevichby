@@ -6,7 +6,7 @@ description: "Корпоратив не создаст команду, не ре
 date:   2016-11-26 
 categories: мнение
 permalink: "mnenie/direktor-xochet-korporativ/"
-image: /images/tizer-34.jpg
+image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021409/tizers/tizer-34.jpg
 tags: "маркетолог"
 keywords: "корпоративы"
 ---

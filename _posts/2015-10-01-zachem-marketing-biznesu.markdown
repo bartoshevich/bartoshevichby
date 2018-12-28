@@ -6,7 +6,7 @@ description: "Эксперты по продажам объясняют заче
 date:   2015-10-01
 categories: мнение
 permalink: "mnenie/zachem-marketing-biznesu/"
-image: /images/tizer-8.jpg
+image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021421/tizers/tizer-8.jpg
 tags: "управление интервью"
 keywords: "продавцы о маркетинге"
 ---

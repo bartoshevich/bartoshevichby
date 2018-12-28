@@ -6,7 +6,7 @@ description: "Идеи и рекомендации от создателей л�
 date:   2017-06-16
 categories: опыт
 permalink: "/opyt/delovoy/"
-image: /images/tizer-42.jpg
+image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021406/tizers/tizer-42.jpg
 tags: "интернет-маркетинг интервью"
 keywords:  "развитие интернет-магазина"
 ---

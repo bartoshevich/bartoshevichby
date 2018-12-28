@@ -7,7 +7,7 @@ date:   2018-11-30
 categories: опыт
 permalink: "/opyt/brand-giperlink/"
 tags: "кейсы"
-image: /images/tizer-51a.jpg
+image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021402/tizers/tizer-51a.jpg
 keywords: "разработка бренда Giperlink"
 ---
 

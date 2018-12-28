@@ -8,7 +8,7 @@ categories: мнение
 permalink: "mnenie/pochemu-net-prodazh/"
 tags: "управление"
 keywords: "нет продаж"
-image: /images/tizer-18.jpg
+image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021417/tizers/tizer-18.jpg
 ---
 
 

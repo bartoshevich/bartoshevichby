@@ -7,7 +7,7 @@ date:   2017-10-12
 categories: мнение
 permalink: "mnenie/hype/"
 tags: "маркетолог"
-image: /images/tizer-45.jpg
+image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021405/tizers/tizer-45.jpg
 keywords: "технологии в маркетинге"
 ---
 

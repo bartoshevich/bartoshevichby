@@ -6,7 +6,7 @@ description: "Недовольство маркетингом может быт�
 date:   2017-02-18
 categories: мнение
 permalink: "/mnenie/igra/"
-image: /images/tizer-37.jpg
+image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021409/tizers/tizer-37.jpg
 tags: "маркетолог управление"
 keywords: "спасение бизнеса"
 ---

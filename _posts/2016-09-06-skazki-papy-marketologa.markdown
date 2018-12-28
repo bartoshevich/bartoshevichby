@@ -8,7 +8,7 @@ categories: мнение
 permalink: "mnenie/skazki-papy-marketologa/"
 tags: "маркетолог"
 keywords: "маркетинг в сказках"
-image: /images/tizer-27.jpg
+image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021413/tizers/tizer-27.jpg
 ---
 
 <p>В&nbsp;качестве эксперимента написал и&nbsp;выложил в&nbsp;социальные сети сказку «Бульба». Сказка получила больший отклик, чем я&nbsp;предполагал. Решил продолжить и&nbsp;написал новую историю. В&nbsp;этот раз о&nbsp;справедливой зарплате маркетолога. Публикую ее&nbsp;в&nbsp;блоге вместе с&nbsp;«Бульбой».</p><!--more-->

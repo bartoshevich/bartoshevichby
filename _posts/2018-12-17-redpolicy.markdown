@@ -7,7 +7,7 @@ date:   2018-12-17
 categories: опыт
 permalink: "/opyt/editorial-policy/"
 tags: "кейсы, инструменты, управление"
-image: /images/tizer-52.jpg
+image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021402/tizers/tizer-52.jpg
 keywords: "редакционная политика бренда, развитие бренда"
 ---
 

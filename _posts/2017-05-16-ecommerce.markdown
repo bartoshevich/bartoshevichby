@@ -9,7 +9,7 @@ permalink: "/opyt/ecommerce/"
 image: /images/vyvod.jpg
 tags: "интернет-маркетинг семинары"
 keywords: "маркетинг интернет-магазинов"
-image: /images/tizer-40.jpg
+image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021407/tizers/tizer-40.jpg
 ---
 
 <p>11&nbsp;мая компания «1С-Битрикс» и&nbsp;веб-студия «Новый сайт» провели семинар «Формула сайта: от&nbsp;идеи интернет-магазина до&nbsp;лидера отрасли». Я&nbsp;был в&nbsp;числе спикеров и&nbsp;рассказывал о&nbsp;маркетинговой стратегии интернет-магазина. Тезисно остановлюсь на&nbsp;главных идеях выступления.</p> <!--more-->

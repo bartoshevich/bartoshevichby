@@ -7,7 +7,7 @@ date:   2018-10-02
 categories: инструкции
 permalink: "/instrukcii/optimizaciya-izobrajenii/"
 tags: "инструменты"
-image: /images/tizer-50.jpg
+image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021402/tizers/tizer-50.jpg
 keywords: "оптимизация изображений"
 ---
 

@@ -8,7 +8,7 @@ categories: мнение
 permalink: "/mnenie/stars/"
 tags: "маркетолог"
 keywords:  "гуру маркетинга"
-image: /images/tizer-39.jpg
+image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021407/tizers/tizer-39.jpg
 ---
 
 <p>Часто встречаю маркетологов, которые переоценивают значимость своего влияния на&nbsp;итоговый результат деятельности компании. Иногда и&nbsp;за&nbsp;собой замечаю подобное. Написал статью-напоминание, как&nbsp;же нелепо выглядит такое поведение со&nbsp;стороны.</p><!--more-->

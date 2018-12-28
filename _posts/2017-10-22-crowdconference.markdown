@@ -7,7 +7,7 @@ date:   2017-10-22
 categories: мнение
 permalink: "mnenie/crowdconference/"
 tags: "семинары"
-image: /images/tizer-46.jpg
+image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021405/tizers/tizer-46.jpg
 keywords: "семинар Новая реальность"
 ---
 

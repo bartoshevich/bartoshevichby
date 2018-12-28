@@ -8,7 +8,7 @@ categories: опыт
 permalink: "opyt/reklama-dlya-banka-tinkova/"
 tags: "реклама кейсы"
 keywords: "реклама для Тинькова"
-image: /images/tizer-30.jpg
+image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021411/tizers/tizer-30.jpg
 ---
 
 <p>Рассказываю историю, как придумал идею рекламы для банка Олега Тинькова, предложил Тинькову и что из этого вышло.</p><!--more-->
