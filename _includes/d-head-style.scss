@@ -27,5 +27,9 @@
 	padding-bottom:2rem;
 	}
 
+.content {
+		 grid-template-columns:   repeat(auto-fill, minmax(350px, 1fr));
+
+	}
 
 @import "d-footer";

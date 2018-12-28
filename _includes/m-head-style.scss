@@ -17,12 +17,15 @@
 	.head3 {
 	padding: 1rem;
 	}
-	
+
 	.margin-top {
 	margin-top: 2em;
 	}
 
+	.content {
+
+	 grid-template-columns:   repeat(auto-fill, minmax(280px, 1fr));
+
+	}
+
 @import "m-footer";
-
-
-
