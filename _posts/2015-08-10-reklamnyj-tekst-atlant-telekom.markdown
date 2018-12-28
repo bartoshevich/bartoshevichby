@@ -8,8 +8,9 @@ categories: опыт
 permalink: "opyt/reklamnyj-tekst-atlant-telekom/"
 tags: "реклама кейсы"
 keywords: "текст рекламы"
-image: /images/tizer-2.jpg
+image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021425/tizers/tizer-2.jpg
 ---
+
 <p>Компания «Атлант Телеком» выделяется агрессивным продвижением услуг и&nbsp;не&nbsp;всегда грамотной подачей. В&nbsp;статье я&nbsp;рассмотрю текст рекламной листовки, которую сотрудники предприятия оставляют в&nbsp;дверях квартир потенциальных клиентов. Отмечу, что мне не&nbsp;нравится в&nbsp;тексте, и&nbsp;в&nbsp;конце статьи предложу свой вариант листовки.</p>
 
 <p><img src="/images/atlant.jpg" alt="Рекламное объявление Атлант Телеком" width="695" height="390" class="img-responsive"/></p>
