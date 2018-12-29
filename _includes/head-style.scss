@@ -213,8 +213,11 @@
 }
 
 .item:nth-child(4n+1) div.hid {
-	display: inline-grid;
+	display: inline;
 }
+
+
+
 
 
 .item:nth-child(4n+3) {
