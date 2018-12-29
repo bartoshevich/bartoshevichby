@@ -63,7 +63,7 @@ layout: compress
 				<div class="head-item">
 					<a href="/opyt/brand-strategy-flex-n-roll/">
 
-						<img src="https://res.cloudinary.com/bartoshevich/image/upload/w_242/q_auto,f_auto/v1532200997/site/head_flexnroll.jpg" width="242" height="82" alt="Flex-n-Roll" />
+						<img src="https://res.cloudinary.com/bartoshevich/image/upload/w_242/q_auto,f_auto/v1532200997/site/head_flexnroll.jpg" class="client-logo" width="242" height="82" alt="Flex-n-Roll" />
 
 				<h3>
 					Flex-n-Roll
@@ -79,7 +79,7 @@ layout: compress
 
 				<div class="head-item">
 
-							<img src="https://res.cloudinary.com/bartoshevich/image/upload/w_242/q_auto,f_auto/v1532200553/site/head_hormann2x.jpg"  width="242" height="82" alt="Hormann" />
+							<img src="https://res.cloudinary.com/bartoshevich/image/upload/w_242/q_auto,f_auto/v1532200553/site/head_hormann2x.jpg" class="client-logo"  width="242" height="82" alt="Hormann" />
 
 					<h3>
 						Hormann
@@ -103,7 +103,7 @@ layout: compress
 
 				<div class="head-item">
 
-							<img src="https://res.cloudinary.com/bartoshevich/image/upload/w_242/q_auto,f_auto/v1537084109/site/egoart.jpg"  width="242" height="82" alt="EGO-ART" />
+							<img src="https://res.cloudinary.com/bartoshevich/image/upload/w_242/q_auto,f_auto/v1537084109/site/egoart.jpg" class="client-logo" width="242" height="82" alt="EGO-ART" />
 
 					<h3>
 						EGO-ART
@@ -127,7 +127,7 @@ layout: compress
 
 				<div class="head-item">
 
-							<img src="https://res.cloudinary.com/bartoshevich/image/upload/w_242/q_auto,f_auto/v1532200553/site/head_uvi.jpg" width="242" height="82" alt="ЮВИ Электроникс" />
+							<img src="https://res.cloudinary.com/bartoshevich/image/upload/w_242/q_auto,f_auto/v1532200553/site/head_uvi.jpg" class="client-logo" width="242" height="82" alt="ЮВИ Электроникс" />
 
 					<h3>
 						ЮВИ Электроникс
@@ -152,7 +152,7 @@ layout: compress
 
 				<div class="head-item">
 						<a href="/opyt/brand-giperlink/">
-							<img src="https://res.cloudinary.com/bartoshevich/image/upload/w_242/q_auto,f_auto/v1539713703/head_giperlink.jpg" width="242" height="82" alt="Giperlink" />
+							<img src="https://res.cloudinary.com/bartoshevich/image/upload/w_242/q_auto,f_auto/v1539713703/head_giperlink.jpg" class="client-logo" width="242" height="82" alt="Giperlink" />
 
 					<h3>
 						Giperlink
@@ -173,8 +173,7 @@ layout: compress
 				<div class="head-item">
 						<a href="/opyt/3dom-mebel-dlya-semi/">
 
-							<img src="https://res.cloudinary.com/bartoshevich/image/upload/w_242/q_auto,f_auto/v1539698312/3Dom.jpg" width="242" height="82" alt="3Dom"  />
-
+					<img src="https://res.cloudinary.com/bartoshevich/image/upload/w_242/q_auto,f_auto/v1539698312/3Dom.jpg" class="client-logo" width="242" height="82" alt="3Dom"  />
 
 					<h3>
 						3Dom
@@ -221,33 +220,29 @@ layout: compress
 		<div class="content">
 			{% for post in site.posts %}
 			<div class="item">
-	<a href="{{ site.baseurl }}{{ post.url }}" class="caption">
 
-<div class="hid">
-								<figure data-href="{{ site.baseurl }}{{ post.image }}" class="progressive replace">
-				  				<img src="https://res.cloudinary.com/bartoshevich/image/upload/w_20/q_auto,f_auto/v1546021407/tizers/tizer-40.jpg" class="preview" alt="{{ post.title }}" />
-								</figure>
-					</div>
+					<a href="{{ site.baseurl }}{{ post.url }}" class="caption">
+							<div class="hid">
+									 <figure data-href="{{ site.baseurl }}{{ post.image }}" class="progressive replace">
+												 <img src="https://res.cloudinary.com/bartoshevich/image/upload/w_20/q_auto,f_auto/v1546021407/tizers/tizer-40.jpg" class="preview" width="600" height="314" alt="{{ post.title }}" />
+											 </figure>
+<noscript>
+<img  src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}"/>
+</noscript>
 
-
-
-
-
-
-
-	<!--			<img src="{{ site.baseurl }}{{ post.image }}" alt="{{ post.title }}"> -->
+							 </div>
 
 
 
-				<h3 class="caption-title">
-				{{ post.name }}
-				</h3>
-		<!--		<p class="item-date">
-			{{ post.date | date: "%e %B %Y" | replace: 'January', 'января' | replace: 'February', 'февраля' | replace: 'March', 'марта' | replace: 'April', 'апреля' | replace: 'May', 'мая' | replace: 'June', 'июня' | replace: 'July', 'июля' | replace: 'August', 'августа' | replace: 'September', 'сентября' | replace: 'October', 'октября' | replace: 'November', 'ноября' | replace: 'December', 'декабря' }}
-		 </p> -->
-			<p>
-{{ post.description }}
-			</p>
+								<h3 class="caption-title">
+								{{ post.name }}
+								</h3>
+						<!--		<p class="item-date">
+							{{ post.date | date: "%e %B %Y" | replace: 'January', 'января' | replace: 'February', 'февраля' | replace: 'March', 'марта' | replace: 'April', 'апреля' | replace: 'May', 'мая' | replace: 'June', 'июня' | replace: 'July', 'июля' | replace: 'August', 'августа' | replace: 'September', 'сентября' | replace: 'October', 'октября' | replace: 'November', 'ноября' | replace: 'December', 'декабря' }}
+						 </p> -->
+							<p>
+									{{ post.description }}
+							</p>
 
 				</a>
 
@@ -259,6 +254,8 @@ layout: compress
 		</div>
 
 </div>
+
 	<script src="styles/progressive-image.min.js"></script>
+
 </body>
 </html>

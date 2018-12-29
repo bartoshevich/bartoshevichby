@@ -170,6 +170,11 @@
  grid-gap: 1rem;
 }
 
+
+.client-logo {
+	height: 82px;
+	}
+
 .item {
 		border: 1px solid #d9d9d9;
 		margin: 5px 0;
@@ -192,15 +197,9 @@
  {
 	outline: 1px solid #999;
 	outline-color: #0070c9;
-	-webkit-box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
-
 }
 
-.item h3 {
-	font-size: 1.3em;
-	margin: .6em 0;
-	font-weight: 600;
-}
+
 
 /* ***** форматы отображения списка статей **** */
 .item:nth-child(4n+1) {
@@ -208,21 +207,36 @@
   grid-row-end: span 2;
 }
 
-.hid {
+.hid,
+.no-js preview,
+.no-js progressive,
+.no-js replace {
 		display: none;
+
 }
+
 
 .item:nth-child(4n+1) div.hid {
-	display: inline;
+	display: block;
 }
 
+.item:nth-child(14n+2)  {
+		border: 3px solid #ffa600;
+}
 
-
+.item:nth-child(14n+2):hover  {
+	//	border: 7px solid #ffa600;
+		outline-color: #ffa600;
+}
 
 
 .item:nth-child(4n+3) {
   background-color: #323232;
 	}
+
+.item:nth-child(4n+3):hover {
+	 outline-color: #323232;
+		}
 
 .item:nth-child(4n+3) h3 {
 	color: white;
@@ -253,16 +267,13 @@ margin-bottom: .1em;
 }
 
 .caption-title {
-	margin: 0;
-	font-size: 1.4em;
 	line-height: 1em;
 	color:#333;
-	font-weight: normal;
-}
+	font-size: 1.3em;
+	margin: .6em 0;
+	font-weight: 600;
+	}
 
-.caption-title h3 {
-	font-weight: normal;
-}
 
 .item-date {
 	padding: .5em 0;
