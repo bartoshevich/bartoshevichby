@@ -207,14 +207,17 @@
   grid-row-end: span 2;
 }
 
-.hid,
-.no-js preview,
-.no-js progressive,
-.no-js replace {
+.hid {
 		display: none;
-
 }
 
+/*
+.no-js img.preview,
+.no-js img.progressive,
+.no-js img.replace {
+		display: none;
+}
+*/
 
 .item:nth-child(4n+1) div.hid {
 	display: block;
