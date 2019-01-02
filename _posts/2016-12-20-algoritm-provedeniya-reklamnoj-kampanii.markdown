@@ -45,29 +45,29 @@ image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v15460
       <span class="tocnumber">2 </span>Проработайте идею рекламной кампании
     </a>
   </li>
-            <ul class="level2">
-                    <li>
+
+                    <li class="level2">
                       <a href="#2.1">
                       <span class="tocnumber">а) </span>определите аудиторию, до которой хотите донести сообщение
                       </a>
                     </li>
-                    <li>
+                    <li class="level2">
                       <a href="#2.2">
                       <span class="tocnumber">б) </span>выберите каналы коммуникации и детализируйте план кампании
                       </a>
                     </li>
-                    <li>
+                    <li class="level2">
                       <a href="#2.3">
                       <span class="tocnumber">в) </span>определите частоту контактов с рекламным сообщением
                       </a>
                     </li>
-                    <li>
+                    <li class="level2">
                       <a href="#2.4">
                       <span class="tocnumber">г) </span>составьте рекламное сообщение
                       </a>
                     </li>
 
-            </ul>
+
 
       <li>
         <a href="#3">
