@@ -1,0 +1,32 @@
+.toc {
+	background-color:#f9f9f9;
+  	border:1pt solid #aaa;
+ 	padding:15px;
+ 	display:inline-block;
+	font-size:85%;
+	margin-top: 20px;
+}
+
+.toc::before {
+	content:"Содержание";
+	font-weight:600;
+	text-align: center;
+}
+
+.toc ul {
+	list-style-type: none;
+	list-style-image: none;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+
+.tocnumber {
+	padding-left: .5em;
+	padding-right: .5em;
+	color: #222;
+	}
+
+ul.level2 {
+	padding-left: 1em;
+}
