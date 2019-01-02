@@ -29,7 +29,7 @@ image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v15460
 <p><em>Сообщаем Вам о&nbsp;том, что Ваш дом подключен по&nbsp;новейшей технологии Ethernet (скорость до&nbsp;100&nbsp;Мбит/с).</em></p>
  </blockquote>
 <p>Это шаг вперед. В&nbsp;прошлый раз реклама «Атлант Телеком» призывала проверить, подключила&nbsp;ли компания дом к&nbsp;сети.</p>
-<blockquote class="twitter-tweet" data-lang="ru"><p lang="ru" dir="ltr">Лифт. Реклама от <a href="https://twitter.com/AtlantTelecom">@AtlantTelecom</a>. Призывают узнать,  есть ли их сеть в этом доме. :) если сети нет, зачем реклама, если есть - зачем узнавать</p>&mdash; Dmitry Bartoshevich (@dbartoshevich) <a href="https://twitter.com/dbartoshevich/status/607182202758176768">6 июня 2015 г.</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ru"><p lang="ru" dir="ltr">Лифт. Реклама от Atlant Telecom. Призывают узнать,  есть ли их сеть в этом доме. :) если сети нет, зачем реклама, если есть - зачем узнавать</p>&mdash; Dmitry Bartoshevich (@dbartoshevich) <a href="https://twitter.com/dbartoshevich/status/607182202758176768">6 июня 2015 г.</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js"></script>
 <p><img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="&lt;script&gt;" width="20" height="20" title="&lt;script&gt;"/><br/>
  Но&nbsp;и&nbsp;сейчас текст можно улучшить. Смущает страдательный залог, слово «новейшей» применительно к&nbsp;технологии Ethernet, которой уже много лет, и&nbsp;указание скорости без расшифровки для «гуманитариев».
