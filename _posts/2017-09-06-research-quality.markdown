@@ -46,24 +46,24 @@ keywords: "контроль исследовательских агентств"
       <span class="tocnumber">2 </span>Особенности контроля качества проведения
     </a>
   </li>
-    <ul class="level2">
-      <li>
+
+      <li class="level2">
         <a href="#2.1">
         <span class="tocnumber">2.1 </span>...личных интервью
         </a>
       </li>
-      <li>
+      <li class="level2">
         <a href="#2.2">
         <span class="tocnumber">2.2 </span>...онлайн опроса
         </a>
       </li>
-      <li>
+      <li class="level2">
         <a href="#2.3">
         <span class="tocnumber">2.3 </span>...фокус-групп
         </a>
       </li>
 
-    </ul>
+
 </ul>
 </nav>
 
