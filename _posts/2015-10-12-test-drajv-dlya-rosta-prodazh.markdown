@@ -2,10 +2,11 @@
 layout: post
 title: "Рост продаж через тест-драйв"
 name: "Как продать больше с помощью тестирования"
-description: "Организуйте тестирование продукта или услуги, стимулируйте участие в этом мероприятии и объем продаж увеличится."
+description: "Желаете роста продаж&nbsp;— организуйте тестирование продукта или услуги, стимулируйте участие в&nbsp;этом мероприятии. Но&nbsp;только если продукт действительно хорош ;-) "
 date:   2015-10-12
+last_modified_at: 2019-01-06
 categories: мнение
-permalink: "mnenie/test-drajv-dlya-rosta-prodazh/"
+permalink: "/mnenie/test-drajv-dlya-rosta-prodazh/"
 tags: "инструменты"
 keywords: "тестирование продукта"
 image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021421/tizers/tizer-9.jpg

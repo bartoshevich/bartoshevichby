@@ -2,10 +2,11 @@
 layout: post
 title: "Интернет-проекты: советы по разработке и развитию"
 name: "Студия Борового: как развивать интернет-проекты"
-description: "Ключевые идеи, советы спикеров и общее впечатление от семинара по интернет-маркетингу “Стань эффективнее” Студии Борового и “Скрытого маркетинга”. "
+description: "Ключевые идеи, советы спикеров и&nbsp;общее впечатление от&nbsp;семинара по&nbsp;интернет-маркетингу «Стань эффективнее» Студии Борового и&nbsp;«Скрытого маркетинга»."
 date:   2015-09-24
+last_modified_at: 2019-01-06
 categories: мнение
-permalink: "mnenie/sovety-po-razrabotke-i-razvitiyu-internet-proektov/"
+permalink: "/mnenie/sovety-po-razrabotke-i-razvitiyu-internet-proektov/"
 tags: "интернет-маркетинг семинары"
 keywords: "работа над сайтом"
 image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021422/tizers/tizer-7.jpg

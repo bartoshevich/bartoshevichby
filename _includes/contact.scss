@@ -1,0 +1,112 @@
+@import "variables";
+@import "basis";
+@import "menu";
+@import "article";
+@import "footer";
+
+
+
+@media (min-width: 750px) {
+            .contact-grid-container {
+              width: 100%;
+              min-height: 80vh;
+              display: grid;
+              grid-template-columns: 50px 1fr 1fr 1fr 1fr 1fr;
+              grid-template-rows: 193px 1fr 1fr 1fr;
+          //    grid-gap: .4rem;
+              grid-template-areas:
+                "b d d i a c "
+                "b d d i e e "
+                ". j j j f f"
+
+      /*          "b . . a c c"
+                "b d d f f i"
+                "b d d e e i"
+                ". j j j . ."*/
+
+            }
+
+            .logo {
+              grid-area: a;
+              object-fit: cover;
+            }
+
+
+            .title {
+              grid-area:b;
+             margin-bottom: 1rem;
+            }
+
+            h1.title  {
+              transform: rotate(180deg);
+              writing-mode: vertical-rl;
+              text-transform: uppercase;
+            }
+
+            .name {
+              grid-area: c;
+
+              }
+
+            .tel {
+              background-color: #f4efd1;
+              vertical-align: middle;
+              font-size: 1.2em;
+              grid-area: d;
+            opacity: 0.85;
+              }
+
+            .email {
+               background-color: #b4c4d4;
+               font-size: 1.2em;
+               vertical-align: middle;
+              grid-area: e;
+                opacity: 0.85;
+              }
+
+            .social {
+                background-color:#f4f3f3;
+                grid-area: i;
+                  }
+
+            .telegram {
+                    background-color:#eff2f7;
+                      grid-area: f;
+                        }
+
+            .office {
+                      background-color:#e7eaef;
+                        grid-area: j;
+                }
+
+                .tel,
+                .email,
+                .social,
+                .telegram,
+                .office {
+                display: flex;
+                  font-size: 1.2em;
+                  flex-wrap: wrap;
+                  flex-direction: column;
+                }
+
+                .x1 {
+                margin: auto;
+                text-align: center;
+                }
+
+  }
+
+.contact-grid-container a {
+  font-weight: 600;
+}
+
+
+.logo {
+  width: 193px;
+  height: 193px;
+}
+
+.title {
+   margin-bottom: 1rem;
+}

@@ -2,10 +2,11 @@
 layout: post
 title: "Практикум Взлом барьеров развития бизнеса"
 name: "Как мы ломали барьеры развития бизнеса"
-description: "Рассказываю, как провели семинар по маркетингу и продажам для руководителей компаний"
+description: "Рассказываю, как провели семинар по&nbsp;маркетингу и&nbsp;продажам для руководителей компаний."
 date:   2015-08-27
+last_modified_at: 2019-01-07
 categories: опыт
-permalink: "opyt/vzlom-barerov-biznesa/"
+permalink: "/opyt/vzlom-barerov-biznesa/"
 tags: "семинары"
 keywords: "семинар по маркетингу"
 image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021423/tizers/tizer-4.jpg

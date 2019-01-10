@@ -2,10 +2,10 @@
 layout: post
 title: "Зачем маркетинг нужен компании"
 name: "Зачем нужен маркетинг"
-description: "Эксперты по продажам объясняют зачем маркетинг белорусскому бизнесу и почему он иногда не приносит пользу компании. "
-date:   2015-10-01
+description: "Зачем маркетинг белорусскому бизнесу и&nbsp;почему он&nbsp;иногда не&nbsp;приносит пользу предприятиям&nbsp;— рассуждают эксперты по&nbsp;продажам."
+last_modified_at: 2019-01-06
 categories: мнение
-permalink: "mnenie/zachem-marketing-biznesu/"
+permalink: "/mnenie/zachem-marketing-biznesu/"
 image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021421/tizers/tizer-8.jpg
 tags: "управление интервью"
 keywords: "продавцы о маркетинге"

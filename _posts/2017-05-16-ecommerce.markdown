@@ -2,11 +2,11 @@
 layout: post
 title: "Маркетинговая стратегия для интернет-проектов"
 name: "Маркетинговая стратегия интернет-магазина"
-description: "Рассказываю о маркетинговой стратегии интернет-магазина. Только главное, без чего развитие превращается в изматывающие крысиные бега."
-date:   2017-05-16 
+description: "Рассказываю о&nbsp;маркетинговой стратегии интернет-магазина: без чего развитие превратится в&nbsp;изматывающие крысиные бега."
+date:   2017-05-16
+last_modified_at: 2019-01-06
 categories: опыт
 permalink: "/opyt/ecommerce/"
-image: /images/vyvod.jpg
 tags: "интернет-маркетинг семинары"
 keywords: "маркетинг интернет-магазинов"
 image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021407/tizers/tizer-40.jpg
@@ -34,15 +34,15 @@ image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v15460
 
 
 Польза карт:<br/>
-<ul> 
-	<li> 
+<ul>
+	<li>
 		создадите ясный план действий по&nbsp;развитию интернет-магазина;
 	</li>
-	<li> 
+	<li>
 		в&nbsp;маркетинговой активности выделите главное, откажетесь от&nbsp;лишнего и&nbsp;избыточного;
 	</li>
-	<li> 
-		снизите потери клиентов при переходе от&nbsp;одной стадии потребительского опыта к&nbsp;другой. 
+	<li>
+		снизите потери клиентов при переходе от&nbsp;одной стадии потребительского опыта к&nbsp;другой.
 	</li>
 </ul><p></p>
 
@@ -57,10 +57,3 @@ image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v15460
 
 
 <p><img src="/images/seminar110517-2.jpg" alt="маркетинговая стратегия интернет-магазина" width="720" height="540" class="img-responsive" title="Фото: Арина Чернышева" /></p>
-
-
-
-
-
-
-

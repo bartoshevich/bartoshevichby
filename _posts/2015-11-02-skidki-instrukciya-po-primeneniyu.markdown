@@ -2,10 +2,11 @@
 layout: post
 title:  "Cкидки: как предлагать правильно"
 name: "Скидки — инструкция по применению"
-description: "В рамках маркетинговой кампании скидки предлагаете на условиях, которые подчеркивают ценность бренда и укрепляют отличия от конкурентов."
+description: "В&nbsp;рамках маркетинговой кампании предлагайте скидки на&nbsp;условиях, которые подчеркивают ценность бренда и&nbsp;укрепляют отличия от&nbsp;конкурентов."
 date:   2015-11-12
+last_modified_at: 2019-01-06
 categories: инструкции
-permalink: "instrukcii/skidki-instrukciya-po-primeneniyu/"
+permalink: "/instrukcii/skidki-instrukciya-po-primeneniyu/"
 tags: "инструменты"
 keywords: "опасность скидок"
 image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021421/tizers/tizer-11.jpg

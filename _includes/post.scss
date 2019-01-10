@@ -1,0 +1,50 @@
+
+@import "variables";
+@import "basis";
+@import "menu";
+@import "article";
+@import "grid";
+@import "toc";
+@import "text-style";
+@import "code";
+@import "side";
+@import "subscription";
+@import "footer";
+
+
+
+
+
+.prefooter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  align-items: stretch;
+  margin-bottom: 2rem;
+  font-size: 1em;
+}
+
+.prefooter-item1 {
+  flex:1;
+  padding: 5% 3%;
+  background-color: #edeeef;
+  min-width: 250px;
+  margin: 1%;
+}
+
+.prefooter-item2 {
+  flex:2;
+  margin: 1%;
+  padding: 5% 3%;
+  background-color: #dfe3e4;
+  width: 100%;
+}
+
+
+@media screen and (max-width:720px) {
+  .prefooter-item1,
+  .prefooter-item2 {
+    margin: 0;
+  }
+}

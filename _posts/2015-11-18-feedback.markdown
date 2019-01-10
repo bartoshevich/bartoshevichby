@@ -2,10 +2,11 @@
 layout: post
 title: "Net Promoter Score"
 name: "Индекс лояльности: как рассчитать и использовать"
-description: "Измерение индекса лояльности (Net Promoter Score, NPS) — быстрый и легкий способ получить информативную обратную связь от клиента."
+description: "Измерение индекса лояльности (Net Promoter Score, NPS)&nbsp;— как правильно рассчитать и&nbsp;извлечь максимальную пользу от&nbsp;использования. "
 date:   2015-11-18
+last_modified_at: 2019-01-06
 categories: инструкции
-permalink: "instrukcii/feedback/"
+permalink: "/instrukcii/feedback/"
 tags: "инструменты"
 keywords: "Net Promoter Score, NPS"
 image: https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1546021419/tizers/tizer-12.jpg

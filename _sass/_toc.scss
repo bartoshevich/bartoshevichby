@@ -1,10 +1,12 @@
 .toc {
-	background-color:#f9f9f9;
-  	border:1pt solid #aaa;
+	background-color:$toc;
+  	border:1pt dotted #aaa;
  	padding:15px;
  	display:inline-block;
-	font-size:85%;
+	font-size:90%;
 	margin-top: 20px;
+//	width: 100%;
+	word-wrap: break-word;
 }
 
 

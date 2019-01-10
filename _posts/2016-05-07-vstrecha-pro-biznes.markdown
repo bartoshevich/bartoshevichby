@@ -2,10 +2,11 @@
 layout: post
 title: "Встреча Про бизнес"
 name: "Встреча Про бизнес. Личный взгляд"
-description: "Встреча Про бизнес. Разговор с Андреем Торсуновым и Иосифом Фридманом. Впечатления, идеи."
+description: "Встреча Про бизнес. Разговор с&nbsp;Андреем Торсуновым и&nbsp;Иосифом Фридманом. Впечатления, идеи."
 date:   2016-05-07
+last_modified_at: 2019-01-06
 categories: опыт
-permalink: "opyt/vstrecha-pro-biznes/"
+permalink: "/opyt/vstrecha-pro-biznes/"
 tags: "бизнес"
 keywords: "Про бизнес"
 image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021417/tizers/tizer-20.jpg

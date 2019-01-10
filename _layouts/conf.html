@@ -1,7 +1,7 @@
 ---
 layout: compress
 ---
-
+<!-- Copyright (c) Дмитрий Бартошевич | https://bartoshevich.by/ -->
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -16,12 +16,6 @@ layout: compress
 	<style>
     {% capture criticalcss %}
       {% include conf-style.scss %}
-  @media only screen and (max-width:899px) {
-      {% include m-conf-style.scss %}
-  }
-  @media only screen and (min-width:900px) {
-        {% include d-conf-style.scss %}
-    }
     {% endcapture %}
     {{ criticalcss | scssify }}
   </style>
@@ -32,31 +26,56 @@ layout: compress
 </head>
 <body>
 
-<div class="all-site">
-	{% include menu.html %}
-	<div class="conteiner">
-		<div class="article-header">
-			<h3><a href="/">&larr; на главную страницу</a></h3>
-		</div>
+	<div class="nav" role="navigation">
 
+			<div class="menu-item">
+			<a href="/" title="Открыть главную страницу">Дмитрий Бартошевич</a>
+			</div>
 
+			<div class="menu">
+				<ul>
+					<li class="menu-item"><a href="/me/" title="Рассказываю, что сделал">Работа</a></li>
+					<li class="menu-item"><a href="/blog/" title="Блог маркетолога">Блог</a></li>
+					<li class="menu-item"><a href="/contact/" title="Связаться">Контакты</a></li>
+				</ul>
+				</div>
 
-		<div class="content">
-			<div class="article">
-				<h1>Политика конфиден&shy;циаль&shy;ности</h1>
-
-					{{ content }}
-
-		    </div>
-
-
-		</div>
-
-		{% include footer.html %}
 	</div>
 
+	<div class="wrapper">
 
+
+
+
+<article class="conf-grid-container article">
+
+<div class="title">
+				<h1>Политика <br/>конфиден&shy;циаль&shy;ности</h1>
+	</div>
+
+<b class="focus-line"></b>
+
+<p class="intro"> Вы&nbsp;даете свое безоговорочное согласие с&nbsp;принципами и&nbsp;условиями, описанными ниже. В&nbsp;ином случае — воздержитесь от&nbsp;посещений сайта.</p>
+
+
+<div class="confidentpolicy">
+					{{ content }}
 </div>
+		  	</article>
+
+			  </div>
+
+
+
+
+
+
+
+		{% include footer.html %}
+
+
+
+
 
 
 </body>

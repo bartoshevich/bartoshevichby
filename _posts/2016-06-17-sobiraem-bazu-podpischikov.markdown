@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "Собираем базу подписчиков"
-name: "Кейс: собираем с нуля базу подписчиков"
-description: "Рассказываю, как за месяц c нуля собрали 4,5 тысячи адресов электронной почты потенциальных клиентов."
-date:   2016-06-17 
+title: "Собрал базу подписчиков"
+name: "Кейс: собираем с&nbsp;нуля базу подписчиков"
+description: "Рассказываю, как за&nbsp;месяц c&nbsp;нуля собрали 4,5 тысячи адресов электронной почты потенциальных клиентов."
+date:   2016-06-17
+last_modified_at: 2019-01-06
 categories: опыт
-permalink: "opyt/sobiraem-bazu-podpischikov/"
+permalink: "/opyt/sobiraem-bazu-podpischikov/"
 tags: "кейсы интернет-маркетинг"
 keywords: "собираем базу подписчиков"
 image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021415/tizers/tizer-23.jpg

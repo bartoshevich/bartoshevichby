@@ -1,7 +1,7 @@
 ---
 layout: compress
 ---
-
+<!-- Copyright (c) Дмитрий Бартошевич | https://bartoshevich.by/ -->
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -16,12 +16,6 @@ layout: compress
 	<style>
     {% capture criticalcss %}
       {% include me-style.scss %}
-  @media only screen and (max-width:899px) {
-      {% include m-me-style.scss %}
-  }
-  @media only screen and (min-width:900px) {
-        {% include d-me-style.scss %}
-    }
     {% endcapture %}
     {{ criticalcss | scssify }}
   </style>
@@ -30,79 +24,205 @@ layout: compress
 </head>
 <body>
 
-<div class="all-site">
-	{% include menu.html %}
-	<div class="conteiner">
-		<div class="article-header">
-			<h3><a href="/">&larr; на главную страницу</a></h3>
-		</div>
+	<div class="nav" role="navigation">
+
+			<div class="menu-item">
+			<a href="/" title="Открыть главную страницу">Дмитрий Бартошевич</a>
+			</div>
+
+			<div class="menu">
+				<ul>
+					<li class="menu-item selected">Работа</li>
+					<li class="menu-item"><a href="/blog/" title="Блог маркетолога">Блог</a></li>
+					<li class="menu-item"><a href="/contact/" title="Связаться">Контакты</a></li>
+				</ul>
+				</div>
+
+	</div>
+
+<div class="wrapper">
 
 
-		<div class="slogan">
-			<p><del>Втюхинг</del> Маркетинг</p>
-			<p><del>WOW-эффект</del> Смысл </p>
-			<p><del>Пляска идей</del> Cистема действий</p>
-		</div>
-
-
-	<section class="break"></section>
+<article class="article">
 
 
 
-		<div class="me-head">
-			<div class="me-head-block">
-				<div class="me-head-item">
+
 
 					<h1>Кто я <br/>и что делаю </h1>
 
 
 
-				</div>
-				<div class="me-head-item">
-					<img src="https://res.cloudinary.com/bartoshevich/image/upload/w_700/f_auto,q_auto/v1531856696/site/me1-840.jpg" alt="Дмитрий Бартошевич на конференции" />
-				</div>
-
-
-			</div>
-			<div class="me-head-block">
-				<div class="me-head-item">
-					<img src="https://res.cloudinary.com/bartoshevich/image/upload/w_700/f_auto,q_auto/v1531856696/site/me2-840.jpg" alt="Дмитрий Бартошевич" />
-				</div>
-				<div class="me-head-item">
-
-					<p><strong>Маркетолог, консультант по&nbsp;маркетингу.</strong><br/>Опираюсь на&nbsp;исследования, анализ данных, <a href="/mnenie/otlichie-marketologa-ot-brexuna/">избегаю брехни</a>. Ориентируюсь на&nbsp;<a href="/mnenie/konkurentnoe-preimushhestvo/">пользу и&nbsp;доверие</a>. Работаю по&nbsp;договору, <a href="/mnenie/igra/">не&nbsp;играю в&nbsp;«Спасителя»</a>.</p>
-
-					<p>Если в&nbsp;компании нет маркетолога, беру его функции на&nbsp;себя. Не&nbsp;даю халтурить подрядчикам. Сам ставлю задачи, контролирую исполнение.</p>
-
-					<p>Клиенты платят не&nbsp;за&nbsp;время с&nbsp;9:00 до&nbsp;18:00, а&nbsp;за&nbsp;результат. Без отчислений в&nbsp;ФСЗН, оплаты подоходного налога, больничных и&nbsp;отпусков. </p>
-				</div>
-
-
-
-			</div>
-		</div>
+									<div class="description">
 
 
 
 
+														<h2>Маркетолог, <br />консультант по&nbsp;маркетингу</h2>
+														<p>Опираюсь на&nbsp;исследования, анализ данных, <a href="/mnenie/otlichie-marketologa-ot-brexuna/">избегаю брехни</a>. Ориентируюсь на&nbsp;<a href="/mnenie/konkurentnoe-preimushhestvo/">пользу и&nbsp;доверие</a>. Работаю по&nbsp;договору, <a href="/mnenie/igra/">не&nbsp;играю в&nbsp;«Спасителя»</a>.</p>
+
+														<p>Если в&nbsp;компании нет маркетолога, беру его функции на&nbsp;себя. Не&nbsp;даю халтурить подрядчикам. Сам ставлю задачи, контролирую исполнение.</p>
+
+														<p>Клиенты платят не&nbsp;за&nbsp;время с&nbsp;9:00 до&nbsp;18:00, а&nbsp;за&nbsp;результат. Без отчислений в&nbsp;ФСЗН, оплаты подоходного налога, больничных и&nbsp;отпусков. </p>
+
+									</div>
+
+
+
+<!-- блок клиентов -->
+
+									<div class="head-client">
+
+													<div class="head-item">
+														<a href="/opyt/brand-strategy-flex-n-roll/">
+
+															<img src="https://res.cloudinary.com/bartoshevich/image/upload/w_242/q_auto,f_auto/v1532200997/site/head_flexnroll.jpg" class="client-logo" width="242" height="82" alt="Flex-n-Roll" />
+
+													<h3>
+														Flex-n-Roll
+													</h3>
+													<p class="subtitle" >типография, лидер в&nbsp;РБ в&nbsp;сегменте самоклеящихся этикеток</p>
+													<ul>
+													<li>Руководил проведением маркетингового исследования (разработал техническое задание, контролировал качество проведения исследования и&nbsp;обработку данных). </li>
+													<li>Cоздал структуру бренда <span class="noperenos">«Флекс-н-Ролл»</span> и&nbsp;стратегию развития.</li>
+													</ul>
+														</a>
+													</div>
+
+
+													<div class="head-item">
+
+																<img src="https://res.cloudinary.com/bartoshevich/image/upload/w_242/q_auto,f_auto/v1532200553/site/head_hormann2x.jpg" class="client-logo"  width="242" height="82" alt="Hormann" />
+
+														<h3>
+															Hormann
+														</h3>
+														<p class="subtitle" >немецкий производитель дверей, ворот, электроприводов</p>
+														<ul>
+														<li>
+															Организовал маркетинговое исследование (разработал&nbsp;ТЗ, помог выбрать исследовательскую компанию, контролировал качество проведения исследования и&nbsp;обработки данных).
+														</li>
+														<li>
+															Разработал концепцию бренда и&nbsp;принципы коммуникативной политики.
+														</li>
+														<li>
+															Создал креативную концепцию рекламной кампании.
+														</li>
+														</ul>
+
+													</div>
+
+
+
+													<div class="head-item">
+
+																<img src="https://res.cloudinary.com/bartoshevich/image/upload/w_242/q_auto,f_auto/v1537084109/site/egoart.jpg" class="client-logo" width="242" height="82" alt="EGO-ART" />
+
+														<h3>
+															EGO-ART
+														</h3>
+														<p class="subtitle" >ювелирное производство</p>
+														<ul>
+														<li>
+															Провел маркетинговый аудит (на&nbsp;основе карты потребительского опыта разработал функциональную модель работы отдела маркетинга; выделил отсутствующие функции и&nbsp;функции, которые в&nbsp;компании не&nbsp;развиты; составил план ближайшего развития).
+														</li>
+														<li>
+															Разработал концепцию бренда и&nbsp;принципы коммуникационной политики.
+														</li>
+														<li>
+															Составил редакционную политику компании.
+														</li>
+														</ul>
+
+													</div>
+
+
+
+													<div class="head-item">
+
+																<img src="https://res.cloudinary.com/bartoshevich/image/upload/w_242/q_auto,f_auto/v1532200553/site/head_uvi.jpg" class="client-logo" width="242" height="82" alt="ЮВИ Электроникс" />
+
+														<h3>
+															ЮВИ Электроникс
+														</h3>
+														<p class="subtitle">производство и&nbsp;поставки промышленных нагревателей и&nbsp;комплектующих </p>
+														<ul>
+														    <li>
+														    Изучил конкурентное окружение и&nbsp;целевую аудиторию (опрос, составление карт потребительского опыта).
+														    </li>
+														    <li>
+														    Разработал концепцию торговой марки и&nbsp;принципы коммуникативной политики компании.
+														    </li>
+														</ul>
+													</div>
+
+													<div class="head-item">
+															<a href="/opyt/brand-giperlink/">
+																<img src="https://res.cloudinary.com/bartoshevich/image/upload/w_242/q_auto,f_auto/v1539713703/head_giperlink.jpg" class="client-logo" width="242" height="82" alt="Giperlink" />
+
+														<h3>
+															Giperlink
+														</h3>
+														<p class="subtitle">интернет-агентство</p>
+														<ul>
+														<li>
+														Изучил конкурентное окружение, целевую аудиторию, составил карты потребительского опыта.
+														</li>
+														<li>
+														Создал платформу бренда, разработал принципы развития агентства.
+														</li>
+
+														</ul>
+														</a>
+													</div>
+
+													<div class="head-item">
+															<a href="/opyt/3dom-mebel-dlya-semi/">
+
+														<img src="https://res.cloudinary.com/bartoshevich/image/upload/w_242/q_auto,f_auto/v1539698312/3Dom.jpg" class="client-logo" width="242" height="82" alt="3Dom"  />
+
+														<h3>
+															3Dom
+														</h3>
+														<p class="subtitle">производство и&nbsp;продажа корпусной мебели</p>
+														<ul >
+														<li>
+														Изучил конкурентное окружение, целевую аудиторию.
+														</li>
+														<li>
+														Cоздал стратегию развития торговой марки 3Dom.
+														</li>
+														<li>
+														Разрабатывал и&nbsp;координировал проведение рекламных акций.
+														</li>
+														</ul>
+															</a>
+													</div>
+											</div>
 
 
 
 
-<section class="break"></section>
+
+
+
+
 
 			<div class="me-text">
-				<!--<h2>Немного о&nbsp;том, что</h2>-->
+
 				<div class="row">
 					<div class="c-4">
 						<ul><li>
-							<h2>Сделал</h2>
+							<h3>Сделал</h3>
 							</li>
 						<!--	<li>
 								<a href="/opyt/brand-conception-hormann/">Разрабатываю концепцию бренда для Хёрманн</a>
 							</li> -->
 							<li>
 								<a href="/opyt/brand-strategy-flex-n-roll/">Разработал концепцию бренда <span class="noperenos">«Флекс-н-Ролл»</span></a>
+							</li>
+							<li>
+								<a href="/opyt/editorial-policy/">Составил редакционную политику бренда</a>
 							</li>
 							<li>
 								<a href="/opyt/3dom-mebel-dlya-semi/">Создал концепцию бренда 3Dom</a>
@@ -129,7 +249,7 @@ layout: compress
 								<a href="/opyt/reklama-dlya-banka-tinkova/">Рекламировал банк Олега Тинькова</a>
 							</li>
 							<li>
-								выполнил проекты для «Истела Роса», «Danone Беларусь», «САВ-лайн», «MODISTA», «Херманн», «ЮВИ Электроникс», «EGO-ART» и&nbsp;других компаний.
+								выполнил проекты для «Истела Роса», Danone Беларусь, <span class="noperenos">«САВ-лайн»</span>, MODISTA, «Херманн», «ЮВИ Электроникс», <span class="noperenos">EGO-ART</span> и&nbsp;других компаний.
 							</li>
 
 						</ul>
@@ -137,7 +257,7 @@ layout: compress
 					</div>
 
 					<div class="c-4">
-						<ul><li><h2>Написал для СМИ</h2></li>
+						<ul><li><h3>Написал для СМИ</h3></li>
 							<li>
 								<a href="//probusiness.io/management/4239-neadekvaty-ikholodnaya-shaurma-kak-rabotat-sproblemnymi-klientami.html" target="_blank" rel="noopener">Неадекваты и&nbsp;«холодная шаурма»: как работать с&nbsp;проблемными клиентами</a>
 							</li>
@@ -157,7 +277,7 @@ layout: compress
 
 					</div>
 					<div class="c-4">
-						<ul><li><h2>Рассказал</h2></li>
+						<ul><li><h3>Рассказал</h3></li>
 							<li>
 								<a href="/opyt/vzlom-barerov-biznesa/">Практикум «Взлом барьеров развития бизнеса»</a>
 							</li>
@@ -179,26 +299,22 @@ layout: compress
 			</div>
 
 
-<section class="break"></section>
 
 
 
-					<div class="me-text-2">
-						<h2>Я&nbsp;предприниматель </h2>
+<h2>Я&nbsp;предприниматель </h2>
+					<div class="description">
 
-						<div class="row">
-							<div class="c-6">
+
+
 								<p>В&nbsp;январе 2015 года я&nbsp;открыл ИП. Работаю как консультант и&nbsp;маркетолог на&nbsp;аутсорсинге. </p>
 								<p>Мой <b>главный принцип&nbsp;</b>— каждый шаг маркетолога должен подчеркивать и&nbsp;усиливать идею, которая значимо для клиентов отличает предприятие от&nbsp;конкурентов. Если такой идеи нет, то&nbsp;маркетинг быстро превращается в&nbsp;изматывающие крысиные бега. </p>
 								<p>Постепенно в&nbsp;блоге появится описание всех завершенных проектов, о&nbsp;ходе которых я&nbsp;могу рассказать публично. </p>
 
-							</div>
 
-							<div class="c-6">
 								<p>Внешне <b>моя работа выглядит так:</b> сначала я&nbsp;собираю, анализирую и&nbsp;систематизирую доступную информацию о&nbsp;конкурентах, характеристиках и&nbsp;мотивации целевой аудитории. Если потребуется, организую проведение маркетинговых исследований.</p>					 <p> Далее определяю и&nbsp;формулирую конкурентные преимущества торговой марки, составляю пошаговый план, как создать и&nbsp;укрепить образ преимуществ в&nbsp;сознании целевой аудитории.</p><p> Участвую в&nbsp;реализации плана. Поддерживаю клиентов в&nbsp;работе с&nbsp;подрядчиками. </p>
 
-							</div>
-						</div>
+
 
 					</div>
 
@@ -207,13 +323,13 @@ layout: compress
 
 
 
-		<section class="break"></section>
+<h2>Я&nbsp;наемный работник</h2>
 			<div class="me-text">
-					<h2>Я&nbsp;наемный работник</h2>
-					<p>Последние 4&nbsp;места:</p>
-					<div class="row">
 
-						<div class="c-6">
+					<p>Последние 4&nbsp;места:</p>
+					<div class="work-list">
+
+						<div class="item">
 							<picture>
 								<source
 									srcset="/images/brownsme-1x.webp 1x,
@@ -222,29 +338,13 @@ layout: compress
 								<img
 									src="/images/brownsme-1x.jpg" alt="Brown’s Manufactor" width="250" height="276" srcset="/images/brownsme-2x.jpg 2x">
 							</picture>
-					<p><strong> ООО «Тичино», тм&nbsp;«Brown’s Manufactory» (Беларусь)</strong></p>
+					<p><strong> ООО «Тичино», <span class="noperenos">тм&nbsp;«Brown’s Manufactory»</span> (Беларусь)</strong></p>
 					<p class="workdate"> 2013-2014 — директор компании</p>
 					<p> Здесь я&nbsp;отчетливо понял, что хочу заниматься вопросами развития бренда и&nbsp;решать маркетинговые задачи. </p>
 						</div>
-						<div class="c-6">
-							<picture>
-								<source
-									srcset="/images/pro-trademe-1x.webp 1x,
-											/images/pro-trademe-2x.webp 2x"
-									type="image/webp">
-								<img
-									src="/images/pro-trademe-1x.jpg" alt="Pro-Trade" width="250" height="90" srcset="/images/pro-trademe-2x.jpg 2x">
-							</picture>
-					<p><strong> ООО «Мебелинк», тм «Pro-Trade» (Беларусь)</strong></p>
-					<p class="workdate"> 2010-2011 — начальник отдела маркетинга </p>
-					<p> Первая компания, учредитель которой позвонил после моего ухода и&nbsp;поблагодарил за&nbsp;работу. Также «Pro-Trade»&nbsp;— компания, ставшая одним из&nbsp;первых клиентов, когда я&nbsp;оформил ИП. </p>
-						</div>
-					</div>
 
 
-
-					<div class="row">
-						<div class="c-6">
+						<div class="item">
 							<picture>
 								<source
 									srcset="/images/getpointme-1x.webp 1x,
@@ -257,11 +357,31 @@ layout: compress
 					<p class="workdate"> 2012-2013 — директор по&nbsp;развитию бизнеса</p>
 					<p> Окунулся в&nbsp;рекламный бизнес. В&nbsp;некоторых моментах ощущал себя персонажем книг Пелевина. </p>
 
-
-
 						</div>
 
-					<div class="c-6">
+
+
+						<div class="item">
+							<picture>
+								<source
+									srcset="/images/pro-trademe-1x.webp 1x,
+											/images/pro-trademe-2x.webp 2x"
+									type="image/webp">
+								<img
+									src="/images/pro-trademe-1x.jpg" alt="Pro-Trade" width="250" height="90" srcset="/images/pro-trademe-2x.jpg 2x">
+							</picture>
+					<p><strong> ООО «Мебелинк», <span class="noperenos">тм «Pro-Trade»</span> (Беларусь)</strong></p>
+					<p class="workdate"> 2010-2011 — начальник отдела маркетинга </p>
+					<p> Первая компания, учредитель которой позвонил после моего ухода и&nbsp;поблагодарил за&nbsp;работу. Также <span class="noperenos">«Pro-Trade»</span>&nbsp;— компания, ставшая одним из&nbsp;первых клиентов, когда я&nbsp;оформил ИП. </p>
+						</div>
+
+
+
+
+
+
+
+					<div class="item">
 							<picture>
 								<source
 									srcset="/images/nielsenme-1x.webp 1x,
@@ -272,7 +392,7 @@ layout: compress
 							</picture>
 
 					<p><strong> Нильсен</strong> </p>
-					<p class="workdate"> 2005-2009 — главный специалист (Беларусь)→ руководитель отдела (Казахстан). </p>
+					<p class="workdate"> 2005-2009&nbsp;— главный специалист (Беларусь) → руководитель отдела (Казахстан). </p>
 					<p> Компания «Нильсен»&nbsp;— мировой лидер в&nbsp;области маркетинговых исследований. Сначала я&nbsp;работал в&nbsp;белорусском офисе, а&nbsp;затем принял предложение возглавить отдел по&nbsp;работе с&nbsp;клиентами в&nbsp;Казахстане. Многие принципы анализа данных и&nbsp;подход в&nbsp;работе с&nbsp;клиентами привил мне Нильсен. В&nbsp;частности, Нильсен научил <a href="/mnenie/otlichie-marketologa-ot-brexuna/">отличать маркетолога от&nbsp;брехуна</a>. </p>
 						</div>
 					</div>
@@ -280,41 +400,39 @@ layout: compress
 
 
 			</div>
-			<section class="break"></section>
-				<div class="me-text-2">
-					<h2> Другие проекты </h2>
-					<div class="row">
 
-						<div class="c-6">
-					<p><strong><a href="https://www.psycareer.ru" target="_blank" rel="noopener">psycareer.ru</a></strong> </p>
+
+<h2> Другие проекты </h2>
+				<div class="me-text psycareer">
+	<p><strong><a href="https://www.psycareer.ru" target="_blank" rel="noopener">psycareer.ru</a></strong> </p>
+					<picture >
+						<source
+							srcset="/images/psycareerme-1x.webp 1x,
+									/images/psycareerme-2x.webp 2x"
+							type="image/webp">
+						<img src="/images/psycareerme-1x.jpg" alt="psycareer.ru" width="150" height="150" srcset="/images/psycareerme-2x.jpg 2x">
+					</picture>
+
+
+
 					<p> По&nbsp;первому образованию я&nbsp;медицинский психолог. От&nbsp;однокурсников и&nbsp;знакомых психологов получал много вопросов по&nbsp;продвижению услуг. Решил вынести ответы на&nbsp;похожие вопросы в&nbsp;отдельный сайт. Так появился ресурс psycareer.ru. Одновременно это площадка для экспериментов в&nbsp;области html и&nbsp;css. </p>
-						</div>
-						<div class="c-2">
 
-							<picture>
-								<source
-									srcset="/images/psycareerme-1x.webp 1x,
-											/images/psycareerme-2x.webp 2x"
-									type="image/webp">
-								<img
-									src="/images/psycareerme-1x.jpg" alt="psycareer.ru" width="150" height="150" srcset="/images/psycareerme-2x.jpg 2x">
-							</picture>
 
-						</div>
+
+
+
+
 					</div>
-				</div>
 
 
 
-
+</article>
+</div>
 
 
 		{% include footer.html %}
 
-		</div>
 
-
-</div>
 
 </body>
 </html>

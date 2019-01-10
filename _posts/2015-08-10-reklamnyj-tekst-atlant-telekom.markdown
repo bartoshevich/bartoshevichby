@@ -2,10 +2,11 @@
 layout: post
 title: "Рекламный текст - разбор ошибок"
 name: "Редактирую рекламный текст Атлант Телеком"
-description: " Разбираю текст рекламной листовки — объясняю, что можно улучшить, предлагаю свой вариант текста."
+description: " Разбираю текст рекламной листовки&nbsp;— объясняю, что можно улучшить, предлагаю свой вариант текста."
 date:   2015-08-10
+last_modified_at: 2019-01-06
 categories: опыт
-permalink: "opyt/reklamnyj-tekst-atlant-telekom/"
+permalink: "/opyt/reklamnyj-tekst-atlant-telekom/"
 tags: "реклама кейсы"
 keywords: "текст рекламы"
 image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021425/tizers/tizer-2.jpg

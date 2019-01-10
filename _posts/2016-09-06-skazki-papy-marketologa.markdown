@@ -2,10 +2,11 @@
 layout: post
 title:  "Сказки маркетолога"
 name: "Сказки папы-маркетолога"
-description: "Сказки о том, как маркетолог помог королю изменить восприятие земляного яблока и как директор обосновал справедливость зарплат маркетологов"
-date:   2016-09-06 
+description: "Сказки о&nbsp;том, как маркетолог помог королю изменить восприятие земляного яблока и&nbsp;как директор обосновал справедливость зарплат маркетологов."
+date:   2016-09-06
+last_modified_at: 2019-01-10
 categories: мнение
-permalink: "mnenie/skazki-papy-marketologa/"
+permalink: "/mnenie/skazki-papy-marketologa/"
 tags: "маркетолог"
 keywords: "маркетинг в сказках"
 image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021413/tizers/tizer-27.jpg

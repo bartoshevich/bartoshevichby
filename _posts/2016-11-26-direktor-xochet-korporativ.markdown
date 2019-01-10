@@ -2,10 +2,11 @@
 layout: post
 title: "Польза корпоративов — миф"
 name: "Статья для директора, который хочет организовать корпоратив"
-description: "Корпоратив не создаст команду, не решит проблемы и может разрушить отношения коллег. Занимайтесь бизнесом, сотрудники решат, как отдохнуть, самостоятельно. "
-date:   2016-11-26 
+description: "Корпоратив не&nbsp;создаст команду, не&nbsp;решит проблемы и&nbsp;может разрушить отношения коллег. Занимайтесь бизнесом, сотрудники решат, как отдохнуть, самостоятельно. "
+date:   2016-11-26
+last_modified_at: 2019-01-08
 categories: мнение
-permalink: "mnenie/direktor-xochet-korporativ/"
+permalink: "/mnenie/direktor-xochet-korporativ/"
 image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021409/tizers/tizer-34.jpg
 tags: "маркетолог"
 keywords: "корпоративы"

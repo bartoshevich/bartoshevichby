@@ -2,10 +2,11 @@
 layout: post
 title: "Система скидок: как разрабатывал"
 name: "Кейс: делаю систему скидок"
-description: "Задача: создание доступной для восприятия и легкой в использовании системы скидок. Дано: десятки стоимостных опций. Как решал - в статье."
+description: "Задача: создание доступной для восприятия и&nbsp;легкой в&nbsp;использовании системы скидок. Дано: десятки стоимостных опций. Как решал&nbsp;— в&nbsp;статье."
 date:   2016-05-16
+last_modified_at: 2019-01-06
 categories: опыт
-permalink: "opyt/kejs-delayu-sistemu-skidok/"
+permalink: "/opyt/kejs-delayu-sistemu-skidok/"
 tags: "кейсы"
 keywords: "разработка системы скидок"
 image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021416/tizers/tizer-21.jpg

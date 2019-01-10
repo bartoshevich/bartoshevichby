@@ -1,0 +1,125 @@
+---
+layout: compress
+---
+<!-- Copyright (c) Дмитрий Бартошевич | https://bartoshevich.by/ -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.5'>
+	<title>{{ page.title }}</title>
+
+	{% include meta.html %}
+
+	<style>
+    {% capture criticalcss %}
+      {% include blog.scss %}
+    {% endcapture %}
+    {{ criticalcss | scssify }}
+  </style>
+ {% include analytics.html %} 
+</head>
+<body>
+
+
+				<div class="nav" role="navigation">
+
+						<div class="menu-item">
+				 		<a href="/" title="Открыть главную страницу">Дмитрий Бартошевич</a>
+						</div>
+
+						<div class="menu">
+							<ul>
+								<li class="menu-item"><a href="/me/" title="Рассказываю, что сделал">Работа</a></li>
+								<li class="menu-item selected">Блог</li>
+								<li class="menu-item"><a href="/contact/" title="Связаться">Контакты</a></li>
+							</ul>
+							</div>
+
+				</div>
+
+		<div class="wrapper">
+				<article class="article blog-grid-container">
+
+
+												<div class="title">
+													<h1 class="blog">Блог</h1>
+												</div>
+
+									<div class="intro">
+									<p>Пишу о&nbsp;маркетинге, за&nbsp;который не&nbsp;стыдно. <br />
+										Подписаться на&nbsp;обновления: <a href="/feed.xml">RSS</a>, <a href="//eepurl.com/cmkKcz">эл.почта</a></p>
+
+
+
+	</div>
+
+<b class="focus-line"></b>
+
+<div class="favorities">
+		<h2>Избранное </h2>
+
+<strong>О&nbsp;маркетинге и&nbsp;маркетологах </strong>
+<ul>
+<li><a href="/mnenie/stars/">О&nbsp;звездах и&nbsp;богах маркетинга</a> </li>
+<li><a href="/mnenie/otlichie-marketologa-ot-brexuna/">Как маркетолога отличить от&nbsp;брехуна</a> </li>
+<li><a href="/mnenie/misconceptions/">Пять опасных мифов о&nbsp;маркетинге </a></li>
+	<li><a href="/mnenie/effektivnost-vlozhenij-v-marketing/">Как увеличить отдачу от&nbsp;вложений в&nbsp;маркетинг</a> </li>
+
+	<li><a href="/mnenie/razrabotka-marketingovoj-strategii/">Как разработать сильную маркетинговую стратегию предприятия</a></li>
+		<li><a href="/instrukcii/skidki-instrukciya-po-primeneniyu/">Скидки — инструкция по применению</a></li>
+ </ul>
+
+ <strong>Работа с&nbsp;подрядчиками </strong>
+<ul>
+<li><a href="/mnenie/igra/">Маркетинг и&nbsp;игра в&nbsp;«Спасителя»</a> </li>
+<li> <a href="/mnenie/choice/">Когда рекламные агентства халтурят (или почему три варианта на&nbsp;выбор плохо)</a> </li>
+<li> <a href="/instrukcii/research-quality/">Как контролировать качество работы исследовательского агентства</a> </li>
+<li><a href="/opyt/autsorsing-marketinga/">Аутсорсинг маркетинга: как защитить деньги компании</a> </li>
+</ul>
+
+ <strong>Инструменты </strong>
+ <ul>
+ <li><a href="/mnenie/dlya-tex-kto-pishet/">Полезные ссылки для тех, кто пишет</a> </li>
+ 	<li><a href="/instrukcii/algoritm-provedeniya-reklamnoj-kampanii/">Алгоритм проведения рекламной кампании </a> </li>
+ 	<li><a href="/instrukcii/effektivnost-marketinga/">Как оценить эффективность маркетинга </a></li>
+ 	<li><a href="/instrukcii/feedback/">Индекс лояльности: как рассчитать и&nbsp;использовать </a></li>
+ 	<li><a href="/instrukcii/customer-journey-map/">Customer journey map </a></li>
+ </ul>
+
+</div>
+
+
+
+	<div class="archive">
+	<h2>	Все записи </h2>
+	<div class="archive-list">
+		{% for post in site.posts %}
+		<div class="item">
+
+				<a href="{{ site.baseurl }}{{ post.url }}" >
+							<h3>
+							{{ post.name }}
+							</h3>
+				</a>
+
+					<p>
+						<span class="item-date">
+						{{ post.date | date: "%e %B %Y" | replace: 'January', 'января' | replace: 'February', 'февраля' | replace: 'March', 'марта' | replace: 'April', 'апреля' | replace: 'May', 'мая' | replace: 'June', 'июня' | replace: 'July', 'июля' | replace: 'August', 'августа' | replace: 'September', 'сентября' | replace: 'October', 'октября' | replace: 'November', 'ноября' | replace: 'December', 'декабря' }}
+					 </span>
+										{{ post.description }}
+					</p>
+		</div>
+		 {% endfor %}
+	</div>
+</div>
+</article>
+
+</div>
+
+		{% include footer.html %}
+
+
+</body>
+</html>

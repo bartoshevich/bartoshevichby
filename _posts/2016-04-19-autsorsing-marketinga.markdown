@@ -2,10 +2,11 @@
 layout: post
 title: "Аутсорсинг маркетинга"
 name: "Аутсорсинг маркетинга: как защитить деньги компании"
-description: "Маркетинг на аутсорсинге - не панацея в кризис. Отношениями с фрилансерами и маркетинговыми агентствами важно грамотно управлять."
-date:   2016-04-19 
+description: "Маркетинг на&nbsp;аутсорсинге&nbsp;— не&nbsp;панацея в&nbsp;кризис. Отношениями с&nbsp;фрилансерами и&nbsp;маркетинговыми агентствами важно грамотно управлять."
+date:   2016-04-19
+last_modified_at: 2019-01-08
 categories: опыт
-permalink: "opyt/autsorsing-marketinga/"
+permalink: "/opyt/autsorsing-marketinga/"
 tags: "управление"
 keywords: "аутсорсинг маркетинга"
 image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021417/tizers/tizer-19.jpg

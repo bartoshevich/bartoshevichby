@@ -2,10 +2,11 @@
 layout: post
 title: "Сайт агроусадьбы: что отталкивает иностранных клиентов"
 name: "Сайт агроусадьбы: как привлечь иностранного клиента"
-description: "На примере сайтов агроусадеб рассказываю об ошибках, которые мешают привлечь иностранных туристов в Беларусь"
+description: "Рассказываю об&nbsp;ошибках на&nbsp;сайтах агроусадеб, которые мешают привлечь иностранных туристов в&nbsp;Беларусь."
 date:   2016-07-20
+last_modified_at: 2019-01-06
 categories: мнение
-permalink: "mnenie/sajt-agrousadby/"
+permalink: "/mnenie/sajt-agrousadby/"
 tags: "интернет-маркетинг бизнес"
 keywords: "сайт агроусадьбы"
 image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021414/tizers/tizer-25.jpg

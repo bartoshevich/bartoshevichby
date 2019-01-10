@@ -1,7 +1,7 @@
 ---
 layout: compress
 ---
-
+<!-- Copyright (c) Дмитрий Бартошевич | https://bartoshevich.by/ -->
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -14,80 +14,93 @@ layout: compress
 
 	<style>
     {% capture criticalcss %}
-      {% include post-style.scss %}
-  @media only screen and (max-width:899px) {
-      {% include m-post-style.scss %}
-  }
-  @media only screen and (min-width:900px) {
-        {% include d-post-style.scss %}
-    }
+      {% include post.scss %}
     {% endcapture %}
     {{ criticalcss | scssify }}
   </style>
 
-
-<!--	<link rel="stylesheet" type="text/css" href="/styles/icons.css" media="none" onload="if(media!='all')media='all'"> -->
-{% include analytics.html %}
+ {% include analytics.html %} 
 
 </head>
 <body>
 
-<div class="all-site">
-	{% include menu.html %}
-	<div class="conteiner" itemscope itemtype="http://schema.org/Article">
-		<div class="article-header">
-			<h3><a href="/">Дмитрий Бартошевич</a></h3>
-		</div>
+				<div class="nav" role="navigation">
 
-<meta itemprop="image" content="{{ site.url }}{{ page.image }}">
-<meta itemprop="headline" content="{{ page.title }}">
-<meta itemprop="datePublished" content="{{ page.date | date: "%Y-%m-%e" }} ">
-<div itemprop="author" itemscope itemtype="https://schema.org/Person">
-<meta itemprop="name" content="Дмитрий Бартошевич">
-</div>
-<div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
-<meta itemprop="name" content="Дмитрий Бартошевич">
-<meta itemprop="address" content="г. Минск, ул. Ольшевского, 22">
-<meta itemprop="telephone" content="+375297753340">
-<link itemprop="url" href="https://bartoshevich.by"/>
-<div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
-<meta itemprop="height" content="60">
-<meta itemprop="image" content="https://bartoshevich.by/apple-touch-icon-60x60.png">
-<link itemprop="url" href="https://bartoshevich.by/apple-touch-icon-60x60.png"/>
-<meta itemprop="width" content="60">
-</div>
-</div>
-
-		<div class="content">
-			<div class="article" >
-				<h1 itemprop="name">{{ page.name }}</h1>
-				<div class="rect">
-            	<div class="date" >
-     			{{ page.date | date: "%e %B %Y" | replace: 'January', 'января' | replace: 'February', 'февраля' | replace: 'March', 'марта' | replace: 'April', 'апреля' | replace: 'May', 'мая' | replace: 'June', 'июня' | replace: 'July', 'июля' | replace: 'August', 'августа' | replace: 'September', 'сентября' | replace: 'October', 'октября' | replace: 'November', 'ноября' | replace: 'December', 'декабря' }}
-            	</div>
-
-        		</div>
-      			<p>&nbsp;</p>
-						<div itemprop="articleBody">
-		{{ content }}
-
+						<div class="menu-item">
+				 		<a href="/" title="Открыть главную страницу">Дмитрий Бартошевич</a>
 						</div>
-		<br>
-		<br>
-		{% include related.html %}
-		<br>
-		{% include subscription.html %}
 
-		    </div>
+						<div class="menu">
+							<ul>
+								<li class="menu-item"><a href="/me/" title="Рассказываю, что сделал">Работа</a></li>
+								<li class="menu-item"><a href="/blog/" title="Блог маркетолога">Блог</a></li>
+								<li class="menu-item"><a href="/contact/" title="Связаться">Контакты</a></li>
+							</ul>
+							</div>
 
+				</div>
 
+<div class="wrapper">
+
+<article itemscope itemtype="http://schema.org/Article">
+
+								<meta itemprop="image" content="{{ site.url }}{{ page.image }}">
+								<meta itemprop="headline" content="{{ page.title }}">
+								<meta itemprop="datePublished" content="{{ page.date | date: "%Y-%m-%e" }} ">
+								<meta itemprop="dateModified" content="{{ page.last_modified_at | last_modified_at: "%Y-%m-%e" }} ">
+								<div itemprop="author" itemscope itemtype="https://schema.org/Person">
+								<meta itemprop="name" content="Дмитрий Бартошевич">
+								</div>
+								<div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+								<meta itemprop="name" content="Дмитрий Бартошевич">
+								<meta itemprop="address" content="г. Минск, ул. Ольшевского, 22">
+								<meta itemprop="telephone" content="+375297753340">
+								<link itemprop="url" href="https://bartoshevich.by"/>
+								<div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+								<meta itemprop="height" content="60">
+								<meta itemprop="image" content="https://bartoshevich.by/apple-touch-icon-60x60.png">
+								<link itemprop="url" href="https://bartoshevich.by/apple-touch-icon-60x60.png"/>
+								<meta itemprop="width" content="60">
+								</div>
+								</div>
+<div class="row">
+		<div class="c-6">
+					<div class="title">
+						<h1 itemprop="name">{{ page.name }}</h1>
+					</div>
 		</div>
+</div>
+
+<div class="row">
+		<div class="c-1">
+						<div class="rect">
+		            		{% include date.html %}
+						</div>
+		</div>
+
+<div class="c-text">
+									<div class="article" itemprop="articleBody">
+												{{ content }}
+									</div>
+
+</div>
+</div>
+</article>
+</div>
+<div class="wrapper">
+<div class="prefooter">
+
+	<div class="prefooter-item1">
+		{% include related.html %}
+		</div>
+			<div class="prefooter-item2">
+		{% include subscription.html %}
+</div>
+</div>
+</div>
+
 
 		{% include footer.html %}
-		</div>
-
-
-</div>
 
 
 </body>

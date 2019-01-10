@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "Почему нет продаж"
-name: "Почему нет продаж и что делать"
-description: "Что делать, когда нет продаж: конструктивный подход к обсуждению падения продаж"
-date:   2016-03-26 
+name: "Почему нет продаж и&nbsp;что делать"
+description: "Что делать, когда нет продаж: конструктивный подход к&nbsp;обсуждению спада продаж."
+date:   2016-03-26
+last_modified_at: 2019-01-08
 categories: мнение
-permalink: "mnenie/pochemu-net-prodazh/"
+permalink: "/mnenie/pochemu-net-prodazh/"
 tags: "управление"
 keywords: "нет продаж"
 image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021417/tizers/tizer-18.jpg
@@ -31,7 +32,7 @@ image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v15460
 </tr>
 <tr>
 <td  >«За&nbsp;последний месяц у&nbsp;нас упали продажи на&nbsp;10%. Почему нет продаж?»</td>
-<td  ><ul> 
+<td  ><ul>
 	<li>«Мы&nbsp;провели две акции. Какие результаты, что следует пересмотреть и&nbsp;учесть в&nbsp;будущих кампаниях?»</li>
 	<li>«Что мы&nbsp;сделали для роста продаж товара А?»</li>
 	<li>«Какие наши действия тормозили продажи товара B?»</li>

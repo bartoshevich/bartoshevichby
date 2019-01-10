@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "Эффективность маркетинга: как повысить"
-name: "Как увеличить отдачу от вложений в маркетинг"
-description: "Маркетинг эффективен, когда подкрепляете отличия бренда, тестируете идеи, анализируете бюджет по целям использования."
-date:   2016-08-25 
+name: "Как увеличить отдачу от&nbsp;вложений в&nbsp;маркетинг"
+description: "Маркетинг эффективен, когда подкрепляете отличия бренда, тестируете идеи, анализируете бюджет по&nbsp;целям использования."
+date:   2016-08-25
+last_modified_at: 2019-01-10
 categories: мнение
-permalink: "mnenie/effektivnost-vlozhenij-v-marketing/"
+permalink: "/mnenie/effektivnost-vlozhenij-v-marketing/"
 tags: "управление бизнес"
 keywords: "отдача от маркетинга"
 image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021413/tizers/tizer-26.jpg

@@ -1,0 +1,267 @@
+
+
+// текст статьи в Grid
+// обязательно подключение @grid
+
+.c-text {
+  grid-column: span 12;
+  padding: 5px 10px 5px 5px;
+}
+
+
+@media only screen and (min-width: 720px) {
+.c-text {
+  grid-column: span 9;
+}
+
+}
+
+
+@media only screen and (min-width: 1100px) {
+.c-text {
+  grid-column: span 7;
+}
+
+}
+
+
+
+// ***
+
+.rect  {
+  border-top: 1px solid #b4b4b4;
+  padding-top: 15px;
+  margin-bottom: 2em;
+  max-width: 650px;
+}
+
+.bold {
+  font-weight: 600;
+}
+/* изображения */
+img,
+.img-responsive,
+.img-shadow  {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.img-shadow {-webkit-box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
+}
+
+
+/* выделение области в тексте  */
+.markedfield {
+margin-top:1em;
+	padding: 3% 3.5%;
+	background: $markedfield;
+  width: 100%;
+}
+
+.markedfield h2 {
+margin-top: .5em !important;
+}
+
+// текст в рамке
+.hip {
+	border: 2px solid $hip; //#f19a48;//#ffa600;
+	border-left: 10px solid $hip;
+	font-size: 26px;
+	font-weight: bold;
+	padding: 20px 5px 25px 10px;
+	width: 100%;
+	margin-bottom: 1.2em;
+	max-width: 760px;
+}
+
+
+//для выделен шрифтом и фоном
+.hip2 {
+	background-color: $hip2; //#f4ebd0; //#e9fbe9;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 20px 5px 25px 10px;
+	width: 100%;
+	border-radius:6px;
+	margin-bottom: 1.3em;
+	max-width: 760px;
+}
+
+/* цитата  */
+.article {
+  blockquote {
+    font-style: italic;
+	  border-left: 1px solid #a73147;
+    padding-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    margin-left: 30px;
+  }
+
+}
+
+// подпись к картинке
+
+.wtf1 {
+
+    color: #333;
+    font-size: 13px;
+    line-height: 19px;
+    margin-bottom: 2em;
+    margin-top:2em;
+}
+
+
+// шрифт на кегль меньше для таблиц
+.fontme { font-size:14px;line-height:19px;
+@media (max-width: 716px) {
+    font-size: 18px;
+	line-height:25px;
+  }
+}
+
+
+// пример, примечание, заметка
+.notetip {width:90%;font-size:14px;line-height:15px; border-radius:5px 5px;padding:5px 5px 5px 3em;margin:0;height:auto!important;overflow:hidden;bottom:6px;right:6px;border:0 solid #0092e0;background-position:20px 50%;background-repeat:no-repeat}
+
+// video
+
+.video {
+  	width: 100%;
+  	position: relative;
+  	margin-top: 20px;
+  	margin-bottom: 2em;
+  	padding-top: 56.25%;
+}
+.video iframe, .video object, .video embed{
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+}
+
+iframe {
+	border:0;
+	overflow:hidden;
+}
+
+.videoname {
+	margin-top:-1.95em;
+	color: #333;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+/* таблицы */
+
+table {
+    background-color : #f2f2f2;
+	border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    font-size: 0.8em;
+    width: 100%;
+    margin: 1.5em 0 1.5em 0;
+    text-align: left;
+
+}
+
+th,
+td {
+	padding: 1%;
+	margin: 0;
+	overflow: visible;
+	line-height: 120%;
+	border: 1px solid #cfcfcf;
+
+
+}
+th { padding-top: 0;
+	font-weight: bold;
+	color: #111;}
+
+thead {
+	vertical-align: bottom;
+	white-space: nowrap;
+}
+
+
+
+.Gainsboro {
+	background-color: Gainsboro;
+}
+
+.topverticalalign {
+	vertical-align: top;
+}
+
+//подпись к фото респондента
+.person {
+  font-size: 0.9em;
+  border-top:1px solid #DDD;
+      margin-top: 10px;
+}
+
+// флекс-блоки вместо таблицы
+
+.flex-block {
+display: flex;
+flex-direction: row; flex-wrap: wrap;
+margin-bottom: 2rem;
+}
+
+.flex-in {
+display: flex;
+flex-direction: row; flex-wrap: wrap; align-items: center;
+margin-bottom: 2rem;
+}
+
+.flex-1 {
+-webkit-flex: 1;
+flex: 1;
+min-width: 270px; max-width: 310px;
+padding:0 15px 0 0;
+}
+
+.flex-2 {
+-webkit-flex: 2;
+flex: 2;
+min-width: 300px;
+}
+
+
+// подчеркивание
+mark {background: #ffffa1; padding: 1px 0; }
+
+
+// дата публикации
+.date {
+  transform: rotate(180deg);
+  writing-mode: vertical-rl;
+  background: $focus;
+  padding: 8px 0;
+  font-style: italic;
+  color: #777;
+  font-size: .8125em;
+  white-space: nowrap;
+}
+
+@media screen and (max-width:720px){
+  .date {
+  transform: none;
+  writing-mode: horizontal-tb;
+  background-color: inherit;
+}
+}
+
+.wtf {
+    color: #333;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+.wtf a {
+	border-bottom: 0;
+}

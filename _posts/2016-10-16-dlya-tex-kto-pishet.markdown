@@ -1,11 +1,12 @@
 ---
 layout: post
-title: "5+ сервисов для написания сильных текстов"
+title: "Cервисы для написания сильных текстов"
 name: "Полезные ссылки для тех, кто пишет"
-description: "Сервисы и материалы, которые помогут составить сильный рекламный текст, подготовить понятное коммерческое предложение и ясно описать товар на сайте."
-date:   2016-10-16 
+description: "Сервисы и&nbsp;материалы, которые помогут составить сильный рекламный текст, подготовить понятное коммерческое предложение и&nbsp;ясно описать товар на&nbsp;сайте."
+date:   2016-10-16
+last_modified_at: 2019-01-06
 categories: мнение
-permalink: "mnenie/dlya-tex-kto-pishet/"
+permalink: "/mnenie/dlya-tex-kto-pishet/"
 tags: "инструменты"
 keywords: "как написать текст рекламы"
 image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021411/tizers/tizer-31.jpg
@@ -14,8 +15,9 @@ image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v15460
 <p>Составить сильный рекламный текст, подготовить понятное коммерческое предложение и&nbsp;ясно описать товар на&nbsp;сайте помогут сервисы и&nbsp;материалы, о&nbsp;которых расскажу в&nbsp;статье.</p><!--more-->
 <p>Читайте, изучайте и&nbsp;используйте. Устали от&nbsp;«словесного мусора»&nbsp;— поделитесь статьей в&nbsp;социальных сетях.</p>
 <h2>Сервисы</h2>
-<div class="with-side">
+
 <h3>1) Главред&nbsp;— <a href="https://glvrd.ru/">glvrd.ru</a></h3>
+<div class="with-side">
 <p>Сервис беспощадно отмечает и&nbsp;просит убрать из&nbsp;текста стоп-слова, рекламные штампы, канцелярит и&nbsp;плохой синтаксис. Последуете советам&nbsp;— текст станет короче, понятнее и&nbsp;информативнее.</p>
 <p>Когда я&nbsp;узнал о&nbsp;Главреде, пробовал писать новые статьи в&nbsp;браузере на&nbsp;странице сервиса. Результат&nbsp;— «зависал» на&nbsp;первом абзаце, который полировал несколько часов. Не&nbsp;повторяйте ошибки&nbsp;— проверяйте и&nbsp;редактируйте уже написанный текст.</p>
 <p>Также советую ознакомиться с&nbsp;<a href="http://maximilyahov.ru/blog/all/glvrd-7/">рекомендациями Максима Ильяхова&nbsp;</a>— автора Главреда&nbsp;— по&nbsp;работе с&nbsp;сервисом.</p>
@@ -23,38 +25,38 @@ image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v15460
 <p>Сервис считает длину слов и&nbsp;предложений, долю сложных слов и&nbsp;терминов, уровень абстрактности лексики и&nbsp;прочее, чтобы определить легкость восприятия текста. После вычислений показывает индекс уровня читабельности и&nbsp;возраст человека, которому текст будет понятен.</p>
 <p><em>Пример использования:</em> взял заведомо сложный материал&nbsp;— несколько глав из&nbsp;«Критики чистого разума» Канта&nbsp;— и&nbsp;оцифровал легкость восприятия. Уровень читабельности&nbsp;— 17.2. Аудитория&nbsp;— <span class="noperenos">4-6</span> курсы ВУЗа. Эти показатели&nbsp;— точка отсчета. По&nbsp;отношению к&nbsp;ним рассмотрел другие, случайно выбранные статьи. Обнаружил, что Нацбанк РБ&nbsp;описывает работу с&nbsp;обращениями граждан сложнее, чем Кант рассуждал о&nbsp;категориях рассудка и&nbsp;антиномиях разума.</p>
 
-<table  > 
+<table >
 <caption>пример использования readability.io</caption>
-<tbody> 
-<tr> 
+<tbody>
+<tr>
 <td><strong>ресурс</strong></td>
 	<td><strong>уровень читабель&shy;ности</strong></td>
 	<td><strong>ауди&shy;тория</strong></td>
-	
+
  		</tr>
-		<tr> 
+		<tr>
 	<td>главы «Критики чистого разума»</td>
 	<td>17.2</td>
 	<td><span class="noperenos">4-6</span> курс ВУЗа</td>
-	
+
  		</tr>
-		<tr> 
+		<tr>
 	<td>статья <a href="/mnenie/effektivnost-vlozhenij-v-marketing/">«Как увеличить отдачу от&nbsp;вложений в&nbsp;маркетинг»</a></td>
 	<td>10.33</td>
 	<td><span class="noperenos">10-11</span> класс</td>
-	
+
  		</tr>
-		<tr> 
+		<tr>
 <td>сказка папы-маркетолога <a href="/mnenie/skazki-papy-marketologa/">«Бульба»</a></td>
 	<td>4.41</td>
 	<td><span class="noperenos">4-6</span> класс</td>
-	
+
  		</tr>
-		<tr> 
+		<tr>
 	<td>страница сайта Нацбанка РБ&nbsp;<a href="//www.nbrb.by/today/applications/">«Работа с&nbsp;обращениями граждан и&nbsp;юридических лиц»</a> (15.10.2016)</td>
 	<td>21.87</td>
 	<td>аспи&shy;рантура, ученая степень</td>
-	
+
  	</tr>
  	</tbody>
  </table>
@@ -66,7 +68,7 @@ image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v15460
 <p><img src="/images/text1.jpg" alt="работа типографа" /></p>
 
 <div class="side">
-В&nbsp;декабре 2017 компания «Ашманов и&nbsp;партнёры» открыла доступ к&nbsp;сервису по&nbsp;оценке качества текста&nbsp;— <a href="https://turgenev.ashmanov.com/">«Тургенев»</a>. Сделан сервис на&nbsp;основе мониторинга факторов ранжирования в&nbsp;Яндексе и&nbsp;Гугл. Еще один полезный инструмент для маркетолога. </div></div>
+<b>Дополнение:</b> в&nbsp;декабре 2017 компания «Ашманов и&nbsp;партнёры» открыла доступ к&nbsp;сервису по&nbsp;оценке качества текста&nbsp;— <a href="https://turgenev.ashmanov.com/">«Тургенев»</a>. Сделан сервис на&nbsp;основе мониторинга факторов ранжирования в&nbsp;Яндексе и&nbsp;Гугл. Еще один полезный инструмент для маркетолога. </div></div>
 
 
 
@@ -74,12 +76,12 @@ image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v15460
 <h3>5) Основной <a href="http://maximilyahov.ru/blog/all/availability/">курс по&nbsp;информационному стилю</a></h3>
 <p>Текст в&nbsp;информационном стиле&nbsp;— лаконичный, честный и&nbsp;интересный. Рассылку базового курса Максим Ильяхов выложил в&nbsp;сеть. Изучите и&nbsp;оставьте «Главред» без работы </p>
 <p>Как дополнение к&nbsp;рассылке рекомендую
-книгу Норы Галь <a href="http://lib.ru/TRANSLATORS/NORA_GAL/slowo.txt"> «Слово живое и&nbsp;мертвое»</a> 
+книгу Норы Галь <a href="http://lib.ru/TRANSLATORS/NORA_GAL/slowo.txt"> «Слово живое и&nbsp;мертвое»</a>
 и&nbsp;книгу Уильяма Зинсера <a href="http://mastersloga.ru/files/kak_pisat_horosho.pdf">«Как писать хорошо»</a>.</p>
 <h3>6) <a href="https://soviet.glvrd.ru/">Советы и&nbsp;статьи о&nbsp;тексте, редактуре и&nbsp;рекламе</a></h3>
 <p>Вы&nbsp;узнаете, как объяснить сложные вещи, сделать занудное описание интересным, подтолкнуть человека к&nbsp;полезному действию и&nbsp;многое другое. Каждый совет с&nbsp;примерами.</p>
 <h3>7) Блоги</h3>
-<ul> 
+<ul>
 	<li><a href="http://maximilyahov.ru/blog/">Блог Максима Ильяхова</a> о&nbsp;сильном тексте</li>
 	<li><a href="http://kompotique.ru/">Блог Люды Сарычевой</a> о&nbsp;редактуре о&nbsp;работе редактора</li>
 	<li><a href="http://sashavolkova.ru/">Саша Волкова</a> о&nbsp;текстах и&nbsp;работе редактора</li>
@@ -87,9 +89,6 @@ image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v15460
  <h3>8) Редполитики <a href="https://docs.google.com/document/d/14XdGIjVJLM_FsjHzyh5ca8PkffngykzXd2bLPHzA2ME/edit#heading=h.1xvoj9mbqgeo">Тинькофф-журнала</a>&nbsp;и <a href="https://docs.google.com/document/d/1c_2uP1PpiM12h1ee8egVXAoUCJ9mE9r68zMqrqmS8VA/edit#heading=h.qfb376lrh4iy">Модульбанка</a></h3>
 <p>Привожу как пример принципов работы с&nbsp;текстом, ориентированных на&nbsp;пользу и&nbsp;развитие доверия у&nbsp;читателей.</p>
 <p><em>выдержка из&nbsp;редполитики Тинькофф-журнала:</em></p>
-<img src="/images/text2.jpg" alt="выдержка из редполитики Тинькофф-журнала" /> 
+<img src="/images/text2.jpg" alt="выдержка из редполитики Тинькофф-журнала" />
 <h3>9) Книга <a href="//royallib.com/book/klark_roy_piter/50_priemov_pisma.html">«50&nbsp;приемов письма»</a> Роя Питера Кларка</h3>
 <p>Ресурс для «отличников». После каждой главы вас ждут задания. Пригодятся карандаши, толстые газеты, книги и&nbsp;черновики. Результат&nbsp;— научитесь более осознанно выбирать слова, строить фразы и&nbsp;предложения.</p>
-
-
-

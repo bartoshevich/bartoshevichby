@@ -2,10 +2,11 @@
 layout: post
 title:  "Customer journey map (карта потребительского опыта)"
 name: "Customer journey map: как вернуть контроль над бизнесом"
-description: "Карта потребительского опыта (customer journey map): пошаговая инструкция по составлению и использованию."
+description: "Карта потребительского опыта (customer journey map): пошаговая инструкция по&nbsp;составлению и&nbsp;использованию."
 date:   2016-06-06
+last_modified_at: 2019-01-06
 categories: инструкции
-permalink: "instrukcii/customer-journey-map/"
+permalink: "/instrukcii/customer-journey-map/"
 tags: "инструменты бизнес"
 keywords: "customer journey map"
 image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021415/tizers/tizer-22.jpg

@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "Тенденции маркетинга"
-name: "Семь тенденций в маркетинге: на что обратить внимание"
-description: "7 тенденций в маркетинге, которые отражают изменения в покупательском поведении.  Посмотрите иначе на привычные модели организации маркетинга."
+name: "Семь тенденций в&nbsp;маркетинге: на&nbsp;что обратить внимание"
+description: "Семь тенденций в&nbsp;маркетинге, которые отражают изменения в&nbsp;покупательском поведении. Посмотрите иначе на&nbsp;привычные модели организации маркетинга."
 date:   2016-01-16
+last_modified_at: 2019-01-06
 categories: мнение
-permalink: "mnenie/sem-tendencij-marketinga/"
+permalink: "/mnenie/sem-tendencij-marketinga/"
 tags: "управление"
 keywords: "тренды маркетинга"
 image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021418/tizers/tizer-14.jpg

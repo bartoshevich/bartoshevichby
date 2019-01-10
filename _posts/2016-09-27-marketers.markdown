@@ -2,10 +2,11 @@
 layout: post
 title: "Маркетеры или маркетологи: отличия"
 name: "Маркетеры или маркетологи — кто нужен компании"
-description: "Маркетологи или маркетеры - кто нужен компании и на что обратить внимание при выборе сильного специалиста по маркетингу."
-date:   2016-09-27 
+description: "Маркетологи или маркетеры&nbsp;— кто нужен компании и&nbsp;на&nbsp;что обратить внимание при выборе сильного специалиста по&nbsp;маркетингу."
+date:   2016-09-27
+last_modified_at: 2019-01-10
 categories: мнение
-permalink: "mnenie/marketers/"
+permalink: "/mnenie/marketers/"
 tags: "маркетолог"
 keywords: "отличия маркетера от маркетолога"
 image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021412/tizers/tizer-29.jpg

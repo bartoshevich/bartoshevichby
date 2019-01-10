@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "Маркетинг на пользе и доверии"
-name: "Конкурентное преимущество, о котором молчат маркетологи"
-description: "Отказ от навязчивого маркетинга и хвалебных презентаций, фокус на полезности, формирование доверия - основа конкурентного преимущества компании."
+name: "Конкурентное преимущество, о&nbsp;котором молчат маркетологи"
+description: "Отказ от&nbsp;навязчивого маркетинга и&nbsp;хвалебных презентаций, фокус на&nbsp;полезности, формирование доверия&nbsp;— основа конкурентного преимущества компании. Нарушаю тишину. "
 date:   2016-01-30
+last_modified_at: 2019-01-06
 categories: мнение
-permalink: "mnenie/konkurentnoe-preimushhestvo/"
+permalink: "/mnenie/konkurentnoe-preimushhestvo/"
 tags: "управление"
 keywords: "конкурентное преимущество"
 image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021418/tizers/tizer-15.jpg
