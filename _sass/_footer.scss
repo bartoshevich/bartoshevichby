@@ -19,7 +19,8 @@ font-size: .8rem;
 		        flex-direction: row;
 		-ms-flex-wrap: wrap;
 		    flex-wrap: wrap;
-				align-content: flex-start;
+				-ms-flex-line-pack: start;
+				    align-content: flex-start;
 
 
 }
@@ -74,6 +75,7 @@ color: #fff;
 }
 
 .footer-item2 {
+		-ms-grid-column-span: 1;
 		grid-column-end: span 1;
 }
 
