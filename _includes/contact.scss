@@ -13,16 +13,10 @@
               display: grid;
               grid-template-columns: 50px 1fr 1fr 1fr 1fr 1fr;
               grid-template-rows: 193px 1fr 1fr 1fr;
-          //    grid-gap: .4rem;
               grid-template-areas:
                 "b d d i a c "
                 "b d d i e e "
-                ". j j j f f"
-
-      /*          "b . . a c c"
-                "b d d f f i"
-                "b d d e e i"
-                ". j j j . ."*/
+                ". j j j f f" 
 
             }
 
