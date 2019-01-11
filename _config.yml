@@ -60,10 +60,12 @@ plugins:
    - jekyll-assets   
    - autoprefixer-rails  
 
-  
-autoprefixer:
-  browsers: ["last 2 versions","> 5%","IE 9"]
-
+#assets:
+#  autoprefixer:
+#    browsers:
+#    - "last 2 versions"
+#    - "IE > 9"
+    
 
 # Exclude these files from your production _site
 exclude:

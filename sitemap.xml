@@ -23,4 +23,10 @@ layout: null
 <url>
 <loc>{{ site.url }}/me/</loc>
 </url>
+<url>
+<loc>{{ site.url }}/blog/</loc>
+</url>
+<url>
+<loc>{{ site.url }}/contact/</loc>
+</url>
 </urlset>
