@@ -20,7 +20,7 @@
 	font-weight: normal;
 	margin: 0 0 .5em;
 	max-width:100rem;
-	font-size: calc(2vw + 2vh + .2vmin);
+	font-size: calc(2.1vw + 2vh + .2vmin);
 	line-height: 1.05;
 	font-weight: 500;
 	letter-spacing: -.015em;
@@ -30,9 +30,16 @@
 
 @media screen and (max-width:780px) {
 	.slogan p {
-	  font-size: calc(1.2vw + 4vh + .5vmin);
+	  font-size: calc(1.5vw + 4vh + .5vmin);
 	}
 }
+
+@media screen and (max-width:1300px) {
+	.slogan p {
+	  font-size: calc(2vw + 3vh + .5vmin);
+	}
+}
+
 
 
 /* grid styles ------------------------------------ */
@@ -42,6 +49,7 @@
   main {
     display: grid;
     grid-template-columns: 2fr 1.2fr 1fr 1fr 1fr;
+    grid-template-rows: 28em 26em auto;
 		grid-gap: 0;
   }
 
@@ -55,6 +63,7 @@
 		grid-column: 2 / 4;
 		grid-row: 2;
 		margin: inherit;
+		
   }
 
 
