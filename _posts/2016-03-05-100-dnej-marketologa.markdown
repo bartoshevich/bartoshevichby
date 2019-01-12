@@ -18,13 +18,13 @@ keywords: "новое рабочее место маркетолога"
 
 <div class="row">
     <div class="c-6">
-       <p class="item"><img src="/images/sto1.jpg" alt="Катерина Пажитных" width="150" height="150"/></p>
+       <p><img class="guest-image" src="/images/sto1.jpg" alt="Катерина Пажитных" width="150" height="150"/></p>
                   <div class="person"><strong>Екатерина Пажитных</strong><br/>
  маркетолог</div>
 
   </div>
   <div class="c-6">
-       <p class="item"><img src="/images/sto2.jpg" alt="Алексей Шлома" width="150" height="150" /></p>
+       <p><img class="guest-image" src="/images/sto2.jpg" alt="Алексей Шлома" width="150" height="150" /></p>
                   <div class="person"><strong>Алексей Шлома</strong><br/>
  бренд-менеджер Condor (Беларусь)</div>
 

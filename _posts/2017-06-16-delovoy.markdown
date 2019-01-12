@@ -17,7 +17,7 @@ keywords:  "развитие интернет-магазина"
 
 <div class="row">
     <div class="c-6">
-       <p class="item"><img src="/images/delovoy1.jpg" alt="Супрунюк Павел" width="150" height="150"/></p>
+       <p><img class="guest-image" src="/images/delovoy1.jpg" alt="Супрунюк Павел" width="150" height="150"/></p>
                   <div class="person"><strong>Павел Супрунюк</strong><br/>
  начальник отдела клиентского сервиса <a href="https://goo.gl/0yfYuF" target="_blank" rel="noopener">Delovoy.by</a></div>
 

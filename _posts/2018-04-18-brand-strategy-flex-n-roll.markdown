@@ -29,7 +29,7 @@ keywords: "стратегия бренда Флекс-н-Ролл"
 				/images/gorbacheva-600.webp 3x"
 		type="image/webp">
 
-       	<img src="/images/gorbacheva-150.jpg" width="150" height="150" alt="Елена Горбачева поставила задачу по разработке концепции бренда"
+       	<img class="guest-image" src="/images/gorbacheva-150.jpg" width="150" height="150" alt="Елена Горбачева поручила разработать концепцию бренда"
        	srcset="/images/gorbacheva-300.jpg 2x, /images/gorbacheva-600.jpg 3x"/>
 </picture>
 

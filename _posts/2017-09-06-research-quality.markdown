@@ -18,7 +18,7 @@ keywords: "контроль исследовательских агентств"
 
 <div class="row">
     <div class="c-6">
-       <p class="item"><img src="/images/palhovskaya.png" alt="Екатерина Палховская" width="150" height="150" /></p>
+       <p><img class="guest-image" src="/images/palhovskaya.png" alt="Екатерина Палховская" width="150" height="150" /></p>
                   <div class="person"><strong>Екатерина Палховская</strong><br/>
  Strategy&amp;insight manager Danone Belarus, кандидат социологических наук. <br/>
  <em>в&nbsp;исследованиях с&nbsp;2008г. <br/>
@@ -26,7 +26,7 @@ keywords: "контроль исследовательских агентств"
 
   </div>
  <div class="c-6">
-                  <p class="item"><img src="/images/burgazliev.png" alt="Сергей Бургазлиев" width="150" height="150"/></p>
+                  <p><img class="guest-image" src="/images/burgazliev.png" alt="Сергей Бургазлиев" width="150" height="150"/></p>
                   <div class="person"><strong>Сергей Бургазлиев</strong><br/>
  Управляющий партнер в&nbsp;EURussia-Partners, MBA.<br/>
  <em>в&nbsp;исследованиях с&nbsp;2005г. <br/>

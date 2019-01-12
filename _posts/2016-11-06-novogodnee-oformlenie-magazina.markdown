@@ -18,7 +18,7 @@ image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v15460
 
 <div class="row">
     <div class="c-6">
-       <p class="item"><img src="/images/newyear1.jpg" alt="Александра Назаркина" width="150" height="150"/></p>
+       <p><img class="guest-image"  src="/images/newyear1.jpg" alt="Александра Назаркина" width="150" height="150"/></p>
                   <div class="person"><strong>Аля Назаркина</strong><br/>
  руководитель проекта «Магазин под ключ», <a href="http://nzr.by/?from=www.bartoshevich.by">nzr.by</a></div>
 

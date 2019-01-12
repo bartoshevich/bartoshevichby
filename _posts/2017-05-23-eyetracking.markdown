@@ -17,7 +17,7 @@ keywords: "айтрекинг"
 
 <div class="row">
     <div class="c-6">
-       <p class="item"><img src="/images/MariaRaiskaya.jpg" alt="Мария Райская" width="150" height="150"/></p>
+       <p><img class="guest-image" src="/images/MariaRaiskaya.jpg" alt="Мария Райская" width="150" height="150"/></p>
                   <div class="person"><strong>Мария Райская</strong><br/>
  ведущий руководитель проектов <a href="https://goo.gl/t7o309">МАСМИ</a></div>
 
