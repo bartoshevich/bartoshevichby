@@ -57,8 +57,9 @@ sitemap:
 
 # Use the following plug-ins
 plugins:
-   - jekyll-assets   
-   - autoprefixer-rails  
+#   - jekyll-assets   
+#   - autoprefixer-rails  
+#   - octopress-autoprefixer
 
 #assets:
 #  autoprefixer:

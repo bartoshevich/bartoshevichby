@@ -1,12 +1,11 @@
 
-$terminal-window-height: 30px;
+$terminal-window-height: 10px;
 $base-color: #393e46;
 $border-radius: 0.125em;
 $border-color: mix(#fff, $base-color, 80%);
 
-div.highlighter-rouge.language-shell_session,
-div.highlighter-rouge.language-terminal,
-div.highlighter-rouge.language-console,
+
+
 .language-terminal {
   position: relative;
    margin-bottom: 1.5em;
@@ -15,19 +14,13 @@ div.highlighter-rouge.language-console,
    border-radius: $border-radius;
    box-shadow: 0 0.25em 1em rgba($base-color, 0.25);
    background-color: $base-color;
+   color:#fff;
    white-space: pre-wrap;
      width: 100%;
+     max-width:80vw;
  overflow-x: scroll;
  font-size: .8em;
 //  word-wrap: normal;
   -webkit-overflow-scrolling: touch;
-
-
-
-  .highlight {
-    margin: 0;
-    padding: 0;
-    background-color: initial;
-    color: #fff;
-  }
+  
 }

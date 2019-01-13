@@ -12,8 +12,6 @@ image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v15460
 keywords: "оптимизация изображений"
 ---
 
-
-
 <p>Скорость загрузки сайта была в&nbsp;числе моих основных приоритетов еще до&nbsp;настойчивых рекомендаций Google. Один из&nbsp;факторов, влияющих на&nbsp;скорость,&nbsp;— вес изображений. Меньше вес&nbsp;— браузер быстрее показывает страницу. Я&nbsp;пробовал разные способы оптимизации изображений и&nbsp;в&nbsp;результате выбрал несколько, которые использую сам и&nbsp;рекомендую другим. </p>
 
 <nav class="toc">
@@ -72,9 +70,11 @@ keywords: "оптимизация изображений"
 </div>
 
 <p>Уменьшили размер фото&nbsp;— можно публиковать. В&nbsp;код html-страницы добавляем такую строку: </p>
-```terminal
-<img src="путь к изображению" alt="описание,что изображено" width="ширина" height="высота"/>
-```
+
+<pre class="language-terminal highlight ">&lt;img src="путь к&nbsp;изображению" alt="описание,что изображено" width="ширина" height="высота"/&gt;</pre>
+
+
+
 
 <p>Раньше этих действий было достаточно. Сейчас&nbsp;— нет. Назову три причины:</p>
 
@@ -110,13 +110,16 @@ keywords: "оптимизация изображений"
 </picture>
 
 <p>А&nbsp;вот как это работает:</p>
-```terminal
-<picture>
-  <source media="(min-width: 650px)" srcset="...kitten-large.png">
-  <source media="(min-width: 465px)" srcset="...kitten-medium.png">
-  <img src="...kitten-small.png" alt="a cute kitten">
-</picture>
-```
+
+
+<pre class="language-terminal highlight ">
+&lt;picture&gt;<br />
+&lt;source media="(min-width: 650px)" srcset="...kitten-large.png"&gt;<br />
+&lt;source media="(min-width: 465px)" srcset="...kitten-medium.png"&gt;<br />
+&lt;img src="...kitten-small.png" alt="a cute kitten"&gt;<br />
+&lt;/picture&gt;
+</pre>
+
 
 <p>Атрибут srcset указывает путь изображения для загрузки. Тег &lt;source&gt; и&nbsp;атрибут media указывают условия появления каждой из&nbsp;картинок. Если ширина экрана больше 650px, показывается зевающий кот, если от&nbsp;465px до&nbsp;650px&nbsp;— кот сидит. Если экран меньше 465px или если браузер не&nbsp;распознает тег &lt;picture&gt;, вы&nbsp;увидите спящего кота. </p>
 
@@ -134,15 +137,19 @@ keywords: "оптимизация изображений"
 
 
 <p>Адрес фото:</p>
-```terminal
+
+
+<pre class="language-terminal highlight ">
 //res.cloudinary.com/bartoshevich/image/upload/v1538423803/coin_original.jpg
-```
+</pre>
+
 
 <p>Все, что требуется,&nbsp;— это после upload/ в&nbsp;адресе добавить q_auto,f_auto/. Новый адрес:</p>
-```terminal
-//res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1538423803/coin_original.jpg
-```
 
+
+<pre class="language-terminal highlight ">
+//res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1538423803/coin_original.jpg
+</pre>
 
 
 <p>На&nbsp;этом работа по&nbsp;оптимизации картинки завершена. Сервис автоматически изменит качество и&nbsp;формат изображения в&nbsp;зависимости от&nbsp;экрана, на&nbsp;котором открывают адрес картинки. Не&nbsp;нужно готовить много вариантов изображения, прописывать условия для «ретины» и&nbsp;WebP. Все это уже «зашито» в&nbsp;адресе. Код картинки снова умещается в&nbsp;одну строку. </p>
