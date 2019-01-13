@@ -4,7 +4,7 @@ title:  "Способы оптимизации изображений, о кот
 name: "Как оптимизировать изображения для сайта"
 description: "Делюсь способами оптимизации изображений для сайта, которые использую сам и&nbsp;рекомендую другим."
 date:   2018-10-02
-last_modified_at: 2019-01-05
+last_modified_at: 2019-01-13
 categories: инструкции
 permalink: "/instrukcii/optimizaciya-izobrajenii/"
 tags: "инструменты"
