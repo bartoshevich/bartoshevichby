@@ -8,7 +8,7 @@ last_modified_at: 2019-01-15
 categories: инструкции
 permalink: "/instrukcii/primer-SWOT-analiza/"
 tags: "инструменты, управление"
-image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1547574744/tizers/tizer-53.jpg
+image: /images/tizer-53.jpg
 keywords: "пример SWOT "
 ---
 
