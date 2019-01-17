@@ -6,7 +6,7 @@ description: "Зачем маркетинг белорусскому бизне�
 last_modified_at: 2019-01-06
 categories: мнение
 permalink: "/mnenie/zachem-marketing-biznesu/"
-image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021421/tizers/tizer-8.jpg
+image: /images/tizer-8.jpg
 tags: "управление интервью"
 keywords: "продавцы о маркетинге"
 ---

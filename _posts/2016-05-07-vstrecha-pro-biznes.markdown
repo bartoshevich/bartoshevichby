@@ -9,7 +9,7 @@ categories: опыт
 permalink: "/opyt/vstrecha-pro-biznes/"
 tags: "бизнес"
 keywords: "Про бизнес"
-image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021417/tizers/tizer-20.jpg
+image: /images/tizer-20.jpg
 ---
 
 5 мая состоялась «Встреча "Про бизнес"». Приглашенные спикеры — генеральный директор Svitland Development в Беларуси и Литве Иосиф Фридман и директор компании «Волис», сооснователь «Инволюкс» Андрей Торсунов. <!--more-->

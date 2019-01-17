@@ -9,7 +9,7 @@ categories: инструкции
 permalink: "/instrukcii/3-pravila-marketingovyx-issledovanij/"
 tags: "инструменты"
 keywords: "организация маркетинговых исследований"
-image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021424/tizers/tizer-3.jpg
+image: /images/tizer-3.jpg
 ---
 
 <p>В&nbsp;учебниках пишут, что маркетинговые исследования устраняют неопределенность в&nbsp;бизнесе и&nbsp;способствуют глубокому пониманию рынка. Однако реальность не&nbsp;всегда совпадает с&nbsp;написанным в&nbsp;книгах. Я&nbsp;знаю примеры, когда компании потратили значительные средства на&nbsp;исследования, но&nbsp;никакой отдачи не&nbsp;получили: ни&nbsp;понимания рынка, ни&nbsp;ясности в&nbsp;дальнейших шагах.</p>

@@ -7,7 +7,7 @@ date:   2017-05-23
 last_modified_at: 2019-01-09
 categories: мнение
 permalink: "/mnenie/eye-tracking/"
-image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021407/tizers/tizer-41.jpg
+image: /images/tizer-41.jpg
 tags: "реклама инструменты интервью"
 keywords: "айтрекинг"
 ---

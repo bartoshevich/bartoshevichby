@@ -8,7 +8,7 @@ last_modified_at: 2019-01-08
 categories: мнение
 permalink: "/mnenie/100-dnej-marketologa/"
 tags: "маркетолог интервью"
-image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021417/tizers/tizer-17.jpg
+image: /images/tizer-17.jpg
 keywords: "новое рабочее место маркетолога"
 ---
 

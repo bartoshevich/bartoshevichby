@@ -7,7 +7,7 @@ date:   2017-06-16
 last_modified_at: 2019-01-06
 categories: опыт
 permalink: "/opyt/delovoy/"
-image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021406/tizers/tizer-42.jpg
+image: /images/tizer-42.jpg
 tags: "интернет-маркетинг интервью"
 keywords:  "развитие интернет-магазина"
 ---

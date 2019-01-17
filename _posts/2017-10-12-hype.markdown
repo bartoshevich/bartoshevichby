@@ -8,7 +8,7 @@ last_modified_at: 2019-01-09
 categories: мнение
 permalink: "/mnenie/hype/"
 tags: "маркетолог"
-image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021405/tizers/tizer-45.jpg
+image: /images/tizer-45.jpg
 keywords: "технологии в маркетинге"
 ---
 

@@ -9,7 +9,7 @@ categories: инструкции
 permalink: "/instrukcii/skidki-instrukciya-po-primeneniyu/"
 tags: "инструменты"
 keywords: "опасность скидок"
-image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021421/tizers/tizer-11.jpg
+image: /images/tizer-11.jpg
 ---
 
 <p>Если вы&nbsp;собираетесь привлекать клиентов скидками, снижайте стоимость правильно. Не&nbsp;делайте скидки центральным пунктом продвижения товара, если не&nbsp;работаете в&nbsp;низком ценовом сегменте. В&nbsp;рамках маркетинговой кампании предлагаете скидки на&nbsp;условиях, которые подчеркивают ценность бренда и&nbsp;укрепляют отличия от&nbsp;конкурентов.</p>

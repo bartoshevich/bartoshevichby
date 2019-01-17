@@ -8,7 +8,7 @@ last_modified_at: 2019-01-09
 categories: мнение
 permalink: "/mnenie/razvitie-brenda/"
 tags: "управление"
-image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021402/tizers/tizer-49.jpg
+image: /images/tizer-49.jpg
 keywords: "маркетинг без вирусов"
 ---
 

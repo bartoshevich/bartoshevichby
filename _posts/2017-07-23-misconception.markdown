@@ -7,7 +7,7 @@ date:   2017-07-23
 last_modified_at: 2019-01-09
 categories: мнение
 permalink: "/mnenie/misconceptions/"
-image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021406/tizers/tizer-43.jpg
+image: /images/tizer-43.jpg
 tags: "интернет-маркетинг семинары управление"
 keywords: "мифы о маркетинге"
 ---

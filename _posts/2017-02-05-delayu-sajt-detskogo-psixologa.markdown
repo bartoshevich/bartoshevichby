@@ -9,7 +9,7 @@ categories: опыт
 permalink: "/opyt/delayu-sajt-detskogo-psixologa/"
 tags: "кейсы интернет-маркетинг"
 keywords: "создание сайта психолога"
-image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021409/tizers/tizer-36.jpg
+image: /images/tizer-36.jpg
 ---
 
 

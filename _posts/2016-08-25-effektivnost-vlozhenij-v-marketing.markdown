@@ -9,7 +9,7 @@ categories: мнение
 permalink: "/mnenie/effektivnost-vlozhenij-v-marketing/"
 tags: "управление бизнес"
 keywords: "отдача от маркетинга"
-image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021413/tizers/tizer-26.jpg
+image: /images/tizer-26.jpg
 ---
 
 <p>Выделил и&nbsp;рассказал порталу «Про бизнес» <a href="//probusiness.io/do_it/2445-ne-stavte-telegu-vperedi-loshadi-veshchi-kotorye-obyazatelno-dolzhen-znat-i-delat-marketolog.html">три принципа результативного маркетинга</a>. Публикую версию для блога.</p><!--more-->

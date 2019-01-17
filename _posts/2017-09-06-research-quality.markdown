@@ -8,7 +8,7 @@ last_modified_at: 2019-01-09
 categories: инструкции
 permalink: "/instrukcii/research-quality/"
 tags: "управление инструменты интервью"
-image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021406/tizers/tizer-44.jpg
+image: /images/tizer-44.jpg
 keywords: "контроль исследовательских агентств"
 ---
 

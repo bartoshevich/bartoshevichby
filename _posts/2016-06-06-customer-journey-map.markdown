@@ -9,7 +9,7 @@ categories: инструкции
 permalink: "/instrukcii/customer-journey-map/"
 tags: "инструменты бизнес"
 keywords: "customer journey map"
-image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021415/tizers/tizer-22.jpg
+image: /images/tizer-22.jpg
 ---
 
 <div class="with-side">

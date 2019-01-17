@@ -9,7 +9,7 @@ categories: мнение
 permalink: "/mnenie/akcii-so-skidkami/"
 tags: "инструменты бизнес"
 keywords: "черная пятница"
-image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021410/tizers/tizer-33.jpg
+image: /images/tizer-33.jpg
 ---
 
 <p>На&nbsp;вопросы о&nbsp;скидках я&nbsp;обычно отвечаю коротко: «Скидка должна подчеркивать ценность бренда и&nbsp;усиливать ваши конкурентные преимущества». Этот секрет не&nbsp;знают, не&nbsp;понимают или игнорируют многие маркетологи. А&nbsp;зря...</p>

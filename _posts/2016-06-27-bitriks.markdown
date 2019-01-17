@@ -9,7 +9,7 @@ categories: опыт
 permalink: "/opyt/1s-bitriks/"
 tags: "интернет-маркетинг семинары"
 keywords: "возможности Битрикс"
-image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021414/tizers/tizer-24.jpg
+image: /images/tizer-24.jpg
 ---
 
 <p>23&nbsp;июня прошел региональный семинар «1С-Битрикс» в&nbsp;Минске. Как сэкономить время и&nbsp;деньги и&nbsp;избежать ошибок при создании и&nbsp;продвижении интернет-магазина, организаторы обещали показать на&nbsp;примерах. Я&nbsp;посетил семинар и&nbsp;расскажу, насколько он&nbsp;полезен для руководителей бизнеса и&nbsp;маркетологов.</p><!--more-->

@@ -9,7 +9,7 @@ categories: мнение
 permalink: "/mnenie/gifts2clients/"
 tags: "инструменты"
 keywords: "Корпоративный подарок"
-image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021419/tizers/tizer-13.jpg
+image: /images/tizer-13.jpg
 ---
 
 <p>Обмен поздравлениями и&nbsp;подарками с&nbsp;партнерами и&nbsp;клиентами&nbsp;— традиционный атрибут Нового года и&nbsp;Рождества. Давайте вместе порассуждаем, стоит&nbsp;ли поздравлять клиентов с&nbsp;праздниками, как правильно выбрать подарок и&nbsp;что&nbsp;же написать в&nbsp;поздравительном письме.</p>

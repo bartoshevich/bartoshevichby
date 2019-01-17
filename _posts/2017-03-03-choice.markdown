@@ -9,7 +9,7 @@ categories: мнение
 permalink: "/mnenie/choice/"
 tags: "реклама управление"
 keywords: "креативные концепции рекламы"
-image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021409/tizers/tizer-38.jpg
+image: /images/tizer-38.jpg
 ---
 
 <p>Когда рекламное агентство предоставляет заказчику на&nbsp;выбор три варианта креативной концепции рекламы, значит агентство сделало свою работу плохо. И&nbsp;вот почему. </p><!--more-->

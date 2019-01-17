@@ -9,7 +9,7 @@ categories: мнение
 permalink: "/mnenie/razrabotka-marketingovoj-strategii/"
 tags: "кейсы управление"
 keywords: "разработка маркетинговой стратегии"
-image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021413/tizers/tizer-28.jpg
+image: /images/tizer-28.jpg
 ---
 
 <p>Чем профессиональнее у&nbsp;вас сотрудники и&nbsp;сплоченнее коллектив, тем выше риск неправильных, фатальных для бизнеса решений. В&nbsp;статье вы&nbsp;узнаете, почему так происходит и&nbsp;как этому противостоять. Если разрабатываете <a href="/mnenie/vremya-dlya-strategii/">маркетинговую стратегию</a> или выводите на&nbsp;рынок новые продукты&nbsp;— прислушайтесь к&nbsp;рекомендациям.</p><!--more-->

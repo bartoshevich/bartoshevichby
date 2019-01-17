@@ -9,7 +9,7 @@ categories: мнение
 permalink: "/mnenie/2-idei-po-razvitiyu-marketinga/"
 tags: "управление"
 keywords: "маркетинг в компании"
-image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021423/tizers/tizer-5.jpg
+image: /images/tizer-5.jpg
 ---
 
 <p>Неоднократно убеждался, что нельзя существенно повлиять на&nbsp;результативность маркетологов без осмысления и&nbsp;корректировки принципов, по&nbsp;которым маркетинг в&nbsp;компании работает. Реакция и&nbsp;действия зависят от&nbsp;установок. Меняем установки&nbsp;— изменим и&nbsp;реакцию.</p>

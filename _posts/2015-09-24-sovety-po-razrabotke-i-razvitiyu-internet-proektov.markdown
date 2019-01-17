@@ -9,7 +9,7 @@ categories: мнение
 permalink: "/mnenie/sovety-po-razrabotke-i-razvitiyu-internet-proektov/"
 tags: "интернет-маркетинг семинары"
 keywords: "работа над сайтом"
-image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021422/tizers/tizer-7.jpg
+image: /images/tizer-7.jpg
 ---
 
 <p>Участвовал в&nbsp;семинаре по&nbsp;интернет-маркетингу «Стань эффективнее», который организовала Студия Борового и&nbsp;агентство «Скрытый маркетинг». Расскажу о&nbsp;ключевых идеях, которые услышал на&nbsp;мероприятии, и&nbsp;советах спикеров по&nbsp;разработке и&nbsp;развитию интернет-проектов.</p> <!--more-->

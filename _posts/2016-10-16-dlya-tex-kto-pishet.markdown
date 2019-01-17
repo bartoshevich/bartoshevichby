@@ -9,7 +9,7 @@ categories: мнение
 permalink: "/mnenie/dlya-tex-kto-pishet/"
 tags: "инструменты"
 keywords: "как написать текст рекламы"
-image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021411/tizers/tizer-31.jpg
+image: /images/tizer-31.jpg
 ---
 
 <p>Составить сильный рекламный текст, подготовить понятное коммерческое предложение и&nbsp;ясно описать товар на&nbsp;сайте помогут сервисы и&nbsp;материалы, о&nbsp;которых расскажу в&nbsp;статье.</p><!--more-->

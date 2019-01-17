@@ -9,7 +9,7 @@ categories: мнение
 permalink: "/mnenie/novogodnee-oformlenie-magazina/"
 tags: "инструменты интервью"
 keywords: "оформление магазина к Новому году"
-image: https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546021411/tizers/tizer-32.jpg
+image: /images/tizer-32.jpg
 ---
 
 <p>Как оформить магазин к&nbsp;новогодним праздникам обсудил со&nbsp;специалистом в&nbsp;визуальном мерчендайзинге и&nbsp;витринистике&nbsp;— Алей Назаркиной. Беседа получилась интересной. Поговорили о&nbsp;задачах и&nbsp;роли визуального мерчендайзинга, типичных ошибках, ситуации на&nbsp;рынке и&nbsp;принципах выбора специалистов для новогоднего оформления магазина.</p><!--more-->
