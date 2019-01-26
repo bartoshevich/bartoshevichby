@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 (function(e,t,n,i,s,a,c){e[n]=e[n]||function(){(e[n].q=e[n].q||[]).push(arguments)}
 ;a=t.createElement(i);c=t.getElementsByTagName(i)[0];a.async=true;a.src=s
 ;c.parentNode.insertBefore(a,c)
@@ -6,4 +6,20 @@
 
 galite('create', 'UA-65863871-1', 'auto');
 galite('send', 'pageview');
+</script> -->
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://bartoshevich.matomo.cloud/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
 </script>
+<!-- End Matomo Code -->

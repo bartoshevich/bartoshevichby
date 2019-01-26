@@ -1,0 +1,44 @@
+
+table {
+    background-color : #f2f2f2;
+	border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    font-size: 0.8em;
+    width: 100%;
+    margin: 1.5em 0 1.5em 0;
+    text-align: left;
+
+}
+
+th,
+td {
+	padding: 1%;
+	margin: 0;
+	overflow: visible;
+	line-height: 120%;
+	border: 1px solid #cfcfcf;
+ 
+ ul,
+ li {margin-left:7%;
+     padding-left:1%;}
+
+}
+th { padding-top: 0;
+	font-weight: bold;
+	color: #111;}
+
+thead {
+	vertical-align: bottom;
+	white-space: nowrap;
+}
+
+
+
+.Gainsboro {
+	background-color: Gainsboro;
+}
+
+.topverticalalign {
+	vertical-align: top;
+} 
