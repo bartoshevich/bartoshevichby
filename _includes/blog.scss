@@ -8,7 +8,7 @@
 .blog-grid-container {
   display: grid;
   grid-template-columns: 50px 1fr 1fr 1fr auto;
-  grid-auto-rows: auto 15px auto auto;
+  grid-auto-rows: auto 15px auto auto auto;
   grid-gap: 1rem;
   grid-template-areas:
     "a . b b ."
@@ -33,12 +33,20 @@
 
 .favorities {
   grid-area: d;
-  column-width: 360px;
-  column-gap: 2em;
-  column-rule: 1px solid #ccc;
-  margin: 3em 0;
+  align-items: end;
+  margin-top: 2em;
 
 }
+
+.description {
+  column-width: 360px;
+  column-gap: 3em;
+  column-rule: 1px solid #ccc;
+  margin-bottom: 1em;
+}
+
+
+
 
 .archive {
   grid-area: e;
@@ -56,9 +64,9 @@ h1.blog  {
 
 
 .focus-line {
-    border-top: 20px solid $focus;
+    border-bottom: 25px solid $focus;
 grid-column: 3 / 5;
- grid-row: 2;
+ grid-row: 1;
   }
 
 
@@ -100,8 +108,8 @@ grid-column: 3 / 5;
 .item:nth-child(31) h3,
 .item:nth-child(43) h3 {font-size:1.8em;}
 
- 
- 
+
+
 .archive-list > p {
   color: $text;
 }
@@ -131,7 +139,7 @@ grid-column: 3 / 5;
     }
     .focus-line {
     grid-column: 2 / 3;
-     grid-row: 2;
+     grid-row: 1;
       }
 
 }

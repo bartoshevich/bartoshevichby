@@ -14,6 +14,13 @@
   margin: 1em 0;
 }
 
+.block-1,
+.block-2,
+.block-3 {
+   margin: 3em 0;
+}
+
+
 .block-1 {
 	height: 590px;
 }
@@ -28,10 +35,9 @@
 .uslugi-block {
   display: grid;
    grid-template-columns: 1fr minmax(0, 30ch) 1fr;
-   grid-template-rows: 10% 1fr auto auto 1fr;
+   grid-template-rows: 5% .5fr auto auto .2fr;
    width: 100%;
    height: 100%;
-   margin: 3em 0;
 
       img {
         grid-column: 2 / 6;
@@ -65,11 +71,9 @@
 .uslugi-block-right {
   display: grid;
    grid-template-columns: 1fr minmax(0, 30ch) 1fr;
-   grid-template-rows: 10% 1fr auto auto 1fr;
+   grid-template-rows: 5% .5fr auto auto .2fr;
    width: 100%;
    height: 100%;
-   margin: 2em 0;
-
 
    img {
      grid-column: 1 / 3;
