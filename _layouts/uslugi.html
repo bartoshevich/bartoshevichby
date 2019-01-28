@@ -1,0 +1,112 @@
+---
+layout: compress
+---
+<!-- Copyright (c) Дмитрий Бартошевич | https://bartoshevich.by/ -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.5'>
+	<title>{{ page.title }}</title>
+
+	{% include meta.html %}
+
+
+	<style>
+    {% capture criticalcss %}
+      {% include uslugi-style.scss %}
+    {% endcapture %}
+    {{ criticalcss | scssify }}
+  </style>
+
+{% include analytics.html %}
+</head>
+<body>
+
+	<div class="nav" role="navigation">
+
+			<div class="menu-item">
+			<a href="/" title="Открыть главную страницу">Дмитрий Бартошевич</a>
+			</div>
+
+			<div class="menu">
+				<ul>
+						<li class="menu-item selected">Делаю</li>
+						<li class="menu-item"><a href="/me/" title="Рассказываю, что сделал">Сделал</a></li>
+					<li class="menu-item"><a href="/blog/" title="Блог маркетолога">Блог</a></li>
+					<li class="menu-item"><a href="/contact/" title="Связаться">Контакты</a></li>
+				</ul>
+				</div>
+
+	</div>
+
+<div class="wrapper">
+
+
+<article class="article">
+
+
+
+
+
+					<h1>Услуги</h1>
+
+
+
+
+
+
+
+<div class="uslugi-block">
+			<img src="https://res.cloudinary.com/bartoshevich/image/upload/w_786/q_auto,f_auto/v1548670135/audit.jpg" alt="аудит маркетинга">
+		<h2>Провожу аудит маркетинга </h2>
+		<p> Отдел маркетинга должен создавать и&nbsp;укреплять отличия компании, значимые для клиентов. От&nbsp;этого зависит поток клиентов, доля рынка и&nbsp;прибыль. Я&nbsp;определяю, что тормозит развитие предприятия, и&nbsp;составляю план, как усилить функции маркетинга.
+ </p>
+
+</div>
+
+
+<div class="uslugi-block-right">
+			<img src="https://res.cloudinary.com/bartoshevich/image/upload/w_786/q_auto,f_auto/v1548670135/concept.jpg" alt="концепция бренда">
+		<h2>Разрабатываю концепцию бренда  </h2>
+		<p> Концепция&nbsp;— главная идея, лежащая в&nbsp;основе и&nbsp;задающая вектор развития бренда. Нет концепции&nbsp;→ несбалансированный рекламный бюджет, отсутствие фокуса в&nbsp;продвижении и&nbsp;размытый образ бренда&nbsp;→ у&nbsp;потребителя нет побудительных причин выбрать бренд&nbsp;→ снижение объема продаж и&nbsp;доли рынка. </p>
+
+</div>
+
+
+<div class="uslugi-block">
+			<img src="https://res.cloudinary.com/bartoshevich/image/upload/w_786/q_auto,f_auto/v1548670135/uslugi_adv.jpg" alt="создаю концепции рекламных компаний">
+		<h2>Создаю концепции рекламных кампаний </h2>
+		<p>Цель&nbsp;— одно ключевое послание, которое подчеркнет и&nbsp;усилит образ бренда. Без отвлеченных деталей и&nbsp;смыслов. Без ажитированной гонки за&nbsp;сиюминутными лайками и&nbsp;просмотрами.
+
+</p>
+
+</div>
+
+
+
+
+
+
+<h2>Принципы работы</h2>
+<div class="description">
+					<p>Опираюсь на&nbsp;исследования, анализ данных, <a href="/mnenie/otlichie-marketologa-ot-brexuna/">избегаю брехни</a>. Ориентируюсь на&nbsp;<a href="/mnenie/konkurentnoe-preimushhestvo/">пользу и&nbsp;доверие</a>. Работаю по&nbsp;договору, <a href="/mnenie/igra/">не&nbsp;играю в&nbsp;«Спасителя»</a>.</p>
+					<p>Если в&nbsp;компании нет маркетолога, беру его функции на&nbsp;себя. Не&nbsp;даю халтурить подрядчикам. Сам ставлю задачи, контролирую исполнение.</p>
+					<p>Клиенты платят не&nbsp;за&nbsp;время с&nbsp;9:00 до&nbsp;18:00, а&nbsp;за&nbsp;результат. Без отчислений в&nbsp;ФСЗН, оплаты подоходного налога, больничных и&nbsp;отпусков. </p>
+</div>
+
+<h2>Альтернатива</h2>
+<p>Есть компании с&nbsp;другими принципами работы и/или иным пониманием задач маркетинга. <a href="https://www.aidapioneer.by/ru/" target="_blank" rel="noopener nofollow">AIDA Pioneer</a>, <a href="http://pgr.by/" target="_blank" rel="noopener nofollow">PG&nbsp;branding</a>, <a href="http://www.tdi.by/" target="_blank" rel="noopener nofollow">TDI&nbsp;Group</a>, <a href="https://fabula.by/" target="_blank" rel="noopener nofollow">Fabula Branding</a> и&nbsp;другие. Если вы&nbsp;не&nbsp;разделяете мой подход и&nbsp;взгляды, они ждут вашего звонка ;-) </p>
+
+
+</article>
+</div>
+
+
+		{% include footer.html %}
+
+
+
+</body>
+</html>
