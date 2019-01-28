@@ -4,6 +4,9 @@
 @import "article";
 
 
+h1 {
+  text-transform: uppercase;
+}
 
 
 .description {
@@ -14,21 +17,9 @@
   margin: 1em 0;
 }
 
-.block-1,
-.block-2,
-.block-3 {
+.block {
    margin: 3em 0;
-}
-
-
-.block-1 {
-	height: 590px;
-}
-.block-2 {
-	height: 524px;
-}
-.block-3 {
-	height: 546px;
+   height: 590px;
 }
 
 

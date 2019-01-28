@@ -4,6 +4,10 @@
 @import "article";
 
 
+h1 {
+  text-transform: uppercase;
+}
+
 .description {
   -webkit-column-width: 360px;
           column-width: 360px;
