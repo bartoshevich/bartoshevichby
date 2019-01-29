@@ -16,7 +16,7 @@
               grid-template-areas:
                 "b d d i a c "
                 "b d d i e e "
-                ". j j j f f" 
+                ". j j j f f"
 
             }
 
@@ -89,6 +89,10 @@
                 text-align: center;
                 }
 
+  }
+
+h1.title  {
+    text-transform: uppercase;
   }
 
 .contact-grid-container a {
