@@ -9,15 +9,15 @@ h1 {
   text-transform: uppercase;
 }
 
-.description {
-  -webkit-column-width: 360px;
-          column-width: 360px;
-  -webkit-column-gap: 2em;
-          column-gap: 2em;
-  -webkit-column-rule: 1px solid #ccc;
-          column-rule: 1px solid #ccc;
-  margin: 2em 0 2em 0;
+
+
+.description{
+  column-width: 360px;
+  column-gap: 3em;
+  column-rule: 1px solid #ccc;
+  margin: 2em 0;
 }
+
 
 
 .margin-bottom {
