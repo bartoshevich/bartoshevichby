@@ -22,11 +22,12 @@ width : auto;
 max-width : 100%;
 }
 
-.side strong {
-font-size : 3rem;
-font-weight : 100;
 
+.side strong {
+font-size : 2rem;
+font-weight : 100;
 }
+
 
 @media screen and (max-width:1430px) {
 .side {
@@ -35,6 +36,8 @@ left : 9%;
 width : 90%;
 font-size : 14px;
 line-height : 1.5rem;
+padding: 10px 0 15px 0;
+
 }
 .side img {
 margin : 0 auto;
