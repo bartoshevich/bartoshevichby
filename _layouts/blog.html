@@ -59,7 +59,7 @@ layout: compress
 <b class="focus-line"></b>
 
 <div class="favorities">
-		<h2>Избранное </h2>
+		<h4>Избранное </h4>
 </div>
 
 <div class="description">
@@ -99,15 +99,15 @@ layout: compress
 
 
 	<div class="archive">
-	<h2>	Все записи </h2>
+	<h4>	Все записи (55)</h4>
 	<div class="archive-list">
 		{% for post in site.posts %}
 		<div class="item">
 
 				<a href="{{ site.baseurl }}{{ post.url }}" >
-							<h3>
-							{{ post.name }}
-							</h3>
+							<h2>
+						<span class="article_title">	{{ post.name }} </span>
+							</h2>
 				</a>
 
 					<p>

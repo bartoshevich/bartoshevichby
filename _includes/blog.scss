@@ -27,7 +27,7 @@
 
 .intro {
   grid-area: b;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 .favorities {
@@ -75,7 +75,7 @@ grid-column: 3 / 5;
   display: grid;
     grid-template-columns: repeat(auto-fit, minmax(295px, 1fr));
     grid-auto-rows: minmax(100px, auto);
-    grid-gap: 1rem;
+    grid-gap: 3.5rem;
     font-size: 80%;
 
 }
@@ -90,10 +90,39 @@ grid-column: 3 / 5;
 .item {
   display: flex;
   flex-flow: column;
-  background-color: #f7f7f7;
-  padding: 2rem 1rem .5rem 1rem;
+
+//  background-color: #f7f7f7;
+//  padding: 2rem 1rem .5rem 1rem;
+        a {
+            outline: hidden;
+        }
+
+       a:hover {
+        text-decoration: none;
+        outline: none;
 }
 
+}
+
+.article_title {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #333;
+box-shadow: inset 0 -.4em 0 $focus;
+  outline: none;
+//transition: box-shadow .2s ease-in-out;
+
+  &:hover,
+  &:active,
+  &::selection {
+    box-shadow: inset 0 -1.4em 0 $focus;
+padding: .2em 0;
+outline: none;
+    }
+}
+
+
+/*
 .item:nth-child(4),
 .item:nth-child(19),
 .item:nth-child(31),
@@ -108,7 +137,7 @@ grid-column: 3 / 5;
 .item:nth-child(31) h3,
 .item:nth-child(43) h3 {font-size:1.8em;}
 
-
+*/
 
 .archive-list > p {
   color: $text;
@@ -142,5 +171,7 @@ grid-column: 3 / 5;
     grid-column: 2 / 3;
      grid-row: 2;
       }
-
+      .article_title {
+        font-size: 1.2em;
+      }
 }
