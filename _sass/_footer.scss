@@ -32,8 +32,10 @@ a.no-link {
 }
 
 .footer a:hover, .footer a:active {
-  border-bottom: none;
+color: #4ccda8;
+	border-bottom: 1px solid #4ccda8;
 	text-decoration: none;
+
 }
 
 .footer-menu {
