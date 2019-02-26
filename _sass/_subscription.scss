@@ -1,8 +1,16 @@
 .singup {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 }
 
 .singup-item {
@@ -38,11 +46,11 @@
 
 #mr_embed_signup form {  }
 .mr-field-group { display: inline-block; } /* positions input field horizontally */
-#mr_embed_signup input.email {font-family: Arial,sans-serif; font-size: 15px; border: 1px solid #cccccc; border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; color: #3a3329; background-color: #fff; box-sizing:border-box; height:32px; padding: 0px 0.4em; display: inline-block; margin-bottom: 10px; width:100%; vertical-align:top;}
+#mr_embed_signup input.email {font-family: Arial,sans-serif; font-size: 15px; border: 1px solid #cccccc; border-radius: 3px; border-radius: 3px; color: #3a3329; background-color: #fff; -webkit-box-sizing:border-box; box-sizing:border-box; height:32px; padding: 0px 0.4em; display: inline-block; margin-bottom: 10px; width:100%; vertical-align:top;}
 
 
 #mr_embed_signup .clear {display: inline-block;} /* positions button horizontally in line with input */
-#mr_embed_signup .button {font-size: 14px; border: 1px solid #0070c9; border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; letter-spacing: .03em; color: #ffffff; background-color: #0070c9; box-sizing:border-box; height:32px; line-height:32px; padding:0 18px; display: inline-block; margin: 0; transition: all 0.23s ease-in-out 0s; width: 100%}
+#mr_embed_signup .button {font-size: 14px; border: 1px solid #0070c9; border-radius: 3px; border-radius: 3px; letter-spacing: .03em; color: #ffffff; background-color: #0070c9; -webkit-box-sizing:border-box; box-sizing:border-box; height:32px; line-height:32px; padding:0 18px; display: inline-block; margin: 0; -webkit-transition: all 0.23s ease-in-out 0s; transition: all 0.23s ease-in-out 0s; width: 100%}
 #mr_embed_signup .button:hover {background-color:#2254c4; border: 1px solid #2254c4; color: #ffffff; cursor:pointer;}
 #mr_embed_signup div#mce-responses {float:left; top:-1.4em; padding:0em .5em 0em .5em; overflow:hidden; width:90%;margin: 0 5%; clear: both;}
 #mr_embed_signup div.response {margin:1em 0; padding:1em .5em .5em 0; font-weight:bold; float:left; top:-1.5em; z-index:1; width:80%;}

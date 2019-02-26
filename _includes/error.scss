@@ -7,11 +7,14 @@
 
 
 .error-grid-container {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 50px 1rem 1fr 1rem 1fr 1rem 1fr 1rem auto;
   grid-template-columns: 50px 1fr 1fr 1fr auto;
   grid-auto-rows: auto 15px auto auto;
   grid-gap: 1rem;
-  grid-template-areas:
+  -ms-grid-rows: auto 1rem auto 1rem auto 1rem auto;
+      grid-template-areas:
     "a . b b ."
     "a . c c c"
     ". d d d d"
@@ -20,19 +23,32 @@
 
 
 .title {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  -ms-grid-column: 1;
   grid-area: a;
-  transform: rotate(180deg);
-  writing-mode: vertical-rl;
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
   text-transform: uppercase;
 }
 
 .intro {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 3;
   grid-area: b;
     font-size: 1.2em;
 }
 
 
 .error-content {
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 7;
   grid-area: d;
   margin-top: 10em 0;
   }
@@ -40,37 +56,52 @@
 
 .focus-line {
     border-top: 20px solid $focus;
+-ms-grid-column: 2;
+-ms-grid-column-span: 2;
 grid-column: 2 / 4;
+ -ms-grid-row: 2;
  grid-row: 2;
   }
 
 
   .flex-in {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row; flex-wrap: wrap; align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-align: center; -ms-flex-align: center; align-items: center;
   margin: 3rem 0;
   max-width: 600px;
   }
 
   .flex-1 {
-   flex: 1;
+   -webkit-box-flex: 1;
+       -ms-flex: 1;
+           flex: 1;
   min-width: 270px;
   max-width: 310px;
   padding:0 15px 0 0;
   }
 
   .flex-2 {
-  flex: 2;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
   min-width: 270px;
   }
 
   @media screen and (max-width:500px){
       .error-grid-container {
+          display: -ms-grid;
           display: grid;
+          -ms-grid-columns: 50px 1rem 1fr;
           grid-template-columns: 50px 1fr;
           grid-auto-rows: auto 15px auto auto;
           grid-gap: 1rem;
-          grid-template-areas:
+          -ms-grid-rows: auto 1rem auto 1rem auto 1rem auto;
+              grid-template-areas:
             "a b "
             "a c "
             "d d "
@@ -80,8 +111,26 @@ grid-column: 2 / 4;
         font-size: 1em;
       }
       .focus-line {
+      -ms-grid-column: 2;
+      -ms-grid-column-span: 1;
       grid-column: 2 / 3;
+       -ms-grid-row: 2;
        grid-row: 2;
         }
+      .title {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    -ms-grid-column: 1
+      }
+      .intro {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1
+      }
+      .error-content {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3
+      }
 
   }

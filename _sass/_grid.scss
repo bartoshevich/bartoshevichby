@@ -1,11 +1,14 @@
 .row {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr;
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 10px;
 	margin-bottom: 1em;
 }
 
 [class*="c-"] {
+    -ms-grid-column-span: 12;
     grid-column: span 12;
     padding: 5px 10px 5px 0;
 }
@@ -16,50 +19,62 @@
 
 
     .c-1 {
+        -ms-grid-column-span: 1;
         grid-column: span 1
     }
 
     .c-2 {
+        -ms-grid-column-span: 2;
         grid-column: span 2
     }
 
     .c-3 {
+        -ms-grid-column-span: 3;
         grid-column: span 3
     }
 
     .c-4 {
+        -ms-grid-column-span: 4;
         grid-column: span 4
     }
 
     .c-5 {
+        -ms-grid-column-span: 5;
         grid-column: span 5
     }
 
     .c-6 {
+        -ms-grid-column-span: 6;
         grid-column: span 6
     }
 
     .c-7 {
+        -ms-grid-column-span: 7;
         grid-column: span 7
     }
 
     .c-8 {
+        -ms-grid-column-span: 8;
         grid-column: span 8
     }
 
     .c-9 {
+        -ms-grid-column-span: 9;
         grid-column: span 9
     }
 
     .c-10 {
+        -ms-grid-column-span: 10;
         grid-column: span 10
     }
 
     .c-11 {
+        -ms-grid-column-span: 11;
         grid-column: span 11
     }
 
     .c-12 {
+        -ms-grid-column-span: 12;
         grid-column: span 12
     }
 

@@ -166,27 +166,39 @@ iframe {
 // флекс-блоки вместо таблицы
 
 .flex-block {
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
-flex-direction: row; flex-wrap: wrap;
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+    -ms-flex-direction: row;
+        flex-direction: row; -ms-flex-wrap: wrap; flex-wrap: wrap;
 margin-bottom: 2rem;
 }
 
 .flex-in {
+display: -webkit-box;
+display: -ms-flexbox;
 display: flex;
-flex-direction: row; flex-wrap: wrap; align-items: center;
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+    -ms-flex-direction: row;
+        flex-direction: row; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-align: center; -ms-flex-align: center; align-items: center;
 margin-bottom: 2rem;
 }
 
 .flex-1 {
--webkit-flex: 1;
-flex: 1;
+-webkit-box-flex: 1;
+    -ms-flex: 1;
+        flex: 1;
 min-width: 270px; max-width: 310px;
 padding:0 15px 0 0;
 }
 
 .flex-2 {
--webkit-flex: 2;
-flex: 2;
+-webkit-box-flex: 2;
+    -ms-flex: 2;
+        flex: 2;
 min-width: 300px;
 }
 
@@ -197,8 +209,11 @@ mark {background: #ffffa1; padding: 1px 0; }
 
 // дата публикации
 .date {
-  transform: rotate(180deg);
-  writing-mode: vertical-rl;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
   background: $focus;
   padding: 8px 0;
   font-style: italic;
@@ -209,8 +224,11 @@ mark {background: #ffffa1; padding: 1px 0; }
 
 @media screen and (max-width:720px){
   .date {
-  transform: none;
-  writing-mode: horizontal-tb;
+  -webkit-transform: none;
+          transform: none;
+  -webkit-writing-mode: horizontal-tb;
+      -ms-writing-mode: lr-tb;
+          writing-mode: horizontal-tb;
   background-color: inherit;
 }
 }
