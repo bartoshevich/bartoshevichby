@@ -1,7 +1,6 @@
 @import "variables";
 @import "basis";
 @import "menu";
-@import "grid";
 @import "article";
 @import "footer";
 
@@ -67,8 +66,25 @@
   margin-bottom: 1em;*/
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+   justify-content: space-between;
 
+}
 
+.c-flex {
+  flex:1;
+
+  min-width: 290px;
+}
+
+.c-flex:not(:last-child) {
+
+  padding-right: 2rem;
+
+}
 
 .archive {
   -ms-grid-row: 9;
