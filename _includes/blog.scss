@@ -76,13 +76,16 @@
 
 .c-flex {
   flex:1;
-
+margin-bottom: 1em;
   min-width: 290px;
+
+  	ul{list-style:none;padding:0px;margin:.5em 0 0 0;}
+  	li{margin-bottom:0.8em; line-height:18px;}
 }
 
 .c-flex:not(:last-child) {
 
-  padding-right: 2rem;
+  padding-right: 4rem;
 
 }
 
