@@ -1,0 +1,126 @@
+@import "variables";
+@import "basis";
+@import "menu";
+@import "article";
+//@import "text-style";
+@import "footer";
+
+
+/* Just for the fallback layout */
+
+.conception-stages {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.stage {
+  margin: 1rem 0;
+}
+
+.example {
+  margin: 2rem 0;
+background: white;
+border: 3px solid #e7eaef;
+border-radius: 8px;
+//text-align: center;
+color: #333334; //#58554B;
+padding: 30px 50px;
+font-family: sans-serif;
+max-width: 50rem;
+p {
+margin-top: 0;
+font-size: 22px;
+line-height: 1.25;
+
+}
+
+.spn {
+background: #f4efd1; //#FDE640;
+position: relative;
+}
+
+.spn:before {
+content: "\201C";
+font-family: sans-serif;
+position: absolute;
+font-size: 60px;
+left: -50px;
+top: 10px;
+line-height: 0;
+}
+
+.spn:after {
+content: "\201D";
+font-family: sans-serif;
+position: absolute;
+font-size: 60px;
+right: -50px;
+bottom: -10px;
+line-height: 0;
+}
+cite {
+font-style: normal;
+text-transform: uppercase;
+font-size: 14px;
+}
+
+}
+
+
+
+.simbol {
+
+// color: inherit;
+ display: inline-block;
+font-style: normal;
+//font-weight: inherit;
+font-size: 14px;
+text-transform: uppercase;
+
+}
+/* Now lets do a Grid-based layout */
+
+@supports (display: grid) {
+.conception-stages {
+    max-width: 10000px;
+    margin: 0;
+  }
+.conception-stages {
+    margin: 0;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: .5rem;
+  }
+}
+
+
+.stage {
+  display: flex;
+  flex-flow: column;
+//  border: 1px solid #bababa;
+  border-radius: .2rem;
+  padding: 1.5rem;
+  background-color: #f7f7f7;
+  font-size: 85%;
+}
+.stage> h3 {
+  margin: 1rem 0 2rem 1rem;
+}
+.stage > ul {
+  margin: 0 0 1rem;
+}
+.stage > p {
+  margin: 0.25em 1rem 1rem;
+}
+.stage  > img {
+  order: -1;
+  align-self: center;
+}
+.stage > button {
+  margin-top: auto;
+  background: teal;
+  color: white;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+}
