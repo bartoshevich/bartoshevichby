@@ -2,18 +2,17 @@
 @import "basis";
 @import "menu";
 @import "article";
-//@import "text-style";
 @import "footer";
 
 
 /* Just for the fallback layout */
 
 .conception-stages {
-  max-width: 500px;
-  margin: 0 auto;
+  max-width: 55.3rem;
+  margin: 1em 0;
 }
 .stage {
-  margin: 1rem 0;
+  margin: 2rem 0;
 }
 
 .example {
@@ -21,8 +20,7 @@
 background: white;
 border: 8px solid #e7eaef;
 border-radius: 8px;
-//text-align: center;
-color: #333334; //#58554B;
+color: #333334;
 padding: 30px 50px;
 font-family: sans-serif;
 max-width: 48rem;
@@ -34,7 +32,7 @@ line-height: 1.25;
 }
 
 .spn {
-background: #f4efd1; //#FDE640;
+background: #f4efd1;
 position: relative;
 }
 
@@ -69,15 +67,15 @@ font-size: 14px;
 
 .simbol {
 
-// color: inherit;
+
  display: inline-block;
 font-style: normal;
-//font-weight: inherit;
+
 font-size: 14px;
 text-transform: uppercase;
 
 }
-/* Now lets do a Grid-based layout */
+
 
 @supports (display: grid) {
 .conception-stages {
@@ -96,11 +94,11 @@ text-transform: uppercase;
 .stage {
   display: flex;
   flex-flow: column;
-//  border: 1px solid #bababa;
   border-radius: .2rem;
   padding: 1.5rem;
   background-color: #f7f7f7;
   font-size: 85%;
+  margin: 1rem 0;
 }
 .stage> h3 {
   margin: 1rem 0 2rem 1rem;
@@ -114,13 +112,4 @@ text-transform: uppercase;
 .stage  > img {
   order: -1;
   align-self: center;
-}
-.stage > button {
-  margin-top: auto;
-  background: teal;
-  color: white;
-  padding: 0.5rem;
-  border: none;
-  border-radius: 1rem;
-  font-size: 1.2rem;
 }

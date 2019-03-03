@@ -1,30 +1,5 @@
 
 
-// текст статьи в Grid
-// обязательно подключение @grid
-
-.c-text {
-  grid-column: span 12;
-  padding: 5px 10px 5px 5px;
-}
-
-
-@media only screen and (min-width: 720px) {
-.c-text {
-  grid-column: span 9;
-}
-
-}
-
-
-@media only screen and (min-width: 1100px) {
-.c-text {
-  grid-column: span 7;
-}
-
-}
-
-
 
 // ***
 
@@ -56,7 +31,7 @@ img,
 margin-top:1em;
 	padding: 3% 3.5%;
 	background: $markedfield;
-  width: 100%;
+
 }
 
 .markedfield h2 {
@@ -70,7 +45,7 @@ margin-top: .5em !important;
 	font-size: 26px;
 	font-weight: bold;
 	padding: 20px 5px 25px 10px;
-	width: 100%;
+//	width: 100%;
 	margin-bottom: 1.2em;
 	max-width: 760px;
 }
@@ -82,7 +57,7 @@ margin-top: .5em !important;
 	font-size: 1.5em;
 	font-weight: bold;
 	padding: 20px 5px 25px 10px;
-	width: 100%;
+//	width: 100%;
 	border-radius:6px;
 	margin-bottom: 1.3em;
 	max-width: 760px;
@@ -166,39 +141,28 @@ iframe {
 // флекс-блоки вместо таблицы
 
 .flex-block {
-display: -webkit-box;
-display: -ms-flexbox;
 display: flex;
--webkit-box-orient: horizontal;
--webkit-box-direction: normal;
-    -ms-flex-direction: row;
-        flex-direction: row; -ms-flex-wrap: wrap; flex-wrap: wrap;
+flex-direction: row;
+flex-wrap: wrap;
 margin-bottom: 2rem;
 }
 
 .flex-in {
-display: -webkit-box;
-display: -ms-flexbox;
 display: flex;
--webkit-box-orient: horizontal;
--webkit-box-direction: normal;
-    -ms-flex-direction: row;
-        flex-direction: row; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-align: center; -ms-flex-align: center; align-items: center;
+flex-direction: row;
+flex-wrap: wrap;
+align-items: center;
 margin-bottom: 2rem;
 }
 
 .flex-1 {
--webkit-box-flex: 1;
-    -ms-flex: 1;
-        flex: 1;
+flex: 1;
 min-width: 270px; max-width: 310px;
 padding:0 15px 0 0;
 }
 
 .flex-2 {
--webkit-box-flex: 2;
-    -ms-flex: 2;
-        flex: 2;
+flex: 2;
 min-width: 300px;
 }
 
@@ -209,12 +173,6 @@ mark {background: #ffffa1; padding: 1px 0; }
 
 // дата публикации
 .date {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-  -webkit-writing-mode: vertical-rl;
-      -ms-writing-mode: tb-rl;
-          writing-mode: vertical-rl;
-  background: $focus;
   padding: 8px 0;
   font-style: italic;
   color: #777;
@@ -222,15 +180,21 @@ mark {background: #ffffa1; padding: 1px 0; }
   white-space: nowrap;
 }
 
-@media screen and (max-width:720px){
-  .date {
-  -webkit-transform: none;
-          transform: none;
-  -webkit-writing-mode: horizontal-tb;
-      -ms-writing-mode: lr-tb;
-          writing-mode: horizontal-tb;
-  background-color: inherit;
-}
+
+
+
+@supports (display: grid) {
+  @media screen and (min-width:720px) {
+
+    .date {
+      -webkit-transform: rotate(180deg);
+              transform: rotate(180deg);
+      -webkit-writing-mode: vertical-rl;
+          -ms-writing-mode: tb-rl;
+              writing-mode: vertical-rl;
+      background: $focus;
+    }
+  }
 }
 
 .wtf {

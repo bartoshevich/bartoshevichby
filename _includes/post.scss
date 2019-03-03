@@ -3,17 +3,58 @@
 @import "basis";
 @import "menu";
 @import "article";
-@import "grid";
 @import "toc";
 @import "text-style";
 @import "table";
 @import "code";
 @import "side";
+@import "grid";
 @import "subscription";
 @import "footer";
 
 
+article {
+  max-width: 720px;
+  display: flex;
+  flex-direction: column;
 
+}
+
+
+
+@supports (display: grid) {
+        @media screen and (min-width: 720px) {
+                    article {
+                       max-width: 1280px;
+                       display: grid;
+                       grid-template-columns: 60px 40rem auto;
+                      grid-gap: 1em;
+                      grid-template-areas: "a a . "
+                                           "b c ."
+                                           ". c . ";
+                    }
+
+
+                    .title {
+                      grid-area: a;
+                      max-width: 650px;
+                    }
+
+                    .meta {
+                      grid-area:b;
+                    }
+
+                    .article {
+                      grid-area: c;
+                      max-width: 720px;
+                    }
+            }
+          @media screen and (min-width: 1100px) {
+                        article {
+             grid-template-columns: 60px 48rem auto;
+           }
+}
+}
 
 
 .prefooter {
