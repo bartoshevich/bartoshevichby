@@ -3,6 +3,9 @@
 @import "menu";
 @import "article";
 @import "footer";
+@import "alarm";
+
+
 
 h1 {
   text-transform: uppercase;
@@ -10,14 +13,15 @@ h1 {
 
 
 .description {
-          column-width: 400px;
-          column-gap: 2em;
+      column-width: 400px;
+      column-gap: 2em;
   margin: 1em 0;
 }
 
 .block {
    margin: 3em 0;
    height: auto;
+   max-width: 720px;
 }
 
 .simbol {
@@ -61,11 +65,19 @@ text-transform: uppercase;
 
 
 @supports (display: grid) {
+
+  .description {
+        column-width: 400px;
+      column-gap: 2em;
+
+  }
+
     @media screen and (min-width: 437px) {
 
           .block {
              margin: 3em 0;
              height: 590px;
+             max-width: 1280px;
           }
 
 
