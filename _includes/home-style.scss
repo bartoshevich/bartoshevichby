@@ -5,7 +5,15 @@
 @import "footer";
 
 
-
+.alarm {
+font-size: .7em;
+color: yellow;
+margin: 2em;
+margin-left: auto;
+margin-right: auto;
+background: #333332;
+padding: 2%;
+}
 
 .slogan {
     text-align: center;
@@ -172,6 +180,11 @@ text-align: center;
 /* grid styles ------------------------------------ */
 
 @supports (display: grid) {
+
+
+  .alarm {
+    display: none;
+  }
               @media (min-width: 570px) {
 
                 .cytata,
