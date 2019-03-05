@@ -34,24 +34,27 @@ h1 {
 }
 
 
-.head-client {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: flex;
-	-webkit-box-orient: horizontal;
-	-webkit-box-direction: normal;
-	    -ms-flex-direction: row;
-	        flex-direction: row;
-	-ms-flex-wrap: wrap;
-	    flex-wrap: wrap;
-	-webkit-box-pack:  justify;
-	    -ms-flex-pack:  justify;
-	        justify-content:  space-between;
-					margin: 3em 0;
-    width: 100%;
+
+
+/* flex styles ------------------------------------ */
+
+@supports (display: flex) {
+      .head-client {
+      	display: -webkit-box;
+      	display: -ms-flexbox;
+      	display: flex;
+      	-webkit-box-orient: horizontal;
+      	-webkit-box-direction: normal;
+      	    -ms-flex-direction: row;
+      	        flex-direction: row;
+      	-ms-flex-wrap: wrap;
+      	    flex-wrap: wrap;
+      	-webkit-box-pack:  justify;
+      	    -ms-flex-pack:  justify;
+      	        justify-content:  space-between;
+      					margin: 3em 0;
+      }
 }
-
-
 
 .head-item {
 	background-color: #eeeeee;
@@ -61,6 +64,7 @@ h1 {
 	    -ms-flex:1;
 	        flex:1;
   margin:0 5px 5px 0;
+   break-inside: avoid;
 }
 
 /*
