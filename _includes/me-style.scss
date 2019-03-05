@@ -35,6 +35,17 @@ h1 {
 
 
 
+.head-item {
+	background-color: #eeeeee;
+	min-width: 290px;
+	padding: 2vw;
+	-webkit-box-flex:1;
+	    -ms-flex:1;
+	        flex:1;
+  margin:0 5px 5px 0;
+
+}
+
 
 /* flex styles ------------------------------------ */
 
@@ -56,16 +67,6 @@ h1 {
       }
 }
 
-.head-item {
-	background-color: #eeeeee;
-	min-width: 290px;
-	padding: 2vw;
-	-webkit-box-flex:1;
-	    -ms-flex:1;
-	        flex:1;
-  margin:0 5px 5px 0;
-   break-inside: avoid;
-}
 
 /*
 .head-item-last {
