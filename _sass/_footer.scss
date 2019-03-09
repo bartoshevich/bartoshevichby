@@ -36,11 +36,61 @@ color: #4ccda8;
 color: #fff;
 }
 
-.footer-item {
+.footer-item,
+.social {
 	padding: 2rem 1rem 1rem 0;
 	min-width: 250px;
     flex:1;
-		display: inline;
+
+
+		ul {
+			list-style: none;
+			padding-inline-start: 0;
+			margin-top: .5em;
+		}
+
+		li {
+			display: block;
+			padding-bottom: .2em;
+
+		}
+}
+
+.social li {
+						display: inline-block;
+						height: 28px;
+						width: 31px;
+						margin-right: 10px;
+						background-color: #999;
+
+						&:hover {
+							background-color: #4ccda8;
+						}
+
+
+						&:nth-child(1){
+							-webkit-mask: url(/images/facebook.svg) no-repeat center/cover;
+							        mask: url(/images/facebook.svg) no-repeat center/cover;
+						}
+
+						&:nth-child(2){
+							-webkit-mask: url(/images/linkedin.svg) no-repeat center/cover;
+							        mask: url(/images/linkedin.svg) no-repeat center/cover;
+						}
+
+						&:nth-child(3){
+							-webkit-mask: url(/images/twitter.svg) no-repeat center/cover;
+							        mask: url(/images/twitter.svg) no-repeat center/cover;
+						}
+
+					a {
+						display: block;
+						height: 100%;
+				}
+}
+
+.social-name {
+	display: none;
 }
 
 .footer-item2 {
