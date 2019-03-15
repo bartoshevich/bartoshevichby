@@ -13,8 +13,34 @@ html {
 	font-size: 100%;
 }
 
+
+
+@font-face {
+    font-family: TeX-Gyre-Heros;
+    src: url(/fonts/texgyreheros-regular.otf);
+}
+
+@font-face {
+    font-family: TeX-Gyre-Heros;
+    src: url(/fonts/texgyreheros-bold.otf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: TeX-Gyre-Heros;
+    src: url(/fonts/texgyreheros-italic.otf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: TeX-Gyre-Heros;
+    src: url(/fonts/texgyreheros-bolditalic.otf);
+    font-style: italic;
+    font-weight: bold;
+}
+
 body {
-  font-family: Arial,sans-serif;
+  font-family: 'TeX-Gyre-Heros', Arial,sans-serif;
   font-size: 1.09em;
   line-height: 1.5;
 	background-color: $background;
@@ -46,7 +72,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Arial,sans-serif;
+  font-family: 'TeX-Gyre-Heros', Arial,sans-serif;
   font-weight: bolder;
 }
 h1 {
