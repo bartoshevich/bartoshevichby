@@ -17,23 +17,27 @@ html {
 
 @font-face {
     font-family: TeX-Gyre-Heros;
+    font-display: auto;
     src: url(/fonts/texgyreheros-regular.otf);
 }
 
 @font-face {
     font-family: TeX-Gyre-Heros;
+    font-display: auto;
     src: url(/fonts/texgyreheros-bold.otf);
     font-weight: 700;
 }
 
 @font-face {
     font-family: TeX-Gyre-Heros;
+    font-display: auto;
     src: url(/fonts/texgyreheros-italic.otf);
     font-style: italic;
 }
 
 @font-face {
     font-family: TeX-Gyre-Heros;
+    font-display: auto;
     src: url(/fonts/texgyreheros-bolditalic.otf);
     font-style: italic;
     font-weight: bold;
