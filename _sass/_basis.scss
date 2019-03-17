@@ -14,7 +14,7 @@ html {
 }
 
 
-
+/*
 @font-face {
     font-family: TeX-Gyre-Heros;
     font-display: auto;
@@ -41,10 +41,10 @@ html {
     src: url(/fonts/texgyreheros-bolditalic.otf);
     font-style: italic;
     font-weight: bold;
-}
+}*/
 
 body {
-  font-family: 'TeX-Gyre-Heros', Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-size: 1.09em;
   line-height: 1.5;
 	background-color: $background;
@@ -76,7 +76,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'TeX-Gyre-Heros', Arial,sans-serif;
+  font-family: Arial,sans-serif;
   font-weight: bolder;
 }
 h1 {
