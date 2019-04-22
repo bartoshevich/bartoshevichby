@@ -60,13 +60,28 @@ plugins:
 #   - jekyll-assets   
 #   - autoprefixer-rails  
 #   - octopress-autoprefixer
+- jekyll-pwa-plugin
+
+pwa:
+  sw_src_filepath: service-worker.js # Optional
+  sw_dest_filename: service-worker.js # Optional
+  dest_js_directory: assets/js # Required
+  precache_recent_posts_num: 12 # Optional
+  precache_glob_directory: / # Optional
+  precache_glob_patterns: # Optional
+    - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}"
+    - index.html
+  precache_glob_ignores: # Optional
+    - sw-register.js
+    - "fonts/**/*"  
 
 #assets:
 #  autoprefixer:
 #    browsers:
 #    - "last 2 versions"
 #    - "IE > 9"
-    
+
+
 
 # Exclude these files from your production _site
 exclude:
