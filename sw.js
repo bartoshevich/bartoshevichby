@@ -18,46 +18,24 @@ self.addEventListener('install', function(e) {
 });
 
 
-self.addEventListener("activate", function(e){
-    e.waitUntil(
-      caches.keys().then(function(cacheNames){
-        return Promise.all(
-          cacheNames.filter(function(cacheName){
-            return cacheName.startsWith("bartoshevich-")
-              && cacheName != staticCacheName;
-          }).map(function(cacheName){
-            return cache.delete(cacheName);
-          })
-        )
-      })
-    )
-  });
-
-
-
-self.addEventListener("install", function(e){
-    self.skipWaiting();
-    e.waitUntil(
-      caches.open(staticCacheName).then(function(cache){
-        return cache.addAll(filesToCache);
-      })
-    )
-  });
-
-
 
 self.addEventListener('fetch', function(event) {
-
-        console.log(event.request.url);
+  event.respondWith(caches.match(event.request).then(function(response) {
+    
+    if (response !== undefined) {
+      return response;
+    } else {
+      return fetch(event.request).then(function (response) {
+       
+        let responseClone = response.clone();
         
-        event.respondWith(
-        
-        caches.match(event.request).then(function(response) {
-        
-        return response || fetch(event.request);
-        
-        })
-        
-        );
-        
- });
+        caches.open('v1').then(function (cache) {
+          cache.put(event.request, responseClone);
+        });
+        return response;
+      }).catch(function () {
+        return caches.match('/');
+      });
+    }
+  }));
+});
