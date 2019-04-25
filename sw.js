@@ -16,17 +16,6 @@ self.addEventListener('install', function(e) {
 });
 
 
-self.addEventListener("install", function(e){
-    self.skipWaiting();
-    e.waitUntil(
-      caches.open(staticCacheName).then(function(cache){
-        return cache.addAll(filesToCache);
-      })
-    )
-  });
-
-
-
 self.addEventListener("activate", function(e){
     e.waitUntil(
       caches.keys().then(function(cacheNames){
@@ -42,6 +31,15 @@ self.addEventListener("activate", function(e){
     )
   });
 
+
+self.addEventListener("install", function(e){
+    self.skipWaiting();
+    e.waitUntil(
+      caches.open(staticCacheName).then(function(cache){
+        return cache.addAll(filesToCache);
+      })
+    )
+  });
 
 
 self.addEventListener('fetch', function(event) {
