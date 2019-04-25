@@ -1,6 +1,6 @@
 {
-    "name": "Bartoshevich",
-    "short_name": "DB",
+    "name": "Dmitry Bartoshevich",
+    "short_name": "Bartoshevich",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -15,7 +15,7 @@
     ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
-    "start_url": "/?homescreen=1",
+    "start_url": "/",
     "scope": "/",
     "display": "standalone"
 }

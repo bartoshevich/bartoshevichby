@@ -1,5 +1,3 @@
-/* importScripts('/cache-polyfill.js'); */
-
 
 self.addEventListener('install', function(e) {
  e.waitUntil(
@@ -17,11 +15,34 @@ self.addEventListener('install', function(e) {
  );
 });
 
-self.addEventListener('fetch', function(event) {
 
-    console.log(event.request.url);
-    
-    });
+self.addEventListener("install", function(e){
+    self.skipWaiting();
+    e.waitUntil(
+      caches.open(staticCacheName).then(function(cache){
+        return cache.addAll(filesToCache);
+      })
+    )
+  });
+
+
+
+self.addEventListener("activate", function(e){
+    e.waitUntil(
+      caches.keys().then(function(cacheNames){
+        return Promise.all(
+          cacheNames.filter(function(cacheName){
+            return cacheName.startsWith("bartoshevich-")
+              && cacheName != staticCacheName;
+          }).map(function(cacheName){
+            return cache.delete(cacheName);
+          })
+        )
+      })
+    )
+  });
+
+
 
 self.addEventListener('fetch', function(event) {
 
