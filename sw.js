@@ -11,7 +11,8 @@ self.addEventListener('install', function(e) {
        '/contact/',
        '/opyt/brand-strategy-flex-n-roll/',
        '/opyt/brand-giperlink/',
-       '/uslugi/brand-conception/'
+       '/uslugi/brand-conception/',
+       '/offline/'
      ]);
    })
  );
@@ -34,7 +35,7 @@ self.addEventListener('fetch', function(event) {
         });
         return response;
       }).catch(function () {
-        return caches.match('/');
+        return caches.match('/offline/');
       });
     }
   }));

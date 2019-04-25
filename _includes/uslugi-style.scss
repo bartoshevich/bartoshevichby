@@ -4,18 +4,13 @@
 @import "article";
 @import "footer";
 @import "alarm";
-
+@import "side";
 
 
 h1 {
   text-transform: uppercase;
 }
 
-
-.description {
-
-  margin: 1em 0;
-}
 
 .block {
    margin: 3em 0;
@@ -62,6 +57,11 @@ text-transform: uppercase;
 
 }
 
+
+.text {
+  max-width: 50rem;
+  margin-top: 2em;
+}
 
 @supports (display: grid) {
 
