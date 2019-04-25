@@ -9,6 +9,8 @@ self.addEventListener('install', function(e) {
        '/uslugi/',
        '/blog/',
        '/contact/',
+       '/opyt/brand-strategy-flex-n-roll/',
+       '/opyt/brand-giperlink/',
        '/uslugi/brand-conception/'
      ]);
    })
@@ -32,6 +34,7 @@ self.addEventListener("activate", function(e){
   });
 
 
+
 self.addEventListener("install", function(e){
     self.skipWaiting();
     e.waitUntil(
@@ -40,6 +43,7 @@ self.addEventListener("install", function(e){
       })
     )
   });
+
 
 
 self.addEventListener('fetch', function(event) {
