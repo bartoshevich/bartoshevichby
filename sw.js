@@ -48,7 +48,7 @@ self.addEventListener('fetch', function(event) {
        
         let responseClone = response.clone();
         
-        caches.open('v1').then(function (cache) {
+        caches.open('bartoshevich').then(function (cache) {
           cache.put(event.request, responseClone);
         });
         return response;
@@ -57,4 +57,21 @@ self.addEventListener('fetch', function(event) {
       });
     }
   }));
+});
+
+
+self.addEventListener('fetch', (event) => {
+  event.respondWith(async function() {
+    const cache = await caches.open('bartoshevich');
+    const cachedResponse = await cache.match(event.request);
+    const networkResponsePromise = fetch(event.request);
+
+    event.waitUntil(async function() {
+      const networkResponse = await networkResponsePromise;
+      await cache.put(event.request, networkResponse.clone());
+    }());
+
+    // Returned the cached response if we have one, otherwise return the network response.
+    return cachedResponse || networkResponsePromise;
+  }());
 });
