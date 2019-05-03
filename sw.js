@@ -49,6 +49,7 @@ self.addEventListener('install', function(evt) {
       })
 };
 
+/*
 self.addEventListener('install', function (event) {
   event.waitUntil(updateStaticCache()
       .then(function () {
@@ -57,6 +58,8 @@ self.addEventListener('install', function (event) {
   );
 });
 
+
+
 self.addEventListener('activate', function (event) {
   event.waitUntil(clearOldCaches()
       .then(function () {
@@ -64,7 +67,7 @@ self.addEventListener('activate', function (event) {
       })
   );
 });
-
+**/
 
 self.addEventListener('fetch', function(event) {
   event.respondWith(caches.match(event.request).then(function(response) {

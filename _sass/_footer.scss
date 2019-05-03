@@ -12,6 +12,7 @@ font-size: .9rem;
 		flex-wrap: wrap;
 		justify-content: space-between;
 		width: 100%;
+		padding-top:1rem;
 }
 
 .footer a {
@@ -38,7 +39,7 @@ color: #fff;
 
 .footer-item,
 .social {
-	padding: 2rem 1rem 1rem 0;
+	padding: 10px 15px 10px 0;
 	min-width: 250px;
     flex:1;
 
@@ -52,17 +53,18 @@ color: #fff;
 
 		li {
 			display: block;
-			padding-bottom: .2em;
+			padding-bottom: .5em;
 
 		}
 }
 
 .social li {
 						display: inline-block;
-						height: 28px;
-						width: 31px;
-						margin-right: 10px;
+						height: 35px;
+						width: 38px;
+						margin-right: 15px;
 						background-color: #999;
+						padding-bottom: .3em;
 
 						&:hover {
 							background-color: #4ccda8;
