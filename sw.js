@@ -10,12 +10,12 @@ var urlsToCache = [];
 // Cache posts
 // Limits the number of posts that gets cached to 8
 {% for post in site.posts limit:10 %}
-  urlsToCache.push("{{ post.url }}")
+  urlsToCache.push('{{ post.url }}')
 {% endfor %}
 
 // Cache pages
 {% for page in site.html_pages %}
-  urlsToCache.push("{{ page.url }}")
+  urlsToCache.push('{{ page.url }}')
 {% endfor %}
 
 
