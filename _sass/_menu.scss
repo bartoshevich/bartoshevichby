@@ -1,12 +1,12 @@
 
 .nav {
-  padding: .8rem 0;
+  padding: .65rem 0;
 display: flex;
 justify-content: space-between;
 text-transform: uppercase;
-font-size: .8rem;
+font-size: .85rem;
 font-weight: 700;
-
+margin-top: 5px;
 }
 
 .nav a {
@@ -40,7 +40,7 @@ li.menu-item a {
   }
 
 .selected {
-	      color: #555;
+	      color: $text; // #555;
 }
 
 .menu-item a:hover,

@@ -5,18 +5,18 @@ layout: null
 var version = '{{site.time | date: '%Y%m%d%H%M%S'}}::';
 
 
-var urlsToCache = [];
+var urlsToCache = [
+  '/',
+  '/me/',
+  '/offline/',
+  '/blog/',
+  '/contact/',
+  '/uslugi/',
+  '/uslugi/brand-conception/',
+  '/opyt/brand-giperlink/',
+  '/opyt/brand-strategy-flex-n-roll/'
+];
 
-// Cache posts
-// Limits the number of posts that gets cached to 8
-{% for post in site.posts limit:10 %}
-  urlsToCache.push('{{ post.url }}')
-{% endfor %}
-
-// Cache pages
-{% for page in site.html_pages %}
-  urlsToCache.push('{{ page.url }}')
-{% endfor %}
 
 
 
