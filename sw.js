@@ -1,41 +1,69 @@
+---
+layout: null
+---
 
-self.addEventListener('install', function(e) {
- e.waitUntil(
-   caches.open('bartoshevich').then(function(cache) {
-     return cache.addAll([
-       '/',
-       '/index.html',
-       '/me/',
-       '/uslugi/',
-       '/blog/',
-       '/contact/',
-       '/opyt/brand-strategy-flex-n-roll/',
-       '/opyt/brand-giperlink/',
-       '/uslugi/brand-conception/',
-       '/offline/'
-     ]);
-   })
- );
-});
+var version = '{{site.time | date: '%Y%m%d%H%M%S'}}::';
 
 
+var urlsToCache = [];
+
+// Cache posts
+// Limits the number of posts that gets cached to 8
+{% for post in site.posts limit:10 %}
+  urlsToCache.push("{{ post.url }}")
+{% endfor %}
+
+// Cache pages
+{% for page in site.html_pages %}
+  urlsToCache.push("{{ page.url }}")
+{% endfor %}
 
 
-self.addEventListener('activate', function(event) {
-  event.waitUntil(
-    caches.keys().then(function(cacheNames) {
-      return Promise.all(
-        cacheNames.filter(function(cacheName) {
-          // Return true if you want to remove this cache,
-          // but remember that caches are shared across
-          // the whole origin
-        }).map(function(cacheName) {
-          return caches.delete(cacheName);
-        })
-      );
-    })
+
+var CACHE_NAME = 'version + bartoshevich';
+
+self.addEventListener('install', function(evt) {
+  // Perform install steps
+  evt.waitUntil(
+    caches.open(CACHE_NAME)
+      .then(function(cache) {
+        console.log('Opened cache');
+        return cache.addAll(urlsToCache);
+      })
   );
 });
+
+
+ // Remove caches whose name is no longer valid
+    var clearOldCaches = function() {
+      return caches.keys()
+          .then(function (keys) {
+              return Promise.all(keys
+                  .filter(function (key) {
+                    return key.indexOf(version) !== 0;
+                  })
+                  .map(function (key) {
+                    return caches.delete(key);
+                  })
+              );
+          })
+  };
+
+  self.addEventListener('install', function (event) {
+      event.waitUntil(updateStaticCache()
+          .then(function () {
+              return self.skipWaiting();
+          })
+      );
+  });
+
+  self.addEventListener('activate', function (event) {
+      event.waitUntil(clearOldCaches()
+          .then(function () {
+              return self.clients.claim();
+          })
+      );
+  });
 
 
 self.addEventListener('fetch', function(event) {
@@ -48,7 +76,7 @@ self.addEventListener('fetch', function(event) {
        
         let responseClone = response.clone();
         
-        caches.open('bartoshevich').then(function (cache) {
+        caches.open(CACHE_NAME).then(function (cache) {
           cache.put(event.request, responseClone);
         });
         return response;
@@ -57,21 +85,4 @@ self.addEventListener('fetch', function(event) {
       });
     }
   }));
-});
-
-
-self.addEventListener('fetch', (event) => {
-  event.respondWith(async function() {
-    const cache = await caches.open('bartoshevich');
-    const cachedResponse = await cache.match(event.request);
-    const networkResponsePromise = fetch(event.request);
-
-    event.waitUntil(async function() {
-      const networkResponse = await networkResponsePromise;
-      await cache.put(event.request, networkResponse.clone());
-    }());
-
-    // Returned the cached response if we have one, otherwise return the network response.
-    return cachedResponse || networkResponsePromise;
-  }());
 });
