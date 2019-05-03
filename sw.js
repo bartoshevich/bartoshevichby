@@ -34,36 +34,7 @@ self.addEventListener('install', function(evt) {
 });
 
 
- // Remove caches whose name is no longer valid
-    var clearOldCaches = function() {
-      return caches.keys()
-          .then(function (keys) {
-              return Promise.all(keys
-                  .filter(function (key) {
-                    return key.indexOf(version) !== 0;
-                  })
-                  .map(function (key) {
-                    return caches.delete(key);
-                  })
-              );
-          })
-  };
 
-  self.addEventListener('install', function (event) {
-      event.waitUntil(updateStaticCache()
-          .then(function () {
-              return self.skipWaiting();
-          })
-      );
-  });
-
-  self.addEventListener('activate', function (event) {
-      event.waitUntil(clearOldCaches()
-          .then(function () {
-              return self.clients.claim();
-          })
-      );
-  });
 
 
 self.addEventListener('fetch', function(event) {
@@ -85,4 +56,36 @@ self.addEventListener('fetch', function(event) {
       });
     }
   }));
+});
+
+
+ // Remove caches whose name is no longer valid
+ var clearOldCaches = function() {
+  return caches.keys()
+      .then(function (keys) {
+          return Promise.all(keys
+              .filter(function (key) {
+                return key.indexOf(version) !== 0;
+              })
+              .map(function (key) {
+                return caches.delete(key);
+              })
+          );
+      })
+};
+
+self.addEventListener('install', function (event) {
+  event.waitUntil(updateStaticCache()
+      .then(function () {
+          return self.skipWaiting();
+      })
+  );
+});
+
+self.addEventListener('activate', function (event) {
+  event.waitUntil(clearOldCaches()
+      .then(function () {
+          return self.clients.claim();
+      })
+  );
 });
