@@ -34,31 +34,6 @@ self.addEventListener('install', function(evt) {
 });
 
 
-
-
-
-self.addEventListener('fetch', function(event) {
-  event.respondWith(caches.match(event.request).then(function(response) {
-    
-    if (response !== undefined) {
-      return response;
-    } else {
-      return fetch(event.request).then(function (response) {
-       
-        let responseClone = response.clone();
-        
-        caches.open(CACHE_NAME).then(function (cache) {
-          cache.put(event.request, responseClone);
-        });
-        return response;
-      }).catch(function () {
-        return caches.match('/offline/');
-      });
-    }
-  }));
-});
-
-
  // Remove caches whose name is no longer valid
  var clearOldCaches = function() {
   return caches.keys()
@@ -89,3 +64,27 @@ self.addEventListener('activate', function (event) {
       })
   );
 });
+
+
+self.addEventListener('fetch', function(event) {
+  event.respondWith(caches.match(event.request).then(function(response) {
+    
+    if (response !== undefined) {
+      return response;
+    } else {
+      return fetch(event.request).then(function (response) {
+       
+        let responseClone = response.clone();
+        
+        caches.open(CACHE_NAME).then(function (cache) {
+          cache.put(event.request, responseClone);
+        });
+        return response;
+      }).catch(function () {
+        return caches.match('/offline/');
+      });
+    }
+  }));
+});
+
+
