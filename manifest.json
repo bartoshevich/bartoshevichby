@@ -11,6 +11,11 @@
             "src": "/android-chrome-384x384.png",
             "sizes": "384x384",
             "type": "image/png"
+        },
+        {
+            "src": "/bartoshevich-615.png",
+            "sizes": "615x923",
+            "type": "image/png"
         }
     ],
     "theme_color": "#ffffff",
