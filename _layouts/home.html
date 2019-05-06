@@ -12,11 +12,7 @@ layout: compress
 <meta http-equiv='X-UA-Compatible' content='IE=edge'>
 
 
-
-
 	{% include meta.html %}
-<link rel="preload" as="image" type="image/jpg" href="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546985586/me2-840.jpg">
-<link rel="preload" as="image" type="image/png" href="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546985602/me1.png">
 
 
 
@@ -89,13 +85,40 @@ layout: compress
 											</div>
 				      </div>
 
-							<figure class="  figure1">
+
+					 
 
 
-	<img class="figure-img"  src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546985586/me2-840.jpg" alt="Дмитрий Бартошевич фото"/>
+						
 
 
-			       </figure>
+									<picture class="  figure1">
+
+											<source
+											media="(max-width: 570px)"
+											srcset="/images/me2_s_520.webp 1x,
+													/images/me2_s_700.webp 2x"
+															type="image/webp">
+										<source
+											media="(max-width: 570px)"
+											srcset="/images/me2_s_520.jpg 1x,
+											/images/me2_s_700.jpg 2x">
+										<source
+											srcset="/images/me2-620.webp 1x,
+													/images/me2-840.webp 2x"
+											type="image/webp">
+										<img
+											src="/images/me2-640.jpg" alt="Дмитрий Бартошевич фото"
+											srcset="/images/me2-640.jpg 1x,
+											/images/me2-840.jpg 2x">
+									
+									
+									</picture>	
+
+
+
+
+
 
 							<div class="flex-wrapper cytata">
 								 <div class="flex-wrapper-item ">
@@ -103,9 +126,33 @@ layout: compress
 						  	</div>
 					   </div>
 
-							 <figure class="figure2">
-					 				 <img class="figure-img" src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546985602/me1.png"  alt="Дмитрий Бартошевич - конференция 1С-Битрикс">
-		  	 				</figure>
+					<!--		 <figure class="figure2"> -->
+
+									<picture class="figure2">
+
+											<source
+											media="(max-width: 570px)"
+											srcset="/images/me1_s_520.webp 1x,
+													/images/me1_s_700.webp 2x"
+															type="image/webp">
+										<source
+											media="(max-width: 570px)"
+											srcset="/images/me1_s_520.jpg 1x,
+											/images/me1_s_700.jpg 2x">
+										<source
+											srcset="/images/me1-455.webp 1x,
+													/images/me1-670.webp 2x"
+											type="image/webp">
+										<img
+											src="/images/me1-455.jpg" alt="Дмитрий Бартошевич - конференция 1С-Битрикс"
+											srcset="/images/me1-455.jpg 1x,
+											/images/me1-670.jpg 2x">
+									
+									
+									</picture>	
+
+					
+		  	 			<!--	</figure>  -->
 
 				 				<div class="flex-wrapper clients">
 				 						<div class="flex-wrapper-item">

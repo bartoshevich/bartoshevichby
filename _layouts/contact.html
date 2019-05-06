@@ -12,7 +12,6 @@ layout: compress
 <meta http-equiv='X-UA-Compatible' content='IE=edge'>
 
 	{% include meta.html %}
-<link rel="preload" as="image" type="image/jpg" href="https://res.cloudinary.com/bartoshevich/image/upload/w_800/q_auto,f_auto/v1549192113/conf_newreality.jpg">
 	
 
 	
@@ -66,10 +65,34 @@ layout: compress
 			<div class="block">
 				<div class="contact-block">
 
-							<img class="img-shadow" src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1549192113/conf_newreality.jpg"
-							srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_800/q_auto,f_auto/v1549192113/conf_newreality.jpg 1x,
-							https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1549192113/conf_newreality.jpg 2x"
-							alt="Дмитрий Бартошевич на конференции" width="800" height="534" />
+						<picture>
+
+								<source
+								media="(max-width: 437px)"
+								srcset="/images/conf_newreality_385.webp 1x,
+										/images/conf_newreality_785.webp 2x"
+												type="image/webp">
+							<source
+								media="(max-width: 437px)"
+								srcset="/images/conf_newreality_385.jpg 1x,
+								/images/conf_newreality_785.jpg 2x">
+							<source
+								srcset="/images/conf_newreality_785.webp 1x,
+										/images/conf_newreality_1000.webp 2x"
+								type="image/webp">
+							<img
+								src="/images/conf_newreality_785.jpg" alt="Дмитрий Бартошевич на конференции" width="785" height="590" 
+								srcset="/images/conf_newreality_785.jpg 1x,
+								/images/conf_newreality_1000.jpg 2x">
+						
+						
+						</picture>	
+
+
+
+
+
+
 
 							<div class="contact-data">
 									<ul>
