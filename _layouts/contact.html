@@ -14,10 +14,15 @@ layout: compress
 	{% include meta.html %}
 <link rel="preload" as="image" type="image/jpg" href="https://res.cloudinary.com/bartoshevich/image/upload/w_800/q_auto,f_auto/v1549192113/conf_newreality.jpg">
 	
-<link rel="stylesheet" href="{{ "/assets/1_contact.css" | relative_url }}">
+
 	
-	
- {% include analytics.html %}
+<style>
+		{% capture criticalcss %}
+		  {% include contact.scss %}
+		{% endcapture %}
+		{{ criticalcss | scssify }}
+	  </style>
+ 
 </head>
 <body>
 	<!-- =====menu === -->

@@ -12,9 +12,14 @@ layout: compress
 <meta http-equiv='X-UA-Compatible' content='IE=edge'>
 
 	{% include meta.html %}
-	<link rel="stylesheet" href="{{ "/assets/1_blog.css" | relative_url }}">
 
- {% include analytics.html %}
+
+	<style>
+			{% capture criticalcss %}
+			  {% include blog.scss %}
+			{% endcapture %}
+			{{ criticalcss | scssify }}
+		  </style>
 </head>
 <body>
 	<!-- =====menu === -->

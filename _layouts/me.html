@@ -13,12 +13,17 @@ layout: compress
 
 	{% include meta.html %}
 
-	<link rel="stylesheet" href="{{ "/assets/1_me-style.css" | relative_url }}">
+	
+	
+	<style>
+			{% capture criticalcss %}
+			  {% include me-style.scss %}
+			{% endcapture %}
+			{{ criticalcss | scssify }}
+		  </style>
 	
 
-	
 
-{% include analytics.html %}
 </head>
 <body>
 	<!-- =====menu === -->

@@ -12,13 +12,18 @@ layout: compress
 	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
 
 	{% include meta.html %}
-	<link rel="stylesheet" href="{{ "/assets/1_conf-style.css" | relative_url }}">
+	
 
 
-
+	<style>
+			{% capture criticalcss %}
+			  {% include conf-style.scss %}
+			{% endcapture %}
+			{{ criticalcss | scssify }}
+		  </style>
 
 	<meta name="robots" content="noindex,nofollow">
-{% include analytics.html %}
+
 </head>
 <body>
 	<!-- =====menu === -->

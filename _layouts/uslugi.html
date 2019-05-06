@@ -13,13 +13,14 @@ layout: compress
 
 	{% include meta.html %}
 
-		<link rel="preload" as="image" type="image/jpg" href="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1548707043/audit.jpg">
-
-		<link rel="stylesheet" href="{{ "/assets/1_uslugi-style.css" | relative_url }}">
-
 	
+<style>
+		{% capture criticalcss %}
+		  {% include uslugi-style.scss %}
+		{% endcapture %}
+		{{ criticalcss | scssify }}
+	  </style>
 
-{% include analytics.html %}
 </head>
 <body>
 
@@ -58,44 +59,120 @@ layout: compress
 
 
 
-					<h1>Услуги</h1>
+	<h1>Услуги</h1>
+
+
+
 
 
 <div class="block">
 		<div class="uslugi-block">
 
+<picture>
 
-				<img src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1548707043/audit.jpg"
-				srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_790/q_auto,f_auto/v1548707043/audit.jpg 1x,
-				https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1548707043/audit.jpg 2x"
-				alt="аудит маркетинга" width="786" height="590" />
+		<source
+		media="(max-width: 380px)"
+		srcset="/images/audit_380.webp 1x,
+				/images/audit_786.webp 2x"
+						type="image/webp">
+	<source
+		media="(max-width: 380px)"
+		srcset="/images/audit_380.jpg 1x,
+		/images/audit_786.jpg 2x">
+	<source
+		srcset="/images/audit_786.webp 1x,
+				/images/audit_1000.webp 2x"
+		type="image/webp">
+	<img
+		src="/images/audit_786.jpg" alt="аудит маркетинга" width="786" height="590"
+		srcset="/images/audit_786.jpg 1x,
+		/images/audit_1000.jpg 2x">
 
 
-									<h2>Провожу аудит маркетинга </h2>
+</picture>
+
+
+
+
+
+				<h2>Провожу аудит маркетинга </h2>
 				<p> Отдел маркетинга должен создавать и&nbsp;укреплять отличия компании, значимые для клиентов. От&nbsp;этого зависит поток клиентов, доля рынка и&nbsp;прибыль. Я&nbsp;определяю, что тормозит развитие предприятия, и&nbsp;составляю план, как усилить функции маркетинга.
 		 </p>
 		 
 		 </div>
 </div>
 
+
+
+
+
+
+
 <div class="block">
 		<div class="uslugi-block-right">
-					<img src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1556813000/site/conception-2.jpg"
-					srcset="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1556813000/site/conception-2.jpg 1x,
-					https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1556813007/site/conception.jpg 2x"
-					alt="концепция бренда" width="786" height="590"/>
+
+				<picture>
+
+						<source
+						media="(max-width: 380px)"
+						srcset="/images/conception_380.webp 1x,
+								/images/conception_786.webp 2x"
+										type="image/webp">
+					<source
+						media="(max-width: 380px)"
+						srcset="/images/conception_380.jpg 1x,
+						/images/conception_786.jpg 2x">
+					<source
+						srcset="/images/conception_786.webp 1x,
+								/images/conception_1000.webp 2x"
+						type="image/webp">
+					<img
+						src="/images/conception_786.jpg" alt="концепция бренда" width="786" height="590"
+						srcset="/images/conception_786.jpg 1x,
+						/images/conception_1000.jpg 2x">
+				
+				
+				</picture>
+
+
+
 				<h2>Разрабатываю концепцию бренда  </h2>
 				<p> Концепция&nbsp;— идея, лежащая в&nbsp;основе и&nbsp;задающая вектор развития бренда. Нет концепции&nbsp;→ несбалансированный рекламный бюджет, отсутствие фокуса в&nbsp;продвижении, размытый образ бренда&nbsp;→ у&nbsp;потребителя нет побудительных причин выбрать бренд&nbsp;→ снижение объема продаж и&nbsp;доли рынка. <br /><a href="/uslugi/brand-conception/">Узнать больше <span class="simbol">&#62;</span>  </a> </p>
 
 		</div>
 </div>
 
+
+
+
 <div class="block">
 		<div class="uslugi-block">
-					<img src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1548707043/uslugi_adv.jpg"
-					srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_790/q_auto,f_auto/v1548707043/uslugi_adv.jpg 1x,
-					https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1548707043/uslugi_adv.jpg 2x"
-					alt="концепции рекламных компаний" width="786" height="590"/>
+
+				<picture>
+
+						<source
+						media="(max-width: 380px)"
+						srcset="/images/a_380.webp 1x,
+								/images/a_786.webp 2x"
+										type="image/webp">
+					<source
+						media="(max-width: 380px)"
+						srcset="/images/a_380.jpg 1x,
+						/images/a_786.jpg 2x">
+					<source
+						srcset="/images/a_786.webp 1x,
+								/images/a_1000.webp 2x"
+						type="image/webp">
+					<img
+						src="/images/a_786.jpg" alt="концепции рекламных компаний" width="786" height="590"
+						srcset="/images/a_786.jpg 1x,
+						/images/a_1000.jpg 2x">
+				
+				
+				</picture>
+
+
+					
 				<h2>Создаю концепции рекламных кампаний </h2>
 				<p>Цель&nbsp;— одно ключевое послание, которое подчеркнет и&nbsp;усилит образ бренда. Без отвлеченных деталей и&nbsp;смыслов. Без ажитированной гонки за&nbsp;сиюминутными лайками и&nbsp;просмотрами.</p>
 		</div>
