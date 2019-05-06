@@ -13,12 +13,10 @@ layout: compress
 
 	{% include meta.html %}
 <link rel="preload" as="image" type="image/jpg" href="https://res.cloudinary.com/bartoshevich/image/upload/w_800/q_auto,f_auto/v1549192113/conf_newreality.jpg">
-	<style>
-    {% capture criticalcss %}
-      {% include contact.scss %}
-    {% endcapture %}
-    {{ criticalcss | scssify }}
-  </style>
+	
+<link rel="stylesheet" href="{{ "/assets/1_contact.css" | relative_url }}">
+	
+	
  {% include analytics.html %}
 </head>
 <body>
@@ -87,41 +85,6 @@ layout: compress
 
 
 
-
-
-
-
-<!--
-		<div class="contact-grid-container">
-
-
-			         <h1 class="title">Контакты</h1>
-			         <h2 class="name">Дмитрий <br > Бартошевич</h2>
-
-	<img class="logo" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1547054222/icon.png" alt="Дмитрий Бартошевич">
-			    <div class="tel">
-						<div class="x1">
-					<p><strong>	Позвонить</strong> <a href="tel:+375297753340" title="позвонить"><span class="noperenos">+375 (29) 775.33.40</span></a></p></div></div>
-
-					<div class="email">
-						<div class="x1">
-					<p>	<strong>Написать </strong><a  href="mailto:dmitry@bartoshevich.by" title="написать" >dmitry@bartoshevich.by</a></p>	</div></div>
-
-
-					<div class="telegram"><div class="x1">
-						<p><strong>Телеграм:</strong> <a target="_blank" rel="noopener" href="https://t.me/bartoshevich">@bartoshevich</a></p></div></div>
-
-					<div class="social"><div class="x1">
-						<p><strong>Соц. сети:</strong> <a href="https://www.facebook.com/bartoshevichby/" target="_blank" rel="noopener nofollow">фейсбук</a>, <a href="https://www.linkedin.com/in/bartoshevich" target="_blank" rel="noopener nofollow">линкедин</a>, <a  href="https://twitter.com/dbartoshevich"  target="_blank" rel="noopener nofollow">твиттер</a></p>
-					</div></div>
-
-
-					<div class="office"><div class="x1"><p><strong>Офис:</strong> 220073, г.Минск, <span class="noperenos">ул. Ольшевского,</span> 22,<br/>комната 6 (помещение 18)</p>	</div></div>
-
-
-		</div>
-
--->
 
 
   </article>

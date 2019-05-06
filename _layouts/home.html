@@ -18,12 +18,9 @@ layout: compress
 <link rel="preload" as="image" type="image/jpg" href="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546985586/me2-840.jpg">
 <link rel="preload" as="image" type="image/png" href="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1546985602/me1.png">
 
-	<style>
-    {% capture criticalcss %}
-      {% include home-style.scss %}
-    {% endcapture %}
-    {{ criticalcss | scssify }}
-  </style>
+<link rel="stylesheet" href="{{ "/assets/1_home-style.css" | relative_url }}">
+
+
 
  {% include analytics.html %}
 </head>

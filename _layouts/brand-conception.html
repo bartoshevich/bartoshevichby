@@ -13,13 +13,8 @@ layout: compress
 
 	{% include meta.html %}
 
+	<link rel="stylesheet" href="{{ "/assets/1_brand-conception.css" | relative_url }}">
 
-	<style>
-    {% capture criticalcss %}
-      {% include brand-conception.scss %}
-    {% endcapture %}
-    {{ criticalcss | scssify }}
-  </style>
 
 {% include analytics.html %}
 </head>

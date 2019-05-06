@@ -2,6 +2,19 @@
 layout: null
 ---
 
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js', { scope: '/' }).then(function(reg) {
+    console.log('Registration succeeded. Scope is ' + reg.scope);
+  }).catch(function(error) {
+    console.log('Registration failed with ' + error);
+  });
+};
+
+
+
+
+
+
 var version = '{{site.time | date: '%Y%m%d%H%M%S'}}::';
 
 
@@ -14,7 +27,8 @@ var urlsToCache = [
   '/uslugi/',
   '/uslugi/brand-conception/',
   '/opyt/brand-giperlink/',
-  '/opyt/brand-strategy-flex-n-roll/'
+  '/opyt/brand-strategy-flex-n-roll/',
+  '/assets/1_post.css'
 ];
 
 
@@ -49,25 +63,6 @@ self.addEventListener('install', function(evt) {
       })
 };
 
-/*
-self.addEventListener('install', function (event) {
-  event.waitUntil(updateStaticCache()
-      .then(function () {
-          return self.skipWaiting();
-      })
-  );
-});
-
-
-
-self.addEventListener('activate', function (event) {
-  event.waitUntil(clearOldCaches()
-      .then(function () {
-          return self.clients.claim();
-      })
-  );
-});
-**/
 
 self.addEventListener('fetch', function(event) {
   event.respondWith(caches.match(event.request).then(function(response) {

@@ -13,12 +13,9 @@ layout: compress
 
 	{% include meta.html %}
 
-	<style>
-    {% capture criticalcss %}
-      {% include post.scss %}
-    {% endcapture %}
-    {{ criticalcss | scssify }}
-  </style>
+	<link rel="stylesheet" href="{{ "/assets/1_post.css" | relative_url }}">
+	
+
 
  {% include analytics.html %}
 

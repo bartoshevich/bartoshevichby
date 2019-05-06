@@ -14,12 +14,8 @@ layout: compress
 
 	{% include meta.html %}
 
-	<style>
-    {% capture criticalcss %}
-      {% include offline.scss %}
-    {% endcapture %}
-    {{ criticalcss | scssify }}
-  </style>
+	<link rel="stylesheet" href="{{ "/assets/1_offline.css" | relative_url }}">
+
 
 
 	<meta name="robots" content="noindex">

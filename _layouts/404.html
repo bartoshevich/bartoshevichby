@@ -14,12 +14,9 @@ layout: compress
 
 	{% include meta.html %}
 
-	<style>
-    {% capture criticalcss %}
-      {% include error.scss %}
-    {% endcapture %}
-    {{ criticalcss | scssify }}
-  </style>
+	<link rel="stylesheet" href="{{ "/assets/1_error.css" | relative_url }}">
+	
+
 
 
 	<meta name="robots" content="noindex">

@@ -15,12 +15,9 @@ layout: compress
 
 		<link rel="preload" as="image" type="image/jpg" href="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1548707043/audit.jpg">
 
-	<style>
-    {% capture criticalcss %}
-      {% include uslugi-style.scss %}
-    {% endcapture %}
-    {{ criticalcss | scssify }}
-  </style>
+		<link rel="stylesheet" href="{{ "/assets/1_uslugi-style.css" | relative_url }}">
+
+	
 
 {% include analytics.html %}
 </head>
