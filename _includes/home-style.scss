@@ -7,19 +7,19 @@
 
 
 .b-large-text {
-  width: 80%;
+width: 80%;
 max-width: 800px;
 font-size: 28px;
 line-height: 36px;
 margin: 30vh 0 10vh 0;
-font-weight: 300;
+font-weight: 200;
 }
 
 @media screen and (max-width:570px) {
 .b-large-text {
   font-size: 16px;
   line-height: 22px;
-font-weight: 400;
+font-weight: 300;
    margin: 20vh 0 10vh 0;
 }
 }
