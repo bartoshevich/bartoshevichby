@@ -8,101 +8,26 @@
 
 
 
-	
-.head_slogan {
-	margin: 30vh 0 10vh 0;
+
+
+.b-large-text {
+	width: 80%;
+max-width: 800px;
+font-weight: 100;
+font-size: 28px;
+line-height: 36px;
+margin: 30vh 0 10vh 0;
 }
-
-.head_slogan p {
-	max-width: 100rem;
-}
-.slogan-1 {
-	text-transform: uppercase;
-	font-size: calc(2.5vw + 1vh + .2vmin);
-	line-height: 1.05;
-	font-weight: 600;	
-	
-}
-.slogan-2 {
-	font-size: calc(1.6vw + 1vh + .2vmin);
-}
-
-
-
-
-@media screen and (max-width:1300px) {
-	.slogan-1 {
-		font-size: calc(2.5vw + 1.5vh + .5vmin);
-		margin: 0 0 .5em;
-	}
-		.slogan-2 {
-		font-size: calc(1.6vw + 1vh + .2vmin);
-		margin: 0 0 .5em;
-	}
-	.head_slogan p {
-		padding: 6vw 2em;
-		}
-}
-
-
-@media screen and (max-width:780px) {
-	.slogan-1 {
-		font-size: calc(2.5vw + 2vh + 1vmin);
-		
-	}
-		.slogan-2 {
-		font-size: calc(1.5vw + 2vh + .2vmin);
-		
-	}
-
-}
-
-
 
 @media screen and (max-width:570px) {
-	.head_slogan p {
-		text-align: center;
-			}
-	.slogan-2 {
-				margin-top: 15px;
-			}
-		}
-
-
-/**
-.slogan {
-    text-align: center;
-      margin: 6em 0 3em 0;
-			padding: 6vw 2em;
+.b-large-text {
+	font-size: 18px;
+	line-height: 22px;
+	font-weight: normal;
+	margin: 20vh 0 10vh 0;
+}
 }
 
-
-.slogan p {
-	color: $text;
-	margin: 0 0 .5em;
-	max-width:100rem;
-	font-size: calc(2.1vw + 2vh + .2vmin);
-	line-height: 1.05;
-	font-weight: 500;
-	letter-spacing: -.015em;
-	
-
-}
-
-
-@media screen and (max-width:780px) {
-	.slogan p {
-	  font-size: calc(1.5vw + 4vh + .5vmin);
-	}
-}
-
-@media screen and (max-width:1300px) {
-	.slogan p {
-	  font-size: calc(2vw + 3vh + .5vmin);
-	}
-}
-
-**/
 
 
 
@@ -126,7 +51,6 @@ picture.figure2,
 }
 
 
-.figure-img,
 picture,
 img   {
   display: block;
@@ -161,7 +85,6 @@ margin-left: auto;
 margin-right: auto;
 
 }
-
 
 
 .flex-wrapper {
@@ -210,6 +133,7 @@ text-align: center;
 
 .cytata a {
 	color:$text;
+	
 }
 
 .keypoint {
