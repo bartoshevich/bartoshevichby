@@ -6,12 +6,8 @@
 @import "parts/alarm";
 
 
-
-
-
-
 .b-large-text {
-	width: 80%;
+  width: 80%;
 max-width: 800px;
 font-weight: 100;
 font-size: 28px;
@@ -21,13 +17,12 @@ margin: 30vh 0 10vh 0;
 
 @media screen and (max-width:570px) {
 .b-large-text {
-	font-size: 18px;
-	line-height: 22px;
-	font-weight: normal;
-	margin: 20vh 0 10vh 0;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: normal;
+  margin: 20vh 0 10vh 0;
 }
 }
-
 
 
 
