@@ -18,42 +18,55 @@
 }
 .slogan-1 {
 	text-transform: uppercase;
-	font-size: calc(1.5vw + 1.4vh + .2vmin);
+	font-size: calc(2.5vw + 1vh + .2vmin);
 	line-height: 1.05;
 	font-weight: 600;	
 	
 }
 .slogan-2 {
-	font-size: calc(1.6vw + 1.5vh + .2vmin);
+	font-size: calc(1.6vw + 1vh + .2vmin);
 }
 
-@media screen and (max-width:780px) {
-	.slogan-1 {
-		font-size: calc(1.7vw + 4vh + .5vmin);
-		margin: 0 0 .5em;
-	}
-		.slogan-2 {
-		font-size: calc(1.7vw + 3vh + .2vmin);
-		margin: 0 0 .5em;
-	}
 
-}
+
 
 @media screen and (max-width:1300px) {
 	.slogan-1 {
-		font-size: calc(1.6vw + 2vh + .5vmin);
+		font-size: calc(2.5vw + 1.5vh + .5vmin);
 		margin: 0 0 .5em;
 	}
 		.slogan-2 {
-		font-size: calc(1.6vw + 2vh + .2vmin);
+		font-size: calc(1.6vw + 1vh + .2vmin);
 		margin: 0 0 .5em;
 	}
 	.head_slogan p {
-		text-align: center;
 		padding: 6vw 2em;
 		}
 }
 
+
+@media screen and (max-width:780px) {
+	.slogan-1 {
+		font-size: calc(2.5vw + 2vh + 1vmin);
+		
+	}
+		.slogan-2 {
+		font-size: calc(1.5vw + 2vh + .2vmin);
+		
+	}
+
+}
+
+
+
+@media screen and (max-width:570px) {
+	.head_slogan p {
+		text-align: center;
+			}
+	.slogan-2 {
+				margin-top: 15px;
+			}
+		}
 
 
 /**
