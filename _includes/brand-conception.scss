@@ -6,6 +6,7 @@
 @import "parts/alarm";
 
 
+
 /* Just for the fallback layout */
 
 .conception-stages {
@@ -64,7 +65,10 @@ font-size: 14px;
 
 }
 
-
+.text {
+  max-width: 50rem;
+  //margin-top: 2em;
+}
 
 .simbol {
 
