@@ -28,7 +28,7 @@ article {
                     article {
                        max-width: 1280px;
                        display: grid;
-                       grid-template-columns: 60px 40rem auto;
+                //       grid-template-columns: 60px 40rem auto;
                       grid-gap: 1em;
                       grid-template-areas: "a a . "
                                            "b c ."
