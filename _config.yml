@@ -56,7 +56,7 @@ sitemap:
     priority_name: "priority"
 
 # Use the following plug-ins
-plugins:
+# plugins:
 #   - jekyll-assets   
 #   - autoprefixer-rails  
 #   - octopress-autoprefixer
