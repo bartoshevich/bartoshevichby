@@ -85,7 +85,11 @@ keywords: "маркетинг реклама интернет"
 <p>Роман Джорджа Оруэлла «1984» связывают с&nbsp;описанием тоталитарного общества. В&nbsp;книге люди знают, что в&nbsp;любой момент за&nbsp;ними могут наблюдать. Это пугает автора романа. И&nbsp;это&nbsp;то, что происходит сейчас. Капитализм создает систему, которую описал Оруэлл. Опросы в&nbsp;США и&nbsp;Великобритании уже выявили установку, что <a href="https://marketingland.com/most-consumers-believe-online-privacy-is-impossible-survey-finds-263538" target="_blank" rel="noopener">сохранить приватность в&nbsp;сети невозможно</a>. Люди изначально предполагают, что за&nbsp;ними смотрят, чтобы они ни&nbsp;делали онлайн. </p>
 
 
-<div class="video"><iframe src="https://embed.ted.com/talks/glenn_greenwald_why_privacy_matters" title="Гленн Гринвальд, TED" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
+<div class="video">
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pcSlowAhvUk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
 
 <p class="videoname"> Гленн Гринвальд рассказывает, почему приватность имеет значение даже для тех, кому нечего скрывать. (англ., русские субтитры) </p>
 
@@ -96,7 +100,11 @@ keywords: "маркетинг реклама интернет"
 </div></div>
 <p>Возьмем запрос «Лукашенко». У&nbsp;одного на&nbsp;первых местах в&nbsp;поисковой выдаче будут новости Белта, у&nbsp;второго&nbsp;— «Хартии97». Человек даже не&nbsp;поймет, что что-то было вырезано, что он&nbsp;смотрит в&nbsp;кривое зеркало. Следствие&nbsp;— общество разделяется на&nbsp;малые группы, у&nbsp;каждой из&nbsp;которых своя, отличная от&nbsp;других картина мира. Не&nbsp;будет единой коммуникационной платформы. Атеист Белинский и&nbsp;христианин Гоголь находились в&nbsp;одном культурном поле, потому переписка между ними была возможна. Наблюдаю, как люди противоположных взглядов постепенно утрачивают способность к&nbsp;диалогу. Рекламисты подливают масло в&nbsp;огонь. </p>
 
-<div class="video"><iframe src="https://embed.ted.com/talks/eli_pariser_beware_online_filter_bubbles" title="Эли Паризер, TED" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
+<div class="video">
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/B8ofWFx525s" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
 
 
 <p class="videoname"> Эли Паризер показывает, насколько губительна практика, когда что кому положено знать решают поисковики. (англ., русские субтитры) </p>
@@ -112,7 +120,11 @@ keywords: "маркетинг реклама интернет"
 <p>Поскольку Гугл не&nbsp;убрал автопроизведение в&nbsp;Ютуб, делаю вывод, что законопроект пока не&nbsp;принят. Но&nbsp;обозначенные вопросы беспокоят не&nbsp;только сенатора. В&nbsp;качестве примера&nbsp;— выступление Тристана Харриса на&nbsp;TED, где он&nbsp;показывает, как соцсети навязывают пользователю свой график использования интернета. </p>
 
 
-<div class="video"><iframe src="https://embed.ted.com/talks/tristan_harris_the_manipulative_tricks_tech_companies_use_to_capture_your_attention" title="Тристан Харрис, TED" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div>
+<div class="video">
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/C74amJRp730" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</div>
 <p class="videoname">Тристан Харрис: «Как компании контролируют умы людей» (англ., русские субтитры) </p>
 
 
