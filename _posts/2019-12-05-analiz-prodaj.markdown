@@ -56,7 +56,7 @@ keywords: "продажи, анализ продаж"
 	<li>Что происходило с&nbsp;продажами, если менялась цена, дистрибуция, появился новый продукт, изменилась активность конкурентов?</li>
  </ul>
  <div class="side">
-<p>Мировой лидер в&nbsp;сфере аудита розничной торговли&nbsp;— компания Нильсен. Ранее я&nbsp;<a href="/mnenie/otlichie-marketologa-ot-brexuna/#nielsen" title="подход Нильсена к анализу данных">рассказывал о&nbsp;подходе компании к&nbsp;анализу данных</a>. Если потребуется&nbsp;— <a href="https://www.nielsen.com/by/ru/contact-us/" >контакты белорусского офиса</a>.</p>
+<p>Мировой лидер в&nbsp;сфере аудита розничной торговли&nbsp;— компания Нильсен. Ранее я&nbsp;<a href="/mnenie/otlichie-marketologa-ot-brexuna/#nielsen" title="подход Нильсена к анализу данных">рассказывал о&nbsp;подходе компании к&nbsp;анализу данных</a>. Если потребуется&nbsp;— <a href="https://www.nielsen.com/by/ru/contact-us/" target="_blank" rel="noopener">контакты белорусского офиса</a>.</p>
 </div>
 </div>
 
