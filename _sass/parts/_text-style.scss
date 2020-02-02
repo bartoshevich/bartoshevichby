@@ -26,7 +26,9 @@ img,
 }
 
 
-/* выделение области в тексте  */
+
+// выделение области в тексте 
+
 .markedfield {
     margin:1em 0;
 	padding: 3% 3.5%;
@@ -38,7 +40,8 @@ img,
 margin-top: .5em !important;
 }
 
-// текст в рамке
+
+// текст в рамке 
 .hip {
 	border: 2px solid $hip; //#f19a48;//#ffa600;
 	border-left: 10px solid $hip;
@@ -51,7 +54,8 @@ margin-top: .5em !important;
 }
 
 
-//для выделен шрифтом и фоном
+// для выделен шрифтом и фоном 
+
 .hip2 {
 	background-color: $hip2; //#f4ebd0; //#e9fbe9;
 	font-size: 1.5em;
@@ -63,7 +67,9 @@ margin-top: .5em !important;
 	max-width: 760px;
 }
 
-/* цитата  */
+
+/* цитата  */ 
+
 .article {
   blockquote {
     font-style: italic;
@@ -76,7 +82,9 @@ margin-top: .5em !important;
 
 }
 
-// подпись к картинке
+
+/* подпись к картинке */ 
+
 
 .wtf1 {
 
@@ -97,10 +105,13 @@ margin-top: .5em !important;
 }
 
 
-// пример, примечание, заметка
+/* пример, примечание, заметка */ 
+
 .notetip {width:90%;font-size:14px;line-height:15px; border-radius:5px 5px;padding:5px 5px 5px 3em;margin:0;height:auto!important;overflow:hidden;bottom:6px;right:6px;border:0 solid #0092e0;background-position:20px 50%;background-repeat:no-repeat}
 
-// video
+
+/* video */ 
+
 
 .video {
   	width: 100%;
@@ -130,15 +141,17 @@ iframe {
 }
 
 
+ /* подпись к фото респондента */ 
 
-//подпись к фото респондента
 .person {
   font-size: 0.9em;
   border-top:1px solid #DDD;
       margin-top: 10px;
 }
 
-// флекс-блоки вместо таблицы
+
+// флекс-блоки вместо таблицы 
+
 
 .flex-block {
 display: flex;
@@ -167,11 +180,14 @@ min-width: 300px;
 }
 
 
+
 // подчеркивание
+
 mark {background: #ffffa1; padding: 1px 0; }
 
 
-// дата публикации
+// дата публикации 
+
 .date {
   padding: 8px 0;
   font-style: italic;

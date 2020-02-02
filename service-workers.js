@@ -25,7 +25,6 @@ var urlsToCache = [
 var CACHE_NAME = 'version + bartoshevich';
 
 self.addEventListener('install', function(evt) {
-  // Perform install steps
   evt.waitUntil(
     caches.open(CACHE_NAME)
       .then(function(cache) {
@@ -35,6 +34,8 @@ self.addEventListener('install', function(evt) {
   );
 });
 
+
+{% comment %}
 
  // Remove caches whose name is no longer valid
  var clearOldCaches = function() {
@@ -50,6 +51,27 @@ self.addEventListener('install', function(evt) {
           );
       })
 };
+
+
+{% endcomment %}
+
+
+
+self.addEventListener('activate', (event) => {
+  var cacheKeeplist = ['CACHE_NAME'];
+
+  event.waitUntil(
+    caches.keys().then((keyList) => {
+      return Promise.all(keyList.map((key) => {
+        if (cacheKeeplist.indexOf(key) !== 0) {
+          return caches.delete(key);
+        }
+      }));
+    })
+  );
+});
+
+
 
 
 self.addEventListener('fetch', function(event) {
