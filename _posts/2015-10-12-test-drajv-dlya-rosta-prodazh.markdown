@@ -4,7 +4,7 @@ title: "Рост продаж через тест-драйв"
 name: "Как продать больше с&nbsp;помощью тестирования"
 description: "Желаете роста продаж&nbsp;— организуйте тестирование продукта или услуги, стимулируйте участие в&nbsp;этом мероприятии. Но&nbsp;только если продукт действительно хорош ;-) "
 date:   2015-10-12
-last_modified_at: 2019-01-06
+last_modified_at: 2020-02-01
 categories: мнение
 permalink: "/mnenie/test-drajv-dlya-rosta-prodazh/"
 tags: "инструменты"
@@ -45,5 +45,5 @@ image: /images/tizer-9.jpg
 
 <div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/lBUJcD6Ws6s?rel=0" allowfullscreen></iframe></div>
 <br>
-<b>Что делать</b>
+
 <div class="hip">Предлагайте покупателю протестировать товар или услугу до&nbsp;момента покупки</div>
