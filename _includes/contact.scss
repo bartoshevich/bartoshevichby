@@ -35,10 +35,13 @@ h1  {
 
 .block {
    margin: 1em 0;
-  height: 570px;
 }
 
-@media (min-width: 437px) {
+@media (min-width: 630px) {
+
+  .block {
+   height: 610px;
+ }
   .contact-block {
     display: -ms-grid;
     display: grid;
