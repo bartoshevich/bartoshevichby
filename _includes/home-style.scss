@@ -11,6 +11,7 @@
 	margin: 2em 0 1.1em 0;
 	padding: 14px 0 14px 0;
 	text-align: center;
+	max-width: 725px;
 }
 
 @media screen and (min-width:571px) {
@@ -45,8 +46,8 @@ padding: .4em 0;
 		font-size: 40px;
 		line-height: 1.1;
 		letter-spacing: 0em;
-		max-width: 725px;
-		width: 83%;
+	//	max-width: 725px;
+	//	width: 83%;
 		
 	}
 	.sub-title {
@@ -57,7 +58,14 @@ padding: .4em 0;
 
 }
 
+.headline-wrapper a {
+	font-size: 21px;
+line-height: 1.381;
+color: #1d1d1f;
+font-weight: 600;
+letter-spacing: .007em;
 
+}
 
 
 @media screen and (min-width:735px) {
@@ -77,7 +85,6 @@ padding: .4em 0;
 
 @media screen and (min-width:1068px) {
     .b-large-text {
-    max-width: 755px;
     font-size: 58px;//38px;
 	line-height: 1.0625; //46px;
 	letter-spacing: -.009em;
