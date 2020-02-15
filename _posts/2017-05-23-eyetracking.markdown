@@ -19,7 +19,7 @@ keywords: "айтрекинг"
     <div class="c-6">
        <p><img class="guest-image" src="/images/MariaRaiskaya.jpg" alt="Мария Райская" width="150" height="150"/></p>
                   <div class="person"><strong>Мария Райская</strong><br/>
- ведущий руководитель проектов <a href="https://goo.gl/t7o309">МАСМИ</a></div>
+ ведущий руководитель проектов <a href="http://masmi.by/">МАСМИ</a></div>
 
   </div>
    </div>

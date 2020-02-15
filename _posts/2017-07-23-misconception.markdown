@@ -103,7 +103,7 @@ keywords: "мифы о маркетинге"
 <div class="rect">
 <p>Сервисы для анализа скорости загрузки сайтов: <br />
 - <a href="https://gtmetrix.com/" target="_blank" rel="noopener">Gtmetrix.com</a><br />
-- <a href="https://testmysite.thinkwithgoogle.com" target="_blank" rel="noopener">Testmysite.withgoogle.com</a></p>
+- <a href="https://www.thinkwithgoogle.com/intl/en-gb/feature/testmysite/" target="_blank" rel="noopener">Сервис Google</a></p>
 </div>
 
 <h2 id="5">Миф&nbsp;5: «Реклама решит все проблемы с&nbsp;продажами»</h2>

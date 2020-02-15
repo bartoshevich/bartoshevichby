@@ -20,7 +20,7 @@ image: /images/tizer-32.jpg
     <div class="c-6">
        <p><img class="guest-image"  src="/images/newyear1.jpg" alt="Александра Назаркина" width="150" height="150"/></p>
                   <div class="person"><strong>Аля Назаркина</strong><br/>
- руководитель проекта «Магазин под ключ», <a href="http://nzr.by/?from=www.bartoshevich.by">nzr.by</a></div>
+ руководитель проекта «Магазин под ключ», <a href="https://nzr.by/">nzr.by</a></div>
 
   </div>
     </div>

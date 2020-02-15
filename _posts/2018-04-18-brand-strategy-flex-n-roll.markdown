@@ -34,7 +34,7 @@ keywords: "стратегия бренда Флекс-н-Ролл"
 </picture>
 
                   <div class="person"><strong>Елена Горбачева</strong><br/>
- генеральный директор <a href="http://flex-n-roll.ru/" target="_blank" rel="noopener"><span class="noperenos">ООО «Флекс-н-Ролл»</span></a>
+ генеральный директор <a href="https://flex-n-roll.by/" target="_blank" rel="noopener"><span class="noperenos">ООО «Флекс-н-Ролл»</span></a>
 
   </div>                  
   </div>   </div>
