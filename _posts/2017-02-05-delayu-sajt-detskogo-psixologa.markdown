@@ -108,7 +108,7 @@ image: /images/tizer-36.jpg
 <p>Ссылки для интересующихся:</p>
 <ul>
 	<li><a href="http://prgssr.ru/documentation/" target="_blank" rel="noopener">Документация Jekyll</a></li>
-	<li><a href="https://blog.webjeda.com/jekyll-tutorials/" target="_blank" rel="noopener">Jekyll Basics</a></li>
+	<li><a href="https://jekyllrb.com/" target="_blank" rel="noopener">Сайт Jekyll</a></li>
 </ul>
 </div>
 </div>
