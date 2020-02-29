@@ -16,7 +16,7 @@ keywords: "мышление маркетолога"
 <div class="video">
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fXspplVnrEM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<p> Говорил, что беспокоит, над чем думаю и&nbsp;что считаю правильным. И&nbsp;видимо от&nbsp;желания рассказать больше, волнуюсь, глотаю окончания, оговариваюсь :-) </p>
+<p> Говорил, что беспокоит, над чем думаю и&nbsp;что считаю правильным. И&nbsp;видимо от&nbsp;желания рассказать больше, волнуюсь, глотаю окончания, оговариваюсь. В&nbsp;общем, веду себя как живой человек ;-) </p>
 <p><strong>Быстрые ссылки</strong> (откроются в&nbsp;новой вкладке) </p>
 <ul> 
 	<li><a href="https://www.youtube.com/watch?v=fXspplVnrEM&amp;t=18s" target="_blank" rel="noopener">0:18</a>&nbsp;Не все маркетологи одинаково полезны</li>
