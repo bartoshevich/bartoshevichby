@@ -24,7 +24,7 @@ keywords: "мышление маркетолога"
 	<li> <a href="https://www.youtube.com/watch?v=fXspplVnrEM&amp;t=228s" target="_blank" rel="noopener">3:48</a> Что спрашивать у&nbsp;маркетолога на&nbsp;собеседовании</li>
 	<li> <a href="https://www.youtube.com/watch?v=fXspplVnrEM&amp;t=300s" target="_blank" rel="noopener">5:00</a> Задача для маркетолога (продвижение картофеля)</li>
 	<li> <a href="https://www.youtube.com/watch?v=fXspplVnrEM&amp;t=470s" target="_blank" rel="noopener">7:50</a> Основная проблема потребителя и&nbsp;что делать маркетологу</li>
-	<li> <a href="https://www.youtube.com/watch?v=fXspplVnrEM&amp;t=725s" target="_blank" rel="noopener">12:05</a> Почему маркетинг не&nbsp;должен продавать</li>
+	<li> <a href="https://www.youtube.com/watch?v=fXspplVnrEM&amp;t=725s" target="_blank" rel="noopener">12:05</a> Почему маркетолог не&nbsp;должен продавать</li>
 	<li> <a href="https://www.youtube.com/watch?v=fXspplVnrEM&amp;t=1103s" target="_blank" rel="noopener">18:23</a>&nbsp;На чем должен фокусироваться маркетолог</li>
 	<li> <a href="https://www.youtube.com/watch?v=fXspplVnrEM&amp;t=1375s" target="_blank" rel="noopener">22:55</a> Система «свой&nbsp;— чужой» в&nbsp;маркетинге </li>
 	<li><a href="https://www.youtube.com/watch?v=fXspplVnrEM&amp;t=1555s" target="_blank" rel="noopener">25:55</a> Нужно&nbsp;ли дожимать клиентов</li>
