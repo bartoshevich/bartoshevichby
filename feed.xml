@@ -14,11 +14,11 @@ layout: null
     <language>ru</language>
 
     <image>
-        <url>https://bartoshevich.by/images/tizer.jpg </url> 
+        <url>https://bartoshevich.by/favicon-32x32.png </url> 
         <title>Блог Дмитрия Бартошевича о маркетинге</title> 
         <link>https://bartoshevich.by/</link> 
-        <width>560</width> 
-        <height>315</height> 
+        <width>32</width> 
+        <height>32</height> 
     </image> 
     
     {% for post in site.posts limit:60 %}
