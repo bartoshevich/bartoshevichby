@@ -31,7 +31,7 @@ keywords: "мышление маркетолога"
       <meta itemprop="width" content="600">
       <meta itemprop="height" content="314">
     </span>
-
+<meta itemprop="thumbnailUrl" content="tizer-63.png" />
 </div>
 <p> Говорил, что беспокоит, над чем думаю и&nbsp;что считаю правильным. И&nbsp;видимо от&nbsp;желания рассказать больше, волнуюсь, глотаю окончания, оговариваюсь. В&nbsp;общем, веду себя как живой человек ;-) </p>
 <p><strong>Быстрые ссылки</strong> (откроются в&nbsp;новой вкладке) </p>
