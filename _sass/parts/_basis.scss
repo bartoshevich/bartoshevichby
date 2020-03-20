@@ -8,7 +8,7 @@ html {
 
 body {
   margin: 0;
-  color: $text; 
+  color: $text;
   font-style: normal; }
 
 
@@ -211,4 +211,11 @@ white-space: nowrap;
 
 a {
   outline: none;
+}
+
+.link-simbol::after {
+  display: inline-block;
+  content: '>';
+  font-size: 80%;
+  padding: 0 5px;
 }
