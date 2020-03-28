@@ -1,10 +1,11 @@
 ---
 layout: conf
 permalink: /confidentiality/
-description: "Посещая bartoshevich.by, вы соглашаетесь с этой политикой. В ином случае — закройте сайт."
+description: "Сайт, который не отслеживает вас и уважает личное пространство."
 title: "Правила обработки данных"
 name: "Политика конфиден&shy;циаль&shy;ности"
 keywords: "Правила обработки данных"
+image: /images/confidentiality.png
 ---
 
 <div class="with-side">
