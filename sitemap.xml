@@ -35,4 +35,7 @@ layout: null
 <url>
 <loc>{{ site.url }}/uslugi/brand-conception/</loc>
 </url>
+<url>
+<loc>{{ site.url }}/faq/</loc>
+</url>
 </urlset>
