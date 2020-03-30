@@ -4,38 +4,33 @@ layout: compress
 <!-- Copyright (c) Дмитрий Бартошевич | https://bartoshevich.by/ -->
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-	<meta charset="utf-8">
-		<title>Консультант по маркетингу и стратегии — Дмитрий Бартошевич</title>
+    <meta charset="utf-8">
+    <title>Консультант по маркетингу и стратегии — Дмитрий Бартошевич</title>
 
-	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
-<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'> {% include meta.html %}
 
-
-	{% include meta.html %}
-
-
-
-
-<style>
-		{% capture criticalcss %}
-		  {% include home-style.scss %}
-		{% endcapture %}
-		{{ criticalcss | scssify }}
-	  </style>
+    <style>
+        {% capture criticalcss %}
+        		  {% include home-style.scss %}
+        		{% endcapture %}
+        		{{ criticalcss | scssify }}
+    </style>
 
 </head>
 <body>
-	{% comment %}	 MENU {% endcomment %}
+    {% comment %} MENU {% endcomment %}
 
-<nav role="navigation" aria-label="main navigation" class="navbar is-transparent is-spaced has-shadow">
-	<div class="container">
-		<div class="navbar-brand">
-
-
+    <nav role="navigation" aria-label="main navigation" class="navbar is-transparent is-spaced has-shadow">
+        <div class="container">
+            <div class="navbar-brand">
 
 
-			<span class="navbar-item selected-title">
+
+
+                <span class="navbar-item selected-title">
 
 				<strong> Дмитрий Бартошевич </strong>
 
@@ -43,215 +38,199 @@ layout: compress
 
 
 
-			<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
-				data-target="navbarmenu">
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarmenu">
 				<span aria-hidden="true"></span>
 				<span aria-hidden="true"></span>
 				<span aria-hidden="true"></span>
 			</a>
 
 
-		</div>
+            </div>
 
-		<div class="navbar-menu" id="navbarmenu">
-			<div class="navbar-end">
-
-
-				<a class="navbar-item" href="/uslugi/" title="Услуги">Делаю</a>
-				<a class="navbar-item" href="/me/" title="Реализованные проекты">Сделал</a>
-				<a class="navbar-item" href="/blog/" title="Блог маркетолога">Блог</a>
-				<a class="navbar-item" href="/contact/" title="Связаться">Контакты</a>
-
-				<div class="buttons">
-					<a class="button is-info" href="mailto:dmitry@bartoshevich.by"
-						title="Выслать запрос"><strong>Отправить запрос</strong></a>
-				</div>
-			</div>
-		</div>
+            <div class="navbar-menu" id="navbarmenu">
+                <div class="navbar-end">
 
 
-	</div>
-</nav>
+                    <a class="navbar-item" href="/uslugi/" title="Услуги">Делаю</a>
+                    <a class="navbar-item" href="/me/" title="Реализованные проекты">Сделал</a>
+                    <a class="navbar-item" href="/blog/" title="Блог маркетолога">Блог</a>
+                    <a class="navbar-item" href="/faq/" title="FAQ">Вопросы</a>
+                    <a class="navbar-item" href="/contact/" title="Связаться">Контакты</a>
 
-{% comment %}	END MENU {% endcomment %}
-
-
-
-<div class="wrapper article">
-
-	{% include alarm.html %}
-
-
-<div class="headline-wrapper">
-	<p class="b-large-text ">
-	Анализирую <br/>и&nbsp;развиваю бренды.
-	</p>
-
-	<p class="sub-title">Помогаю руководителям увидеть точки роста компании. Осознать, куда двигаться дальше. Формирую четкую картину, что делать. Без воды, с&nbsp;цифрами и&nbsp;доказательной базой.
-	</p>
+                    <div class="buttons">
+                        <a class="button is-info" href="mailto:dmitry@bartoshevich.by" title="Выслать запрос"><strong>Отправить запрос</strong></a>
+                    </div>
+                </div>
+            </div>
 
 
-	<a href="/uslugi/" class="headline-link link-simbol">Подробнее</a>
+        </div>
+    </nav>
+
+    {% comment %} END MENU {% endcomment %}
 
 
 
+    <div class="wrapper article">
 
-</div>
-
-<div class="margin-bottom">
-	<main class="main">
-				       <div class="flex-wrapper title">
-											 	<div class="flex-wrapper-item">
-							 				<h1> 	Дмитрий Бартошевич 	</h1>
-											<p>консультант по&nbsp;маркетингу и&nbsp;стратегии</p>
-											</div>
-				      </div>
+        {% include alarm.html %}
 
 
-									<picture class="figure1" itemscope itemtype="http://schema.org/ImageObject">
+        <div class="headline-wrapper">
+            <p class="b-large-text ">
+                Анализирую <br/>и&nbsp;развиваю бренды.
+            </p>
 
-	<meta itemprop="name" content="Дмитрий Бартошевич">
-	<meta itemprop="description" content="Дмитрий Бартошевич - консультант по маркетингу и стратегии">
-											<source
-											media="(max-width: 570px)"
-											srcset="/images/me2_s_520.webp 1x,
-													/images/me2_s_700.webp 2x"
-															type="image/webp">
-										<source
-											media="(max-width: 570px)"
-											srcset="/images/me2_s_520.jpg 1x,
+            <p class="sub-title"> Создаю концепцию бренда и&nbsp;на&nbsp;ее&nbsp;основе организовываю внутренне единый, системный маркетинг в&nbsp;компании.
+            </p>
+
+            {% comment %} Помогаю руководителям увидеть точки роста компании. Осознать, куда двигаться дальше. Формирую четкую картину, что делать. Создаю концепцию бренда и&nbsp;на&nbsp;ее&nbsp;основе организовываю внутренне единый, системный маркетинг в&nbsp;компании.
+            {% endcomment %}
+
+
+            <a href="/uslugi/" class="headline-link link-simbol">Подробнее</a>
+
+
+
+
+        </div>
+
+        <div class="margin-bottom">
+            <main class="main">
+                <div class="flex-wrapper title">
+                    <div class="flex-wrapper-item">
+                        <h1> Дмитрий Бартошевич </h1>
+                        <p>консультант по&nbsp;маркетингу и&nbsp;стратегии</p>
+                    </div>
+                </div>
+
+
+                <picture class="figure1" itemscope itemtype="http://schema.org/ImageObject">
+
+                    <meta itemprop="name" content="Дмитрий Бартошевич">
+                    <meta itemprop="description" content="Дмитрий Бартошевич - консультант по маркетингу и стратегии">
+                    <source media="(max-width: 570px)" srcset="/images/me2_s_520.webp 1x,
+													/images/me2_s_700.webp 2x" type="image/webp">
+                    <source media="(max-width: 570px)" srcset="/images/me2_s_520.jpg 1x,
 											/images/me2_s_700.jpg 2x">
-										<source
-											srcset="/images/me2-620.webp 1x,
-													/images/me2-840.webp 2x"
-											type="image/webp">
-										<img
-											src="/images/me2-620.jpg" alt="Дмитрий Бартошевич фото"
-											srcset="/images/me2-620.jpg 1x,
+                    <source srcset="/images/me2-620.webp 1x,
+													/images/me2-840.webp 2x" type="image/webp">
+                    <img src="/images/me2-620.jpg" alt="Дмитрий Бартошевич фото" srcset="/images/me2-620.jpg 1x,
 											/images/me2-840.jpg 2x" itemprop="contentUrl" />
-									</picture>
+                </picture>
 
 
 
 
 
 
-							<div class="flex-wrapper cytata">
-								 <div class="flex-wrapper-item ">
-						     <a href="/opyt/brand-strategy-flex-n-roll/" title="отзыв Flex-n-Roll">	«Хотелось&nbsp;бы поблагодарить Дмитрия за&nbsp;проведенную большую работу по&nbsp;брендингу нашего предприятия». </a><br /><span class="reference">Елена Горбачева, директор <span class="noperenos">Flex-n-Roll </span></span>
-						  	</div>
-					   </div>
+                <div class="flex-wrapper cytata">
+                    <div class="flex-wrapper-item ">
+                        <a href="/opyt/brand-strategy-flex-n-roll/" title="отзыв Flex-n-Roll">	«Хотелось&nbsp;бы поблагодарить Дмитрия за&nbsp;проведенную большую работу по&nbsp;брендингу нашего предприятия». </a><br /><span class="reference">Елена Горбачева, директор <span class="noperenos">Flex-n-Roll </span></span>
+                    </div>
+                </div>
 
 
 
-									<picture class="figure2" itemscope itemtype="http://schema.org/ImageObject">
-										<meta itemprop="name" content="Дмитрий Бартошевич">
-										<meta itemprop="description" content="Дмитрий Бартошевич выступает на конференции 1С-Битрикс">
+                <picture class="figure2" itemscope itemtype="http://schema.org/ImageObject">
+                    <meta itemprop="name" content="Дмитрий Бартошевич">
+                    <meta itemprop="description" content="Дмитрий Бартошевич выступает на конференции 1С-Битрикс">
 
-											<source
-											media="(max-width: 570px)"
-											srcset="/images/me1_s_520.webp 1x,
-													/images/me1_s_700.webp 2x"
-															type="image/webp">
-										<source
-											media="(max-width: 570px)"
-											srcset="/images/me1_s_520.jpg 1x,
+                    <source media="(max-width: 570px)" srcset="/images/me1_s_520.webp 1x,
+													/images/me1_s_700.webp 2x" type="image/webp">
+                    <source media="(max-width: 570px)" srcset="/images/me1_s_520.jpg 1x,
 											/images/me1_s_700.jpg 2x">
-										<source
-											srcset="/images/me1-455.webp 1x,
-													/images/me1-670.webp 2x"
-											type="image/webp">
-										<img
-											src="/images/me1-455.jpg" alt="Дмитрий Бартошевич - конференция 1С-Битрикс"
-											srcset="/images/me1-455.jpg 1x,
+                    <source srcset="/images/me1-455.webp 1x,
+													/images/me1-670.webp 2x" type="image/webp">
+                    <img src="/images/me1-455.jpg" alt="Дмитрий Бартошевич - конференция 1С-Битрикс" srcset="/images/me1-455.jpg 1x,
 											/images/me1-670.jpg 2x" itemprop="contentUrl" />
 
 
-									</picture>
+                </picture>
 
 
 
 
-				 				<div class="flex-wrapper clients">
-				 						<div class="flex-wrapper-item">
-				 						<p><strong>Клиенты</strong></p>
-				 							<ul>
-				 							<li>
-				 							ЮВИ Электроникс
-				 						 	</li>
-				 							<li>
-				 								Danone Беларусь
-				 						 	</li>
-				 							<li>
-				 								EGO-ART
-				 						 	</li>
-				 							<li>
-				 								Flex-n-Roll
-				 						 	</li>
-				 							<li>
-				 								Giperlink
-				 						 	</li>
-				 							<li>
-				 								Hormann
-				 						 	</li>
-				 							<li>
-				 								MODISTA
-				 						 	</li>
-				 							<li>
-				 								Pro-Trade
-				 						 	</li>
-											<li>
-				 							...
-				 						 	</li>
+                <div class="flex-wrapper clients">
+                    <div class="flex-wrapper-item">
+                        <p><strong>Клиенты</strong></p>
+                        <ul>
+                            <li>
+                                ЮВИ Электроникс
+                            </li>
+                            <li>
+                                Danone Беларусь
+                            </li>
+                            <li>
+                                EGO-ART
+                            </li>
+                            <li>
+                                Flex-n-Roll
+                            </li>
+                            <li>
+                                Giperlink
+                            </li>
+                            <li>
+                                Hörmann
+                            </li>
+                            <li>
+                                MODISTA
+                            </li>
+                            <li>
+                                Pro-Trade
+                            </li>
+                            <li>
+                                ...
+                            </li>
 
-				 						 </ul>
-				 						 </div>
-				 				 </div >
-
-
-
-
-									 <div class="flex-wrapper blog">
-												 			<div class="flex-wrapper-item">
-												 	<a href="/blog/" title="Блог маркетолога" class="link-simbol">Открыть блог</a>
-												 	</div>
-								 		 </div>
-
-
-								 			  <div class=" flex-wrapper keypoint">
-											 					<div class="flex-wrapper-item keypoint">
-																	<p><del>Втюхинг</del> Маркетинг</p>
-																	<p><del>WOW-эффект</del> Смысл </p>
-																	<p><del>Пляска идей</del> Cистема действий</p>
-											 					</div>
-								 			</div>
+                        </ul>
+                    </div>
+                </div>
 
 
 
-								 			<div class="flex-wrapper email">
-										 					<div class="flex-wrapper-item">
-										 			<p>Написать <a href="mailto:dmitry@bartoshevich.by">dmitry@bartoshevich.by</a></p>
-										 			</div>
-								 			</div>
+
+                <div class="flex-wrapper blog">
+                    <div class="flex-wrapper-item">
+                        <a href="/blog/" title="Блог маркетолога" class="link-simbol">Открыть блог</a>
+                    </div>
+                </div>
 
 
-										  <div class="flex-wrapper cytata giperlink">
-													 	 	<div class="flex-wrapper-item ">
-												<a href="/opyt/brand-giperlink/" title="отзыв Giperlink">	«Нам важно было найти сильное решение. Поэтому разработать концепцию бренда мы&nbsp;поручили Дмитрию. Благодарим его за&nbsp;сотрудничество».</a> <br/><span class="reference">Дмитрий Лихтарович, директор Giperlink</span>
-													 </div>
-										 		</div>
-
-
-     </main>
-
-</div>
-
-</div>
+                <div class=" flex-wrapper keypoint">
+                    <div class="flex-wrapper-item keypoint">
+                        <p><del>Втюхинг</del> Маркетинг</p>
+                        <p><del>WOW-эффект</del> Смысл </p>
+                        <p><del>Пляска идей</del> Cистема действий</p>
+                    </div>
+                </div>
 
 
 
-{% include footer.html %}
-	{% include scripts.html %}
+                <div class="flex-wrapper email">
+                    <div class="flex-wrapper-item">
+                        <p>Написать <a href="mailto:dmitry@bartoshevich.by">dmitry@bartoshevich.by</a></p>
+                    </div>
+                </div>
+
+
+                <div class="flex-wrapper cytata giperlink">
+                    <div class="flex-wrapper-item ">
+                        <a href="/opyt/brand-giperlink/" title="отзыв Giperlink">	«Нам важно было найти сильное решение. Поэтому разработать концепцию бренда мы&nbsp;поручили Дмитрию. Благодарим его за&nbsp;сотрудничество».</a> <br/><span class="reference">Дмитрий Лихтарович, директор Giperlink</span>
+                    </div>
+                </div>
+
+
+            </main>
+
+        </div>
+
+    </div>
+
+
+
+    {% include footer.html %} {% include scripts.html %}
 
 </body>
+
 </html>

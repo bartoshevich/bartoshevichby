@@ -1,0 +1,21 @@
+@import "parts/variables";
+@import "parts/basis";
+@import "parts/menu";
+@import "parts/article";
+@import "parts/footer";
+@import "parts/alarm";
+@import "parts/toc";
+@import "parts/side";
+
+
+.FAQ {
+margin: 5em 0;
+max-width: 720px;
+}
+.question {
+  margin-bottom: 3em;
+}
+
+.FAQ li {
+  margin-bottom: 8px;
+}

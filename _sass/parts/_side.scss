@@ -28,6 +28,10 @@ font-size : 2rem;
 font-weight : 100;
 }
 
+.side li {
+  margin-left: -10px;
+  margin-bottom: 4px !important;
+}
 
 @media screen and (max-width:1430px) {
 .side {

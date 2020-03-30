@@ -1,0 +1,93 @@
+---
+layout: compress
+---
+<!-- Copyright (c) Дмитрий Бартошевич | https://bartoshevich.by/  -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+		<title>{{ page.title }}</title>
+
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+	{% include meta.html %}
+
+
+
+<style>
+		{% capture criticalcss %}
+		  {% include faq.scss %}
+		{% endcapture %}
+		{{ criticalcss | scssify }}
+</style>
+
+</head>
+<body>
+	{% comment %} MENU {% endcomment %}
+		<nav role="navigation" aria-label="main navigation"  class="navbar is-transparent is-spaced has-shadow ">
+<div class="container">
+   <div class="navbar-brand">
+
+
+			 <a class="navbar-item selected-title" href="/" title="Главная"><strong>Дмитрий Бартошевич</strong></a>
+
+
+          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarmenu">
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+
+
+	</div>
+
+  <div class="navbar-menu" id="navbarmenu">
+     <div class="navbar-end">
+
+
+    <a class="navbar-item" href="/uslugi/" title="Услуги">Делаю</a>
+    <a class="navbar-item" href="/me/" title="Реализованные проекты">Сделал</a>
+    <a class="navbar-item" href="/blog/" title="Блог маркетолога">Блог</a>
+		<span class="navbar-item selected" >Вопросы</span>
+    	<a class="navbar-item" href="/contact/" title="Связаться">Контакты</a>
+
+          <div class="buttons">
+            <a class="button is-info" href="mailto:dmitry@bartoshevich.by" title="Выслать запрос"><strong>Отправить запрос</strong></a>
+          </div>
+        </div>
+    </div>
+
+
+</div>
+</nav>
+{% comment %}	END MENU {% endcomment %}
+
+
+	<div class="content">
+				<div class="wrapper">
+
+						{% include alarm.html %}
+
+
+  <article class="article" >
+<h1>Частые вопросы</h1>
+
+
+		{{ content }}
+
+
+
+
+  </article>
+	</div>
+
+
+
+</div>
+	{% include footer.html %}
+
+	{% include scripts.html %}
+
+</body>
+</html>
