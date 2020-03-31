@@ -55,6 +55,12 @@ image:
        </a>
      </li>
 
+		 <li class="level2">
+			 <a href="#ad">
+				 <span class="tocnumber">2.4 </span>Почему вы&nbsp;отказываетесь размещать рекламу на&nbsp;сайте? 
+			 </a>
+		 </li>
+
 		 <li>
 			<a href="#3">
 				<span class="tocnumber">3 </span>Другое
@@ -189,6 +195,14 @@ image:
         </div>
     </div>
 
+		<div class="question" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+				<h3 id="ad" itemprop="name">Почему вы&nbsp;отказываетесь размещать рекламу на&nbsp;сайте? </h3>
+				<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+						<div itemprop="text">
+								<p> Не&nbsp;хочу видеть рекламу у&nbsp;себя на&nbsp;сайте.</p>
+						</div>
+				</div>
+		</div>
 
     <h2 id="3"> Другое </h2>
 
