@@ -68,7 +68,7 @@ image:
 		</li>
     <li class="level2">
       <a href="#viber">
-        <span class="tocnumber">3.1 </span>Можно&nbsp;ли с&nbsp;вами связаться по&nbsp;Viber?
+        <span class="tocnumber">3.1 </span>Можно&nbsp;ли с&nbsp;вами связаться по&nbsp;Viber или WhatsApp?
       </a>
     </li>
 </ul>
@@ -208,7 +208,7 @@ image:
 
 
     <div class="question" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-        <h3 id="viber" itemprop="name">Можно&nbsp;ли с&nbsp;вами связаться по&nbsp;Viber/WhatsApp?</h3>
+        <h3 id="viber" itemprop="name">Можно&nbsp;ли с&nbsp;вами связаться по&nbsp;Viber или WhatsApp?</h3>
         <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
             <div itemprop="text">
                 <p>Я&nbsp;не&nbsp;использую эти приложения. Если вам принципиально общаться в&nbsp;Viber/WhatsApp, значит, мы&nbsp;друг другу не&nbsp;подходим.</p>
