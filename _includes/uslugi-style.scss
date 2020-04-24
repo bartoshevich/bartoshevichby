@@ -5,12 +5,99 @@
 @import "parts/footer";
 @import "parts/alarm";
 @import "parts/side";
+// @import "parts/text-style";
 
 
 h1 {
   text-transform: uppercase;
 }
 
+
+
+.comparison {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+}
+
+.comparison-item {
+  padding: 5%;
+}
+
+@media (min-width: 636px) {
+.comparison {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  grid-gap: 32px;
+  grid-auto-flow: dense;
+}
+}
+
+
+/* video */
+
+
+.video {
+  	width: 100%;
+  	position: relative;
+  	margin-top: 20px;
+  	margin-bottom: 2em;
+  	padding-top: 56.25%;
+}
+.video iframe, .video object, .video embed{
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	height: 100%;
+}
+
+iframe {
+	border:0;
+	overflow:hidden;
+}
+
+.videoname {
+	margin-top:-1.95em;
+	color: #333;
+    font-size: 13px;
+    line-height: 19px;
+}
+
+/* text */
+
+.text {
+  max-width: 50rem;
+  margin-top: 6em;
+}
+
+/* выделение цветом */
+
+.marked-smoke {
+  background-color: #f1f0ee;
+}
+
+/* подпись к картинке */
+
+
+.wtf2 {
+
+    color: #333;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 1em;
+    margin-top:1em;
+}
+
+
+
+
+
+
+
+
+
+/*
 
 .block {
    margin: 3em 0;
@@ -160,3 +247,4 @@ text-transform: uppercase;
            }
     }
 }
+*/

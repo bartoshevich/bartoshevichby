@@ -4,78 +4,315 @@ layout: compress
 <!-- Copyright (c) Дмитрий Бартошевич | https://bartoshevich.by/ -->
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-	<meta charset="utf-8">
-		<title>{{ page.title }}</title>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
 
-	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
-<meta http-equiv='X-UA-Compatible' content='IE=edge'>
-
-	{% include meta.html %}
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'> {% include meta.html %}
 
 
-<style>
-		{% capture criticalcss %}
-		  {% include uslugi-style.scss %}
-		{% endcapture %}
-		{{ criticalcss | scssify }}
-</style>
+    <style>
+        {% capture criticalcss %}
+        		  {% include uslugi-style.scss %}
+        		{% endcapture %}
+        		{{ criticalcss | scssify }}
+    </style>
 
-<link rel="preload" href="/images/audit_380.jpg" as="image" type="image/jpg" media="(max-width: 380px)">
-<link rel="preload" href="/images/audit_380.webp" as="image" type="image/webp" media="(max-width: 380px)">
+		  {% comment %}
+		<link rel="preconnect" href="https://i.ytimg.com">
+		<link rel="preconnect" href="https://yt3.ggpht.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+  {% endcomment %} 
 
-<link rel="preload" href="/images/audit_786.jpg" as="image" type="image/jpg" media="(min-width: 381px)">
-<link rel="preload" href="/images/audit_786.webp" as="image" type="image/webp" media="(min-width: 381px)">
 
 </head>
+
 <body>
+    {% comment %} MENU {% endcomment %}
+    <nav role="navigation" aria-label="main navigation" class="navbar is-transparent is-spaced has-shadow ">
+        <div class="container">
+            <div class="navbar-brand">
+                <a class="navbar-item selected-title" href="/" title="Главная"><strong>Дмитрий Бартошевич</strong></a>
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarmenu">
+              	<span aria-hidden="true"></span>
+              	<span aria-hidden="true"></span>
+              	<span aria-hidden="true"></span>
+            		</a>
+            </div>
 
-	{% comment %} MENU {% endcomment %}
-<nav role="navigation" aria-label="main navigation"  class="navbar is-transparent is-spaced has-shadow ">
-<div class="container">
-   <div class="navbar-brand">
+            <div class="navbar-menu" id="navbarmenu">
+                <div class="navbar-end">
+                    <span class="navbar-item selected" href="/uslugi/" title="Услуги">Делаю</span>
+                    <a class="navbar-item" href="/me/" title="Реализованные проекты">Сделал</a>
+                    <a class="navbar-item" href="/blog/" title="Блог маркетолога">Блог</a>
+                    <a class="navbar-item" href="/contact/" title="Связаться">Контакты</a>
 
-
-			 <a class="navbar-item selected-title" href="/" title="Главная"><strong>Дмитрий Бартошевич</strong></a>
-
-
-          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarmenu">
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-            </a>
-
-
-	</div>
-
-  <div class="navbar-menu" id="navbarmenu">
-     <div class="navbar-end">
-
-
-    <span class="navbar-item selected" href="/uslugi/" title="Услуги">Делаю</span>
-    <a class="navbar-item" href="/me/" title="Реализованные проекты">Сделал</a>
-    <a class="navbar-item" href="/blog/" title="Блог маркетолога">Блог</a>
-    <a class="navbar-item" href="/contact/" title="Связаться">Контакты</a>
-
-          <div class="buttons">
-            <a class="button is-info" href="mailto:dmitry@bartoshevich.by" title="Выслать запрос"><strong>Отправить запрос</strong></a>
-          </div>
+                    <div class="buttons">
+                        <a class="button is-info" href="mailto:dmitry@bartoshevich.by" title="Выслать запрос"><strong>Отправить запрос</strong></a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </nav>
+
+    {% comment %} END MENU {% endcomment %}
+
+		<div class="wrapper">
+
+				{% include alarm.html %}
+
+		<article class="article">
 
 
+
+
+
+		<h1>Услуги</h1>
+        Рассказываю, как помогаю компаниям получить преимущество над конкурентами:
+        <ul>
+            <li>
+                <a href="#marketing-audit">провожу аудит маркетинга</a>;
+            </li>
+            <li>
+                <a href="#brand-conception">разрабатываю концепцию бренда</a>;
+            </li>
+            <li>
+                <a href="#promo-conception">создаю концепции рекламных кампаний</a>;
+            </li>
+            <li>
+                <a href="#agency-audit">разбираю работы брендинговых и&nbsp;креативных агентств</a>.
+            </li>
+        </ul>
+        <p>Работаю с&nbsp;теми, кто разделяет <a href="#approach">мой подход к&nbsp;работе и&nbsp;взгляды</a>. Остальным&nbsp;— предлагаю <a href="#alternative">альтернативу</a>. </p>
+
+
+
+
+
+
+
+				<h2 id="marketing-audit">Провожу аудит маркетинга</h2>
+					<p>Аудит&nbsp;— независимая проверка, которая определяет, что компания делает правильно, а&nbsp;что следует исправить. К&nbsp;правильным я&nbsp;отношу действия отдела маркетинга, которые помогают создавать и&nbsp;укреплять отличия компании, значимые для клиента. </p>
+
+						<div class="comparison marked-smoke">
+							<div class="comparison-item">
+									<strong>Обычно происходит так</strong>
+
+
+										<p>Берут теоретическую модель, например, 4P, и&nbsp;описывают статус и&nbsp;требования к&nbsp;каждой составляющей маркетинга в&nbsp;компании. </p>
+
+									<p>	<b>+</b> подробный многостраничный документ, напоминающий научную работу;<br>
+
+										<b>-</b> не&nbsp;видим маркетинг с&nbsp;позиции клиента;<br>
+
+										<b>-</b> часть информации (рекомендаций) не&nbsp;несет для клиента ценности.
+
+										</p>
+
+								<p><em>Последствия. Пример</em><br/>
+							Можно переписать с&nbsp;умных книг и&nbsp;установить стандарты общения с&nbsp;посетителями магазина. Периодически направлять «тайных покупателей» и&nbsp;проверять, насколько им&nbsp;следуют. При этом сам посетитель предпочел&nbsp;бы ни&nbsp;с&nbsp;кем не&nbsp;разговарить в&nbsp;принципе. И&nbsp;как только конкуренты предложат такую возможность, он&nbsp;пойдет к&nbsp;ним.
+
+							</div>
+							<div class="comparison-item">
+								<strong>Как делаю я</strong>
+																	<p>Составляю карты потребительского опыта и&nbsp;оцениваю, насколько действия маркетологов соотносятся с&nbsp;мыслями, чувствами, поведением клиентов на&nbsp;каждой стадии выбора и&nbsp;использования продукта или услуги. </p>
+
+																	<p>		<b>+</b> рекомендации напрямую влияют на&nbsp;улучшение потребительского опыта;<br>
+
+																		<b>+</b> фокус на&nbsp;важном, второстепенные активности не&nbsp;рассматриваются. </p>
+
+
+
+																	<p><em>Почему важно. Пример</em><br/>
+												 Интернет-магазин оборудования и&nbsp;ингредиентов для варки домашнего пива вкладывается в&nbsp;рерайтинг статей о&nbsp;пиве. Целевая аудитория&nbsp;— эксперты. Они регулярно читают профессиональную тематическую литературу и&nbsp;не&nbsp;нуждаются в&nbsp;популярных статьях. Что им&nbsp;действительно важно&nbsp;— удобный каталог и&nbsp;детальное технологическое описание продукции (напр., хмель&nbsp;— альфа-кислотность, год урожая, аромат, таблица взаимозаменяемости, тип использования и&nbsp;пр.). Ресурсы магазина следует направить сюда.
+																	</p>
+
+
+							</div>
+						</div>
+
+
+
+						<h2 id="brand-conception">Разрабатываю концепцию бренда</h2>
+						<p>Концепция бренда&nbsp;— ответ на&nbsp;вопрос: «С&nbsp;помощью какой идеи выделиться из&nbsp;фона конкурентов и&nbsp;стать значимым для клиентов?» Это фундамент работы отдела маркетинга. Каждый шаг маркетолога должен подтверждать и&nbsp;укреплять концепцию. В&nbsp;этом случае клиенты быстро найдут «свою» компанию, а&nbsp;компания&nbsp;— «своих» клиентов. </p>
+
+						<div class="comparison">
+
+							<picture>
+								<source
+									media="(max-width: 400px)"
+									srcset="/images/uslugi/comdis_400.webp"
+									type="image/webp">
+								<source
+									media="(max-width: 400px)"
+									srcset="/images/uslugi/comdis_400.jpg">
+								<source
+									srcset="/images/uslugi/comdis_600.webp 1x,
+											/images/uslugi/comdis_1200.webp 2x"
+									type="image/webp">
+								<img
+									src="/images/uslugi/comdis_600.jpg" alt="компании описывают себя одинаково"
+									srcset="/images/uslugi/comdis_1200.jpg 2x">
+							</picture>
+
+
+
+							<div class="wtf2">
+								<strong>У&nbsp;покупателя проблема выбора.</strong><br> Как ваша компания помогает ее&nbsp;решить?
+							</div>
+
+						</div>
+						<p>Отсутствие концепции бренда быстро превращает маркетинг в&nbsp;«крысиные бега»: хаотичные авральные действия, несбалансированный бюджет, отсутствие фокуса в&nbsp;продвижении, размытый образ бренда. </p>
+						<p>Чтобы создать идею, которая будет значима для целевой аудитории и&nbsp;одновременно отличать компанию от&nbsp;конкурентов, потребуется исследование рынка и&nbsp;анализ данных. Подобное заявляют и&nbsp;некоторые брендинговые агентства, но&nbsp;в&nbsp;реальности наши подходы различны. </p>
+
+
+						<div class="comparison marked-smoke">
+							<div class="comparison-item">
+								<p><strong>Брендинговые агентства</strong><br/>
+				 В&nbsp;лучшем случае изучают рынок самостоятельно. При этом они могут не&nbsp;владеть методологией исследования. Как правило, у&nbsp;них нет полевого отдела, отдела кодировки и&nbsp;статистической обработки данных. Вопросы о&nbsp;рекрутинге и&nbsp;правильности выборки могут поставить менеджера в&nbsp;тупик.
+									</p>
+									<p>Изучение потребителя заменяют описанием трендов в&nbsp;мире дизайна и&nbsp;короткими выдержками из&nbsp;найденных отраслевых изданий. </p>
+
+							</div>
+							<div class="comparison-item">
+								<p><strong>Как изучаю рынок я</strong><br/>
+			 Привлекаю исследовательские компании, которые состоят в&nbsp;<a href="https://ru.wikipedia.org/wiki/ESOMAR" target="_blank" rel="noopener">ESOMAR</a>: ставлю задачу, согласовываю инструментарий, контролирую проведение полевых работ. Если, например, проводим опрос, то&nbsp;сверяю аудизаписи и&nbsp;корректность озвучивания вопросов, удостоверяюсь в&nbsp;точности фиксации ответов. Если все&nbsp;ок, перехожу к&nbsp;анализу результатов.
+								</p>
+
+								Около 5 лет я&nbsp;работал в&nbsp;Нильсене&nbsp;— мировом лидере в&nbsp;области маркетинговых исследований&nbsp;— и&nbsp;хорошо усвоил две вещи:
+								<ul>
+									<li>
+										не&nbsp;нужны гениальные идеи, если они основаны на&nbsp;неверных исходных данных;
+									</li>
+									<li>
+										исследование рынка&nbsp;— это отдельное направление бизнеса, которое требует серьезного отношения.
+									</li>
+								</ul>
+
+							</div>
+						</div>
+
+
+						<p><a class="link-simbol" href="/uslugi/brand-conception/#rabota">Подробно о&nbsp;том, как я&nbsp;разрабатываю концепции бренда </a></p>
+
+
+
+
+
+
+						<h2 id="promo-conception">Создаю концепции рекламных кампаний</h2>
+						<p>Цель&nbsp;— рекламная кампания должна содержать только одно ключевое послание, которое подчеркнет и&nbsp;усилит образ бренда. Без отвлеченных деталей и&nbsp;смыслов. Без ажитированной гонки за&nbsp;сиюминутными лайками и&nbsp;просмотрами.</p>
+
+
+
+						<p><i>Пример 1</i><br>
+						В&nbsp;далеком 2012 году придумал идею рекламы банка Тинькова и&nbsp;поделился с&nbsp;ним. О&nbsp;реакции Тинькова и&nbsp;коллег <a href="/opyt/reklama-dlya-banka-tinkova/">рассказываю в&nbsp;блоге</a>. </p>
+
+
+						<p><i>Пример 2</i><br>
+						Производитель домашней мебели «3Dom» решил стимулировать продажи снижением цен. Концепция торговой марки: «3Dom&nbsp;— мебель для семьи». Скидка до&nbsp;покупателя будет доносить не&nbsp;ценности бренда, а&nbsp;цену. И&nbsp;поскольку 3Dom&nbsp;— не&nbsp;дискаунтер, это не&nbsp;лучший вариант. Я&nbsp;предложил определять размер скидки в&nbsp;зависимости от&nbsp;стажа семейной жизни. Ценности торговой марки остались в&nbsp;фокусе внимания покупателя.</p>
+
+
+
+						<p><i>Пример 3</i><br>
+						Предложил Hörmann идеи цикла видеороликов и&nbsp;участвовал в&nbsp;их&nbsp;реализации: работал над сценариями, решал организационные вопросы, начиная от&nbsp;поиска и&nbsp;выбора режиссера до&nbsp;постпродакшена роликов. </p>
+
+							<div class="video"><iframe title="Видеоролик Hörmann уверенно рекомендуют" width="560" height="315" src="https://www.youtube-nocookie.com/embed/1Kq8PenQVvY"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div> <p class="videoname">Идея&nbsp;— Дмитрий Бартошевич. <br>Режиссер&nbsp;— Александр Бондарев. <br>
+							Больше видео на&nbsp;<a href="https://www.youtube.com/channel/UCyEPzGj0pU3OdwV2uvO9cmw?view_as=subscriber">youtube-канале белорусского офиса компании</a>. </p>
+
+
+
+
+
+
+<div class="text">
+
+						<h2 id="agency-audit">Разбираю работы брендинговых и&nbsp;креативных агентств</h2>
+						<p>Можно много заплатить именитому агентству и&nbsp;получить нечто красивое, креативное, модное, но&nbsp;нежизнеспособное. Свяжитесь со&nbsp;мной, если нужна помощь в&nbsp;оценке разработанной платформы бренда, концепции позиционирования или рекламной кампании. </p>
+						<p><strong>Почему важно </strong><br/>
+							Клиенты делятся со&nbsp;мной результатами сотрудничества с&nbsp;агентствами. Есть достойные работы, но&nbsp;часто, к&nbsp;сожалению, вижу, как и&nbsp;где агентства схалтурили. И&nbsp;ловлю себя на&nbsp;мысли, что если&nbsp;бы&nbsp;ко мне обратились ранее, такого&nbsp;бы не&nbsp;случилось.
+						</p>
+						<strong>Что должно насторожить в&nbsp;работе агентства</strong>
+						<ul>
+							<li>
+								<a href="https://bartoshevich.by/mnenie/brief/">вас просят самостоятельно заполнить и&nbsp;выслать бриф</a>;
+							</li>
+							<li>
+							<a href="https://bartoshevich.by/mnenie/stars/">успех клиентов агентство приписывает исключительно себе</a>;
+							</li>
+							<li>
+								<a href="https://bartoshevich.by/mnenie/choice/">вам предлагают 3&nbsp;и&nbsp;более варианта концепций;</a>
+							</li>
+							<li>
+								вы&nbsp;слышите много незнакомых слов и&nbsp;теорий. В&nbsp;одной презентации могут рассказать о&nbsp;теории архетипов, модели Synovate Censydiam, матрице базовых потребностей Erickson и&nbsp;т.д.
+							</li>
+						</ul>
+						<p><strong>Моя роль</strong><br/>
+						Я&nbsp;оценю, насколько обосновано позиционирование и&nbsp;платформа бренда в&nbsp;целом, соответствует&nbsp;ли рекламная кампания идее бренда. Обозначу&nbsp;то, что было упущено. Если агентство адекватное, вы&nbsp;получите более взвешенное и&nbsp;сильное решение.
+						</p>
+
+						{% comment %}
+						<p>Допускаю, что может возникнуть патовая ситуация: на&nbsp;все вопросы и&nbsp;комментарии сотрудники агентства станут повторять «Мы&nbsp;работаем именно так». Но&nbsp;даже в&nbsp;этой ситуации <a href="https://bartoshevich.by/mnenie/razrabotka-marketingovoj-strategii/">сотрудничество с&nbsp;независимым консультантом может быть полезно</a>. </p>
+						{% endcomment %}
+
+						<p><strong>Примечание</strong><br/>
+						Я&nbsp;не&nbsp;дизайнер и&nbsp;не&nbsp;оцениваю визуальное исполнение. <br/>
+						В&nbsp;оценках опираюсь на&nbsp;свой опыт и&nbsp;знание маркетинга.
+						</p>
+
+						<h2 id="approach">Подход к&nbsp;работе </h2>
+
+						<p>Опираюсь на&nbsp;исследования, анализ данных, <a href="/mnenie/otlichie-marketologa-ot-brexuna/">избегаю брехни</a>. Ориентируюсь на&nbsp;<a href="/mnenie/konkurentnoe-preimushhestvo/">пользу и&nbsp;доверие</a>. </p>
+
+						<p>Занимаюсь смыслом (-ами), а&nbsp;не&nbsp;визуальными эффектами. Часто брендинг подменяют рестайлингом. Логотип&nbsp;— это не&nbsp;основа бренда, а&nbsp;следствие идеи. А&nbsp;идея&nbsp;— это не&nbsp;популярные тренды в&nbsp;дизайне, а&nbsp;анализ целевой аудитории, конкурентов и&nbsp;т.д. (см. как <a href="/uslugi/brand-conception/">я&nbsp;разрабатываю концепции бренда</a>). </p>
+
+						<p>Каждый проект реализую с&nbsp;нуля. Нет потока. Максимальное число клиентов, которых веду одновременно&nbsp;— три. Погружаюсь в&nbsp;задачу на&nbsp;100%. Если требуется, беру на&nbsp;себя функции штатных маркетологов (организовываю исследования, провожу тендеры, веду переговоры с&nbsp;подрядчиками и&nbsp;пр.).</p>
+
+						<p>Мне легко грамотно ставить задачу фрилансерам, агентствам и&nbsp;контролировать исполнение. Работал в&nbsp;типографии, рекламной и&nbsp;исследовательской компаниях, поэтому разговариваю с&nbsp;коллегами на&nbsp;одном языке. Подрядчики клиента, которые настроены на&nbsp;плодотворную работу, благодарят меня за&nbsp;детальные брифы, четкие и&nbsp;внятные задачи, конструктивную обратную связь. Не&nbsp;даю халтурить, поэтому не&nbsp;нравлюсь тем, кто работает недобросовестно.</p>
+
+						<p> Работаю по&nbsp;договору, <a href="/mnenie/igra/">не&nbsp;играю в&nbsp;«Спасителя»</a>. </p>
+
+
+						<h2>Поддержка ЕБРР </h2>
+						<div class="with-side">
+						<p>Я прошел преквалификацию в&nbsp;Европейском банке реконструкции и&nbsp;развития. Банк может частично компенсировать предприятиям стоимость моих услуг в&nbsp;рамках поддержки малого и&nbsp;среднего бизнеса в&nbsp;Беларуси (если компания-клиент соответствует определенным условиям). </p>
+						<div class="side">
+						<p>	Детальная информация о&nbsp;предоставлении финансовой поддержки&nbsp;— в&nbsp;<a href="https://www.ebrd.com/work-with-us/advice-for-small-businesses/belarus-contact-us.html%20" target="_blank" rel="noopener">белорусском офисе ЕБРР</a>. </p>
+						</div>
+						</div>
+
+						<h2 id="alternative">Альтернатива</h2>
+						<p>Есть компании с&nbsp;другими принципами работы и/или иным пониманием задач маркетинга. <a href="https://www.aidapioneer.by/ru/" target="_blank" rel="noopener nofollow">AIDA Pioneer</a>, <a href="https://fabula.by/" target="_blank" rel="noopener nofollow">Fabula Branding</a>, <a href="http://pgr.by/" target="_blank" rel="noopener nofollow">PG&nbsp;branding</a>, <a href="http://www.tdi.by/" target="_blank" rel="noopener nofollow">TDI&nbsp;Group</a> и&nbsp;другие. Если вы&nbsp;не&nbsp;разделяете мой подход и&nbsp;взгляды, они ждут вашего звонка ;-) </p>
 </div>
-</nav>
 
-{% comment %}	END MENU {% endcomment %}
+<br>
+
+				</article>
+        </div>
+
+    {% include footer.html %} {% include scripts.html %}
+</body>
+</html>
 
 
 
-<div class="wrapper">
-
-		{% include alarm.html %}
 
 
+
+
+
+
+
+
+
+
+{% comment %}
+
+******************************************************************************************
+******************************************************************************************
+******************************************************************************************
 <article class="article">
 
 
@@ -83,6 +320,8 @@ layout: compress
 
 
 	<h1>Услуги</h1>
+
+
 
  Рассказываю, что делаю и&nbsp;как.
 
@@ -223,7 +462,7 @@ layout: compress
 </div>
 
 <h2>Альтернатива</h2>
-<p>Есть компании с&nbsp;другими принципами работы и/или иным пониманием задач маркетинга. <a href="https://www.aidapioneer.by/ru/" target="_blank" rel="noopener nofollow">AIDA Pioneer</a>, <a href="http://pgr.by/" target="_blank" rel="noopener nofollow">PG&nbsp;branding</a>, <a href="http://www.tdi.by/" target="_blank" rel="noopener nofollow">TDI&nbsp;Group</a>, <a href="https://fabula.by/" target="_blank" rel="noopener nofollow">Fabula Branding</a> и&nbsp;другие. Если вы&nbsp;не&nbsp;разделяете мой подход и&nbsp;взгляды, они ждут вашего звонка ;-) </p>
+<p>Есть компании с&nbsp;другими принципами работы и/или иным пониманием задач маркетинга. <a href="https://www.aidapioneer.by/ru/" target="_blank" rel="noopener nofollow">AIDA Pioneer</a>, <a href="https://fabula.by/" target="_blank" rel="noopener nofollow">Fabula Branding</a>, <a href="http://pgr.by/" target="_blank" rel="noopener nofollow">PG&nbsp;branding</a>, <a href="http://www.tdi.by/" target="_blank" rel="noopener nofollow">TDI&nbsp;Group</a> и&nbsp;другие. Если вы&nbsp;не&nbsp;разделяете мой подход и&nbsp;взгляды, они ждут вашего звонка ;-) </p>
 
 </div>
 
@@ -231,11 +470,4 @@ layout: compress
 
 </article>
 </div>
-
-
-		{% include footer.html %}
-	{% include scripts.html %}
-
-
-</body>
-</html>
+ {% endcomment %}
