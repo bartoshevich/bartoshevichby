@@ -83,7 +83,7 @@ image: /images/tizer-31.jpg
 <h3>7) Блоги</h3>
 <ul>
 	<li><a href="http://maximilyahov.ru/blog/" target="_blank" rel="noopener">Блог Максима Ильяхова</a> о&nbsp;сильном тексте</li>
-	<li><a href="https://sarycheva.plus/notes/" target="_blank" rel="noopener">Блог Люды Сарычевой</a> о&nbsp;редактуре о&nbsp;работе редактора</li>
+	<li><a href="https://sarycheva.plus/notes/" target="_blank" rel="noopener">Блог Люды Сарычевой</a> о&nbsp;редакторском мастерстве</li>
 	<li><a href="http://sashavolkova.ru/" target="_blank" rel="noopener">Саша Волкова</a> о&nbsp;текстах и&nbsp;работе редактора</li>
 	<li><a href="https://irinausichenko.ru/blog/" target="_blank" rel="noopener">Безжалостная Усиченко</a> о&nbsp;том, как быть сильным: в&nbsp;жизни, редактуре и&nbsp;просто так.</li>
  </ul>
