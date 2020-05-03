@@ -18,6 +18,8 @@ layout: compress
         		{% endcapture %}
         		{{ criticalcss | scssify }}
     </style>
+   
+    <link rel="prefetch" href="https://res.cloudinary.com/bartoshevich/image/upload/q_auto:best,f_auto/v1531856696/site/me1-840.jpg">
 
 </head>
 <body>
@@ -119,6 +121,11 @@ layout: compress
 
                     <meta itemprop="name" content="Дмитрий Бартошевич">
                     <meta itemprop="description" content="Дмитрий Бартошевич - консультант по маркетингу и стратегии">
+                    
+                    {% comment %}
+                    <img src="https://res.cloudinary.com/bartoshevich/image/upload/w_620/q_auto,f_auto/v1531856696/site/me2-840.jpg" alt="Дмитрий Бартошевич фото"  itemprop="contentUrl"/>
+                    {% endcomment %}
+                   
                     <source media="(max-width: 570px)" srcset="/images/me2_s_520.webp 1x,
 													/images/me2_s_700.webp 2x" type="image/webp">
                     <source media="(max-width: 570px)" srcset="/images/me2_s_520.jpg 1x,
@@ -126,7 +133,8 @@ layout: compress
                     <source srcset="/images/me2-620.webp 1x,
 													/images/me2-840.webp 2x" type="image/webp">
                     <img src="/images/me2-620.jpg" alt="Дмитрий Бартошевич фото" srcset="/images/me2-620.jpg 1x,
-											/images/me2-840.jpg 2x" itemprop="contentUrl" />
+                                            /images/me2-840.jpg 2x" itemprop="contentUrl" />
+                    
                 </picture>
 
 
@@ -144,7 +152,11 @@ layout: compress
                 <picture class="figure2" itemscope itemtype="http://schema.org/ImageObject">
                     <meta itemprop="name" content="Дмитрий Бартошевич">
                     <meta itemprop="description" content="Дмитрий Бартошевич выступает на конференции 1С-Битрикс">
+                  
+                    <img src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto:best,f_auto/v1531856696/site/me1-840.jpg" alt="Дмитрий Бартошевич - конференция 1С-Битрикс"  itemprop="contentUrl" width="438" height="437"/>
 
+
+                    {% comment %}
                     <source media="(max-width: 570px)" srcset="/images/me1_s_520.webp 1x,
 													/images/me1_s_700.webp 2x" type="image/webp">
                     <source media="(max-width: 570px)" srcset="/images/me1_s_520.jpg 1x,
@@ -154,7 +166,7 @@ layout: compress
                     <img src="/images/me1-455.jpg" alt="Дмитрий Бартошевич - конференция 1С-Битрикс" srcset="/images/me1-455.jpg 1x,
 											/images/me1-670.jpg 2x" itemprop="contentUrl" />
 
-
+                    {% endcomment %}
                 </picture>
 
 

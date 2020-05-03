@@ -17,10 +17,12 @@ var urlsToCache = [
   '/uslugi/',
   '/uslugi/brand-conception/',
   '/opyt/brand-giperlink/',
-  '/opyt/brand-strategy-flex-n-roll/'
-];
-
-
+  '/opyt/brand-strategy-flex-n-roll/',
+  '/images/me2_s_520.webp',
+  '/images/me2_s_700.webp',
+  '/images/me2-620.webp',
+  '/images/me2-840.webp'
+ ];
 
 
 var CACHE_NAME = 'version + bartoshevich';
