@@ -24,7 +24,7 @@ layout: compress
 	
 
 
-	{% comment %}  ускорение загрузки youtube {% endcomment %}
+	{% comment %}  ускорение загрузки youtube 
 	<script>
 
 		function youTubes_makeDynamic() {
@@ -46,7 +46,7 @@ layout: compress
 		};
 		$(document).ready(function () {youTubes_makeDynamic()});
 	</script>
-
+{% endcomment %}
 
 	{% comment %}  /ускорение загрузки youtube {% endcomment %}
 
@@ -254,13 +254,20 @@ layout: compress
 
 
 						<div class="video">
-
-
-							<iframe title="Проморолик белорусского офиса Hörmann " width="560" height="315" src="https://www.youtube.com/embed/1Kq8PenQVvY"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube-nocookie.com/embed/1Kq8PenQVvY"
+  srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube-nocookie.com/embed/1Kq8PenQVvY?autoplay=1><img src=https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1588289928/video/photo_hormann.jpg alt='Проморолик белорусского офиса Hörmann'><span>▶</span></a>"
+  frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+  title="Проморолик белорусского офиса Hörmann"
+></iframe>
 
 							
+</div>
 
-						</div>
 						  
 						  
 
@@ -269,7 +276,9 @@ layout: compress
             
 
 							{% comment %} 
-						
+
+							
+							<iframe title="Проморолик белорусского офиса Hörmann " width="560" height="315" src="https://www.youtube-nocookie.com/embed/1Kq8PenQVvY"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						
   
 							<iframe
