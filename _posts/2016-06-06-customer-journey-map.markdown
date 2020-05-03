@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Customer journey map (карта потребительского опыта)"
-name: "Customer journey map: как вернуть контроль над бизнесом"
+title:  "Customer journey map: примеры, правила и алгоритм создания"
+name: "Customer journey map: правила и&nbsp;алгоритм создания"
 description: "Карта потребительского опыта (customer journey map): пошаговая инструкция по&nbsp;составлению и&nbsp;использованию."
 date:   2016-06-06
-last_modified_at: 2019-01-06
+last_modified_at: 2020-05-03
 categories: инструкции
 permalink: "/instrukcii/customer-journey-map/"
 tags: "инструменты бизнес"
