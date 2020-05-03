@@ -14,7 +14,26 @@ keywords: "мышление маркетолога"
 
 <p>Рассуждаю вслух, почему важно и&nbsp;что значит думать, как маркетолог. </p>
 <div class="video" itemscope itemtype="http://schema.org/VideoObject" >
-<iframe width="560" height="315"  src="https://www.youtube-nocookie.com/embed/fXspplVnrEM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/fXspplVnrEM"
+  srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/fXspplVnrEM?autoplay=1><img src=https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1588528339/site/001.png alt='Акция не сработает, если не думать как маркетолог'><span>▶</span></a>"
+  frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+  title="Акция не сработает, если не думать как маркетолог"
+></iframe>
+
+
+
+
+	{% comment %} 
+	<iframe width="560" height="315"  src="https://www.youtube-nocookie.com/embed/fXspplVnrEM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	{% endcomment %}
+
 
 <link itemprop="url" href="https://www.youtube-nocookie.com/embed/fXspplVnrEM">
 <meta itemprop="name" content="Акция не сработает, если не думать как маркетолог">
@@ -33,6 +52,8 @@ keywords: "мышление маркетолога"
     </span>
 <meta itemprop="thumbnailUrl" content="tizer-63.png" />
 </div>
+
+
 <p> Говорил, что беспокоит, над чем думаю и&nbsp;что считаю правильным. И&nbsp;видимо от&nbsp;желания рассказать больше, волнуюсь, глотаю окончания, оговариваюсь. В&nbsp;общем, веду себя как живой человек ;-) </p>
 <p><strong>Быстрые ссылки</strong> (откроются в&nbsp;новой вкладке) </p>
 <ul> 
