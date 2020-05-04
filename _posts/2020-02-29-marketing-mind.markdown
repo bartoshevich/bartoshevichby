@@ -60,7 +60,6 @@ keywords: "мышление маркетолога"
 	<li><a href="https://www.youtube.com/watch?v=fXspplVnrEM&amp;t=18s" target="_blank" rel="noopener">0:18</a>&nbsp;Не все маркетологи одинаково полезны</li>
 	<li> <a href="https://www.youtube.com/watch?v=fXspplVnrEM&amp;t=134s" target="_blank" rel="noopener">2:14</a>&nbsp;О практиках и&nbsp;теоретиках в&nbsp;маркетинге</li>
 	<li> <a href="https://www.youtube.com/watch?v=fXspplVnrEM&amp;t=228s" target="_blank" rel="noopener">3:48</a> Что спрашивать у&nbsp;маркетолога на&nbsp;собеседовании</li>
-	<li> <a href="https://www.youtube.com/watch?v=fXspplVnrEM&amp;t=300s" target="_blank" rel="noopener">5:00</a> Задача для маркетолога (продвижение картофеля)</li>
 	<li> <a href="https://www.youtube.com/watch?v=fXspplVnrEM&amp;t=470s" target="_blank" rel="noopener">7:50</a> Основная проблема потребителя и&nbsp;что делать маркетологу</li>
 	<li> <a href="https://www.youtube.com/watch?v=fXspplVnrEM&amp;t=725s" target="_blank" rel="noopener">12:05</a> Почему маркетолог не&nbsp;должен продавать</li>
 	<li> <a href="https://www.youtube.com/watch?v=fXspplVnrEM&amp;t=1103s" target="_blank" rel="noopener">18:23</a>&nbsp;На чем должен фокусироваться маркетолог</li>
