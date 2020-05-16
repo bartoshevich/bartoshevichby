@@ -220,6 +220,13 @@ a {
   padding: 0 5px;
 }
 
+.link-before::before {
+  display: inline-block;
+  content: '<';
+  font-size: 80%;
+  padding: 0 5px;
+}
+
 li {
   margin-bottom: .6em;
 }

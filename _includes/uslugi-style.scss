@@ -9,6 +9,7 @@
 
 
 
+
 h1 {
   text-transform: uppercase;
 }
@@ -18,10 +19,16 @@ h1 {
 .comparison {
   display: flex;
   flex-direction: column;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
 }
 
 .comparison-item {
+ 
+  display: flex;
+  flex-direction: column;
+}
+
+.comparison-item-padding {
   padding: 5%;
 }
 
@@ -32,6 +39,10 @@ h1 {
   grid-gap: 32px;
   grid-auto-flow: dense;
 }
+.column-width {
+  max-width: 250px;
+}
+
 }
 
 
@@ -84,6 +95,8 @@ iframe {
   max-width: 50rem;
 
 }
+
+
 
 /* выделение цветом */
 
