@@ -94,7 +94,7 @@ image:
                     <div class="side">
                         <em>Подробнее</em><br/>
                         <ul>
-                            <li><a href="/uslugi/brand-conception/#why_conception">Зачем нужна концепция бренда</a></li>
+                            <li><a href="/uslugi/#brand-conception">Зачем нужна концепция бренда</a></li>
                             <li><a href="/uslugi/brand-conception/#rabota">Как я&nbsp;разрабатываю идею (концепцию) бренда</a></li>
                             <li><a href="/mnenie/marketing-mind/">Рассказываю о&nbsp;мышлении маркетолога </a></li>
                         </ul>
