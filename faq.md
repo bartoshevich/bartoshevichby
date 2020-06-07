@@ -54,9 +54,8 @@ image:
          <span class="tocnumber">2.3 </span>Порекомендуйте нас своим клиентам. Мы&nbsp;заплатим.
        </a>
      </li>
-
 		 <li class="level2">
-			 <a href="#ad">
+			 <a href="#putad">
 				 <span class="tocnumber">2.4 </span>Разместите нашу рекламу у&nbsp;себя на&nbsp;сайте
 			 </a>
 		 </li>
@@ -195,8 +194,10 @@ image:
         </div>
     </div>
 
+
+
 		<div class="question" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
-				<h3 id="ad" itemprop="name">Разместите нашу рекламу у&nbsp;себя на&nbsp;сайте </h3>
+				<h3 id="putad" itemprop="name">Разместите нашу рекламу у&nbsp;себя на&nbsp;сайте </h3>
 				<div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
 						<div itemprop="text">
 								<p> Не&nbsp;стану. <a href="/confidentiality/">На&nbsp;сайте нет и&nbsp;не&nbsp;будет рекламы</a>.</p>
