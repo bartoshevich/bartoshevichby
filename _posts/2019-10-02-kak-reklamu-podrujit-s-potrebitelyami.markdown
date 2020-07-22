@@ -14,7 +14,14 @@ keywords: "маркетинг реклама интернет"
 
 
 <p>Рекламу в&nbsp;интернете маркетологи преподносят как благо. Просто управлять, легко измерять. Объявления показываются с&nbsp;учетом действий пользователя и&nbsp;поэтому&nbsp;— считается&nbsp;— человек видит только полезную рекламу. Предполагается, все должны быть довольны. Но&nbsp;это не&nbsp;так. </p>
-<p>Популярность блокировщиков рекламы растет (<a href="https://bartoshevich.by/mnenie/sem-tendencij-marketinga/#1">данные Adobe и&nbsp;PageFair</a>, <a href="https://adindex.ru/news/researches/2019/09/19/275603.phtml" target="_blank" rel="noopener">данные Deloitte</a>). Система сбора личной информации, которая лежит в&nbsp;основе персонализированной рекламы, не&nbsp;нравится (<a href="https://www.ama.org/marketing-news/reassuring-consumers-on-the-use-of-their-data/" target="_blank" rel="noopener">исследование Ryerson University</a>). Из-за скандалов, связанных с&nbsp;рекламистами, люди стали меньше делиться информацией в&nbsp;сети (<a href="https://marketingland.com/most-consumers-believe-online-privacy-is-impossible-survey-finds-263538" target="_blank" rel="noopener">исследование FigLeaf</a>) и&nbsp;в&nbsp;принципе могут отказаться от&nbsp;участия в&nbsp;маркетинговых активностях, где нужно предоставить сведения о&nbsp;себе. То, что создавалось для роста эффективности интернет-маркетинга, может ее&nbsp;и&nbsp;похоронить. Давайте разбираться, как подружить онлайн рекламу с&nbsp;потребителями. </p>
+<div class="with-side">
+<p>Популярность блокировщиков рекламы растет¹. Система сбора личной информации, которая лежит в&nbsp;основе персонализированной рекламы, не&nbsp;нравится². Из-за скандалов, связанных с&nbsp;рекламистами, люди стали меньше делиться информацией в&nbsp;сети³ и&nbsp;в&nbsp;принципе могут отказаться от&nbsp;участия в&nbsp;маркетинговых активностях, где нужно предоставить сведения о&nbsp;себе. То, что создавалось для роста эффективности интернет-маркетинга, может ее&nbsp;и&nbsp;похоронить. Давайте разбираться, как подружить онлайн рекламу с&nbsp;потребителями. </p>
+<div class="side">
+1. <a href="https://bartoshevich.by/mnenie/sem-tendencij-marketinga/#1">данные Adobe и&nbsp;PageFair</a>, <a href="https://adindex.ru/news/researches/2019/09/19/275603.phtml" target="_blank" rel="noopener">данные Deloitte</a> <br/>
+2. <a href="https://www.ama.org/marketing-news/reassuring-consumers-on-the-use-of-their-data/" target="_blank" rel="noopener">исследование Ryerson University</a> <br/>
+3. <a href="https://marketingland.com/most-consumers-believe-online-privacy-is-impossible-survey-finds-263538" target="_blank" rel="noopener">исследование FigLeaf</a>
+</div>
+</div>
 
 <nav class="toc">
 <ul>
