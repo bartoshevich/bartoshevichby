@@ -251,19 +251,26 @@ layout: compress
 									<strong>эскиз видеоролика</strong>
 									<div class="video">
 
-										<iframe
-
+												{% comment %}
+                        	<iframe
 										src="https://www.youtube.com/embed/LcRjumujYws?rel=0" loading="lazy" allowfullscreen="" width="560" height="315" title="Эскиз видеоролика">
-
-
-
-
-
-											{% comment %}
-
-										***
-											{% endcomment %}
 										</iframe>
+                    	{% endcomment %}
+
+                    <iframe
+                    class="has-ratio"
+                                   width="560"
+                                   height="315"
+                                   src="https://www.youtube-nocookie.com/embed/LcRjumujYws"
+                                   srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube-nocookie.com/embed/LcRjumujYws?autoplay=1><img src=https://img.youtube.com/vi/LcRjumujYws/hqdefault.jpg alt='Эскиз видеоролика'><span>▶</span></a>"
+                                   frameborder="0"
+                                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                   allowfullscreen
+                                   title="Эскиз видеоролика"
+                               ></iframe>
+
+
+
 									</div>
 							</div>
 							<div class="comparison-item ">
