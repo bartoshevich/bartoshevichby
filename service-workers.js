@@ -18,7 +18,8 @@ var urlsToCache = [
   '/uslugi/brand-conception/',
   '/opyt/brand-giperlink/',
   '/opyt/brand-conception-hormann/',
-  '/opyt/brand-strategy-flex-n-roll/'
+  '/opyt/brand-strategy-flex-n-roll/',
+  '/belarus/'
  ];
 
 
