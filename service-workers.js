@@ -2,12 +2,12 @@
 layout: null
 ---
 
+'use strict'
+
+let version = '{{site.time | date: '%Y%m%d%H%M%S'}}::';
 
 
-var version = '{{site.time | date: '%Y%m%d%H%M%S'}}::';
-
-
-var urlsToCache = [
+let urlsToCache = [
   '/',
   '/me/',
   '/offline/',
@@ -23,7 +23,7 @@ var urlsToCache = [
  ];
 
 
-var CACHE_NAME = 'version + bartoshevich';
+let CACHE_NAME = 'version + bartoshevich';
 
 self.addEventListener('install', function(evt) {
   evt.waitUntil(
@@ -36,30 +36,9 @@ self.addEventListener('install', function(evt) {
 });
 
 
-{% comment %}
-
- // Remove caches whose name is no longer valid
- var clearOldCaches = function() {
-  return caches.keys()
-      .then(function (keys) {
-          return Promise.all(keys
-              .filter(function (key) {
-                return key.indexOf(version) !== 0;
-              })
-              .map(function (key) {
-                return caches.delete(key);
-              })
-          );
-      })
-};
-
-
-{% endcomment %}
-
-
 
 self.addEventListener('activate', (event) => {
-  var cacheKeeplist = ['CACHE_NAME'];
+  let cacheKeeplist = ['CACHE_NAME'];
 
   event.waitUntil(
     caches.keys().then((keyList) => {
