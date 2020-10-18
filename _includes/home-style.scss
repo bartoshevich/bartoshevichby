@@ -98,7 +98,7 @@ letter-spacing: .007em;
 
 
 
-main {
+.main {
   max-width: 720px;
   margin: 0 auto;
   display: flex;
@@ -323,7 +323,7 @@ color: #416473;
                    height: 100%;
                 }
 
-              main {
+              .main {
                 max-width: 1280px;
                             display: -ms-grid;
                           display: grid;
