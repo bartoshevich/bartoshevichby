@@ -54,11 +54,10 @@ permalink: /test/
   <link rel="preload"
     href="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1606728448/hormann/hero1.jpg" as="image">
 
-  <link rel='prefetch'
-    href='https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1605972909/hormann/18lat.jpg' as="image">
-  <link rel='prefetch'
-    href='https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1606770523/hormann/vitraplan.jpg'
-    as="image">
+  <link rel='dns-prefetch'
+    href='https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1605972909/hormann/18lat.jpg'>
+  <link rel='dns-prefetch'
+    href='https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1606770523/hormann/vitraplan.jpg'>
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
 
@@ -95,7 +94,7 @@ permalink: /test/
     }
 
     .name {
-      color: #333;
+      color: #323;
       font-size: 14px;
       line-height: 19px;
       max-width: 75ch
@@ -103,7 +102,7 @@ permalink: /test/
 
     details {
       margin: 2em 0 3em 0;
-     
+
     }
 
     .comparison {
@@ -118,9 +117,7 @@ permalink: /test/
       padding: 1rem
     }
 
-    .text-right {
-      text-align: right
-    }
+
 
     .noperenos {
       white-space: nowrap
@@ -134,9 +131,13 @@ permalink: /test/
       min-width: 250px;
       margin: 2em 0;
     }
-@media (min-width: 650px) {
-  .contact-box {margin: 2em;}
-}
+
+    @media (min-width: 650px) {
+      .contact-box {
+        margin: 2em;
+      }
+    }
+
     .contact-boxes {
       display: flex;
       flex-wrap: wrap;
@@ -149,23 +150,28 @@ permalink: /test/
     .contact-header {
       background: hsl(0, 0%, 86%);
     }
-img {
-  background-color: #f2f2f2;
-}
 
-.faq-block {
-  max-width: 40rem;
-    padding: 0 1.6rem 0 1.6rem;
-    margin: 0 auto 0 auto;
-    
-}
+    img {
+      background-color: #f2f2f2;
+    }
 
+    .faq-block {
+      max-width: 40rem;
+      padding: 0 1.6rem 0 1.6rem;
+      margin: 0 auto 0 auto;
 
-
+    }
 
 
-#accordion-html5{clear: both; margin-top: 20px;}
-details summary::-webkit-details-marker{display: none;}
+
+    #accordion-html5 {
+      clear: both;
+      margin-top: 20px;
+    }
+
+    details summary::-webkit-details-marker {
+      display: none;
+    }
   </style>
 
 
@@ -359,8 +365,8 @@ details summary::-webkit-details-marker{display: none;}
   </section>
 
 
-  <section class="section is-small is-hidden-tablet"> 
-    <h2 class="title is-3 is-2-widescreen ">Галерея Hörmann </h2> 
+  <section class="section is-small is-hidden-tablet">
+    <h2 class="title is-3 is-2-widescreen ">Галерея Hörmann </h2>
     <div class="columns  ">
       <div class="column">
         <figure class="image is-3by5">
@@ -387,50 +393,50 @@ details summary::-webkit-details-marker{display: none;}
             width="900" height="1500" alt="Автоматические секционные ворота Hörmann - 4">
         </figure>
       </div>
-    </div>   
-</section>
-
-
-
-
-
-
-
-
-  <section class="section is-small is-hidden-mobile">   
-      <h2 class="title is-3 is-2-widescreen has-text-centered ">Галерея Hörmann </h2> 
-      <div class="columns  ">
-        <div class="column">
-          <figure class="image is-16by9">
-            <img loading="lazy"
-              src="https://res.cloudinary.com/bartoshevich/image/upload/w_1000/f_auto,q_auto/v1606776580/hormann/combi.jpg"
-              width="1000" height="562" alt="Гаражные секционные ворота Hörmann - 1 ">
-          </figure>
-
-          <figure class="image is-16by9 mt-5">
-            <img loading="lazy"
-              src="https://res.cloudinary.com/bartoshevich/image/upload/w_1000/f_auto,q_auto/v1606777929/hormann/gallery.jpg"
-              width="1000" height="562" alt="Гаражные секционные ворота Hörmann- 2">
-          </figure>
-        </div>
-        <div class="column">
-          <figure class="image is-16by9">
-            <img loading="lazy"
-              src="https://res.cloudinary.com/bartoshevich/image/upload/w_1000/f_auto,q_auto/v1606778342/hormann/gallery-2.jpg"
-              width="1000" height="562" alt="Гаражные секционные ворота Hörmann - 3">
-          </figure>
-
-          <figure class="image is-16by9 mt-5">
-            <img loading="lazy"
-              src="https://res.cloudinary.com/bartoshevich/image/upload/w_1000/f_auto,q_auto/v1606770523/hormann/twodoors.jpg"
-              width="1000" height="562" alt="Гаражные секционные ворота Hörmann - 4">
-          </figure>
-
-        </div>
-      </div>   
+    </div>
   </section>
 
- 
+
+
+
+
+
+
+
+  <section class="section is-small is-hidden-mobile">
+    <h2 class="title is-3 is-2-widescreen has-text-centered ">Галерея Hörmann </h2>
+    <div class="columns  ">
+      <div class="column">
+        <figure class="image is-16by9">
+          <img loading="lazy"
+            src="https://res.cloudinary.com/bartoshevich/image/upload/w_1000/f_auto,q_auto/v1606776580/hormann/combi.jpg"
+            width="1000" height="562" alt="Гаражные секционные ворота Hörmann - 1 ">
+        </figure>
+
+        <figure class="image is-16by9 mt-5">
+          <img loading="lazy"
+            src="https://res.cloudinary.com/bartoshevich/image/upload/w_1000/f_auto,q_auto/v1606777929/hormann/gallery.jpg"
+            width="1000" height="562" alt="Гаражные секционные ворота Hörmann- 2">
+        </figure>
+      </div>
+      <div class="column">
+        <figure class="image is-16by9">
+          <img loading="lazy"
+            src="https://res.cloudinary.com/bartoshevich/image/upload/w_1000/f_auto,q_auto/v1606778342/hormann/gallery-2.jpg"
+            width="1000" height="562" alt="Гаражные секционные ворота Hörmann - 3">
+        </figure>
+
+        <figure class="image is-16by9 mt-5">
+          <img loading="lazy"
+            src="https://res.cloudinary.com/bartoshevich/image/upload/w_1000/f_auto,q_auto/v1606770523/hormann/twodoors.jpg"
+            width="1000" height="562" alt="Гаражные секционные ворота Hörmann - 4">
+        </figure>
+
+      </div>
+    </div>
+  </section>
+
+
 
   <section id="contact" class="section is-medium">
     <div class="container has-text-centered-tablet">
@@ -491,174 +497,175 @@ details summary::-webkit-details-marker{display: none;}
       <h2 class="title  is-3 is-2-widescreen has-text-centered-tablet ">Вопрос - Ответ</h2>
 
       <div class="faq-block content accordion" id="accordion-html5">
-        
-<details>
-          
-         <summary>
-              <h3 class="title is-5 is-4-widescreen">
+
+        <details>
+
+          <summary>
+            <h3 class="title is-5 is-4-widescreen">
               Насколько безопасны автоматические ворота?
             </h3>
-            </summary>
-            <p>
-              Давайте рассмотрим основные виды угроз.
-            </p>
-            <p>
-              <b>1)</b> Обрыв троса. <br>Hörmann использует два независимых троса. При обрыве одного,
-              полотно не&nbsp;упадет. В&nbsp;рабочем положении его удержит второй трос.
-            </p>
-        
-              <img loading="lazy"
-                src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1605952368/hormann/trosy.jpg"
-                width="450" height="450" alt="два независимых троса в воротах Hörmann " />
-          
-            <p class="mt-3">
-              <b>2)</b> Обрыв пружины. <br>В&nbsp;воротах Hörmann в&nbsp;опору пружинного вала интегрирована
-              специальная защита → в&nbsp;случае обрыва ворота мгновенно остановятся. Полотно не&nbsp;упадет.
-            </p>
-          
-              <img loading="lazy"
-                src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1605952368/hormann/pruzyna.jpg"
-                width="450" height="450" alt="защита Hörmann от обрыва пружины " />
-       
-            <p class="mt-3">
-              <b>3)</b> Человек оказался под опускающимися воротами. <br>Если мы&nbsp;имеет дело
-              с&nbsp;воротами Hörmann, то&nbsp;сработает реверсивный механизм: при встрече с&nbsp;препятствием
-              ворота остановятся и&nbsp;начнут подниматься.
-            </p>
-         
-              <img loading="lazy"
-                src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1605956033/hormann/Peek.gif"
-                width="450" height="450" alt="реверсивный механизм Hörmann " />
-            
-            <p class="mt-3">
-              С&nbsp;Hörmann вы в&nbsp;безопасности. Однако все же ворота&nbsp;&mdash; не&nbsp;игрушка. При беспечности
-              и&nbsp;нарушении правил эксплуатации&nbsp;&mdash; высокий риск получить травму. Например, если
-              во&nbsp;время ремонта гаража человек решит временно снять ворота и&nbsp;<i>необдуманно</i> удалит
-              крепление или забудет, что пружина под натяжением.
-            </p>
-          
-</details>
+          </summary>
+          <p>
+            Давайте рассмотрим основные виды угроз.
+          </p>
+          <p>
+            <b>1)</b> Обрыв троса. <br>Hörmann использует два независимых троса. При обрыве одного,
+            полотно не&nbsp;упадет. В&nbsp;рабочем положении его удержит второй трос.
+          </p>
+
+          <img loading="lazy"
+            src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1605952368/hormann/trosy.jpg"
+            width="450" height="450" alt="два независимых троса в воротах Hörmann " />
+
+          <p class="mt-3">
+            <b>2)</b> Обрыв пружины. <br>В&nbsp;воротах Hörmann в&nbsp;опору пружинного вала интегрирована
+            специальная защита → в&nbsp;случае обрыва ворота мгновенно остановятся. Полотно не&nbsp;упадет.
+          </p>
+
+          <img loading="lazy"
+            src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1605952368/hormann/pruzyna.jpg"
+            width="450" height="450" alt="защита Hörmann от обрыва пружины " />
+
+          <p class="mt-3">
+            <b>3)</b> Человек оказался под опускающимися воротами. <br>Если мы&nbsp;имеет дело
+            с&nbsp;воротами Hörmann, то&nbsp;сработает реверсивный механизм: при встрече с&nbsp;препятствием
+            ворота остановятся и&nbsp;начнут подниматься.
+          </p>
+
+          <img loading="lazy"
+            src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1605956033/hormann/Peek.gif"
+            width="450" height="450" alt="реверсивный механизм Hörmann " />
+
+          <p class="mt-3">
+            С&nbsp;Hörmann вы в&nbsp;безопасности. Однако все же ворота&nbsp;&mdash; не&nbsp;игрушка. При беспечности
+            и&nbsp;нарушении правил эксплуатации&nbsp;&mdash; высокий риск получить травму. Например, если
+            во&nbsp;время ремонта гаража человек решит временно снять ворота и&nbsp;<i>необдуманно</i> удалит
+            крепление или забудет, что пружина под натяжением.
+          </p>
+
+        </details>
 
 
-          <details>
-            <summary>
+        <details>
+          <summary>
             <h3 class="title is-5 is-4-widescreen">
               Как ворота Hörmann защищены от&nbsp;подваживания?
             </h3>
           </summary>
-            <p>
-              Если ворота не&nbsp;защищены от&nbsp;подваживания, полотно гаражных ворот смогут поддеть снизу
-              и&nbsp;приподнять с&nbsp;помощью лома или куска арматуры. Чтобы такого не&nbsp;допустить,
-              на&nbsp;автоматических воротах Hörmann работает специальное предохранительное устройство. При закрывании
-              ворот оно входит в&nbsp;упор направляющей шины, мгновенно фиксируется и&nbsp;защищает
-              от&nbsp;подваживания. Это механическая система и&nbsp;она сработает даже в&nbsp;условиях отсутствия
-              электричества.
-            </p>
-          
-              <img loading="lazy"
-                src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1605952367/hormann/safety.jpg"
-                width="450" height="450" alt="Hörmann защитит ворота от&nbsp;подваживания " />
-              <p class="name">Hörmann защитит ворота от&nbsp;подваживания</p>
-           
-          </details>
+          <p>
+            Если ворота не&nbsp;защищены от&nbsp;подваживания, полотно гаражных ворот смогут поддеть снизу
+            и&nbsp;приподнять с&nbsp;помощью лома или куска арматуры. Чтобы такого не&nbsp;допустить,
+            на&nbsp;автоматических воротах Hörmann работает специальное предохранительное устройство. При закрывании
+            ворот оно входит в&nbsp;упор направляющей шины, мгновенно фиксируется и&nbsp;защищает
+            от&nbsp;подваживания. Это механическая система и&nbsp;она сработает даже в&nbsp;условиях отсутствия
+            электричества.
+          </p>
+
+          <img loading="lazy"
+            src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1605952367/hormann/safety.jpg"
+            width="450" height="450" alt="Hörmann защитит ворота от&nbsp;подваживания " />
+          <p class="name">Hörmann защитит ворота от&nbsp;подваживания</p>
+
+        </details>
 
 
 
 
-          <details>
-            <summary>
+        <details>
+          <summary>
             <h3 class="title  is-5 is-4-widescreen">
               На что распространяется гарантия Hörmann?
             </h3>
-</summary>
-            <p>
-              На&nbsp;полотно ворот гарантия&nbsp;— 10&nbsp;лет, гарантия на&nbsp;привод&nbsp;—
-              10&nbsp;лет, гарантия на&nbsp;механические части&nbsp;— 5&nbsp;лет.
-            </p>
-          </details>
+          </summary>
+          <p>
+            На&nbsp;полотно ворот гарантия&nbsp;— 10&nbsp;лет, гарантия на&nbsp;привод&nbsp;—
+            10&nbsp;лет, гарантия на&nbsp;механические части&nbsp;— 5&nbsp;лет.
+          </p>
+        </details>
 
 
 
 
 
-          <details>
-            <summary>
+        <details>
+          <summary>
             <h3 class="title is-5 is-4-widescreen">
               Как определить, какие ворота теплее&nbsp;&mdash; Hörmann или другого производителя?
             </h3>
-            </summary>
-                        <p>
-              Единственно правильным критерием выбора теплых ворот является коэффициент. Толщина секции, материал
-              заполнения, терморазрыв, уплотнители и&nbsp;прочее&nbsp;&mdash; это косвенные признаки. Они показывают,
-              как производитель решает вопрос теплоизоляции. А&nbsp;насколько ему это удалось, определяют лабораторные
-              тесты.
-            </p>
-
-            
-              <img loading="lazy"
-                src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1605686562/hormann/dizajn-garazha.jpg"
-                width="720" height="480" alt="гаражные секционные ворота  Hörmann" />
-          
-
-            <p class="mt-3">
-              Для&nbsp;характеристики уровня теплоизоляции используют коэффициент теплопередачи и&nbsp;коэффициент
-              сопротивления теплопередаче. Это обратные друг другу величины.
-            </p>
+          </summary>
+          <p>
+            Единственно правильным критерием выбора теплых ворот является коэффициент. Толщина секции, материал
+            заполнения, терморазрыв, уплотнители и&nbsp;прочее&nbsp;&mdash; это косвенные признаки. Они показывают,
+            как производитель решает вопрос теплоизоляции. А&nbsp;насколько ему это удалось, определяют лабораторные
+            тесты.
+          </p>
 
 
-            <div class="comparison name mb-4 ">
-              <div class="comparison-item ">
-                <b>Коэффициент теплопередачи, <span class="noperenos">Вт/м2*К:</span></b> чем&nbsp;ниже показатель, тем
-                лучше.
-              </div>
-              <div class="comparison-item">
-                <b>Коэффициент сопротивления теплопередаче, <span class="noperenos">м2*С/Вт:</span></b> чем&nbsp;выше
-                показатель, тем лучше.
-              </div>
+          <img loading="lazy"
+            src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1605686562/hormann/dizajn-garazha.jpg"
+            width="720" height="480" alt="гаражные секционные ворота  Hörmann" />
+
+
+          <p class="mt-3">
+            Для&nbsp;характеристики уровня теплоизоляции используют коэффициент теплопередачи и&nbsp;коэффициент
+            сопротивления теплопередаче. Это обратные друг другу величины.
+          </p>
+
+
+          <div class="comparison name mb-4 ">
+            <div class="comparison-item ">
+              <b>Коэффициент теплопередачи, <span class="noperenos">Вт/м2*К:</span></b> чем&nbsp;ниже показатель, тем
+              лучше.
             </div>
+            <div class="comparison-item">
+              <b>Коэффициент сопротивления теплопередаче, <span class="noperenos">м2*С/Вт:</span></b> чем&nbsp;выше
+              показатель, тем лучше.
+            </div>
+          </div>
 
-            <p>Если при сравнении перепутать, о каком коэффициенте идет речь, можно сделать неправильные выводы.</p>
-            <p> Точное значение теплоизоляции ворот зависит от&nbsp;их&nbsp;размеров, наличия калитки и&nbsp;остекления.
-              Если вам показывают протокол испытаний и&nbsp;называют коэффициент теплопередачи, обязательно уточняйте,
-              какой тип ворот и&nbsp;с&nbsp;какими размерами испытывался. Будет другой размер, закажете
-              калитку&nbsp;&mdash; получите другой показатель. Недобросовестные продавцы могут этим манипулировать:
-              показывать протокол испытаний с&nbsp;выгодным для себя коэффициентом и&nbsp;использовать его как
-              характеристику всей продукции. </p>
-            <p> Когда&nbsp;вы&nbsp;определили размер и&nbsp;тип ворот, попросите продавца назвать их&nbsp;расчетный
-              показатель теплопередачи (или сопротивления теплопередаче). С&nbsp;этой информацией вы&nbsp;готовы
-              к&nbsp;сравнению уровня теплоизоляции ворот такого&nbsp;же размера других производителей.
-            </p>
-
-            
-              <p class="name"> фрагмент коммерческого предложения </p>
-              <img loading="lazy"
-                src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1605688834/hormann/teplo.png"
-                width="578" height="517" alt="фрагмент предложения  Hörmann" />
-          
-
-            <p class="mt-3"> При&nbsp;желании можно закрепить это значение в&nbsp;договоре, а&nbsp;позже&nbsp;&mdash; когда ворота
-              будут изготовлены&nbsp;&mdash; сравнить с&nbsp;цифрами, которые укажет завод в&nbsp;сопроводительных
-              документах.
-            </p>
-          </details>
+          <p>Если при сравнении перепутать, о каком коэффициенте идет речь, можно сделать неправильные выводы.</p>
+          <p> Точное значение теплоизоляции ворот зависит от&nbsp;их&nbsp;размеров, наличия калитки и&nbsp;остекления.
+            Если вам показывают протокол испытаний и&nbsp;называют коэффициент теплопередачи, обязательно уточняйте,
+            какой тип ворот и&nbsp;с&nbsp;какими размерами испытывался. Будет другой размер, закажете
+            калитку&nbsp;&mdash; получите другой показатель. Недобросовестные продавцы могут этим манипулировать:
+            показывать протокол испытаний с&nbsp;выгодным для себя коэффициентом и&nbsp;использовать его как
+            характеристику всей продукции. </p>
+          <p> Когда&nbsp;вы&nbsp;определили размер и&nbsp;тип ворот, попросите продавца назвать их&nbsp;расчетный
+            показатель теплопередачи (или сопротивления теплопередаче). С&nbsp;этой информацией вы&nbsp;готовы
+            к&nbsp;сравнению уровня теплоизоляции ворот такого&nbsp;же размера других производителей.
+          </p>
 
 
+          <p class="name"> фрагмент коммерческого предложения </p>
+          <img loading="lazy"
+            src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1605688834/hormann/teplo.png"
+            width="578" height="517" alt="фрагмент предложения  Hörmann" />
 
-          <details>
-            <summary>
+
+          <p class="mt-3"> При&nbsp;желании можно закрепить это значение в&nbsp;договоре, а&nbsp;позже&nbsp;&mdash;
+            когда ворота
+            будут изготовлены&nbsp;&mdash; сравнить с&nbsp;цифрами, которые укажет завод в&nbsp;сопроводительных
+            документах.
+          </p>
+        </details>
+
+
+
+        <details>
+          <summary>
             <h3 class="title is-5 is-4-widescreen">
               Кто будет устанавливать ворота?
             </h3>
-            </summary>
+          </summary>
 
-            <p>
-              Hörmann в&nbsp;Беларуси работает через сеть дилеров. Ворота установят их&nbsp;мастера, которые прошли
-              специальное обучение и&nbsp;подтвердили квалификацию. <a href="#contact">Свяжитесь с&nbsp;нами</a>
-              и&nbsp;мы&nbsp;соединим вас с&nbsp;ближайшим к&nbsp;вам партнером Hörmann.
-            </p>
-          </details>
+          <p>
+            Hörmann в&nbsp;Беларуси работает через сеть дилеров. Ворота установят их&nbsp;мастера, которые прошли
+            специальное обучение и&nbsp;подтвердили квалификацию. <a href="#contact">Свяжитесь с&nbsp;нами</a>
+            и&nbsp;мы&nbsp;соединим вас с&nbsp;ближайшим к&nbsp;вам партнером Hörmann.
+          </p>
+        </details>
 
-     
+
       </div>
     </div>
   </section>
