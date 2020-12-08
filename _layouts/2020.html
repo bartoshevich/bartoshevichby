@@ -15,7 +15,7 @@ layout: compress
 	{% include meta.html %}
 	<link rel="stylesheet" href="/style/fonts/pure.css">
 
-
+	<link rel="preconnect"  href="https://res.cloudinary.com/" crossorigin>
 
 	{% comment %}
 	<link rel="preload" href="/style/fonts/Robotocondensed.woff2" as="font" type="font/woff2" crossorigin>
@@ -31,8 +31,7 @@ layout: compress
 
 	<style>
 		body {
-			
-			font-size: 18px;
+		font-size: 17px;
 		}
 
 		.has-background-black-ter a {
@@ -54,6 +53,8 @@ layout: compress
 		.bg-black {
 			background-color: black;
 		}
+
+		
 	</style>
 
 </head>
@@ -129,6 +130,7 @@ layout: compress
 					<figure class="image is-2by1 ">
 						<img loading="lazy"
 							src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1600080057/2020/shvec_aleks_z.jpg"
+							srcset="https://res.cloudinary.com/bartoshevich/image/upload/w_500/f_auto/v1600080057/2020/shvec_aleks_z.jpg 500w, https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1600080057/2020/shvec_aleks_z.jpg 720w"
 							alt="Александр Швец, глава Белорусской научно-промышленной ассоциации">
 					</figure>
 					<figcaption class="has-text-white pt-3">
@@ -751,7 +753,7 @@ layout: compress
 
 	<section class="section has-background-white-ter">
 		<div class="container  ">
-			<p class="content title is-3">Вопрос-Ответ </p>
+			<p class="content title is-3">Вопрос - Ответ </p>
 			<b class="content is-large">Против чего люди протестуют? </b>
 			<div class="columns mt-3">
 				<div class="column content">
