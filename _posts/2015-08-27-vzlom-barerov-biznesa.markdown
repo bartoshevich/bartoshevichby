@@ -48,7 +48,7 @@ image: /images/tizer-4.jpg
 <p>Некоторые идеи начали реализовывать на&nbsp;следующий день после практикума.</p>
 <p>Спасибо!</p>
 </blockquote>
-<img src='/images/bar4.jpg' alt="отзыв" width="695" height="782" class="img-responsive" />
+<p><img src='/images/bar4.jpg' alt="отзыв" width="695" height="782" class="img-responsive" />
 </p>
 <p>Спасибо участникам!<br/>
  И&nbsp;до&nbsp;встречи на&nbsp;следующих мероприятиях!
