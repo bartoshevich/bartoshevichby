@@ -8,7 +8,7 @@ keywords: "faq"
 image:
 ---
 
-<p>Отвечаю на&nbsp;вопросы, которые часто задают или которые просто запомнились. <br/>Не&nbsp;нашли своего&nbsp;— <a href="/contact/">свяжитесь со&nbsp;мной</a>.</p>
+<p>Отвечаю на&nbsp;вопросы, которые часто задают или которые просто запомнились. <br/>Не&nbsp;нашли своего&nbsp;— <a target="_blank" rel="noopener" href="https://t.me/bartoshevich">напишите в telegram</a>.</p>
 
 
 
@@ -94,7 +94,7 @@ image:
                         <em>Подробнее</em><br/>
                         <ul>
                             <li><a href="/uslugi/#brand-conception">Зачем нужна концепция бренда</a></li>
-                            <li><a href="/uslugi/brand-conception/#rabota">Как я&nbsp;разрабатываю идею (концепцию) бренда</a></li>
+                            <li><a href="/uslugi/brand-conception/">Как я&nbsp;разрабатываю идею (концепцию) бренда</a></li>
                             <li><a href="/mnenie/marketing-mind/">Рассказываю о&nbsp;мышлении маркетолога </a></li>
                         </ul>
                     </div>
@@ -121,8 +121,10 @@ image:
             <div itemprop="text">
                 <ul>
                     <li> <strong>Независимость. </strong> Я&nbsp;свободен от&nbsp;влияния личных отношений в&nbsp;коллективе и&nbsp;привычного способа ведения дел в&nbsp;компании. </li>
+                    {% comment %}
                     <li> <strong>Стоимость.</strong> Компания оплачивает только стоимость проекта. Нет расходов на&nbsp;обустройство рабочего места, обучение, больничные, отпуска. Не&nbsp;нужно делать отчисления в&nbsp;ФСЗН и&nbsp;платить подоходный налог.
                         </li>
+                           {% endcomment %}
                     <li> <strong>Трудовые взаимоотношения. </strong>Регулировать сотрудничество с&nbsp;ИП юридически проще. </li>
                 </ul>
             </div>

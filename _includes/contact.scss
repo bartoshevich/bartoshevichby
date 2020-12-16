@@ -4,7 +4,7 @@
 @import "parts/article";
 @import "parts/footer";
 @import "parts/alarm";
-
+@import "parts/side";
 
 .content {
       min-height: 75vh;
@@ -30,7 +30,22 @@ h1  {
 }
 
 
+.text-width {
+  max-width: 50rem;
+}
 
+.size-2x {
+  font-size: calc(1.1em + .4vw);
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+}
+
+
+
+.block-200 {
+  width: 200px;
+  height: 200px;
+}
 
 
 @supports (display: grid) {

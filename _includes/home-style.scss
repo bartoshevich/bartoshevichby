@@ -31,7 +31,7 @@
 
 .headline-wrapper h2 {
 	font-size: 30px;
-	font-weight: 600;
+	font-weight: 500;
 margin: .2em 0 1em 0;
 line-height: 1.1;
 
@@ -87,6 +87,11 @@ letter-spacing: .007em;
 
 }
 
+.size-2x {
+	font-size: calc(1.1em + .4vw);
+	margin-bottom: 1.5rem;
+	font-weight: 300;
+  }
 
 @media screen and (min-width:735px) {
 
@@ -113,7 +118,7 @@ picture.figure2,
 .email,
 .clients,
 .keypoint,
-.phone {
+.contact {
 	margin-top: 10px;
 }
 
@@ -190,7 +195,7 @@ margin: auto;
 
 .clients,
 .blog,
-.phone,
+.contact,
 .email,
 .keypoint {
 	text-align: center;
@@ -210,10 +215,6 @@ margin: auto;
 
 .blog {
 	background: $focus;
-	min-height: 60px;
-	padding: 2em 0;
-	font-weight: 600;
-
 }
 
 .blog a,
@@ -222,12 +223,12 @@ margin: auto;
 
 }
 
-
+.blog,
 .email,
-.phone {
+.contact {
 	min-height: 60px;
 	padding: 2em 0;
-	font-weight: 600;
+	
 }
 
 
@@ -235,7 +236,7 @@ margin: auto;
 	background: #F7F3DE;
 }
 
-.phone {
+.contact {
 	color: white;
 	background: #eff2f7;
 //	font-size: 29px!important;
@@ -299,7 +300,7 @@ color: #416473;
 							.cytata,
 							.clients,
 							.blog,
-							.phone,
+							.contact,
 							.email {
 							//	font-size: 1.1em;
 								line-height: 1.4em;
@@ -308,7 +309,7 @@ color: #416473;
 							  .cytata,
                 .blog,
                 .clients,
-								.phone {
+								.contact {
               	margin-top: 0;
                 }
 
@@ -389,7 +390,7 @@ color: #416473;
                           }
 
 
-                          .phone {
+                          .contact {
                           	-ms-grid-column: 3;
                           	-ms-grid-column-span: 3;
                           	grid-column: 3 / 6;

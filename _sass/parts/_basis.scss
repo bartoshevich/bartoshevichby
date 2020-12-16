@@ -176,13 +176,12 @@ dl:not([class]) dd:not([class]) {
   margin: 0 0 1.5em;
 }
 /* other tags */
-hr:not([class]) {
-  border: 0;
-  border-bottom: 1px solid;
-  margin: 1.5em 0;
-  max-width: 50rem;
-  opacity: .1;
+hr {
+  margin: 5rem ;
+  border: none;
+  color: #ffffff;
 }
+
 abbr {
   letter-spacing: .05em;
   margin-right: -0.05em;
