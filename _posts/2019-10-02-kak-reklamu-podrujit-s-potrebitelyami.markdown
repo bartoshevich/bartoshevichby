@@ -94,7 +94,7 @@ keywords: "маркетинг реклама интернет"
 
 <div class="video">
 
-<iframe src="https://embed.ted.com/talks/glenn_greenwald_why_privacy_matters" title="Гленн Гринвальд, TED" width="854" height="480" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://embed.ted.com/talks/glenn_greenwald_why_privacy_matters" title="Гленн Гринвальд, TED" width="854" height="480" allowfullscreen></iframe>
 
 </div>
 
@@ -109,7 +109,7 @@ keywords: "маркетинг реклама интернет"
 
 <div class="video">
 
-<iframe src="https://embed.ted.com/talks/eli_pariser_beware_online_filter_bubbles" title="Эли Паризер, TED" width="854" height="480" frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://embed.ted.com/talks/eli_pariser_beware_online_filter_bubbles" title="Эли Паризер, TED" width="854" height="480"  allowfullscreen></iframe>
 
 </div>
 
@@ -129,7 +129,7 @@ keywords: "маркетинг реклама интернет"
 
 <div class="video">
 
-<iframe src="https://embed.ted.com/talks/tristan_harris_the_manipulative_tricks_tech_companies_use_to_capture_your_attention" title="Тристан Харрис, TED" width="854" height="480"  frameborder="0" scrolling="no" allowfullscreen></iframe>
+<iframe src="https://embed.ted.com/talks/tristan_harris_the_manipulative_tricks_tech_companies_use_to_capture_your_attention" title="Тристан Харрис, TED" width="854" height="480"   allowfullscreen></iframe>
 
 </div>
 <p class="videoname">Тристан Харрис: «Как компании контролируют умы людей» (англ., русские субтитры) </p>
