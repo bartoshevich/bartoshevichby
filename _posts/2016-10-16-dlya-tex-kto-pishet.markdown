@@ -84,7 +84,6 @@ image: /images/tizer-31.jpg
 <ul>
 	<li><a href="http://maximilyahov.ru/blog/" target="_blank" rel="noopener">Блог Максима Ильяхова</a> о&nbsp;сильном тексте</li>
 	<li><a href="https://sarycheva.plus/notes/" target="_blank" rel="noopener">Блог Люды Сарычевой</a> о&nbsp;редакторском мастерстве</li>
-	<li><a href="http://sashavolkova.ru/" target="_blank" rel="noopener">Саша Волкова</a> о&nbsp;текстах и&nbsp;работе редактора</li>
 	<li><a href="https://irinausichenko.ru/blog/" target="_blank" rel="noopener">Безжалостная Усиченко</a> о&nbsp;том, как быть сильным: в&nbsp;жизни, редактуре и&nbsp;просто так.</li>
  </ul>
  <h3>8) Редполитики <a href="https://docs.google.com/document/d/14XdGIjVJLM_FsjHzyh5ca8PkffngykzXd2bLPHzA2ME/edit#heading=h.1xvoj9mbqgeo" target="_blank" rel="noopener">Тинькофф-журнала</a>&nbsp;и <a href="https://docs.google.com/document/d/1c_2uP1PpiM12h1ee8egVXAoUCJ9mE9r68zMqrqmS8VA/edit#heading=h.qfb376lrh4iy" target="_blank" rel="noopener">Модульбанка</a></h3>
