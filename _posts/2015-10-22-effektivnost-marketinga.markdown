@@ -28,7 +28,7 @@ image: /images/tizer-10.jpg
 <table>
 	<thead>
 		<tr  class="Gainsboro">
-			<th><strong>Название категории&nbsp;</strong></th>
+			<th><strong style="width:35%">Название категории&nbsp;</strong></th>
 			<th><strong>Примеры активности</strong></th>
  		</tr>
  	</thead>
