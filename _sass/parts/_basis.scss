@@ -4,28 +4,26 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   margin: 0;
+  font-size: 100%;
   }
+
 
 body {
   margin: 0;
   color: $text;
-  font-style: normal; }
-
-
-html {
-	font-size: 100%;
-}
-
-
-
-body {
   font-family: 'PT Sans', Arial, sans-serif;
   font-size: 1.1em;
-  line-height: 1.54;
+  line-height: 1.5em;
 	background-color: $background;
   width: 100%;
   letter-spacing: -.005em;
 		-webkit-font-smoothing:antialiased;
+}
+
+@media (min-width: 720px) {
+  body {
+    line-height: 1.6em;
+  }
 }
 
 body:not([class]) article:not([class]),
