@@ -69,7 +69,7 @@ margin-top: .5em !important;
 
 
 .size-2x {
-  font-size: calc(1.05em + .4vw);
+  font-size: calc(1.2em + .5vw);
   margin-bottom: 1.5rem;
   font-weight: 400;
 }
@@ -113,7 +113,7 @@ margin-top: .5em !important;
 
 /* пример, примечание, заметка */
 
-.notetip {width:90%;font-size:14px; border-radius:5px 5px;padding:5px 5px 5px 3em;margin:0;height:auto!important;overflow:hidden;bottom:6px;right:6px;border:0 solid #0092e0;background-position:20px 50%;background-repeat:no-repeat}
+.notetip {width:90%;font-size:.8em; border-radius:5px 5px;padding:5px 5px 5px 3em;margin:0;height:auto!important;overflow:hidden;bottom:6px;right:6px;border:0 solid #0092e0;background-position:20px 50%;background-repeat:no-repeat}
 
 
 /* video */
@@ -223,7 +223,7 @@ padding: 1px 0; }
 
 .wtf {
     color: #333;
-    font-size: 13px;
+    font-size: .8em;
     line-height: 19px;
 }
 
