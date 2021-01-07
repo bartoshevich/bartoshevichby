@@ -35,7 +35,7 @@ h1  {
 }
 
 .size-2x {
-  font-size: calc(1.05em + .4vw);
+  font-size: calc(1.2em + .5vw);
   margin-bottom: 1.5rem;
   font-weight: 400;
 }
@@ -47,7 +47,7 @@ h1  {
   height: 200px;
 }
 
-
+{% comment %}
 @supports (display: grid) {
 
 .block {
@@ -100,3 +100,4 @@ h1  {
       }
   }
 }
+{% endcomment %}

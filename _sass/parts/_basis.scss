@@ -52,7 +52,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Arial,sans-serif;
+  
   font-weight: bolder;
 }
 h1 {
@@ -89,7 +89,7 @@ h6 {
 }
 @media (min-width: 768px) {
  body {
- font-size: 1.2em;
+ font-size: 1.15em;
  }
  
   h1 {
@@ -113,6 +113,7 @@ h6 {
     margin-bottom: 1.2em;
   }
 }
+
 h1:first-child,
 h2:first-child,
 h3:first-child,
@@ -177,9 +178,15 @@ dl:not([class]) dd:not([class]) {
 }
 /* other tags */
 hr {
-  margin: 5rem ;
+  margin: 3rem ;
   border: none;
   color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  hr {
+    margin: 5rem ;
+  }
 }
 
 abbr {
