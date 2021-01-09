@@ -4,7 +4,7 @@ title:  "Концепция бренда интернет-агентства Gip
 name: "Концепция бренда интернет-агентства"
 description: "Концепция бренда интернет-агентства Giperlink: рассказываю об&nbsp;этапах разработки и&nbsp;результатах."
 date:   2018-11-30
-last_modified_at: 2019-01-10
+last_modified_at: 2020-01-09
 categories: опыт
 permalink: "/opyt/brand-giperlink/"
 tags: "кейсы"
