@@ -30,7 +30,7 @@ keywords: "контроль исследовательских агентств"
                   <div class="person"><strong>Сергей Бургазлиев</strong><br/>
  Управляющий партнер в&nbsp;EURussia-Partners, MBA.<br/>
  <em>в&nbsp;исследованиях с&nbsp;2005г. <br/>
-				<a href="https://www.linkedin.com/in/sergey-burgazliev-mba-4486061a/" target="_blank" rel="noopener">профиль в&nbsp;LinkedIn</a> </em></div>
+				<a href="https://www.linkedin.com/in/sergey-burgazliev-4486061a/" target="_blank" rel="noopener">профиль в&nbsp;LinkedIn</a> </em></div>
            </div>
   </div>
 
