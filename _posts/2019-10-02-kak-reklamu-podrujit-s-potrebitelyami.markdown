@@ -79,7 +79,7 @@ keywords: "маркетинг реклама интернет"
 <div class="with-side markedfield">
 <p>Представьте, что вы&nbsp;написали письмо и&nbsp;несете его не&nbsp;на&nbsp;почту, а&nbsp;в&nbsp;местное рекламное агентство. Просите отправить по&nbsp;указанному на&nbsp;конверте адресу. Сотрудники агентства соглашаются с&nbsp;одним условием&nbsp;— они прочтут все, что вы&nbsp;написали. И&nbsp;вы&nbsp;«Ну&nbsp;раз здесь такие правила, тогда&nbsp;да, я&nbsp;согласен (согласна)». Глупо? Но&nbsp;так происходит, когда вы&nbsp;регистрируетесь в&nbsp;гмейл или яндекс.почте. </p>
 <div class="side">
-<p>Почта, которая не&nbsp;шпионит&nbsp;— <a href="https://ref.fm/u21890208" target="_blank" rel="noopener">FastMail</a>, <a href="https://protonmail.com/" target="_blank" rel="noopener">ProtonMail</a>, <a href="https://tutanota.com/ru/" target="_blank" rel="noopener">Tutanota</a></p>
+<p>Почта, которая не&nbsp;шпионит&nbsp;— <a href="https://posteo.de/en" target="_blank" rel="noopener">Posteo</a>, <a href="https://ref.fm/u21890208" target="_blank" rel="noopener">FastMail</a>, <a href="https://protonmail.com/" target="_blank" rel="noopener">ProtonMail</a>, <a href="https://tutanota.com/ru/" target="_blank" rel="noopener">Tutanota</a></p>
 </div></div>
 <p></p>
 <p><b>Что плохого в&nbsp;сборе информации о&nbsp;пользователях? </b></p>
