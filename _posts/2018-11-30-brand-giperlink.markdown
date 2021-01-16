@@ -170,7 +170,7 @@ keywords: "разработка бренда Giperlink"
 <h2 id="4">Комментарий директора интернет-агентства Giperlink</h2>
 <div class="with-side">
 <div class="side">
-<img src="https://res.cloudinary.com/bartoshevich/image/upload/w_150,h_150,f_auto,e_sharpen/v1610739386/site/d-giperlink-200.png" alt="Дмитрий Лихтарович" ><br>
+<img class="image is-150x150" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1610783871/d-giperlink-500.jpg" alt="Дмитрий Лихтарович" ><br>
 <b>Дмитрий Лихтарович</b><br/>
 директор Giperlink
 </div>
