@@ -39,24 +39,29 @@ image:
 				 <span class="tocnumber">2 </span>Сотрудничество
 			 </a>
 		 </li>
+    <li class="level2">
+       <a href="#cost">
+         <span class="tocnumber">2.1 </span>Сколько стоит один час вашей консультации?
+       </a>
+     </li>
      <li class="level2">
        <a href="#conception">
-         <span class="tocnumber">2.1 </span>Нашей компании нужна идея, как отстроиться от&nbsp;конкурентов. И&nbsp;нужна «уже вчера».
+         <span class="tocnumber">2.2 </span>Нашей компании нужна идея, как отстроиться от&nbsp;конкурентов. И&nbsp;нужна «уже вчера».
        </a>
      </li>
      <li class="level2">
        <a href="#sales">
-         <span class="tocnumber">2.2 </span>У&nbsp;нас упал объем продаж. Вы&nbsp;сможете исправить ситуацию?
+         <span class="tocnumber">2.3 </span>У&nbsp;нас упал объем продаж. Вы&nbsp;сможете исправить ситуацию?
        </a>
      </li>
      <li class="level2">
        <a href="#reference">
-         <span class="tocnumber">2.3 </span>Порекомендуйте нас своим клиентам. Мы&nbsp;заплатим.
+         <span class="tocnumber">2.4 </span>Порекомендуйте нас своим клиентам. Мы&nbsp;заплатим.
        </a>
      </li>
 		 <li class="level2">
 			 <a href="#putad">
-				 <span class="tocnumber">2.4 </span>Разместите нашу рекламу у&nbsp;себя на&nbsp;сайте
+				 <span class="tocnumber">2.5 </span>Разместите нашу рекламу у&nbsp;себя на&nbsp;сайте
 			 </a>
 		 </li>
 
@@ -165,6 +170,20 @@ image:
 
 
     <h2 id="2"> Сотрудничество </h2>
+
+ <div class="question" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+        <h3 id="cost" itemprop="name">Сколько стоит один час вашей консультации?</h3>
+        <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <div itemprop="text">
+                <p>
+             У&nbsp;меня нет почасовой ставки. Не&nbsp;думаю, что часы отражают те&nbsp;результаты, которые могу вам принести. Когда мы&nbsp;обсудим задачу, я&nbsp;смогу назвать стоимость ее&nbsp;решения.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
 
     <div class="question" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
         <h3 id="conception" itemprop="name">Нашей компании нужна идея, как отстроиться от&nbsp;конкурентов. И&nbsp;нужна «уже вчера».</h3>
