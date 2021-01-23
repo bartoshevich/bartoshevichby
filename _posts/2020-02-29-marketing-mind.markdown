@@ -40,7 +40,6 @@ keywords: "мышление маркетолога"
 <meta itemprop="uploadDate" content="2020-02-29T00:00:00">
 <meta itemprop="duration" content="PT30M54S">
 <meta itemprop="isFamilyFriendly" content="true">
-<meta itemprop="isOfficial" content="true">
   <meta itemprop="genre" content="education">
  <meta itemprop="inLanguage" content="RU">
   <meta itemprop="videoQuality" content="HD">
