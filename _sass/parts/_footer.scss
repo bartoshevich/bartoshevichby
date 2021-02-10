@@ -73,15 +73,21 @@
 		display: block;
 	width: 100%; }
 	
-  
+  .for__notes {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-gap: 1.5rem;
+  }
+
+
   .footer__notes {
-	  display: grid;
-	  grid-template-columns: 1fr;
-	grid-column: 2 / 12;
+	grid-column: 3/11;
 	text-align: center;
 	padding: 12vh 0 4vh 0;
 	font-size: .9em;
 	}
+
+
 
 	.footer__links a {
 		background-color:transparent;
