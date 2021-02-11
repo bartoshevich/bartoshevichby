@@ -73,15 +73,17 @@
 		display: block;
 	width: 100%; }
 	
+@media (min-width:500px)	{
   .for__notes {
 	display: grid;
 	grid-template-columns: repeat(12, 1fr);
 	grid-gap: 1.5rem;
   }
 
+}
 
   .footer__notes {
-	grid-column: 3/11;
+	grid-column: 2/12;
 	text-align: center;
 	padding: 12vh 0 4vh 0;
 	font-size: .9em;
@@ -104,8 +106,12 @@
 		text-decoration:none
 	   }
 
+
+ .privacy-div {
+		margin-left: 2em;
+	   }
 .privacy {
-	margin-left: 2em;
+	line-height: .5em;
 	font-size: .8em;
 	color:#1d1d1f;
 	text-decoration:none;
