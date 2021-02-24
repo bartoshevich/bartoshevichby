@@ -19,11 +19,9 @@ image: /images/tizer-23.jpg
 <p>Кто-то настойчиво продвигал собственный сервис и&nbsp;хотел, чтобы 3Dom его финансировал, а&nbsp;кто-то не&nbsp;верил в&nbsp;идею розыгрыша и&nbsp;отклонял ее&nbsp;на&nbsp;пороге. </p>
 
 <div class="markedfield">
-<picture>	<source
-		srcset="/images/3dom-letter.webp"
-		type="image/webp">
-       	<img  src="/images/3dom-letter.jpg" width="640" height="320" alt="письмо rebenok.by" />
-</picture>
+
+       	<img  src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1614142662/site/3dom-letter.jpg" width="640" height="320" alt="письмо rebenok.by" />
+
 
 </div>
 <p class="videoname">С&nbsp;rebenok.by мы&nbsp;так и&nbsp;не&nbsp;договорились</p>

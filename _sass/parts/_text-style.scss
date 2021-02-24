@@ -30,7 +30,7 @@ img,
 // выделение области в тексте
 
 .markedfield {
-    margin:1.6em 0;
+    margin: .8em 0 1.2em 0;
 	padding: 3% 3.5%;
 	background: #f5f5f5;
 
@@ -79,18 +79,18 @@ margin-top: .5em !important;
 
 /* цитата  */
 
-.article {
+
   blockquote {
     font-style: italic;
 	  border-left: 1px solid #a73147;
     padding-left: 20px;
-    margin-top: 30px;
+    margin-top: 1em;
     margin-bottom: 35px;
     margin-left: 30px;
     line-height: 1.6em;
   }
 
-}
+
 
 
 /* подпись к картинке */
@@ -174,7 +174,6 @@ margin-bottom: 2rem;
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
-align-items: center;
 margin-bottom: 2rem;
 }
 
@@ -238,4 +237,21 @@ padding: 1px 0; }
 .guest-image {
 	height:150px;
   width: 150px;
+}
+
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mb-1 {
+  margin-bottom: 1em;
+}
+
+p + ul {
+  margin-top: 0;
+}
+
+.mt-1 {
+  margin-top:1em;
 }
