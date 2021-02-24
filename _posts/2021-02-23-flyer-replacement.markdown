@@ -3,8 +3,8 @@ layout: post
 title:  "Альтернатива рекламной листовке"
 name: "Чем заменить рекламную листовку"
 description: "Мне не&nbsp;нравится большинство рекламных листовок, которые попадают мне в&nbsp;руки. А&nbsp;вот эту я&nbsp;бы точно не&nbsp;выбросил ;-) "
-date:   2021-02-23
-last_modified_at: 2021-02-23
+date:   2021-02-24
+last_modified_at: 2021-02-24
 categories: опыт
 permalink: "/opyt/spam-replacement/"
 tags: "кейсы инструменты"
