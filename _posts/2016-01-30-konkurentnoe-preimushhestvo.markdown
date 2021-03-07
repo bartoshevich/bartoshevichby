@@ -21,27 +21,25 @@ image: /images/tizer-15.jpg
 <p>Если маркетолог принимал правила игры, то&nbsp;вскоре начинал стыдиться работы либо оправдываться.</p>
 <p>Сейчас не&nbsp;каждый поверит, что когда-то Coca-Cola призывала поить газировкой грудных детей, чтобы те&nbsp;лучше стартовали в&nbsp;жизни. А&nbsp;маркетологи «Дюпон» были готовы обернуть в&nbsp;целофан всех и&nbsp;вся.</p>
 
-<div class="row">
-    <div class="c-6">
-
-<picture>
- <source srcset="/images/1712cola350.webp 1x, /images/1712cola500.webp 2x, /images/1712cola600.webp 3x" type="image/webp">
- <img src="/images/1712cola350.jpg" alt="реклама CocaCola"  width="350" height="449"/>
-
-   </picture>
 
 
+
+<div class="flex-block">
+   <div class="flex-2">
+      <picture>
+         <source srcset="/images/1712cola350.webp 1x, /images/1712cola500.webp 2x, /images/1712cola600.webp 3x" type="image/webp">
+         <img src="/images/1712cola350.jpg" alt="реклама CocaCola"  width="350" height="445"/>
+      </picture>
+   </div>
+   <div class="flex-2">
+      <picture>
+         <source srcset="/images/1712ad350.webp 1x, /images/1712ad500.webp 2x, /images/1712ad600.webp 3x"  type="image/webp">
+         <img src="/images/1712ad350.jpg" alt="реклама целофана" width="350" height="449"/>
+      </picture>
+   </div>
 </div>
-<div class="c-6">
-<picture>
-   <source srcset="/images/1712ad350.webp 1x, /images/1712ad500.webp 2x, /images/1712ad600.webp 3x"  type="image/webp">
-  <img src="/images/1712ad350.jpg" alt="реклама целофана" width="350" height="445"/>
-
-   </picture>
 
 
-</div>
-</div>
 
 <p>В&nbsp;<span class="noperenos">90-хх</span> годах прошлого века американцы начали осваивать новый сегмент рынка стрелкового оружия&nbsp;— дети. Создали винтовку с&nbsp;малой отдачей при стрельбе, раскрасили в&nbsp;цвета от&nbsp;розового до&nbsp;оранжевого с&nbsp;синим. Запустили рекламные кампании.</p>
 <p>Акции дали плоды: продажи росли, а&nbsp;вместе с&nbsp;ними росло и&nbsp;количество детских смертей. Когда СМИ облетела новость, что <a href="https://edition.cnn.com/2013/05/01/us/kentucky-accidential-shooting/index.html">пятилетний ребенок застрелил двухлетнюю сестру во&nbsp;время игры с&nbsp;ружьем, которое ему подарили на&nbsp;день рождения</a>, производитель оружия вынуждено закрыл сайт на&nbsp;несколько недель.</p>

@@ -25,13 +25,19 @@ image: /images/tizer-18.jpg
 
 
 <table >
-<tbody>
+<tbody class="topverticalalign">
 <tr  class="Gainsboro">
 <td  ><strong>Нет</strong></td>
 <td  ><strong>Да</strong></td>
 </tr>
 <tr>
-<td  >«За&nbsp;последний месяц у&nbsp;нас упали продажи на&nbsp;10%. Почему нет продаж?»</td>
+<td  >
+<ul>
+<li>
+«За&nbsp;последний месяц у&nbsp;нас упали продажи на&nbsp;10%. Почему нет продаж?»
+</li>
+</ul>
+</td>
 <td  ><ul>
 	<li>«Мы&nbsp;провели две акции. Какие результаты, что следует пересмотреть и&nbsp;учесть в&nbsp;будущих кампаниях?»</li>
 	<li>«Что мы&nbsp;сделали для роста продаж товара А?»</li>
@@ -42,7 +48,8 @@ image: /images/tizer-18.jpg
 </table>
 
 <div class="side">
-Кризис и&nbsp;спад продаж&nbsp;— благоприятное время для работы над маркетинговой стратегией. Почему? Ответ в&nbsp;<a href="/mnenie/vremya-dlya-strategii/">статье</a>.</div>
+<p>Кризис и&nbsp;спад продаж&nbsp;— благоприятное время для работы над маркетинговой стратегией. Почему? Ответ в&nbsp;<a href="/mnenie/vremya-dlya-strategii/">статье</a>.</p>
+</div>
 </div>
 
 

@@ -16,20 +16,22 @@ image: /images/tizer-35.jpg
 <p>Как правильно разрабатывать рекламную кампанию обсудил со&nbsp;специалистами международного рекламного холдинга&nbsp;— Дмитрием Буховцом и&nbsp;Дмитрием Григорьевым. Обсуждение резюмировал, свел в&nbsp;систему и&nbsp;получил общий алгоритм проведения рекламной кампании.</p>
 
 
-<div class="row">
-<div class="c-6">
-<p class="item"><img src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1532010600/grigoruev.jpg" alt="Дмитрий Григорьев" width="150" height="150"/></p>
-<div class="person"><strong>Дмитрий Григорьев</strong><br/>
-New Business Director</div>
+<div class="guests">
+<div class="guest-person">
+	<img class="image is-150x150" src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1532010600/grigoruev.jpg" alt="Дмитрий Григорьев" width="150" height="150"/>	
+		<div class="guest-person__name">Дмитрий Григорьев</div>
+		<div class="guest-person__position">New Business Director</div>
+	
+</div>
+<div class="guest-person">
+		<img class="image is-150x150" src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1532010600/bukhovets.jpg" alt="Дмитрий Буховец" width="150" height="150" />	
+			<div class="guest-person__name">Дмитрий Буховец</div>
+			<div class="guest-person__position">Media Group Head</div>
+	
+</div>
+</div>
 
-</div>
-<div class="c-6">
-<p class="item"><img src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1532010600/bukhovets.jpg" alt="Дмитрий Буховец" width="150" height="150" /></p>
-<div class="person"><strong>Дмитрий Буховец</strong><br/>
-Media Group Head</div>
 
-</div>
-</div>
 
 <p>Если вы&nbsp;хотите вложиться в&nbsp;рекламу с&nbsp;умом&nbsp;— используйте статью как инструкцию.</p>
 
@@ -178,7 +180,7 @@ Media Group Head</div>
 	<li>Легко считывается и&nbsp;коротко формулируется. Содержание рекламы построено вокруг одного ключевого послания. Нет второстепенных деталей и&nbsp;смыслов.</li>
 </ul>
 <table>
-<tbody>
+<tbody class="topverticalalign">
 <tr class="Gainsboro">
 <td  style="width: 310px;"><strong>Нет</strong></td>
 <td  style="width: 305px;"><strong>Да</strong></td>
@@ -212,7 +214,7 @@ Media Group Head</div>
 
 <div class="with-side">
 <p>Если задача&nbsp;— быстро увеличить знание торговой марки, то&nbsp;нет более эффективного инструмента чем реклама на&nbsp;телевидении. Финансовый «порог входа» для ТВ-кампании&nbsp;— в&nbsp;среднем&nbsp;— начинается с&nbsp;$15 тысяч для белорусских предприятий и&nbsp;$35 тысяч&nbsp;— для иностранных компаний. С&nbsp;меньшим бюджетом на&nbsp;размещение рекламы вы&nbsp;не&nbsp;достигните высокого охвата аудитории и&nbsp;частоты показа. В&nbsp;подобных случаях лучше не&nbsp;рекламироваться вообще, чем потратить&nbsp;то, что есть, без результата.</p>
-<div class="side"><strong>2&nbsp;недели</strong> <br/> рекламной кампании на&nbsp;ТВ понадобится, чтобы охватить&nbsp;70% взрослого населения Беларуси. Если&nbsp;же использовать только интернет и&nbsp;радио&nbsp;— полтора месяца.</div></div>
+<div class="side"><p><strong>2&nbsp;недели</strong> <br/> рекламной кампании на&nbsp;ТВ понадобится, чтобы охватить&nbsp;70% взрослого населения Беларуси. Если&nbsp;же использовать только интернет и&nbsp;радио&nbsp;— полтора месяца.</p></div></div>
 
 <p>Если бюджет на&nbsp;размещение скромный&nbsp;— откажитесь от&nbsp;идеи рассказать о&nbsp;себе всем белорусам. Ваш приоритет&nbsp;— не&nbsp;увеличить уровень знания торговой марки, а&nbsp;повысить конверсию в&nbsp;покупку. Работайте в&nbsp;первую очередь с&nbsp;теми, кто уже к&nbsp;вам пришел или интересуется вашей тематикой. Вложите деньги в&nbsp;торговый зал, работу персонала. Сделайте и&nbsp;продвигайте лендинг по&nbsp;популярным в&nbsp;вашей сфере запросам с&nbsp;помощью контекстной рекламы.</p>
 
@@ -226,7 +228,7 @@ Media Group Head</div>
 <div class="wtf1"><img  src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1532010600/rek2lama.jpg" alt="«воронка продаж»" width="695" height="408" class="img-responsive"  /><br />«воронка продаж»</div>
 
 <p>Воронка показывает, что процесс продажи более сложный чем «увидел рекламу&nbsp;— купил». И&nbsp;чем сложнее продукт и&nbsp;значительнее стоимость, тем сложнее «воронка продаж». Когда вы&nbsp;оцениваете лишь конечный результат, вы&nbsp;не&nbsp;учитываете все факторы, влияющие на&nbsp;выбор товара, и&nbsp;не&nbsp;знаете, на&nbsp;каком этапе теряете покупателей.</p>
-<div class="notetip"><b>Пример. </b>Вы&nbsp;провели кампанию и&nbsp;объем продаж не&nbsp;увеличился. Какой вывод сделаете? Должны&nbsp;ли вы&nbsp;поменять сценарий ролика? Или&nbsp;же составить другой медиасплит? А&nbsp;может нанять более вежливого консультанта? Или все&nbsp;же поменять дизайн продукта?<br/>
+<div class="notetip"><b>Пример </b><br>Вы&nbsp;провели кампанию и&nbsp;объем продаж не&nbsp;увеличился. Какой вывод сделаете? Должны&nbsp;ли вы&nbsp;поменять сценарий ролика? Или&nbsp;же составить другой медиасплит? А&nbsp;может нанять более вежливого консультанта? Или все&nbsp;же поменять дизайн продукта?<br/>
 Изучите динамику знания и&nbsp;восприятия продукта. Если она положительная, а&nbsp;прироста продаж нет, значит проблемы на&nbsp;других этапах покупки&nbsp;— делать далее кампании на&nbsp;увеличение знания нет смысла.</div>
 
 

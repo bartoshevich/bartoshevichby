@@ -14,19 +14,18 @@ keywords: "методы ценообразования, ценообразова
 
 <div class="with-side">
 <p>«Почасовая оплата должна умереть,&nbsp;— убежден Дмитрий Лазарев.&nbsp;— Ее&nbsp;место займет модель ценообразования на&nbsp;основе ценности». Я&nbsp;посмотрел видео на&nbsp;канале Дмитрия, послушал дебаты на&nbsp;его подкасте и&nbsp;записал основные тезисы в&nbsp;защиту такого подхода, а&nbsp;также примеры реализации. Если вы&nbsp;работник умственного труда и&nbsp;сами назначаете цену на&nbsp;свои услуги, прочтите статью до того, как выслать очередное коммерческое предложение. </p>
-
 <div class="side">
-<div class="row">
-    <div class="c-8">
-       <p><img class="image is-150x150"  src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1611398933/site/lazarev.png" alt="Дмитрий Лазарев" width="150" height="150"/></p>
-                  <div class="person"><b>Дмитрий Лазарев</b><br/>
- Независимый оргконсультант <br/>
-<a href="https://www.youtube.com/c/lazarevbiz/videos" target="_blank" rel="noopener">youtube</a>, <a href="https://t.me/dimlaz" target="_blank" rel="noopener">telegram</a> </div>
+		<div class="guests">
+			<div class="guest-person">
+				<img class="image is-150x150"  src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1611398933/site/lazarev.png" alt="Дмитрий Лазарев" width="150" height="150"/>	
+					<div class="guest-person__name">Дмитрий Лазарев</div>
+					<div class="guest-person__position">Независимый оргконсультант <br/>
+<a href="https://www.youtube.com/c/lazarevbiz/videos" target="_blank" rel="noopener">youtube</a>, <a href="https://t.me/dimlaz" target="_blank" rel="noopener">telegram</a> </div>				
+			</div>
+		</div>
+	</div>
+</div>
 
-  </div>
-    </div>
-</div>
-</div>
 
 
 <nav class="toc">

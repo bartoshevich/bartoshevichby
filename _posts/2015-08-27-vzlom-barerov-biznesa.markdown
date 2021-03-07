@@ -15,16 +15,15 @@ image: /images/tizer-4.jpg
 <p>Двадцатого августа мы&nbsp;с&nbsp;Дмитрием Григорьевым, Сергеем Дробышевским и&nbsp;Павлом Вилюхой провели Практикум «Взлом барьеров развития бизнеса».</p>
 <p>Обсуждали с&nbsp;позиций продаж, маркетинга и&nbsp;рекламы, что тормозит рост белорусских предприятий и&nbsp;как придать бизнесу ускорение.</p> 
 <h2>Как проводили практикум</h2>
-<div class="with-side">
-<div class="side">
-фото Павла Вилюхи
-</div>
+
+<p>Павел Вилюха сфотографировал</p>
+
 <img src='/images/bar1.jpg' alt="Дмитрий Бартошевич" width="695" height="462" class="img-responsive"/>
 <br>
 <img src='/images/bar2.jpg' alt="Дмитрий Григорьев" width="695" height="509" class="img-responsive"/>
 <br>
 <img src='/images/bar3.jpg' alt="Сергей Дробышевский" width="695" height="550" class="img-responsive"/>
-</div>
+
 <h2>Отзывы</h2>
 <p class="mb-0">Выдержки из&nbsp;отзывов участников мероприятия:</p>
 <blockquote>

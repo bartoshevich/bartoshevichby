@@ -14,25 +14,20 @@ keywords: "Сет Годин книга"
 
 <div class="with-side">
 <p>В&nbsp;конце 2018 года Сет Годин издал книгу «This is&nbsp;marketing». В&nbsp;первые недели было продано 50&nbsp;000+&nbsp;копий. Газета Financial Times назвала ее&nbsp;книгой месяца. Читатели делятся восторженными отзывами в&nbsp;ютубе. Книги пока нет на&nbsp;русском и&nbsp;я&nbsp;решил рассказать об&nbsp;основных ее&nbsp;идеях здесь. </p>
-
-
-<div class="side">
-<div class="guest-image">
-<picture>
-<source
-		srcset="/images/setgodin-150.webp 1x,
-			/images/setgodin.webp 2x"
-		type="image/webp">
-
-       	<img src="/images/setgodin.jpg" width="150" height="150" alt="Сет Годин"
-       	srcset="/images/setgodin-150.jpg 1x, /images/setgodin.jpg 2x"/>
-</picture>
-
+	<div class="side">
+		<div class="guests">
+			<div class="guest-person">
+				<img class="image is-150x150" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1615129704/site/setgodin.jpg" alt="Сет Годин" width="150" height="150"/>	
+					<div class="guest-person__name">Сет Годин</div>
+					<div class="guest-person__position">автор книг «Все маркетологи&nbsp;— лжецы», «Доверительный маркетинг», «Фиолетовая корова», «Яма» и&nbsp;др. В&nbsp;2018 году был введен в&nbsp;Зал Славы американской маркетинговой ассоциации.</div>				
+			</div>
+		</div>
+	</div>
 </div>
-<br />
-<b>Сет Годин</b><br/>автор книг «Все маркетологи&nbsp;— лжецы», «Доверительный маркетинг», «Фиолетовая корова», «Яма» и&nbsp;др. В&nbsp;2018 году был введен в&nbsp;Зал Славы американской маркетинговой ассоциации.
-</div>
-</div>
+
+
+
+
 <h2>Реклама&nbsp;— ловушка, отвлекающая от&nbsp;маркетинга </h2>
 <p>Долгое время рекламу и&nbsp;маркетинг отождествляли. Все, что нужно было маркетологу,&nbsp;— заказать и&nbsp;оплатить рекламу. И&nbsp;такой подход работал. Сейчас реклама стала более дешевой и&nbsp;измеряемой. Почему&nbsp;бы тогда не&nbsp;продолжать в&nbsp;том&nbsp;же духе? Потому что никогда ранее рекламу не&nbsp;игнорировали так, как сегодня. Можно показать баннер сотне тысяч человек и&nbsp;не&nbsp;получить ни&nbsp;одного клика. </p>
 <p>Чтобы достучаться,&nbsp;— нам скажут,&nbsp;— нужно еще больше упоминаний, нужно лучше находить правильных людей и&nbsp;более эффективно красть их&nbsp;внимание. Однако, в&nbsp;долгосрочной перспективе такой подход губителен. </p>

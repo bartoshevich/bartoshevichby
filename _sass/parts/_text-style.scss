@@ -151,18 +151,18 @@ iframe {
 }
 
 
- /* подпись к фото респондента */
+ /* подпись к фото респондента 
 
 .person {
   font-size: 0.9em;
   border-top:1px solid #DDD;
       margin-top: 10px;
 }
-
+*/
 
 // флекс-блоки вместо таблицы
 
-
+.flex-in,
 .flex-block {
 display: flex;
 flex-direction: row;
@@ -170,12 +170,6 @@ flex-wrap: wrap;
 margin-bottom: 2rem;
 }
 
-.flex-in {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-margin-bottom: 2rem;
-}
 
 .flex-1 {
 flex: 1;
@@ -227,16 +221,11 @@ padding: 1px 0; }
 .wtf {
     color: #333;
     font-size: .8em;
-    line-height: 19px;
+    line-height: 1.36em;
 }
 
 .wtf a {
 	border-bottom: 0;
-}
-
-.guest-image {
-	height:150px;
-  width: 150px;
 }
 
 

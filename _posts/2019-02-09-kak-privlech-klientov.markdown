@@ -26,7 +26,7 @@ keywords: "привлечь клиентов брендинг бренд"
 <h2>Бренд&nbsp;— новая представительная власть</h2>
 <div class="with-side">
 <p>В&nbsp;2018 году компания Edelmen опросила 40&nbsp;000 человек в&nbsp;8&nbsp;странах : Бразилии, Китае, Франции, Германии, Индии, Японии, Великобритании и&nbsp;США. Компания выявила, что&nbsp;64% респондентов выбирает или отклоняет товары в&nbsp;зависимости от&nbsp;политических или социальных взглядов компании-производителя. </p>
-<div class="side">Скачайте <a href="https://www.edelman.com/sites/g/files/aatuss191/files/2018-10/2018_Edelman_Earned_Brand_Global_Report.pdf" target="_blank" rel="noopener nofollow" >презентацию с&nbsp;результатами исследования</a> </div>
+<div class="side"><p>Скачайте <a href="https://www.edelman.com/sites/g/files/aatuss191/files/2018-10/2018_Edelman_Earned_Brand_Global_Report.pdf" target="_blank" rel="noopener nofollow" >презентацию с&nbsp;результатами исследования</a></p> </div>
 </div>
 
 <p><img src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1549714027/belief-driven-buying.jpg" alt="как выбирают бренд покупатели - результаты исследования Edelmen "  width="729" height="362" /></p>

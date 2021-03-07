@@ -6,7 +6,6 @@ position : relative;
 
 .side {
 margin-top : 8px;
-font-size: .8em;
 line-height: 1.4em;
 color : inherit;
 position : absolute;
@@ -22,6 +21,11 @@ width : auto;
 max-width : 100%;
 }
 
+.side > ul,
+.side > p {
+font-size: .8em;
+line-height: 1.36em;
+}
 
 .side strong {
 font-size : 2rem;
@@ -38,12 +42,8 @@ font-weight : 100;
 position : relative;
 left : 9%;
 width : 90%;
-font-size : 14px;
-line-height : 1.5rem;
-padding: 10px 0 15px 0;
+padding: 0;
+margin-bottom: 0;
 
-}
-.side img {
-margin : 0 auto;
 }
 }

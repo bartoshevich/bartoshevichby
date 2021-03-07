@@ -11,18 +11,20 @@ image: /images/tizer-41.jpg
 tags: "реклама инструменты интервью"
 keywords: "айтрекинг"
 ---
+<div class="with-side">
+<p>Айтрекинг (eye tracking)&nbsp;— регистрация движений глаз&nbsp;— точный и&nbsp;технологичный метод изучения реакции потребителей на&nbsp;маркетинговые стимулы. Первыми в&nbsp;Беларуси айтрекинг тестирование стало проводить Международное агентство социальных и&nbsp;маркетинговых исследований (МАСМИ). Я&nbsp;встретился с&nbsp;Марией Райской&nbsp;— ведущим руководителем проектов агентства, чтобы узнать, какую пользу приносит метод и&nbsp;насколько он&nbsp;доступен для белорусских предприятий.</p> 
+	<div class="side">
+		<div class="guests">
+			<div class="guest-person">
+				<img class="image is-150x150" src="/images/MariaRaiskaya.jpg" alt="Мария Райская" width="150" height="150"/>	
+					<div class="guest-person__name">Мария Райская</div>
+					<div class="guest-person__position"> ведущий руководитель проектов <a href="http://masmi.by/" target="_blank" rel="noopener">МАСМИ</a></div>				
+			</div>
+		</div>
+	</div>
+</div>
 
-<p>Айтрекинг (eye tracking)&nbsp;— регистрация движений глаз&nbsp;— точный и&nbsp;технологичный метод изучения реакции потребителей на&nbsp;маркетинговые стимулы. Первыми в&nbsp;Беларуси айтрекинг тестирование стало проводить Международное агентство социальных и&nbsp;маркетинговых исследований (МАСМИ). Я&nbsp;встретился с&nbsp;Марией Райской&nbsp;— ведущим руководителем проектов агентства, чтобы узнать, какую пользу приносит метод и&nbsp;насколько он&nbsp;доступен для белорусских предприятий.</p> <!--more-->
 
-
-<div class="row">
-    <div class="c-6">
-       <p><img class="guest-image" src="/images/MariaRaiskaya.jpg" alt="Мария Райская" width="150" height="150"/></p>
-                  <div class="person"><strong>Мария Райская</strong><br/>
- ведущий руководитель проектов <a href="http://masmi.by/">МАСМИ</a></div>
-
-  </div>
-   </div>
 
 <nav class="toc">
 <ul>

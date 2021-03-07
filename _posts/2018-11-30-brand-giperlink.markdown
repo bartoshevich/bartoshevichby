@@ -87,7 +87,7 @@ keywords: "разработка бренда Giperlink"
 <h2 id="2">Составил карты потребительского опыта</h2>
 <div class="with-side">
 <div class="side">
-Интересующимся&nbsp;— <a href="/instrukcii/customer-journey-map/" target="_blank">алгоритм создания карты потребительского опыта</a>
+<p>Интересующимся&nbsp;— <a href="/instrukcii/customer-journey-map/" target="_blank">алгоритм создания карты потребительского опыта</a></p>
 </div>
 <p>Вместе с&nbsp;сотрудниками агентства выделили типичные ситуации заказа, составили портреты персонажей&nbsp;— обобщенные образы значимых клиентских сегментов. Детально описали путь персонажей от&nbsp;момента осознания потребности до&nbsp;обращения в&nbsp;агентство и&nbsp;заказа разработки сайта. </p>
 </div>
@@ -109,7 +109,7 @@ keywords: "разработка бренда Giperlink"
 <p>Для составления структуры бренда я&nbsp;взял модель Censydiam. Она описывает 8&nbsp;основных мотиваций человека. Вычеркнул&nbsp;те, которые уже используют конкуренты. А&nbsp;оставшиеся проверил на&nbsp;актуальность для клиента (на&nbsp;основе карт потребительского опыта) и&nbsp;соответствие ценностям компании. В&nbsp;итоге остановился на&nbsp;группе мотивов «гармония, единение» и&nbsp;через нее описал бренд. </p>
 
 <div class="side">
-<a href="https://www.youtube.com/watch?v=cU4-m7swVbM" target="_blank" rel="noopener">Видео с&nbsp;объяснением принципов Censydiam</a> (на&nbsp;англ.)
+<p><a href="https://www.youtube.com/watch?v=cU4-m7swVbM" target="_blank" rel="noopener">Видео с&nbsp;объяснением принципов Censydiam</a> (на&nbsp;англ.)</p>
 </div></div>
 
 <h3>Структура бренда Giperlink</h3>
@@ -121,7 +121,7 @@ keywords: "разработка бренда Giperlink"
 	Интернет-агентство, делает сайты и&nbsp;интернет-магазины на&nbsp;1С-Битрикс
 	</div>
 </div>
-<div class="flex-in">
+<div class="flex-block">
 	<div class="flex-1">
 	<strong>Рациональная выгода</strong>
 	</div>
@@ -129,7 +129,7 @@ keywords: "разработка бренда Giperlink"
 	Веб-разработка основана на&nbsp;анализе потребительского опыта. С&nbsp;помощью аудита, тестирования и&nbsp;веб-аналитики проектируют понятный и&nbsp;удобный пользовательский интерфейс, организовывают грамотную подачу информации.
 	</div>
 </div>
-<div class="flex-in">
+<div class="flex-block">
 	<div class="flex-1">
 	<strong>Эмоциональная выгода</strong>
 	</div>
@@ -138,7 +138,7 @@ keywords: "разработка бренда Giperlink"
 	</div>
 </div>
 
-<div class="flex-in">
+<div class="flex-block">
 	<div class="flex-1">
 	<strong>Обещание</strong>
 	</div>
@@ -147,7 +147,7 @@ keywords: "разработка бренда Giperlink"
 	</div>
 </div>
 
-<div class="flex-in">
+<div class="flex-block">
 	<div class="flex-1">
 	<strong>Личность</strong>
 	</div>
@@ -156,7 +156,7 @@ keywords: "разработка бренда Giperlink"
 	</div>
 </div>
 
-<div class="flex-in">
+<div class="flex-block">
 	<div class="flex-1">
 	<strong>Суть бренда</strong>
 	</div>
@@ -170,10 +170,17 @@ keywords: "разработка бренда Giperlink"
 <h2 id="4">Комментарий директора интернет-агентства Giperlink</h2>
 <div class="with-side">
 <div class="side">
-<img class="image is-150x150" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1610783871/d-giperlink-500.jpg" alt="Дмитрий Лихтарович" ><br>
-<b>Дмитрий Лихтарович</b><br/>
-директор Giperlink
+	<div class="guests">
+		<div class="guest-person">
+			<img class="image is-150x150" src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1610783871/d-giperlink-500.jpg" alt="Дмитрий Лихтарович" width="150" height="150"/>	
+				<div class="guest-person__name">Дмитрий Лихтарович</div>
+				<div class="guest-person__position">директор Giperlink</div>			
+		</div>
+	</div>
 </div>
+
+
+
 <p>— В&nbsp;какой-то момент мы&nbsp;осознали, что стратегия, которая помогала в&nbsp;первые годы работы агентства, перестала работать. Агентство выросло. Изменился и&nbsp;белорусский рынок веб-разработок. Мы&nbsp;спрашивали себя: «Чем мы&nbsp;отличаемся? В&nbsp;чем сильнее? В&nbsp;чем отстаем и&nbsp;чего не&nbsp;хватает, чтобы быть лучшими?». Ответы искали сами. Обсуждали, спорили, устраивали мозговые штурмы. Но&nbsp;того решения, которое устроило&nbsp;бы всех, не&nbsp;находили.</p>
 <p> Обратились к&nbsp;Бартошевичу Дмитрию. Сначала пригласили его как «внешнего наблюдателя и&nbsp;критика». Нам важно было найти сильное решение. Поэтому попросили Дмитрия присутствовать на&nbsp;совещаниях и&nbsp;находить слабые места в&nbsp;идеях. Нам понравилось, как он&nbsp;рассуждает и&nbsp;какие вопросы задает. Обсудив с&nbsp;партнером, мы&nbsp;решили поручить Дмитрию разработать концепцию бренда. Предоставили необходимые материалы по&nbsp;рынку и&nbsp;конкурентам, провели дополнительные рабочие встречи. </p>
 <p>Что получили в&nbsp;итоге:</p>

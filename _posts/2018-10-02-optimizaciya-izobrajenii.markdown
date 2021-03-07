@@ -40,7 +40,7 @@ keywords: "оптимизация изображений"
 
 <b>Пример</b>
 <div class="flex-in">
-<div class="flex-2">
+<div class="flex-1">
 <img src="/images/coin-optimizilla.jpg" alt="фотография монеты" width="300" height="298">
 </div>
 <div class="flex-1">
@@ -50,7 +50,7 @@ keywords: "оптимизация изображений"
 </div>
 
 <div class="flex-in">
-<div class="flex-2">
+<div class="flex-1">
 <img src="/images/coin-optimizilla.jpg" alt="оптимизированная с помощью Gimp фотография монеты" width="300" height="298" >
 </div>
 <div class="flex-1">
@@ -60,7 +60,7 @@ keywords: "оптимизация изображений"
 </div>
 
 <div class="flex-in">
-<div class="flex-2">
+<div class="flex-1">
 <img src="/images/coin-optimizilla.jpg" alt="оптимизированная с помощью Optimizilla фотография монеты" width="300" height="298" >
 </div>
 <div class="flex-1">
@@ -99,15 +99,17 @@ keywords: "оптимизация изображений"
 <p>Минусы тоже есть. Во-первых, не&nbsp;все плагины написаны хорошо. Иногда можно здорово проиграть в&nbsp;производительности сайта. Во-вторых, некоторые задачи нельзя решить в&nbsp;автоматическом режиме. Например, кадрирование. Панорамная фотография хорошо смотрится на&nbsp;большом экране, но&nbsp;на&nbsp;смартфоне лучше показать только наиболее значимую часть фотографии. </p>
 
 <p>Показывать разные изображения для разных ситуаций поможет тег &lt;picture&gt;. </p>
-<div class="with-side">
-<p>Если вы&nbsp;читаете статью со&nbsp;смартфона, ниже вы&nbsp;видите котенка, который спит, свернувшись калачиком. Если читаете с&nbsp;большого экрана&nbsp;— ваш кот зевает и&nbsp;потягивается. Еще есть кот, который сидит и&nbsp;смотрит на&nbsp;вас. Поэкспериментируете с&nbsp;гаджетами или размером окна браузера и&nbsp;убедитесь, что так и&nbsp;есть. </p>
-<div class="side">Пример взят <a href="https://cloudfour.com/examples/img-currentsrc/" target="_blank" rel="noopener">отсюда</a></div></div>
 
+<p>Если вы&nbsp;читаете статью со&nbsp;смартфона, ниже вы&nbsp;видите котенка, который спит, свернувшись калачиком. Если читаете с&nbsp;большого экрана&nbsp;— ваш кот зевает и&nbsp;потягивается. Еще есть кот, который сидит и&nbsp;смотрит на&nbsp;вас. Поэкспериментируете с&nbsp;гаджетами или размером окна браузера и&nbsp;убедитесь, что так и&nbsp;есть. </p>
+
+<figure>
 <picture>
   <source media="(min-width: 650px)" srcset="/images/kitten-large.png">
   <source media="(min-width: 465px)" srcset="/images/kitten-medium.png">
   <img src="/images/kitten-small.png" alt="a cute kitten" >
 </picture>
+<figcaption>Пример взят <a href="https://cloudfour.com/examples/img-currentsrc/" target="_blank" rel="noopener">отсюда</a></figcaption>
+</figure>
 
 <p>А&nbsp;вот как это работает:</p>
 
