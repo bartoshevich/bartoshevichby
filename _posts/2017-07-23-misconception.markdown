@@ -111,4 +111,4 @@ keywords: "мифы о маркетинге"
 <p>Если для решения задач бизнеса не&nbsp;требуется увеличить уровень осведомленности или изменить восприятие клиентов, не&nbsp;рекламируйтесь. Если все это требуется, следуйте <a href="/instrukcii/algoritm-provedeniya-reklamnoj-kampanii/">алгоритму проведения рекламной кампании</a>. </p>
 
 <p>&nbsp;</p>
-<p><em><b>Дополнение.</b> Как выяснилось позже, на&nbsp;мастер-классе присутствовала журналист Мария Мелёхина. Для портала «Megapolis-real» она подготовила <a href="https://megapolis-real.by/stati/5-opasnyix-zabluzhdenij-o-marketinge.html" target="_blank" rel="noopener">материал по&nbsp;теме моего доклада</a>. </em></p>
+<p><em><b>Дополнение.</b> Как выяснилось позже, на&nbsp;мастер-классе присутствовала журналист Мария Мелёхина. Для портала «Megapolis-real» она подготовила <a href="https://megapolis-real.by/stati/5-opasnyix-zabluzhdenij-o-marketinge.html" target="_blank" rel="noopener">материал по&nbsp;теме моего выступления</a>. </em></p>
