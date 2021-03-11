@@ -105,7 +105,7 @@ layout: null
           event.respondWith(
               fetch(request)
                   .catch(function () {
-                      return caches.match('/offline');
+                      return caches.match('/offline/');
                   })
           );
           return;
