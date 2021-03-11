@@ -32,9 +32,7 @@ layout: null
                 '/mnenie/seth-godin/',
                 '/mnenie/stars/',
                 '/opyt/brand-conception-hormann/',
-                '/opyt/brand-strategy-flex-n-roll/',
-                'https://fonts.gstatic.com/s/ptsans/v12/jizfRExUiTo99u79B_mh0OqtLQ0Z.woff2',
-                'https://fonts.gstatic.com/s/ptsans/v12/jizaRExUiTo99u79D0aExdGM.woff2'
+                '/opyt/brand-strategy-flex-n-roll/'
               ]);
           });
   };
