@@ -72,12 +72,21 @@ line-height: 1.1;
 
 	}
 	.sub-title {
-		font-size: 21px;
-		line-height: 1.19048;
+		font-size: 24px;
+		line-height: 1.16048;
 		letter-spacing: .011em;
 	}
 
 }
+
+
+@media screen and (min-width:735px) {
+	.sub-title {
+		font-size: 24px;
+		line-height: 28px;
+	}
+}
+
 
 .headline-wrapper a {
 	font-size: 19px;
@@ -95,13 +104,7 @@ letter-spacing: .007em;
 	line-height: 1.2em;
   }
 
-@media screen and (min-width:735px) {
 
-	.sub-title {
-		font-size: 24px;
-		line-height: 28px;
-	}
-}
 
 
 
