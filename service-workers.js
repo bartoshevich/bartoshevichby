@@ -172,3 +172,48 @@ layout: null
   });
 
 })();
+
+
+//headers
+
+let addHeaders = {
+    "Content-Security-Policy": "default-src 'self'; upgrade-insecure-requests",
+    "Strict-Transport-Security": "max-age=1000",
+    "X-XSS-Protection": "1; mode=block",
+    "X-Frame-Options": "SAMEORIGIN",
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": "same-origin"
+  }
+  
+  let removeHeaders = [
+    "Server",
+    "Public-Key-Pins",
+    "X-Powered-By",
+    "X-AspNet-Version"
+  ]
+  
+  addEventListener("fetch", event => {
+    event.respondWith(fetchAndApply(event.request))
+  })
+  
+  async function fetchAndApply(request) {
+    // Fetch the original page from the origin
+    let response = await fetch(request)
+  
+    // Make response headers mutable
+    response = new Response(response.body, response)
+  
+    // Set each header in addHeaders
+    Object.keys(addHeaders).map(function(name, index) {
+      response.headers.set(name, addHeaders[name])
+    })
+  
+    // Delete each header in removeHeaders
+    removeHeaders.forEach(function(name){
+      response.headers.delete(name)
+    })
+  
+    // Return the new mutated page
+    return response
+  }
+  
