@@ -17,14 +17,7 @@ layout: null
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <copyright>Copyright 2015-2021, Dmitry Bartoshevich</copyright>
    
-    <yandex:related type="infinity">
-    <link url="https://bartoshevich.by/mnenie/igra/">Маркетинг и игра в «Cпасителя»</link>
-    <link url="https://bartoshevich.by/mnenie/stars/">О звездах и богах маркетинга</link>
-    <link url="https://bartoshevich.by/mnenie/otlichie-marketologa-ot-brexuna/">Как маркетолога отличить от брехуна</link>
-    <link url="https://bartoshevich.by/mnenie/emotions-in-marketing/">Зачем и как говорить на языке эмоций</link>
-    <link url="https://bartoshevich.by/mnenie/put-marketologa/">Слово о Пути маркетолога</link>
-    <link url="https://bartoshevich.by/mnenie/seth-godin/">Сет Годин «Это маркетинг». Ключевые идеи новой книги</link>  
-    </yandex:related>
+
 
     <image>
         <url>https://bartoshevich.by/favicon-32x32.png </url> 
