@@ -2,32 +2,54 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" >
+<rss xmlns:yandex="http://news.yandex.ru"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:turbo="http://turbo.yandex.ru"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     version="2.0">
   <channel>
-    <title>Блог Дмитрия Бартошевича  </title>
-    <description>Пишу о маркетинге, брендах и смыслах. Делюсь идеями, наблюдениями, опытом. </description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
+    <title>Блог Дмитрия Бартошевича о маркетинге </title>
+    <link>https://bartoshevich.by/blog/</link>
+    <description>Статьи по различным вопросам маркетинга и развития бизнеса </description>
+    <language>ru</language> 
     <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <copyright>Copyright 2015-2020, Dmitry Bartoshevich</copyright>
-    <language>ru</language>
+    <copyright>Copyright 2015-2021, Dmitry Bartoshevich</copyright>
+   
+    <yandex:related type="infinity">
+    <link url="https://bartoshevich.by/mnenie/igra/">Маркетинг и игра в «Cпасителя»</link>
+    <link url="https://bartoshevich.by/mnenie/stars/">О звездах и богах маркетинга</link>
+    <link url="https://bartoshevich.by/mnenie/otlichie-marketologa-ot-brexuna/">Как маркетолога отличить от брехуна</link>
+    <link url="https://bartoshevich.by/mnenie/emotions-in-marketing/">Зачем и как говорить на языке эмоций</link>
+    <link url="https://bartoshevich.by/mnenie/put-marketologa/">Слово о Пути маркетолога</link>
+    <link url="https://bartoshevich.by/mnenie/seth-godin/">Сет Годин «Это маркетинг». Ключевые идеи новой книги</link>  
+    </yandex:related>
 
     <image>
         <url>https://bartoshevich.by/favicon-32x32.png </url> 
-        <title>Блог Дмитрия Бартошевича</title> 
+        <title>Блог Дмитрия Бартошевича о маркетинге</title> 
         <link>https://bartoshevich.by/</link> 
         <width>32</width> 
         <height>32</height> 
     </image> 
     
     {% for post in site.posts limit:60 %}
-      <item >
-       
+       <item turbo="true">
+       <turbo:extendedHtml>true</turbo:extendedHtml>
         <title>{{ post.title | xml_escape }}</title>
-         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-          
+         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+           <author>Дмитрий Бартошевич</author>
+        
+          <turbo:content>
+                <![CDATA[
+                    {{ post.content | xml_escape }}
+                ]]>
+            </turbo:content>
+
+
+
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
         <description>{{ post.content | xml_escape }}</description> 
         
