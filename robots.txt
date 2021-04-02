@@ -1,5 +1,6 @@
 User-agent: *
 Disallow: /tag
 Disallow: /test/
+Disallow: /belarus/
 sitemap: https://bartoshevich.by/sitemap.xml
 Host: https://bartoshevich.by
