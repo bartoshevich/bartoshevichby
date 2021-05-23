@@ -8,87 +8,69 @@
 @import "parts/media-object";
 
 
-
-.headline-wrapper {
-	margin: 2em 0 1.1em 0;
+header {
+	margin: 2em 0 3em 0;
 	padding: 0 0 14px 0;
-//	text-align: center;
-	max-width: 725px;
 }
 
-@media screen and (min-width:571px) {
-    .headline-wrapper {
-	text-align: left;
-	padding: 0 0 44px 0;
+header > h1 {
+	font-size: calc(1.5em + .5vw);
+	line-height: 1.2;
+	margin-bottom: 0;
+	font-weight: 700;
+	
+}
+
+header > h2 {
+	font-size: calc(1.5em + .5vw);
+    font-weight: 700;
+	margin: .2em 0 1em 0;
+}
+
+
+
+.subtitle {
+	display: flex;
+	justify-content:space-between;
+	flex-wrap: wrap;
+	width: 100%;
+	border-top: 2px solid #1d1d1f;
+	font-size: 1.2em;
+	line-height: 1.19048;
+	font-weight: 500;
+	padding-top: .4em;
+}
+
+@media screen and (min-width:700px) {
+    .subtitle {
+	width: 80%;
+	font-size: 1.4em;
     }
 }
 
-.headline-wrapper h1 {
-	font-size: 30px;
-	font-weight: 600;
-	line-height: 1.2;
-	margin-bottom: 0;
+.subtitle-slogan {
+	max-width: 650px;
 }
 
-.headline-wrapper h2 {
-	font-size: 30px;
-	font-weight: 500;
-margin: .2em 0 1em 0;
-line-height: 1.1;
 
-
-}
-
-@media screen and (min-width: 734px) {
-	.headline-wrapper h1 {
-		font-size: 42px;
-
-	}
-.headline-wrapper h2 {
-		font-size: 42px;
-		letter-spacing: .011em;
+@supports (display: grid) {
+	@media (min-width: 820px) {
+	.subtitle-wrapper {
+		width: 100%;
+		display: grid;
+		grid-template-columns: 2fr 1.2fr 1fr 1fr 1fr;
+		grid-template-rows:  auto ;
+		grid-gap: 10px;
 	}
 
-}
-
-
-
-.sub-title {
-
-	color:#8c8c8c;
-	font-size: 19px;
-	line-height: 1.19048;
-	font-weight: 600;
-	letter-spacing: .011em;
-}
-
-@media screen and (min-width: 734px) {
-	.b-large-text {
-		font-size: 40px;
-		line-height: 1.1;
-		letter-spacing: 0em;
-	//	max-width: 725px;
-	//	width: 83%;
-
+	.subtitle {
+		grid-column: 1 / 4;
+		grid-row: 1;
+		width: 100%;
 	}
-	.sub-title {
-		font-size: 24px;
-		line-height: 1.16048;
-		letter-spacing: .011em;
 	}
-
 }
 
-
-
-.headline-wrapper a {
-	font-size: 19px;
-line-height: 1.381;
-color: #1d1d1f;
-font-weight: 600;
-letter-spacing: .007em;
-
-}
 
 .size-2x {
 	font-size: calc(1.1em + .5vw);
@@ -96,8 +78,6 @@ letter-spacing: .007em;
 	font-weight: 400;
 	line-height: 1.2em;
   }
-
-
 
 
 
