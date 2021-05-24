@@ -117,13 +117,6 @@ p {
 }
 
 
-.margin-bottom {
-	margin-bottom: 5em;
-  max-width: 720px;
-margin-left: auto;
-margin-right: auto;
-
-}
 
 
 .flex-wrapper {
@@ -195,11 +188,7 @@ margin: auto;
 	background: $focus;
 }
 
-.blog a,
-.blog a:hover {
-  color: #005FC2;
 
-}
 
 .blog,
 .email,
@@ -227,7 +216,7 @@ margin: auto;
 }
 
 .giperlink {
-	background:  #f1f0ee;
+	background:  #e7dfe0 //#f1f0ee;
 }
 
 .giperlink,

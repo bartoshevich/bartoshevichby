@@ -223,20 +223,111 @@ a {
   outline: none;
 }
 
-.link-simbol::after {
-  display: inline-block;
-  content: '>';
-  font-size: 80%;
-  padding: 0 5px;
+
+
+/* Links */ 
+
+a {
+  color: $a-normal-text;
+  text-decoration:none;
+  box-shadow: inset 0 -2px 0 -1px rgba(0,0,0,.15);
+}
+a:visited {
+  color: #034575;
+  color: $a-visited-text;
+  text-decoration: none;
+  
 }
 
-.link-before::before {
-  display: inline-block;
-  content: '<';
-  font-size: 80%;
-  padding: 0 5px;
+a:focus,
+a:hover {
+  text-decoration: none;
+  color: $a-active-text;
+  box-shadow: inset 0 -2px 0 -1px rgba(0,0,0,.15);
+
+  }
+a:active {
+  color: $a-active-text;
+  text-decoration: none;  
 }
+
+.navbar > a, 
+.archive-list a,
+.head-item,
+.cytata a,
+.buttons a  {
+  box-shadow: none;
+  text-shadow: none;
+
+}
+
+.noShadows {
+  box-shadow: none;
+}
+
+/* часть ссылки без выделения */ 
+.link-caption  {
+  color: $text;
+  text-decoration: none;
+  box-shadow: inset 0 -2px 0 -1px #fff;
+}
+
+
+
+
+
+
+/*Links with simbol */ 
+
+
+.link-simbol,
+.link-simbol:hover {
+  display: inline-block;
+  text-decoration: none;
+  box-shadow: none;  
+}
+
+.link-simbol-text {  
+  color: $a-normal-text;  
+}
+
+.link-simbol-text:hover {
+  color: $a-active-text;
+  box-shadow: inset 0 -2px 0 -1px $a-active-text;
+  text-decoration: none;
+	border-bottom: 0;
+}
+
+.link-simbol-simbol {
+  font-size: 80%;
+  display: inline-block;
+  pointer-events: none;
+}
+
+.simbol-right {
+  padding-left: .1em;
+}
+
+.simbol-left {
+  padding-right: .1em;
+}
+
+.link-simbol-simbol:hover {
+  color: green; //$a-active-text;
+  font-weight: 700;
+}
+    
+
+
+
+/****************************/
+
+
+
+
+
 
 li {
   margin-bottom: .6em;
 }
+

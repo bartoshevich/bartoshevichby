@@ -19,6 +19,7 @@
 	background-color:transparent;
 	text-decoration:none;
 	color: inherit;
+	box-shadow: none;
 }
 
 .footer__notes a:hover,
@@ -26,6 +27,7 @@
 	background-color:transparent;
 	text-decoration:none;
 	color: #ffffff;
+	box-shadow: none;
 }
 
 
@@ -66,12 +68,14 @@
 	  vertical-align: middle;
 		padding-right: 2em;
 	padding-top:1em;
+	
 	 }
 	  .footer__links li::before {
 		display: none; }
      .footer__links li a {
 		display: block;
-	width: 100%; }
+	width: 100%; 
+	box-shadow: none;}
 	
 @media (min-width:500px)	{
   .for__notes {
@@ -97,28 +101,24 @@
 		text-decoration:none;
 		border-bottom:1px solid #4ccda8;
 		cursor:pointer;
+		box-shadow: none;
 	   }
 	  
 	   .footer__links a:hover,
 	   .footer__links a:active {
 		color:#c1e0fe;
 		border-bottom:1px solid #303030;
-		text-decoration:none
+		text-decoration:none;
+		box-shadow: none;
 	   }
 
 
  .privacy-div {
-		margin-left: 2em;
+		margin: 0 0 .5em 2em;
 	   }
 .privacy {
 	line-height: .5em;
 	font-size: .8em;
 	color:#1d1d1f;
 	text-decoration:none;
-	border-bottom:1px solid #ffffff;
-}
-
-.privacy a:hover {
-	color:#c1e0fe;
-	border-bottom:1px solid #303030;
 }

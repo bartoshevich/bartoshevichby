@@ -4,8 +4,8 @@
 //
 
 // Colors
-$link:  #0066cc;
-$linkhover: #ff853d; // #cc0000;
+$link:  #00458B; // #034575;  //#0066cc;
+$linkhover: rgb(227,0,22);
 $linkbottom: #e758ae; //#d1d1d1;
 $text: #1d1d1f; // #201222; #221b1a;
 $text-menu: #555;
@@ -20,6 +20,16 @@ $hip2:#fff7d7;
 $toc:#fafafa;
 
 
+
+//Links
+$a-normal-text: #20399D; //#0066cc; //#065580; //#00458B; //#034575;
+$a-normal-underline: #707070;
+$a-visited-text: $a-normal-text;
+$a-visited-underline: #bbb;
+$a-hover-bg: rgba(75%, 75%, 75%, .25);
+$a-active-text: #c00; //#BF1722; //rgb(227,0,22); 
+$a-active-underline: #c00;
+
 // Font stacks
 $helvetica:  Roboto,Arial,Helvetica, sans-serif;
 $sizebasis: 18px;
@@ -28,3 +38,9 @@ $sizebasis: 18px;
 
 $line-p: 31px;
 $line-quote: 30px; 
+
+// buttons
+$button-bg:#0071e3; // #2c6bed; //#1851B4; //hsl(153, 53%, 53%);//#6500D3; //#0070c9;
+$button-color:#fff;
+$button-bg-hover: $a-active-text; //#1851B4;
+$button-color-hover: #fff;

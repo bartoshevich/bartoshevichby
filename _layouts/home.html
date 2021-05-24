@@ -31,7 +31,7 @@ layout: compress
     {% comment %} MENU {% endcomment %}
 
     <nav  aria-label="main navigation" class="navbar is-transparent is-spaced has-shadow">
-        <div class="container">
+        <div class="container ">
             <div class="navbar-brand">
 
 
@@ -64,7 +64,7 @@ layout: compress
                
 
                     <div class="buttons">
-                        <a class="button is-info" href="/contact/"><strong>Стать клиентом</strong></a>
+                        <a class="button is-info" href="/contact/">Стать клиентом</a>
                     </div>
                 </div>
             </div>
@@ -90,8 +90,12 @@ layout: compress
         <p class="subtitle-slogan">
             Возвращаю смысл в&nbsp;маркетинг: создаю концепции брендов, структурирую маркетинговую активность. Привлекаю не&nbsp;лиды, а&nbsp;единомышленников.
            </p>
-       
-           <a href="/uslugi/" class="link-simbol">Описание услуг</a>
+       <div>
+           <a href="/uslugi/" class="link-simbol">
+         <span class="link-simbol-text">Описание услуг</span>   
+         <span class="link-simbol-simbol simbol-right">></span>
+        </a>
+         </div>
 
     </div>
 </div>
@@ -150,7 +154,6 @@ layout: compress
 
 
 
-        <div class="margin-bottom">
             <div class="main">
 
               <div class="flex-wrapper cytata giperlink">
@@ -260,12 +263,12 @@ layout: compress
 
 
  <div class="flex-wrapper blog">
-        <div class="flex-wrapper-item">
+        <div class="flex-wrapper-item size-2x">
 
-
-
-
-            <a href="/me/" title="Блог маркетолога" class="link-simbol size-2x">Проекты</a>
+            <a href="/me/" title="Что сделал Дмитрий Бартошевич"  class="link-simbol">
+                <span class="link-simbol-text ">Проекты</span>   
+                <span class="link-simbol-simbol simbol-right">></span>
+               </a>
 
 
         </div>
@@ -350,15 +353,22 @@ layout: compress
 
 
                 <div class="flex-wrapper email">
-                    <div class="flex-wrapper-item">
-                        <a href="/blog/" class="link-simbol size-2x ">Делюсь знаниями</a>
+                    <div class="flex-wrapper-item size-2x">
+
+                        <a href="/blog/" title="Блог маркетолога"  class="link-simbol">
+                            <span class="link-simbol-text ">Делюсь знаниями</span>   
+                            <span class="link-simbol-simbol simbol-right">></span>
+                           </a>
                     </div>
                 </div>
 
 
                 <div class="flex-wrapper contact">
-                    <div class="flex-wrapper-item">
-                        <a href="/contact/" class="link-simbol size-2x">Стать клиентом</a>
+                    <div class="flex-wrapper-item size-2x">
+                        <a href="/contact/" title="Обсудить сотрудничество"  class="link-simbol">
+                            <span class="link-simbol-text ">Стать клиентом</span>   
+                            <span class="link-simbol-simbol simbol-right">></span>
+                           </a>
                     </div>
                 </div>
 
@@ -368,12 +378,12 @@ layout: compress
 
         </div>
 
-    </div>
+
 
 
 
 </article>
-
+<hr>
     {% include footer.html %} {% include scripts.html %}
 
 </body>

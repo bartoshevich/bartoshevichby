@@ -1,15 +1,34 @@
 
 
-
-
 .selected {
-        color: rgba(29,29,31,0.7) !important;
-    
+    box-shadow: none;
+    background-color: #F0F0F0;
+	border-radius: 4px;
+    text-decoration: none;
+	color: #363636; 
 }
-       
 .selected-title {
     color: #1d1d1f !important;
 }
+
+
+.navbar-item  a {
+    color: $a-normal-text;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+nav > a strong {
+    color: currentColor;
+}
+
+.navbar-item a:hover {
+    color: $a-active-text;
+    background-color: #F0F0F0;
+	border-radius: 4px;
+}
+
 
 
 @-webkit-keyframes spinAround {
@@ -49,7 +68,7 @@
     -webkit-appearance: none;
     align-items: center;
     border: 1px solid transparent;
-    border-radius: 4px;
+    border-radius: 8px;
     box-shadow: none;
     display: inline-flex;
     height: 2.25em;
@@ -76,19 +95,8 @@
 
 
 
-a {
-    color: $link;
-    cursor: pointer;
-    text-decoration: none
-}
 
-a strong {
-    color: currentColor;
-}
 
-a:hover {
-    color: #363636;
-}
 
 span {
     font-style: inherit;
@@ -115,7 +123,10 @@ strong {
     padding-right: .75em;
     padding-top: calc(.375em - 1px);
     text-align: center;
-    white-space: nowrap
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-size: .8em;
+    font-weight: 700;
 }
 
 .button strong {
@@ -143,15 +154,15 @@ strong {
 }
 
 .button.is-info {
-    background-color: #0070c9;
+    background-color: $button-bg;
     border-color: transparent;
-    color: #fff
+    color: $button-color;
 }
 
 .button.is-info:hover {
-    background-color: #2254c4;
-    border-color: transparent;
-    color: #fff
+    background-color: $button-bg-hover;
+    border-color: $button-bg-hover;
+    color: $button-color-hover;
 }
 
 .button.is-info:focus {
@@ -191,7 +202,8 @@ strong {
 }
 
 .buttons .button {
-    margin-bottom: .5rem
+    margin-bottom: .5rem;
+    margin-left: .6em;
 }
 
 .buttons:last-child {
@@ -252,7 +264,7 @@ strong {
 .label {
     color: #363636;
     display: block;
-    font-size: 1rem;
+    font-size: .8em;
     font-weight: 700
 }
 
@@ -261,12 +273,12 @@ strong {
 }
 
 .menu {
-    font-size: 1rem
+    font-size: .8em;
 }
 
 .menu-label {
     color: #7a7a7a;
-    font-size: .75em;
+    font-size: .8em;
     letter-spacing: .1em;
     text-transform: uppercase
 }
@@ -299,7 +311,9 @@ strong {
 .navbar.is-info .navbar-brand>a.navbar-item:focus,
 .navbar.is-info .navbar-brand>a.navbar-item:hover {
     background-color: #118fe4;
-    color: #fff
+    color: #fff;
+    box-shadow: none;
+
 }
 
 .navbar.is-info .navbar-burger {
@@ -313,8 +327,12 @@ strong {
     .navbar.is-info .navbar-end>a.navbar-item.is-active,
     .navbar.is-info .navbar-end>a.navbar-item:focus,
     .navbar.is-info .navbar-end>a.navbar-item:hover {
-        background-color: #118fe4;
-        color: #fff
+        box-shadow: none;         
+        color: $a-normal-text;
+    background-color: #F0F0F0;
+	border-radius: 4px;
+        
+        
     }
 }
 
@@ -350,7 +368,8 @@ strong {
     height: 3.25rem;
     position: relative;
     width: 3.25rem;
-    margin-left: auto
+    margin-left: auto;
+    box-shadow: none;
 }
 
 .navbar-burger span {
@@ -366,7 +385,8 @@ strong {
     transition-property: background-color, opacity, transform;
     transition-property: background-color, opacity, transform, -webkit-transform;
     transition-timing-function: ease-out;
-    width: 16px
+    width: 16px;
+    box-shadow: none;
 }
 
 .navbar-burger span:nth-child(1) {
@@ -382,7 +402,8 @@ strong {
 }
 
 .navbar-burger:hover {
-    background-color: rgba(0, 0, 0, .05)
+    background-color: rgba(0, 0, 0, .05);
+    box-shadow: none;
 }
 
 .navbar-burger.is-active span:nth-child(1) {
@@ -408,23 +429,34 @@ strong {
     display: block;
     line-height: 1.5;
     padding: .5rem .75rem;
-    position: relative
+    position: relative;
+    box-shadow: none;
+    text-transform: uppercase;
+    font-size: .8em;
+    font-weight: 700;
+    letter-spacing: 0.031em;
+   
+   
 }
 
 a.navbar-item {
-    cursor: pointer
+    cursor: pointer;
+    color: $text;
 }
 
 a.navbar-item.is-active,
 a.navbar-item:focus,
 a.navbar-item:focus-within,
-a.navbar-item:hover {
-    background-color: #fafafa;
-   color: $link;
+a.navbar-item:hover {    
+   color: $a-active-text;
+  // -webkit-transition:color 0.2s ease-in, text-shadow 0.2s ease-in;
+//	transition:color 0.2s ease-in, text-shadow 0.2s ease-in;
+ //  text-shadow: #bbb 1px 1px 1px;
+   box-shadow: none;
+
 }
 
 .navbar-item {
-    display: block;
     flex-grow: 0;
     flex-shrink: 0
 }
@@ -451,7 +483,8 @@ a.navbar-item:hover {
 }
 
 .button.is-info {
-  margin-left: 1em;
+  margin-left: 1rem;
+  
 }
 
 
@@ -492,7 +525,8 @@ a.navbar-item:hover {
     .navbar.is-transparent a.navbar-item.is-active,
     .navbar.is-transparent a.navbar-item:focus,
     .navbar.is-transparent a.navbar-item:hover {
-        background-color: transparent!important
+        background-color: transparent!important;
+        box-shadow: none;
     }
     .navbar-burger {
         display: none
@@ -531,5 +565,3 @@ a.navbar-item:hover {
         background-color: transparent
     }
 }
-
-

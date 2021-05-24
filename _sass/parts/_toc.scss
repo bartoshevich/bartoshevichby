@@ -36,3 +36,8 @@ li.level2 {
 .toc li {
 	 margin-bottom: .6em;
 }   
+
+.toc a,
+.toc a:hover {
+	box-shadow: none;
+}
