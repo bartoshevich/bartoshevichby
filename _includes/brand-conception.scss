@@ -6,7 +6,7 @@
 @import "parts/footer";
 @import "parts/alarm";
 @import "parts/media-object";
-
+@import "parts/image";
 
 
 
@@ -27,7 +27,44 @@
 }
 
 
+@supports (display: grid) {
+  @media screen and (min-width: 720px) { 
+    article {
+      display: grid;
+       grid-template-columns:
+    minmax(40px, 60px)
+    minmax(65ch, 75ch)
+    minmax(1.2rem, auto);
+    max-width: 1280px;
+    grid-gap: 0 1em;
+    } 
 
+.title {
+    grid-column: 1/3;
+    margin-bottom: 1em;
+  }
+
+.meta {
+  grid-column:1;
+ // grid-row-start: 4;
+  grid-row-end: span 2;
+  }
+
+article > * {
+  grid-column: 1/3;
+}
+
+.full-bleed {
+grid-column:1/4;
+}
+
+
+}
+}
+
+p + ul {
+  margin: 0;
+}
 
 .comparison {
   display: flex;
@@ -59,6 +96,33 @@
 }
 
 
+/*  image + text */
+
+.imageWithText {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5em 0 1.5em 0;
+}
+
+.imageWithText-item { 
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media (min-width: 636px) {
+.imageWithText {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  grid-gap: 1em;
+  grid-auto-flow: dense;
+}
+}
+
+
+
+
+
 /* отстут перед абзацем */
 
 .interval {
@@ -74,7 +138,7 @@
 /* text */
 
 .text {
-  max-width: 50rem;
+ // max-width: 75ch;
 
 }
 

@@ -35,7 +35,10 @@
   }
 }
 
-
+.media-link,
+.media-link a:visited {
+color: $text !important;
+}
 
 
 .image.is-64x64 {
