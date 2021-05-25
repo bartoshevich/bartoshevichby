@@ -8,7 +8,7 @@
 	color: #363636; 
 }
 .selected-title {
-    color: #1d1d1f !important;
+    color: $text!important;
 }
 
 
@@ -68,7 +68,7 @@ nav > a strong {
     -webkit-appearance: none;
     align-items: center;
     border: 1px solid transparent;
-    border-radius: 8px;
+    border-radius: .25rem;
     box-shadow: none;
     display: inline-flex;
     height: 2.25em;
@@ -135,7 +135,7 @@ strong {
 
 .button:hover {
     border-color: #b5b5b5;
-    color: #363636
+    color: #363636;
 }
 
 .button:focus {
@@ -198,7 +198,8 @@ strong {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start
+    justify-content: flex-start;
+    margin-left:.1em;
 }
 
 .buttons .button {
@@ -435,6 +436,8 @@ strong {
     font-size: .8em;
     font-weight: 700;
     letter-spacing: 0.031em;
+    margin-right:.1em;
+    margin-left:.1em;
    
    
 }

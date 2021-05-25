@@ -36,7 +36,7 @@ keywords: "оптимизация изображений"
 </nav>
 
 <h2 id="1">Стандартный подход</h2>
-<p>Перед публикацией фотографии на&nbsp;сайте я&nbsp;уменьшаю ее&nbsp;вес. Делаю это в&nbsp;графическом редакторе (Gimp + плагин «gimp-plugin-saveforweb») или сервисе <a href="https://imagecompressor.com/ru/">Optimizilla</a>. </p>
+<p>Перед публикацией фотографии на&nbsp;сайте я&nbsp;уменьшаю ее&nbsp;вес. Делаю это в&nbsp;графическом редакторе (Gimp + плагин «gimp-plugin-saveforweb») или <a href="https://imagecompressor.com/ru/">сервисе Optimizilla</a>. </p>
 
 <b>Пример</b>
 <div class="flex-in">

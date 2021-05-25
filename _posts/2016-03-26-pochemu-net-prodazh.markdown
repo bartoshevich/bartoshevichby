@@ -48,7 +48,7 @@ image: /images/tizer-18.jpg
 </table>
 
 <div class="side">
-<p>Кризис и&nbsp;спад продаж&nbsp;— благоприятное время для работы над маркетинговой стратегией. Почему? Ответ в&nbsp;<a href="/mnenie/vremya-dlya-strategii/">статье</a>.</p>
+<p>Кризис и&nbsp;спад продаж&nbsp;— благоприятное время для работы над маркетинговой стратегией. Почему? Ответ <a href="/mnenie/vremya-dlya-strategii/">в&nbsp;статье</a>.</p>
 </div>
 </div>
 

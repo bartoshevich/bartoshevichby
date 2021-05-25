@@ -1,10 +1,12 @@
 .footer {
-	background-color: #303030;
+	background-color: $footer-bg;
 	width:100%;
-	color: #999999;
+	color: $footer-primary-color;
 
 }
 
+
+/**** footer-grid ****/
 
 .footer-grid {
 	display: grid;
@@ -14,7 +16,7 @@
 	padding-top: 5vh;	
 	margin: 2em 0;
 }
-.footer__notes a,
+
 .footer-grid a {
 	background-color:transparent;
 	text-decoration:none;
@@ -22,36 +24,43 @@
 	box-shadow: none;
 }
 
-.footer__notes a:hover,
-.footer-grid a:hover {
-	background-color:transparent;
-	text-decoration:none;
-	color: #ffffff;
-	box-shadow: none;
-}
 
 
+/**** footer-menu ****/
 
 .footer-item {
 	display: flex;
 	flex-direction: column;	
-	min-width: 200px;
-	
-	
+	min-width: 200px;	
 }
 
 .footer-item-name {
     display: block;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 1.4em;
 	color: inherit;
+	margin-bottom:.2em;
 }
 
 
-.footer-item span {
+.footer-item-caption {
 	font-size:.9em;
+	color: $footer-primary-color;
 }
 
+
+
+.footer-item:hover {
+	color: $footer-primary-color-hover;
+	background-color:transparent;
+	text-decoration:none;
+	box-shadow: none;
+
+
+}
+
+
+/**** footer-links (SMM) ****/
 
   .footer__links {
 	margin-top: 4vh;
@@ -59,7 +68,6 @@
 	list-style: none;
 	
 }
-
 
 	.footer__links li {
 	  font-size: 1em;
@@ -86,6 +94,38 @@
 
 }
 
+	.footer__links a {
+		background-color:transparent;
+		color:#BDBDBD;
+		text-decoration:none;
+		border-bottom:1px solid $footer-primary-color;
+	//	border-bottom:1px solid #4ccda8;
+		cursor:pointer;
+		box-shadow: none;
+	   }
+	  
+	   .footer__links a:hover,
+	   .footer__links a:active {
+		color: $footer-secondary-color;
+		border-bottom:1px solid $footer-bg;
+		text-decoration:none;
+		box-shadow: none;
+	   }
+
+
+
+
+
+/**** footer-notes ****/
+
+ .footer__notes  {
+	background-color:transparent;
+	text-decoration:none;
+	color: $footer-add-color;
+	box-shadow: none;
+}
+
+
   .footer__notes {
 	grid-column: 2/12;
 	text-align: center;
@@ -94,24 +134,7 @@
 	}
 
 
-
-	.footer__links a {
-		background-color:transparent;
-		color:#999;
-		text-decoration:none;
-		border-bottom:1px solid #4ccda8;
-		cursor:pointer;
-		box-shadow: none;
-	   }
-	  
-	   .footer__links a:hover,
-	   .footer__links a:active {
-		color:#c1e0fe;
-		border-bottom:1px solid #303030;
-		text-decoration:none;
-		box-shadow: none;
-	   }
-
+/**** footer-privacy ****/
 
  .privacy-div {
 		margin: 0 0 .5em 2em;
