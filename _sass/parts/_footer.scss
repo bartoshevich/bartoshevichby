@@ -13,15 +13,19 @@
 	grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
 	grid-gap: 32px;
 	grid-auto-flow: dense;
-	padding-top: 5vh;	
+	padding-top: 5vh;
 	margin: 2em 0;
+
 }
+
+
 
 .footer-grid a {
 	background-color:transparent;
 	text-decoration:none;
 	color: inherit;
 	box-shadow: none;
+	
 }
 
 
@@ -30,9 +34,10 @@
 
 .footer-item {
 	display: flex;
-	flex-direction: column;	
-	min-width: 200px;	
+	flex-direction: column;
+	min-width: 200px;
 }
+
 
 .footer-item-name {
     display: block;
@@ -66,7 +71,7 @@
 	margin-top: 4vh;
 	padding: 0;
 	list-style: none;
-	
+
 }
 
 	.footer__links li {
@@ -76,15 +81,15 @@
 	  vertical-align: middle;
 		padding-right: 2em;
 	padding-top:1em;
-	
+
 	 }
 	  .footer__links li::before {
 		display: none; }
      .footer__links li a {
 		display: block;
-	width: 100%; 
+	width: 100%;
 	box-shadow: none;}
-	
+
 @media (min-width:500px)	{
   .for__notes {
 	display: grid;
@@ -103,7 +108,7 @@
 		cursor:pointer;
 		box-shadow: none;
 	   }
-	  
+
 	   .footer__links a:hover,
 	   .footer__links a:active {
 		color: $footer-secondary-color;

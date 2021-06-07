@@ -3,10 +3,10 @@
 @import "parts/basis";
 @import "parts/menu";
 @import "parts/article";
-@import "parts/footer";
 @import "parts/alarm";
 @import "parts/side";
-
+@import "parts/video";
+@import "parts/footer";
 
 
 
@@ -24,7 +24,7 @@ h1 {
 }
 
 .comparison-item {
- 
+
   display: flex;
   flex-direction: column;
 }
@@ -44,37 +44,6 @@ h1 {
   max-width: 250px;
 }
 
-}
-
-
-/* video */
-
-
-.video {
-  	width: 100%;
-  	position: relative;
-  	margin-top: 20px;
-  	margin-bottom: 2em;
-  	padding-top: 56.25%;
-}
-.video iframe, .video object, .video embed{
-  	position: absolute;
-  	top: 0;
-  	left: 0;
-  	width: 100%;
-  	height: 100%;
-}
-
-iframe {
-	border:0;
-	overflow:hidden;
-}
-
-.videoname {
-	margin-top:-1.95em;
-	color: #333;
-    font-size: .8em;
-    line-height: 1.4em;
 }
 
 

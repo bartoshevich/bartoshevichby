@@ -37,7 +37,7 @@ section:not([class]) section:not([class]) {
 }
 p {
   margin: 0 0 1.5em;
-  max-width: 50rem;
+  max-width: 75ch;
 }
 /* minimum paragraph width when floating http://css-tricks.com/minimum-paragraph-widths/ */
 
@@ -155,7 +155,7 @@ figure:not([class]) > p {
   margin: .5em 0 0;
 }
 figcaption {
-  max-width: 37.5rem;
+  max-width: 65ch;
   font-size: 0.8em;
   margin: 0.4em 0 1em;
   line-height: 1.4em;
@@ -243,7 +243,7 @@ a:hover {
   box-shadow: inset 0 -2px 0 -1px $a-active-underline;
   }
 
-a:focus {
+a:focus-visible {
   text-decoration: none;
   color: $a-active-text;
   box-shadow: none;
@@ -268,14 +268,22 @@ a:active {
 .archive-list a,
 .head-item,
 .cytata a,
-.buttons a,
+.buttons a {
+  box-shadow: none;
+  text-shadow: none;
+
+}
+
+/* ссылки в блоках текста */ /*
 .favoritiesLinks a,
 .relatedPost a,
 .done a {
   box-shadow: none;
   text-shadow: none;
-
 }
+
+*/
+
 
 .noShadows {
   box-shadow: none;
@@ -359,5 +367,5 @@ a:focus:not(:focus-visible) {
 
 
 li {
-  margin-bottom: .6em;
+  margin-bottom: .7em;
 }

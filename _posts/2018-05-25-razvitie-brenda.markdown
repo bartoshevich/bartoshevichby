@@ -30,7 +30,7 @@ keywords: "маркетинг без вирусов"
 		Фото никак не&nbsp;соотносится с&nbsp;указанными на&nbsp;сайте характеристиками, размывает образ компании ненужными ассоциациями
 	</figcaption>
 </figure>
-       	
+
 <p>После волны возмущения в&nbsp;байнете появились комментарии белорусских «гуру» вирусного маркетинга. Комментарии сводились к&nbsp;«Э-э-э, ну&nbsp;я&nbsp;бы так не&nbsp;делала». Чувствовалось, что они сами не&nbsp;понимают, почему. Предполагаю, если&nbsp;бы не&nbsp;негативная реакция, их&nbsp;комментарий был&nbsp;бы «Отличный пример вируса. Количество упоминаний в&nbsp;сети выросло в&nbsp;Х раз».</p>
 </div>
 
@@ -67,13 +67,24 @@ keywords: "маркетинг без вирусов"
 </div>
 
 
-<p>Желающим узнать по&nbsp;теме больше, рекомендую видео, в&nbsp;котором <a href="https://ru.wikipedia.org/wiki/%D0%90%D1%88%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2,_%D0%98%D0%B3%D0%BE%D1%80%D1%8C_%D0%A1%D1%82%D0%B0%D0%BD%D0%B8%D1%81%D0%BB%D0%B0%D0%B2%D0%BE%D0%B2%D0%B8%D1%87" target="_blank" rel="noopener">Игорь Ашманов</a> рассказывает о&nbsp;механике распространения вирусов и&nbsp;новостных вбросов. </p>
+<p>Желающим узнать по&nbsp;теме больше, рекомендую видео, в&nbsp;котором <a href="https://ru.wikipedia.org/wiki/%D0%90%D1%88%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2,_%D0%98%D0%B3%D0%BE%D1%80%D1%8C_%D0%A1%D1%82%D0%B0%D0%BD%D0%B8%D1%81%D0%BB%D0%B0%D0%B2%D0%BE%D0%B2%D0%B8%D1%87" target="_blank" rel="noopener">Игорь Ашманов</a> рассказывает о&nbsp;механике распространения вирусов и&nbsp;новостных вбросов. Бесплатность вирусного маркетинга&nbsp;— миф. Вам придется найти «агентов влияния» в&nbsp;своей сфере и&nbsp;стимулировать публиковать ваш контент. И&nbsp;делать это регулярно.</p>
 
-<div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/I33IM8MRHIo?rel=0&amp;showinfo=0" allowfullscreen></iframe></div>
-<p class="videoname">Игорь Ашманов рассказывает о&nbsp;механике распространения вирусов</p>
+<figure>
+<div class="video">
+<iframe
+class="has-ratio"
+							 width="560"
+							 height="315"
+							 src="https://www.youtube-nocookie.com/embed/I33IM8MRHIo"
+							 srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube-nocookie.com/embed/I33IM8MRHIo?autoplay=1><img src=https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1622201382/video/pic/youtu.be-I33IM8MRHIo.jpg alt='видео, в котором Игорь Ашманов рассказывает о&nbsp;механике распространения вирусов'><span>▶</span></a>"
 
+							 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							 allowfullscreen
+							 title="Игорь Ашманов рассказывает о&nbsp;механике распространения вирусов"></iframe>
+</div>
+<figcaption>Игорь Ашманов рассказывает о&nbsp;механике распространения вирусов</figcaption>
+</figure>
 
-<p>Бесплатность вирусного маркетинга&nbsp;— миф. Вам придется найти «агентов влияния» в&nbsp;своей сфере и&nbsp;стимулировать публиковать ваш контент. И&nbsp;делать это регулярно. </p>
 
 <h2>Если не&nbsp;вирусы, то&nbsp;что? </h2>
-<p>Маркетинг&nbsp;— это системная работа, которая строится вокруг центральной идеи бренда. Все, что вы&nbsp;делаете, все что публикуете в&nbsp;интернете&nbsp;— должно подкреплять и&nbsp;усиливать эту идею. Если такой идеи нет, то&nbsp;не&nbsp;делайте ничего, пока ее&nbsp;не&nbsp;создадите. Возникли сложности&nbsp;— смело обращайтесь. </p>
+<p>Маркетинг&nbsp;— это системная работа, которая строится вокруг центральной идеи бренда. Все, что вы&nbsp;делаете, все что публикуете в&nbsp;интернете&nbsp;— должно подкреплять и&nbsp;усиливать эту идею. Если такой идеи нет, то&nbsp;не&nbsp;делайте ничего, пока ее&nbsp;не&nbsp;создадите. Возникли сложности&nbsp;— <a href="/contact/">смело обращайтесь.</a></p>

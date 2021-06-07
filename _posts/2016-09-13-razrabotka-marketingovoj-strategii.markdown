@@ -16,7 +16,7 @@ image: /images/tizer-28.png
 <h2>Риски самостоятельной разработки стратегии маркетинга</h2>
 <p>В&nbsp;1986г. американцы запустили шаттл «Челленджер». На&nbsp;второй минуте полета он&nbsp;взорвался, погибло семь астронавтов. Позже комиссия выяснила, что сотрудники NASA проигнорировали признаки серьезной технической проблемы, которая и&nbsp;вызвала катастрофу.</p>
 
-
+<figure>
 <div class="video">
 <iframe class="has-ratio"
                                    width="560"
@@ -25,14 +25,11 @@ image: /images/tizer-28.png
                                    srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube-nocookie.com/embed/rUqPMMgfJ4Q?start=164?autoplay=1><img src=https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1621505346/site/Shuttle.jpg alt='Эскиз видеоролика'><span>▶</span></a>"
                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                    allowfullscreen
-                                   title="видео запуска и взрыва Челленджера"
-                               ></iframe>
-
-
+                                   title="видео запуска и взрыва Челленджера"    >
+                                   </iframe>
 </div>
-<p class="videoname">
-Видео запуска &laquo;Челленджера&raquo;, с&nbsp;2:47
-</p>
+<figcaption>Видео запуска &laquo;Челленджера&raquo;, с&nbsp;2:47</figcaption>
+</figure>
 
 
 <p>Полет готовили не&nbsp;дилетанты, а&nbsp;профессионалы. И&nbsp;они закрыли глаза на&nbsp;конструктивные просчеты челнока и&nbsp;на&nbsp;неподходящие для запуска погодные условия. Почему? Объяснение нашли в&nbsp;исследованиях психологических процессов, возникающих в&nbsp;группе.</p>

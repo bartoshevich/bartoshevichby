@@ -13,8 +13,9 @@
 @import "parts/footer";
 @import "parts/alarm";
 @import "parts/media-object";
+@import "parts/video";
 @import "parts/guest";
-
+@import "parts/flex-box";
 
 article {
   max-width: 720px;
@@ -26,13 +27,8 @@ article {
 
 
 
-
-
-
-
-
 @supports (display: grid) {
-  @media screen and (min-width: 720px) { 
+  @media screen and (min-width: 720px) {
     article {
       display: grid;
        grid-template-columns:
@@ -41,7 +37,7 @@ article {
     minmax(1.2rem, auto);
     max-width: 1280px;
     grid-gap: 0 1em;
-    } 
+    }
 
 .title {
     grid-column: 1/3;
@@ -66,47 +62,6 @@ grid-column:1/4;
 }
 }
 
-{% comment %}
-@supports (display: grid) {
-        @media screen and (min-width: 720px) {      
-         article {
-                       max-width: 1280px;
-                       display: grid;
-                      grid-template-columns: 40px auto auto;
-                      grid-gap: 1em;
-                      grid-template-areas: "a a . "
-                                           "b c . "
-                                           ". c . "
-                                           "g g g ";
-                    }
-
-
-                    .title {
-                      grid-area: a;
-                      max-width: 650px;
-                    }
-
-                    .meta {
-                      grid-area:b;
-                    }
-
-                    .article {
-                      grid-area: c;
-                      max-width: 720px;
-                    }
-
-            }
-          @media screen and (min-width: 1100px) {
-                        article {
-             grid-template-columns: 60px 48rem auto;
-           }
-        }
-       
-
-}
-
-
-{% endcomment %}
 
 .prefooter {
   display: -webkit-box;

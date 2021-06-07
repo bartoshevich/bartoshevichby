@@ -20,45 +20,45 @@ crossorigin="anonymous">
 
 <!--
 <meta http-equiv="Content-Security-Policy" content="
-default-src 'self' res.cloudinary.com;  
+default-src 'self' res.cloudinary.com;
 prefetch-src res.cloudinary.com;
 base-uri 'self';
-font-src 'self'; 
+font-src 'self';
 worker-src 'self';
 object-src 'none';
-manifest-src 'self'; 
-form-action 'self';  
+manifest-src 'self';
+form-action 'self';
 img-src 'self' res.cloudinary.com i.ytimg.com;
-connect-src 'self';  
+connect-src 'self';
 upgrade-insecure-requests;
-style-src 'report-sample' 'unsafe-inline'; 
-script-src 'report-sample'  'unsafe-inline'; 
+style-src 'report-sample' 'unsafe-inline';
+script-src 'report-sample'  'unsafe-inline';
 frame-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com;
 child-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com;
 media-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com;
-"> 
--->
+">
+
 
 
 <meta http-equiv="Content-Security-Policy" content="
-default-src 'self' res.cloudinary.com;  
+default-src 'self' res.cloudinary.com;
 prefetch-src res.cloudinary.com;
 base-uri 'self';
-font-src 'self'; 
+font-src 'self';
 worker-src 'self';
 object-src 'none';
-manifest-src 'self'; 
-form-action 'self';  
-img-src 'self' res.cloudinary.com i.ytimg.com;
-connect-src 'self';  
+manifest-src 'self';
+form-action 'self';
+img-src 'self' res.cloudinary.com i.ytimg.com static.probusiness.io;
+connect-src 'self';
 upgrade-insecure-requests ;
-style-src 'report-sample' 'nonce-2726c7f26d' 'nonce-2726c' 'sha256-/AU/Y099B+CElpdg0HRn0OONsjXVQfTO/c0pkHSsBMs=' 'unsafe-inline'; 
-script-src 'report-sample' 'nonce-2726c7f26c' 'nonce-2726c7f26q' 'unsafe-inline'; 
-frame-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com;
-child-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com;
-media-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com;
-"> 
-
+style-src 'report-sample' 'nonce-2726c7f26d' 'nonce-2726c' 'sha256-/AU/Y099B+CElpdg0HRn0OONsjXVQfTO/c0pkHSsBMs=' 'unsafe-inline';
+script-src 'report-sample' 'nonce-2726c7f26c' 'nonce-2726c7f26q' 'cdnjs.cloudflare.com' 'unsafe-inline';
+frame-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be/;
+child-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be/;
+media-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com youtu.be/;
+">
+-->
 
 
 <meta name="referrer" content="strict-origin-when-cross-origin">
@@ -89,7 +89,3 @@ media-src 'self' www.youtube-nocookie.com www.youtube.com embed.ted.com;
 <meta name="twitter:site" content="@dbartoshevich" />
 <meta name="twitter:creator" content="@dbartoshevich">
 <meta name="twitter:image" content="{% if page.image %}{{ site.url }}{{ page.image }}{% else %}https://bartoshevich.by/images/bartoshevichby.png{% endif %}">
-
-
-
-   

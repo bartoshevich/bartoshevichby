@@ -12,11 +12,11 @@ tags: "реклама инструменты интервью"
 keywords: "айтрекинг"
 ---
 <div class="with-side">
-<p>Айтрекинг (eye tracking)&nbsp;— регистрация движений глаз&nbsp;— точный и&nbsp;технологичный метод изучения реакции потребителей на&nbsp;маркетинговые стимулы. Первыми в&nbsp;Беларуси айтрекинг тестирование стало проводить Международное агентство социальных и&nbsp;маркетинговых исследований (МАСМИ). Я&nbsp;встретился с&nbsp;Марией Райской&nbsp;— ведущим руководителем проектов агентства, чтобы узнать, какую пользу приносит метод и&nbsp;насколько он&nbsp;доступен для белорусских предприятий.</p> 
+<p>Айтрекинг (eye tracking)&nbsp;— регистрация движений глаз&nbsp;— точный и&nbsp;технологичный метод изучения реакции потребителей на&nbsp;маркетинговые стимулы. Первыми в&nbsp;Беларуси айтрекинг тестирование стало проводить Международное агентство социальных и&nbsp;маркетинговых исследований (МАСМИ). Я&nbsp;встретился с&nbsp;Марией Райской&nbsp;— ведущим руководителем проектов агентства, чтобы узнать, какую пользу приносит метод и&nbsp;насколько он&nbsp;доступен для белорусских предприятий.</p>
 	<div class="side">
 		<div class="guests">
 			<div class="guest-person">
-				<img class="image is-150x150" src="/images/MariaRaiskaya.jpg" alt="Мария Райская" width="150" height="150"/>	
+				<img class="image is-150x150" src="/images/MariaRaiskaya.jpg" alt="Мария Райская" width="150" height="150"/>
 					<div class="guest-person__name">Мария Райская</div>
 					<div class="guest-person__position"> ведущий руководитель проектов <a href="http://masmi.by/" target="_blank" rel="noopener">МАСМИ</a></div>				
 			</div>
@@ -57,8 +57,21 @@ keywords: "айтрекинг"
 <p>Данные айтрекинга&nbsp;— цифровые значения. В&nbsp;макете или ролике можно выделять отдельные зоны внимания, по&nbsp;ним считать показатели и&nbsp;сравнивать между собой. Здесь айтрекинг не&nbsp;заменит никакое другое исследование.</p>
 <p>Недавно мы&nbsp;тестировали рекламный ролик молочного напитка. Начало ролика: спортивный зал, девушка, топ с&nbsp;глубоким декольте, на&nbsp;уровне декольте появляется напиток. Возникли опасения, что зритель проигнорирует рекламируемый продукт и&nbsp;будет смотреть на&nbsp;девушку. Если прямо спросить людей, куда они смотрят, то&nbsp;правду мы&nbsp;вряд&nbsp;ли услышим. Айтрекинг&nbsp;же показал в&nbsp;цифрах, где и&nbsp;насколько люди задерживают взгляд.</p>
 
-<div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/uD3067JJujY?rel=0&amp;showinfo=0" allowfullscreen></iframe></div>
-<p class="videoname">«Магия» айтрекинга: билборд «читает мысли» и&nbsp;показывает карты, которые выбрали прохожие</p>
+<figure>
+<div class="video">
+<iframe
+class="has-ratio"
+							 width="560"
+							 height="315"
+							 src="https://www.youtube-nocookie.com/embed/uD3067JJujY"
+							 srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube-nocookie.com/embed/uD3067JJujY?autoplay=1><img src=https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1622198955/video/pic/youtu.be-uD3067JJujY.jpg alt='видео, как билборд «читает мысли» и показывает карты, которые выбрали прохожие'><span>▶</span></a>"
+
+							 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+							 allowfullscreen
+							 title="видео, как билборд «читает мысли» и показывает карты, которые выбрали прохожие"></iframe>
+</div>
+<figcaption>«Магия» айтрекинга: билборд «читает мысли» и&nbsp;показывает карты, которые выбрали прохожие</figcaption>
+</figure>
 
 <p>При тестировании интернет-магазинов можно анализировать как визуальное решение, так и&nbsp;функциональность. Респондентам дается задание найти что-либо на&nbsp;сайте, далее фиксируется время выполнения задания, движение взгляда, эмоции, которыми сопровождается поиск. После обработки результатов заказчик получает рекомендации по&nbsp;улучшению пользовательского опыта. </p>
 <h2 id="2">Как использовать айтрекинг правильно</h2>

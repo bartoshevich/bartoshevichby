@@ -18,7 +18,7 @@ image: /images/tizer-29.jpg
 <p>Я&nbsp;же не&nbsp;вижу острой необходимости плодить термины и&nbsp;делить специалистов на&nbsp;теоретиков и&nbsp;практиков. Поэтому использую слово «маркетолог» как более привычное, устоявшееся и&nbsp;распространенное.</p>
 <p>Слово «маркетер» режет слух. Не&nbsp;нравится оно и&nbsp;моему текстовому редактору: каждый раз предлагает заменить на&nbsp;«мушкетер».</p>
 
-<figure><img src="/images/marketer1.jpg" alt="в поисковой выдаче Google слово «маркетолог» встречается в 41 раз чаще, чем «маркетер»" width="695" height="301" class="img-responsive" /> 
+<figure><img src="/images/marketer1.jpg" alt="в поисковой выдаче Google слово «маркетолог» встречается в 41 раз чаще, чем «маркетер»" width="695" height="301" class="img-responsive" />
 <figcaption>
 	В&nbsp;поисковой выдаче Google слово «маркетолог» встречается в&nbsp;41&nbsp;раз чаще, чем «маркетер»
 </figcaption>
@@ -43,7 +43,23 @@ image: /images/tizer-29.jpg
 <div class="hip">Вопросы о&nbsp;смысле действий&nbsp;— одни из&nbsp;важнейших на&nbsp;собеседовании маркетолога.</div>
 <p>Если на&nbsp;собеседовании проверяете знание терминов и&nbsp;правила расчета показателей, вы&nbsp;оцениваете память. Важнее понять, как человек использует профессиональные знания и&nbsp;опыт при анализе проблемной ситуации, где расставляет акценты, что и&nbsp;почему предлагает использовать.</p>
 <p>Вы&nbsp;лучше поймете качество мышления, если предложите «разобрать» нестандартные для маркетолога темы и&nbsp;ситуации. Как пример приведу видео, на&nbsp;котором Джейсон МакКью рассказывает о&nbsp;маркетинговом решении проблемы терроризма.</p>
-<div class="video"><iframe width="560" height="315" src="https://www.youtube.com/embed/3F2jACWwKdU" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+<figure>
+<div class="video">
+<iframe class="has-ratio"
+                                   width="560"
+                                   height="315"
+                                   src="https://www.youtube-nocookie.com/embed/3F2jACWwKdU"
+                                   srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube-nocookie.com/embed/3F2jACWwKdU?autoplay=1><img src=https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1622206215/video/pic/youtu.be-3F2jACWwKdU.jpg alt='Джейсон МакКью рассказывает, как через управление восприятием победить терроризм'><span>▶</span></a>"
+                                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                   allowfullscreen
+                                   title="Джейсон МакКью рассказывает, как через управление восприятием победить терроризм "    >
+                                   </iframe>
+								</div>
+								<figcaption>
+Джейсон МакКью рассказывает, как через управление восприятием победить терроризм
+</figcaption>
+</figure>
+
 <p>Джейсон рассматривает террористов как людей, которые привержены бренду&nbsp;— экстремистской концепции. Подобно тому, как КокаКола не&nbsp;нанимает спецназ для борьбы с&nbsp;конкурентами, вопрос борьбы с&nbsp;терроризмом следует перевести в&nbsp;плоскость восприятия. Мы&nbsp;должны проводить маркетинговые кампании и&nbsp;продвигать преимущества «своего товара».</p>
 <p>Следует показать изъяны бренда «терроризм». До&nbsp;сочувствующих экстремистам людям донести мысль, что нет ничего героического в&nbsp;убийстве ребенка. Говорить не&nbsp;от&nbsp;имени правительства или общественных деятелей. Для террористов они&nbsp;— носители «конкурентной» идеи, и&nbsp;им&nbsp;не&nbsp;поверят. Поверят пострадавшим. Чем больше людей осознают суровые последствия террористических актов для обычного человека, тем меньше у&nbsp;бренда «терроризм» будет «доля рынка».</p>
 <div class="markedfield">

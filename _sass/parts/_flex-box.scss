@@ -1,0 +1,30 @@
+// флекс-блоки вместо таблицы
+
+.flex-in,
+.flex-block {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+margin-bottom: 2rem;
+}
+
+
+.flex-1 {
+flex: 1;
+min-width: 270px; max-width: 310px;
+padding:0 15px 0 0;
+}
+
+.flex-2 {
+flex: 2;
+min-width: 300px;
+}
+
+.flex-image-cards {
+  display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+margin-bottom: 2rem;
+justify-content: space-around;
+align-content: space-around;
+}

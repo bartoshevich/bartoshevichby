@@ -120,80 +120,13 @@ margin-top: .5em !important;
 .notetip {width:90%;font-size:.8em; border-radius:5px 5px;padding:5px 5px 5px 3em;margin:0;line-height:1.4em;overflow:hidden;bottom:6px;right:6px;border:0 solid #0092e0;background-position:20px 50%;background-repeat:no-repeat}
 
 
-/* video */
 
 
-.video {
-  	width: 100%;
-  	position: relative;
-  	margin-top: 20px;
-  	margin-bottom: 2em;
-  	padding-top: 56.25%;
-}
-.video iframe, .video object, .video embed{
-  	position: absolute;
-  	top: 0;
-  	left: 0;
-  	width: 100%;
-  	height: 100%;
-}
 
-iframe {
-	border:0;
-	overflow:hidden;
-}
-
-.videoname {
-	margin-top:-1.95em;
-	color: #333;
-    font-size: .8em;
-    line-height: 1.4em;
-}
-
-
- /* подпись к фото респондента 
-
-.person {
-  font-size: 0.9em;
-  border-top:1px solid #DDD;
-      margin-top: 10px;
-}
-*/
-
-// флекс-блоки вместо таблицы
-
-.flex-in,
-.flex-block {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-margin-bottom: 2rem;
-}
-
-
-.flex-1 {
-flex: 1;
-min-width: 270px; max-width: 310px;
-padding:0 15px 0 0;
-}
-
-.flex-2 {
-flex: 2;
-min-width: 300px;
-}
-
-.flex-image-cards {
-  display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-margin-bottom: 2rem;
-justify-content: space-around;
-align-content: space-around;
-}
 
 // подчеркивание
 
-mark {background: #ffffa1; 
+mark {background: #ffffa1;
 background: linear-gradient(180deg,rgba(255,255,255,0) 45%, #ffffa1 55%);
 padding: 1px 0; }
 
