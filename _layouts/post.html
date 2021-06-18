@@ -103,16 +103,12 @@ layout: compress
 						            		{% include date.html %}
 										</div>
 						</div>
+						<div itemprop="articleBody"> 
+
+							{{ content }}
+						</div>
 											
-						{{ content }}
-				
-
-			    {% comment %}
-
-				<div class="article" itemprop="articleBody">
-					{{ content }}
-		</div>
-				{% endcomment %}
+			
 
 
 </article>
