@@ -24,7 +24,11 @@ keywords: "спасение бизнеса"
 
 <p>Присмотрелся к&nbsp;компаниям, в&nbsp;которых за&nbsp;год сменилось несколько руководителей отдела маркетинга, и&nbsp;обнаружил, что события развивались по&nbsp;сценарию игры. </p>
 
-<p><img src="/images/game1.jpg" alt="Маркетинг и игра в «Cпасителя»" width="720" height="377" class="img-responsive" ></p>
+<figure itemscope itemtype="http://schema.org/ImageObject">
+<img src="/images/game1.jpg" alt="Маркетинг и игра в «Cпасителя»" width="720" height="377" class="img-responsive" itemprop="contentUrl" >
+</figure>
+
+
 <p>Игрой в&nbsp;«Спасителя» подменяют работу. Я&nbsp;не&nbsp;стану рассматривать психологическое основание игры. Скажу только, что выиграть невозможно. «Спасителя» приглашают для того, чтобы распять.</p>
 
 <div class="markedfield"><h2>Описание игры в&nbsp;«Спасителя»</h2>

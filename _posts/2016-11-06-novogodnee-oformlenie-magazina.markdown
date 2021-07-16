@@ -36,10 +36,11 @@ image: /images/tizer-32.jpg
 
 <p>Праздник или сезон&nbsp;— часть инструментария, который на&nbsp;практике можно применить самым неожиданным образом в&nbsp;контексте конкретного бренда, конкретной культуры, конкретного места и&nbsp;конкретной узкой задачи.</p>
 
-<figure><img loading="lazy" src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1540025279/newyear2.jpg" alt="новогодние витрины" width="695" height="576" class="img-responsive" />
-	<figcaption>
+<figure itemscope itemtype="http://schema.org/ImageObject">
+<img loading="lazy" src="https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1540025279/newyear2.jpg" alt="новогодние витрины" width="695" height="576" class="img-responsive" itemprop="contentUrl" />
+<figcaption itemprop="description">
 		Новогодние витрины. Разный инструментарий, разный подход, разные интерпретации
-	</figcaption>
+</figcaption>
 </figure>
 
 

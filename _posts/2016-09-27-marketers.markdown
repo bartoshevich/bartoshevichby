@@ -18,8 +18,9 @@ image: /images/tizer-29.jpg
 <p>Я&nbsp;же не&nbsp;вижу острой необходимости плодить термины и&nbsp;делить специалистов на&nbsp;теоретиков и&nbsp;практиков. Поэтому использую слово «маркетолог» как более привычное, устоявшееся и&nbsp;распространенное.</p>
 <p>Слово «маркетер» режет слух. Не&nbsp;нравится оно и&nbsp;моему текстовому редактору: каждый раз предлагает заменить на&nbsp;«мушкетер».</p>
 
-<figure><img src="/images/marketer1.jpg" alt="в поисковой выдаче Google слово «маркетолог» встречается в 41 раз чаще, чем «маркетер»" width="695" height="301" class="img-responsive" />
-<figcaption>
+<figure itemscope itemtype="http://schema.org/ImageObject">
+<img src="/images/marketer1.jpg" alt="в поисковой выдаче Google слово «маркетолог» встречается в 41 раз чаще, чем «маркетер»" width="695" height="301" class="img-responsive" itemprop="contentUrl" />
+<figcaption itemprop="description">
 	В&nbsp;поисковой выдаче Google слово «маркетолог» встречается в&nbsp;41&nbsp;раз чаще, чем «маркетер»
 </figcaption>
 </figure>

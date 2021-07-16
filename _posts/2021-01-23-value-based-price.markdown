@@ -154,7 +154,9 @@ keywords: "методы ценообразования, ценообразова
 <h3>Процентная ставка</h3>
 <p>Вы&nbsp;договариваетесь о&nbsp;процентах с&nbsp;той суммы, которую приносит клиенту ваша деятельность. </p>
 
-<p><img src="/images/value-based-price.svg" width="445" height="500" alt="ценообразование на основе ценности"/></p>
+<figure  itemscope itemtype="http://schema.org/ImageObject">
+<img src="/images/value-based-price.svg" width="445" height="500" alt="ценообразование на основе ценности" itemprop="contentUrl"/>
+</figure>
 
 
 <p>Не&nbsp;обязательно придерживаться одного подхода. Вы&nbsp;можете комбинировать их&nbsp;между собой, предлагать одному клиенту один способ ценообразования, другому&nbsp;— другой. </p>

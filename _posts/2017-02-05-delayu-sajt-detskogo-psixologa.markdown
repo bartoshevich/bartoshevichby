@@ -16,9 +16,9 @@ image: /images/tizer-36.jpg
 
 <p>Для детского психолога Натальи Масюкевич сверстал сайт&nbsp;— <a href="//www.vitaline.by" target="_blank" rel="noopener">www.vitaline.by</a>. Расскажу о&nbsp;ходе работы.</p>
 
-<figure class="image is-square">
-<img src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1615143544/site/vitaline-by.png" alt="сайт психолога" width="720" height="720" class="img-shadow" title="главная страница vitaline.by" />
-<figcaption>
+<figure class="image is-square" itemscope itemtype="http://schema.org/ImageObject">
+<img src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1615143544/site/vitaline-by.png" alt="сайт психолога" width="720" height="720" class="img-shadow" title="главная страница vitaline.by" itemprop="contentUrl"  />
+<figcaption itemprop="description">
 скриншот главной страницы vitaline.by
 </figcaption>
 </figure>

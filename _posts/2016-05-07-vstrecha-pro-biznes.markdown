@@ -28,9 +28,9 @@ image: /images/tizer-20.jpg
 <h2>Разговор о бизнесе</h2>
 <h3>- с Иосифом Фридманом</h3>
 
-<figure>
-<img class="alignleft img-responsive" title="Иосиф Фридман" src="/images/pro2.jpg" alt="Иосиф Фридман" width="695" height="463" title="Иосиф Фридман"/>
-<figcaption>
+<figure itemscope itemtype="http://schema.org/ImageObject">
+<img class="alignleft img-responsive" title="Иосиф Фридман" src="/images/pro2.jpg" alt="Иосиф Фридман" width="695" height="463" title="Иосиф Фридман" itemprop="contentUrl"/>
+<figcaption itemprop="description">
 Иосиф Фридман. Фото: Андрей Пискун, портал «Про бизнес»
 </figcaption>
 </figure>
@@ -45,9 +45,9 @@ image: /images/tizer-20.jpg
 <p><strong>Ответ:</strong> Я говорил о ментальности чиновников. Они очень долго принимают решения. И если есть возможность не принимать, они решений принимать не будут. Работают по принципу: «инициатива наказуема». А каждый день их обдумывания — убытки для меня — инвестора… Поймите, нельзя строить так, как это делали 30 лет назад. Появились новые материалы, новые технологии, другие требования к удобству жилья. Я возил белорусскую делегацию во главе с замминистра архитектуры и строительства по Тель-Авиву и городу-спутнику и показывал, как сейчас застраивают новые районы. Всем понравилось, но прошло несколько лет, а так ничего и не поменялось. К сожалению, среди чиновников единомышленников я не нашел.</p>
 <h3>- с Андреем Торсуновым</h3>
 
-<figure>
-<img class="alignleft img-responsive" title="Андрей Торсунов" src="/images/pro3.jpg" alt="Андрей Торсунов" width="695" height="463" title="Андрей Торсунов" />
-<figcaption>
+<figure itemscope itemtype="http://schema.org/ImageObject">
+<img class="alignleft img-responsive" title="Андрей Торсунов" src="/images/pro3.jpg" alt="Андрей Торсунов" width="695" height="463" title="Андрей Торсунов" itemprop="contentUrl"/>
+<figcaption itemprop="description">
 Андрей Торсунов. Фото: Андрей Пискун, портал «Про бизнес»
 </figcaption>
 </figure>

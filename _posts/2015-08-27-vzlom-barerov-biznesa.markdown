@@ -18,21 +18,21 @@ image: /images/tizer-4.jpg
 
 <p>Несколько фото</p>
 
-<figure>
-<img src='/images/bar1.jpg' alt="Дмитрий Бартошевич" width="695" height="462" class="img-responsive"/>
-<figcaption>
+<figure itemscope itemtype="http://schema.org/ImageObject">
+<img loading="lazy" src='/images/bar1.jpg' alt="Дмитрий Бартошевич" width="695" height="462" class="img-responsive" itemprop="contentUrl"/>
+<figcaption itemprop="name">
 Дмитрий Бартошевич. Фото: Павел Вилюха
 </figcaption>
 </figure>
 <figure>
-<img src='/images/bar2.jpg' alt="Дмитрий Григорьев" width="695" height="509" class="img-responsive"/>
+<img loading="lazy" src='/images/bar2.jpg' alt="Дмитрий Григорьев" width="695" height="509" class="img-responsive"/>
 <figcaption>
 Дмитрий Григорьев. Фото: Павел Вилюха
 </figcaption>
 </figure>
 
 <figure>
-<img src='/images/bar3.jpg' alt="Сергей Дробышевский" width="695" height="550" class="img-responsive"/>
+<img loading="lazy" src='/images/bar3.jpg' alt="Сергей Дробышевский" width="695" height="550" class="img-responsive"/>
 <figcaption>
 Сергей Дробышевский. Фото: Павел Вилюха
 </figcaption>

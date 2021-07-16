@@ -29,7 +29,9 @@ keywords: "привлечь клиентов брендинг бренд"
 <div class="side"><p>Скачайте <a href="https://www.edelman.com/sites/g/files/aatuss191/files/2018-10/2018_Edelman_Earned_Brand_Global_Report.pdf" target="_blank" rel="noopener nofollow" >презентацию с&nbsp;результатами исследования</a></p> </div>
 </div>
 
-<p><img src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1549714027/belief-driven-buying.jpg" alt="как выбирают бренд покупатели - результаты исследования Edelmen "  width="729" height="362" /></p>
+<figure itemscope itemtype="http://schema.org/ImageObject">
+<img src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1549714027/belief-driven-buying.jpg" alt="как выбирают бренд покупатели - результаты исследования Edelmen "  width="729" height="362" itemprop="contentUrl"/>
+</figure>
 
 <p>Выбор на&nbsp;основе убеждений&nbsp;— растущий тренд, который обнаружили в&nbsp;каждой стране, в&nbsp;каждом сегменте потребителей (вне зависимости от&nbsp;возраста, пола или дохода). </p>
 <p>Демонстрация системы взглядов определяет не&nbsp;только выбор клиента, но&nbsp;и&nbsp;готовность рассказывать друзьям о&nbsp;бренде. Edelmen обнаружили, что лишь&nbsp;26% потребителей становятся «адвокатами» бренда после просмотра рекламы свойств товара. Если&nbsp;же в&nbsp;рекламе бренд делится установками, взглядами, процент «адвокатов» вырастает до&nbsp;32. </p>

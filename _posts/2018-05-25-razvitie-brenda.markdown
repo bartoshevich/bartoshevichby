@@ -24,9 +24,9 @@ keywords: "маркетинг без вирусов"
 <div class=" markedfield ">
 <b>Пример</b>
 <p>Компания «Славная»&nbsp;— производитель питьевой воды. Сайт компании подчеркивает натуральность и&nbsp;безопасность ее&nbsp;состава, доступность для всех слоев населения, поддержку компанией спорта. На&nbsp;странице компании в&nbsp;соц. сети маркетологи размещают вот такие фото. </p>
-<figure>
-	<img src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1615127540/site/slavby-720.jpg" width="720" height="469" alt="вода «Славная» запустила вирус"/>
-	<figcaption>
+<figure itemscope itemtype="http://schema.org/ImageObject">
+	<img src="https://res.cloudinary.com/bartoshevich/image/upload/f_auto/v1615127540/site/slavby-720.jpg" width="720" height="469" alt="вода «Славная» запустила вирус" itemprop="contentUrl"/>
+	<figcaption itemprop="description">
 		Фото никак не&nbsp;соотносится с&nbsp;указанными на&nbsp;сайте характеристиками, размывает образ компании ненужными ассоциациями
 	</figcaption>
 </figure>

@@ -22,8 +22,9 @@ image: /images/tizer-24.jpg
 <h2 id="1">Презентация продуктов «1С-Битрикс»</h2>
 <p>Егор Урбан и&nbsp;Феликс Ермоленко рассказывали о&nbsp;функциях интернет-магазина и&nbsp;CRM-решениях. Говорили, как интернет-магазин должен выглядеть и&nbsp;работать, и&nbsp;как в&nbsp;этом поможет «1С-Битрикс».</p>
 
-<figure><img src="/images/bitrix1.jpg" alt="Егор Урбан рассказывает, что должно быть в карточке товара."/> 
-	<figcaption>
+<figure itemscope itemtype="http://schema.org/ImageObject">
+<img src="/images/bitrix1.jpg" alt="Егор Урбан рассказывает, что должно быть в карточке товара."  itemprop="contentUrl" /> 
+	<figcaption itemprop="description">
 		Егор Урбан рассказывает, что должно быть в&nbsp;карточке товара
 	</figcaption>
 </figure>
@@ -46,8 +47,10 @@ image: /images/tizer-24.jpg
 	<li>создайте карту сайта xml;</li>
 	<li>добавьте яндекс-файл yml.</li>
  </ul>
-<figure><img src="/images/bitrix3.jpg" alt="Илья показывает как яндекс yml-файл улучшает сниппет в поисковой выдаче"/> 
-<figcaption>
+ 
+<figure itemscope itemtype="http://schema.org/ImageObject">
+<img src="/images/bitrix3.jpg" alt="Илья показывает как яндекс yml-файл улучшает сниппет в поисковой выдаче" itemprop="contentUrl"/> 
+<figcaption itemprop="description">
 	Илья Черняковский показывает как яндекс yml-файл улучшает сниппет в&nbsp;поисковой выдаче
 </figcaption>
 </figure>

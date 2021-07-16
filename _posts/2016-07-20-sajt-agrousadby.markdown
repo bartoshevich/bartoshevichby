@@ -59,8 +59,9 @@ image: /images/tizer-25.jpg
 <p>Вы&nbsp;не&nbsp;привлечете иностранца сайтом на&nbsp;русском языке. Но&nbsp;таких сайтов большинство. Это работает с&nbsp;белорусами и&nbsp;россиянами, но&nbsp;если задача привлечь немца или шведа, подход следует менять.</p>
 <p>Усадьба «Кали ласка» применяет автоматический переводчик Гугл. Я&nbsp;бы не&nbsp;рекомендовал использовать такое решение. Машинный перевод чувствуется, а&nbsp;часть контента остается на&nbsp;русском.</p>
 
-<figure><img src="/images/agro1.jpg" alt="скриншот сайта «кали ласка»" class="img-shadow" width="695" height="539"/>
-  <figcaption>
+<figure itemscope itemtype="http://schema.org/ImageObject">
+<img loading="lazy" src="/images/agro1.jpg" alt="скриншот сайта «кали ласка»" class="img-shadow" width="695" height="539" itemprop="contentUrl"/>
+  <figcaption itemprop="description">
     скриншот сайта усадьбы «Кали ласка» (включен перевод на&nbsp;английский язык)
   </figcaption>
 </figure>
@@ -68,14 +69,16 @@ image: /images/tizer-25.jpg
 
 <p>Частая ошибка&nbsp;— на&nbsp;иностранных версиях сайтов переведен не&nbsp;весь материал. В&nbsp;этом случае теряется смысл иностранной версии. Подобную ошибку встречал на&nbsp;сайтах частных хозяйств и&nbsp;общественных организаций, которые пропагандируют агротуризм в&nbsp;Беларуси.</p>
 
-<figure><img src="/images/agro2.jpg" alt="скриншот английской версии сайта усадьбы «Помяна»" class="img-shadow" width="695" height="415"/>
-  <figcaption>
+<figure itemscope itemtype="http://schema.org/ImageObject">
+<img loading="lazy" src="/images/agro2.jpg" alt="скриншот английской версии сайта усадьбы «Помяна»" class="img-shadow" width="695" height="415" itemprop="contentUrl"/>
+  <figcaption itemprop="description">
     скриншот английской версии сайта усадьбы «Помяна»
   </figcaption>
 </figure>
 
-<figure><img src="/images/agro3.jpg" alt="скриншот английской версии сайта Ruralbelarus.by" class="img-shadow" width="695" height="508"/>
-  <figcaption>
+<figure itemscope itemtype="http://schema.org/ImageObject">
+<img loading="lazy" src="/images/agro3.jpg" alt="скриншот английской версии сайта Ruralbelarus.by" class="img-shadow" width="695" height="508" itemprop="contentUrl"/>
+  <figcaption itemprop="description">
     скриншот английской версии сайта ruralbelarus.by
   </figcaption>
 </figure>
@@ -107,8 +110,9 @@ image: /images/tizer-25.jpg
 <p>Важно упрощать и&nbsp;устранять лишние этапы в&nbsp;общении. Клиенту не&nbsp;потребуется звонить или писать запрос, если он&nbsp;забронирует усадьбу через сайт. В&nbsp;режиме реального времени увидит свободные для посещения дни и&nbsp;спланирует отдых, получит на&nbsp;электронную почту письмо с&nbsp;подтверждением брони, распечатает и&nbsp;приложит к&nbsp;другим документам для получения визы.</p>
 <p>Подобный функционал использует усадьба «Вераги». Однако, английская версия сайта содержит русский текст и&nbsp;возникают сомнения, пользуются&nbsp;ли онлайн-бронированием иностранцы.</p>
 
-<figure><img src="/images/agro4.jpg" alt="скриншот английской версии сайта усадьбы “Вераги”" class="img-shadow"  width="695" height="447"/>
-  <figcaption>
+<figure itemscope itemtype="http://schema.org/ImageObject">
+<img loading="lazy" src="/images/agro4.jpg" alt="скриншот английской версии сайта усадьбы “Вераги”" class="img-shadow"  width="695" height="447" itemprop="contentUrl"/>
+  <figcaption itemprop="description">
     скриншот английской версии сайта усадьбы «Вераги»
   </figcaption>
 </figure>

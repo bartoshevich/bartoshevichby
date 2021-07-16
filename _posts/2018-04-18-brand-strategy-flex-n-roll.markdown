@@ -90,10 +90,10 @@ keywords: "стратегия бренда Флекс-н-Ролл"
 <p><em>Суть концепции бренда:</em> <span class="noperenos">«Флекс-н-Ролл»</span> работает в&nbsp;ритме клиента. Типография подстраивается под задачи заказчика, предлагает варианты оптимизации заказа, печатает в&nbsp;соответствии с&nbsp;утвержденным макетом и&nbsp;согласованные сроки. Клиенты ощущают помощь и&nbsp;поддержку со&nbsp;стороны <span class="noperenos">«Флекс-н-Ролл»</span>, слаженную командную работу. С&nbsp;<span class="noperenos">«Флекс-н-Ролл»</span> сотрудничать легко. </p>
 
 
-<figure>
+<figure itemscope itemtype="http://schema.org/ImageObject">
 	<picture>
 	<source  srcset="/images/logo_flex-n-roll.webp" type="image/webp">
-	<img src="/images/logo_flex-n-roll.jpg" width="293" height="100" alt="концепция бренда «Флекс-н-Ролл» "> </picture>
+	<img src="/images/logo_flex-n-roll.jpg" width="293" height="100" alt="концепция бренда «Флекс-н-Ролл»" itemprop="contentUrl"> </picture>
 </figure>
 
 
