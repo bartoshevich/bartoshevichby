@@ -29,16 +29,20 @@ image: /images/tizer-30.jpg
 <p>Попробовал переложить идею рекламы на&nbsp;слайды в&nbsp;Prezi. Готовую презентацию показал сам себе, записывая ее&nbsp;с&nbsp;экрана ноутбука. На&nbsp;видео наложил музыку. С&nbsp;песней Цоя возился долго. Опыта работы в&nbsp;музыкальных редакторах не&nbsp;было. И&nbsp;пока не&nbsp;догадался использовать несколько дорожек, никак не&nbsp;получалось вырезать и&nbsp;склеить фрагменты песни правильно. Готовый набросок&nbsp;— ролик не&nbsp;более, чем набросок рекламы&nbsp;— отправил друзьям, попросил поделиться впечатлениями.</p>
 
 <figure>
-<div class="video">
-<iframe class="has-ratio" loading="lazy"
-							 width="560"
-							 height="315"
-							 src="https://www.youtube-nocookie.com/embed/LcRjumujYws"
-							 srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube-nocookie.com/embed/LcRjumujYws?autoplay=1><img src=https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1600766144/vlcs.png alt='ролик с&nbsp;идеей рекламы для банка Тинькова'><span>▶</span></a>"						
-							 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="ролик с&nbsp;идеей рекламы для банка Тинькова">
-	</iframe>
-</div>
-<figcaption>ролик с&nbsp;идеей рекламы</figcaption>
+	<figcaption>
+		Эскиз видеоролика
+	   </figcaption>
+	<div class="video ">
+		   <a class="video__link " href="https://youtu.be/LcRjumujYws" target="_blank" rel="noopener nofollow noreferrer">
+			   <picture>
+				   <source srcset="https://i.ytimg.com/vi_webp/LcRjumujYws/maxresdefault.webp" type="image/webp">
+				   <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/LcRjumujYws/maxresdefault.jpg" alt="Эскиз видеоролика для банка Тинькова" width="1280" height="720"/>
+			   </picture>
+		   </a>
+		   <button class="video__button" aria-label="Запустить видео">
+			   <svg width="68" height="48" viewBox="0 0 68 48"><path class="video__button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path class="video__button-icon" d="M 45,24 27,14 27,34"></path></svg>
+		   </button>
+   </div>
 </figure>
 
 <p>А&nbsp;затем подумал, что буду вечно гадать, как отреагировал&nbsp;бы Олег Тиньков на&nbsp;мою идею. Выложил видео в&nbsp;ютуб, поставил ссылку на&nbsp;видео в&nbsp;твитере, где упомянул аккаунт Тинькова и&nbsp;его банка. И&nbsp;через минут 15&nbsp;получил обратную связь.</p>

@@ -65,7 +65,16 @@ image: /images/tizer-31.jpg
 <p>Перед публикацией статьи убеждаюсь, что уникальность близка или равна 100%. Несколько раз проверял и&nbsp;после опубликования. Дважды находил воров&nbsp;— люди скопировали мои записи и&nbsp;выдали за&nbsp;свои.</p>
 <h3>4) <a href="https://www.artlebedev.ru/typograf/" target="_blank" rel="noopener">Типограф</a> Студии Артемия Лебедева</h3>
 <p>Типограф грамотно оформляет статью перед публикацией в&nbsp;интернете: расставляет правильные кавычки, правильное тире между словами и&nbsp;дефис для двойных слов, убирает лишние пробелы и&nbsp;т.д. С&nbsp;типографом статьи выглядят опрятно.</p>
-<p><img src="/images/text1.jpg" alt="работа типографа" width="695" height="284" /></p>
+
+
+<figure itemscope itemtype="http://schema.org/ImageObject">
+<picture>
+               <source srcset="/images/text1.avif" type="image/avif">
+			    <source srcset="/images/text1.webp" type="image/webp">
+                <img loading="lazy"  src="/images/text1.jpg" alt="работа типографа" width="695" height="284" class="img-responsive" itemprop="contentUrl" >
+    </picture>
+</figure>
+
 
 <div class="side">
 <p><b>Дополнение:</b> в&nbsp;декабре 2017 компания «Ашманов и&nbsp;партнёры» открыла доступ к&nbsp;сервису по&nbsp;оценке качества текста&nbsp;— <a href="https://turgenev.ashmanov.com/" target="_blank" rel="noopener">«Тургенев»</a>. Сделан сервис на&nbsp;основе мониторинга факторов ранжирования в&nbsp;Яндексе и&nbsp;Гугл. Еще один полезный инструмент для маркетолога. </p></div></div>

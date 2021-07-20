@@ -30,7 +30,11 @@ image: /images/tizer-21.jpg
 <p>Скидки, к&nbsp;которым привыкли «старожилы», превратились в&nbsp;характеристики сотрудничества: у&nbsp;каждого разряда свои значения.</p>
 <p>Идея заказчику понравилась. Вместе определили критерий ценности клиента&nbsp;— объем закупок за&nbsp;последний квартал. По&nbsp;этому показателю присудили разряды.</p>
 
-<figure><img loading="lazy" src="/images/sav.jpg" alt="Система скидок." class="img-shadow" width="695" height="486" />
+<figure>
+<picture>
+                <source srcset="/images/sav.webp" type="image/webp">
+              <img loading="lazy" src="/images/sav.jpg" alt="Система скидок." class="img-shadow" width="695" height="486" />
+    </picture>
 <figcaption>Предложенная система разрядов. Значения показателей изменены</figcaption>
 </figure>
 

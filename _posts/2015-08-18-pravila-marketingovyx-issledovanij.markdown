@@ -4,7 +4,7 @@ title: "Когда маркетинговые исследования не пр
 name:  "Когда маркетинговые исследования&nbsp;&mdash; деньги на&nbsp;ветер"
 description: "Если нарушить эти правила, маркетинговые исследования не&nbsp;принесут ни&nbsp;понимания рынка, ни&nbsp;ясности в&nbsp;дальнейших шагах."
 date:   2015-08-18
-last_modified_at: 2020-05-03
+last_modified_at: 2021-07-03
 categories: инструкции
 permalink: "/instrukcii/3-pravila-marketingovyx-issledovanij/"
 tags: "инструменты"
@@ -13,8 +13,16 @@ image: /images/tizer-3.jpg
 ---
 
 <p>В&nbsp;учебниках пишут, что маркетинговые исследования устраняют неопределенность в&nbsp;бизнесе и&nbsp;способствуют глубокому пониманию рынка. Однако реальность не&nbsp;всегда совпадает с&nbsp;написанным в&nbsp;книгах. Я&nbsp;знаю примеры, когда компании потратили значительные средства на&nbsp;исследования, но&nbsp;никакой отдачи не&nbsp;получили: ни&nbsp;понимания рынка, ни&nbsp;ясности в&nbsp;дальнейших шагах.</p>
-<!--more-->
-<p><img src="/images/research1.jpg" alt="Польза исследований" width="695" height="583" class="img-shadow"/></p>
+
+<figure itemscope itemtype="http://schema.org/ImageObject">
+<picture>
+                <source srcset="/images/research1.avif" type="image/avif">
+                 <source srcset="/images/research1.webp" type="image/webp">               
+               <img loading="lazy" src="/images/research1.jpg" alt="анекдот о видах исследований" width="695" height="583" class="img-shadow" itemprop="contentUrl" >
+    </picture>
+</figure>
+
+
 
 <p>Чтобы маркетинговые исследования помогали развитию компании, я&nbsp;вывел 3&nbsp;правила организации исследований рынка. Этим правилам интуитивно следует каждый опытный сотрудник исследовательских агентств. А&nbsp;теперь их&nbsp;узнаете и&nbsp;вы.</p>
 

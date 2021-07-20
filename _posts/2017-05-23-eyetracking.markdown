@@ -57,21 +57,27 @@ keywords: "айтрекинг"
 <p>Данные айтрекинга&nbsp;— цифровые значения. В&nbsp;макете или ролике можно выделять отдельные зоны внимания, по&nbsp;ним считать показатели и&nbsp;сравнивать между собой. Здесь айтрекинг не&nbsp;заменит никакое другое исследование.</p>
 <p>Недавно мы&nbsp;тестировали рекламный ролик молочного напитка. Начало ролика: спортивный зал, девушка, топ с&nbsp;глубоким декольте, на&nbsp;уровне декольте появляется напиток. Возникли опасения, что зритель проигнорирует рекламируемый продукт и&nbsp;будет смотреть на&nbsp;девушку. Если прямо спросить людей, куда они смотрят, то&nbsp;правду мы&nbsp;вряд&nbsp;ли услышим. Айтрекинг&nbsp;же показал в&nbsp;цифрах, где и&nbsp;насколько люди задерживают взгляд.</p>
 
-<figure>
-<div class="video">
-<iframe
-class="has-ratio"
-							 width="560"
-							 height="315"
-							 src="https://www.youtube-nocookie.com/embed/uD3067JJujY"
-							 srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube-nocookie.com/embed/uD3067JJujY?autoplay=1><img src=https://res.cloudinary.com/bartoshevich/image/upload/f_auto,q_auto/v1622198955/video/pic/youtu.be-uD3067JJujY.jpg alt='видео, как билборд «читает мысли» и показывает карты, которые выбрали прохожие'><span>▶</span></a>"
 
-							 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-							 allowfullscreen
-							 title="видео, как билборд «читает мысли» и показывает карты, которые выбрали прохожие"></iframe>
+
+<figure>
+ <div class="video ">
+        <a class="video__link " href="https://youtu.be/tChDqYk-akE" target="_blank" rel="noopener nofollow noreferrer">
+            <picture>
+                <source srcset="https://i.ytimg.com/vi_webp/tChDqYk-akE/maxresdefault.webp" type="image/webp">
+                <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/tChDqYk-akE/maxresdefault.jpg" alt="видео, как билборд «читает мысли» и показывает карты, которые выбрали прохожие" width="1280" height="720"/>
+            </picture>
+        </a>
+        <button class="video__button" aria-label="Запустить видео">
+            <svg width="68" height="48" viewBox="0 0 68 48"><path class="video__button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path class="video__button-icon" d="M 45,24 27,14 27,34"></path></svg>
+        </button>
 </div>
-<figcaption>«Магия» айтрекинга: билборд «читает мысли» и&nbsp;показывает карты, которые выбрали прохожие</figcaption>
+<figcaption>
+«Магия» айтрекинга: билборд «читает мысли» и&nbsp;показывает карты, которые выбрали прохожие
+</figcaption>
 </figure>
+
+
+
 
 <p>При тестировании интернет-магазинов можно анализировать как визуальное решение, так и&nbsp;функциональность. Респондентам дается задание найти что-либо на&nbsp;сайте, далее фиксируется время выполнения задания, движение взгляда, эмоции, которыми сопровождается поиск. После обработки результатов заказчик получает рекомендации по&nbsp;улучшению пользовательского опыта. </p>
 <h2 id="2">Как использовать айтрекинг правильно</h2>

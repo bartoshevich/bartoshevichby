@@ -29,7 +29,7 @@ image: /images/tizer-20.jpg
 <h3>- с Иосифом Фридманом</h3>
 
 <figure itemscope itemtype="http://schema.org/ImageObject">
-<img class="alignleft img-responsive" title="Иосиф Фридман" src="/images/pro2.jpg" alt="Иосиф Фридман" width="695" height="463" title="Иосиф Фридман" itemprop="contentUrl"/>
+<img loading="lazy" class="alignleft img-responsive" title="Иосиф Фридман" src="/images/pro2.jpg" alt="Иосиф Фридман" width="695" height="463" title="Иосиф Фридман" itemprop="contentUrl"/>
 <figcaption itemprop="description">
 Иосиф Фридман. Фото: Андрей Пискун, портал «Про бизнес»
 </figcaption>
@@ -46,7 +46,7 @@ image: /images/tizer-20.jpg
 <h3>- с Андреем Торсуновым</h3>
 
 <figure itemscope itemtype="http://schema.org/ImageObject">
-<img class="alignleft img-responsive" title="Андрей Торсунов" src="/images/pro3.jpg" alt="Андрей Торсунов" width="695" height="463" title="Андрей Торсунов" itemprop="contentUrl"/>
+<img loading="lazy" class="alignleft img-responsive" title="Андрей Торсунов" src="/images/pro3.jpg" alt="Андрей Торсунов" width="695" height="463" title="Андрей Торсунов" itemprop="contentUrl"/>
 <figcaption itemprop="description">
 Андрей Торсунов. Фото: Андрей Пискун, портал «Про бизнес»
 </figcaption>
@@ -72,6 +72,6 @@ image: /images/tizer-20.jpg
  	<li>Объявили о завершении мероприятия. Зрители обступили спикеров и общение продолжилось. К Иосифу подходили по одному, выстроилась очередь. Иосиф быстро схватывал суть вопроса и направлял к личному помощнику, которая стояла рядом. Коротко ей указывал, что сделать, и переходил к следующему человеку… Личного помощника у Андрея я не заметил. Вокруг него собралась группа людей, желающие подходили и включались в общую беседу. #бросилось_в_глаза</li>
  	<li>Как же полезно взбадривать себя подобными встречами! #словил_себя_на_мысли</li>
 </ul>
-<figure><img src="/images/pro4.jpg" alt="bartoshevich_probusiness" width="695" height="463" title="фото: Андрей Пискун, probusiness.by"/>
+<figure><img loading="lazy" src="/images/pro4.jpg" alt="bartoshevich_probusiness" width="695" height="463" title="фото: Андрей Пискун, probusiness.by"/>
 <figcaption> «Папарацци» не дремлет :-)</figcaption>
 </figure>

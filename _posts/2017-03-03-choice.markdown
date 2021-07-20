@@ -32,7 +32,11 @@ image: /images/tizer-38.jpg
 <p>Не&nbsp;меньшая странность&nbsp;— презентовать клиенту каждую идею, которая только появилась в&nbsp;голове по&nbsp;поводу его проекта. Клиенту не&nbsp;нужны все ваши идеи, ему нужно решение проблемы. </p>
 <p>Выберите одну концепцию и&nbsp;готовьтесь к&nbsp;презентации. Если не&nbsp;можете остановиться на&nbsp;одном варианте&nbsp;— значит все варианты слабые либо вы&nbsp;плохо понимаете задачу клиента. </p>
 <figure itemscope itemtype="http://schema.org/ImageObject">
-	<img src="/images/choice.jpg" alt="когда рекламное агентство плохо делает работу" width="720" height="377" itemprop="contentUrl" />
+<picture>
+               <source srcset="/images/choice.avif" type="image/avif">
+			    <source srcset="/images/choice.webp" type="image/webp">
+                <img loading="lazy"  src="/images/choice.jpg" alt="когда рекламное агентство плохо делает работу" width="720" height="377" class="img-responsive" itemprop="contentUrl" >
+    </picture>
 </figure>
 
 

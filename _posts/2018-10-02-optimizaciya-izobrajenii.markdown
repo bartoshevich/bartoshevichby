@@ -127,6 +127,30 @@ keywords: "оптимизация изображений"
 
 <p>В&nbsp;блоге Opera есть <a href="https://dev.opera.com/articles/responsive-images/" target="_blank" rel="noopener">15&nbsp;примеров использования тега &lt;picture&gt;</a> (на&nbsp;англ.). Я&nbsp;заглядываю туда как в&nbsp;шпаргалку по&nbsp;синтаксису: какой код нужен, чтобы для ретины загружать изображения с&nbsp;высоким разрешением, чтобы показывать разные фото для разных экранов, чтобы предлагать WebP там, где браузеры распознают этот формат, чтобы все эти условия указать разом для одного изображения. </p>
 
+<div class="markedfield">
+
+<figure>
+ <div class="video ">
+        <a class="video__link " href="https://youtu.be/VnjrIGvoO_Y" target="_blank" rel="noopener nofollow noreferrer">
+            <picture>
+                <source srcset="https://i.ytimg.com/vi_webp/VnjrIGvoO_Y/maxresdefault.webp" type="image/webp">
+                <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/VnjrIGvoO_Y/maxresdefault.jpg" alt="Вадим Макеев рассказывает об image-set" width="1280" height="720"/>
+            </picture>
+        </a>
+        <button class="video__button" aria-label="Запустить видео">
+            <svg width="68" height="48" viewBox="0 0 68 48"><path class="video__button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path class="video__button-icon" d="M 45,24 27,14 27,34"></path></svg>
+        </button>
+</div>
+<figcaption>
+<b>updated</b>  Для желающих углубиться в&nbsp;тему Вадим Макеев рассказывает, как с&nbsp;помощью image-set можно подключать картинки разных типов и&nbsp;разрешения
+</figcaption>
+</figure>
+</div>
+
+
+
+
+
 <h2 id="3">А&nbsp;можно&nbsp;ли проще? </h2>
 
 <p>С&nbsp;тегом &lt;picture&gt; код картинки занимает иногда более 10&nbsp;строк, не&nbsp;говоря уже о&nbsp;том, что нужно вручную подготовить несколько вариантов изображения. Если писать <span class="noperenos">1-2</span> статьи в&nbsp;месяц, это необременительно. А&nbsp;если у&nbsp;вас интернет-магазин с&nbsp;тысячей наименований и&nbsp;соответствующим количеством фотографий? </p>

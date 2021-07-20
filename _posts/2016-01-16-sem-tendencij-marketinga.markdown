@@ -58,8 +58,16 @@ image: /images/tizer-14.jpg
 
 
 <h2 id="1">1) Навязчивая реклама умирает</h2>
-<p>Расширения браузеров, блокирующие рекламу, набирают популярность. В&nbsp;июне 2015 года Adobe и&nbsp;PageFair насчитали <a href="https://downloads.pagefair.com/wp-content/uploads/2016/05/2015_report-the_cost_of_ad_blocking.pdf" target="_blank" rel="noopener">191 миллион пользователей блокировщиков рекламы</a>, отметив, что их&nbsp;количество увеличилось на&nbsp;41% в&nbsp;течение года.</p>
-<img src="/images/sem1.jpg" alt="Рост пользователей AdBlock" width="695" height="427" class="img-responsive"/>
+<p>Расширения браузеров, блокирующие рекламу, набирают популярность. В&nbsp;июне 2015 года Adobe и&nbsp;PageFair насчитали 191 миллион пользователей блокировщиков рекламы, отметив, что их&nbsp;количество увеличилось на&nbsp;41% в&nbsp;течение года.</p>
+
+<figure itemscope itemtype="http://schema.org/ImageObject">
+   <picture>
+                <source srcset="/images/sem1.webp" type="image/webp">
+                <img loading="lazy" src="/images/sem1.jpg" alt="Рост пользователей AdBlock" width="695" height="427" class="img-responsive" itemprop="contentUrl"/>
+    </picture>
+</figure>
+
+
 
  <p>У&nbsp;меня нет информации, насколько распространены подобные расширения в&nbsp;Беларуси. В&nbsp;соседней Польше рекламу блокируют&nbsp;35% пользователей интернета. Что касается меня, uBlock Origin, Ghostery и&nbsp;NoScript&nbsp;— постоянные спутники серфинга в&nbsp;сети. Меня не&nbsp;отвлекают всплывающие окна, яркие мигающие баннеры и&nbsp;громкие рекламные призывы в&nbsp;духе <span class="noperenos">90-х.</span>
 </p>
@@ -89,9 +97,25 @@ image: /images/tizer-14.jpg
 <p>Если раньше акцент в&nbsp;дифференциации брендов делали на&nbsp;характеристиках товара или услуги, то&nbsp;сейчас компании отстраиваются от&nbsp;конкурентов с&nbsp;помощью эмоций. Эмоциональные ценности используются для позиционирования, дифференциации и&nbsp;легенды торговой марки.</p>
 
 <figure>
-<div class="video"><iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/zvgyWsSQOh8?rel=0" allowfullscreen></iframe></div>
-<figcaption>Пример использования эмоций в рекламе компанией Cineplex </figcaption>
+ <div class="video ">
+        <a class="video__link " href="https://youtu.be/zvgyWsSQOh8" target="_blank" rel="noopener nofollow noreferrer">
+            <picture>
+                <source srcset="https://i.ytimg.com/vi_webp/zvgyWsSQOh8/maxresdefault.webp" type="image/webp">
+                <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/zvgyWsSQOh8/maxresdefault.jpg" alt="Пример использования эмоций в рекламе Cineplex" width="1280" height="720"/>
+            </picture>
+        </a>
+        <button class="video__button" aria-label="Запустить видео">
+            <svg width="68" height="48" viewBox="0 0 68 48"><path class="video__button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path class="video__button-icon" d="M 45,24 27,14 27,34"></path></svg>
+        </button>
+</div>
+<figcaption>
+Пример использования эмоций в рекламе Cineplex
+</figcaption>
 </figure>
+
+
+
+
 
 <p>В&nbsp;начале 2016г. компания Нильсен опубликовала результаты исследования, которое показало, что <a href="https://www.nielsen.com/us/en/insights/article/2016/were-ruled-by-our-emotions-and-so-are-the-ads-we-watch/" target="_blank" rel="noopener">эмоциональная реклама увеличивает рост продаж</a>. Ожидаю, эмоций в&nbsp;рекламе станет больше.</p>
 <p>Работая над маркетинговым мероприятием, по&nbsp;меньшей мере задумайтесь, найдет&nbsp;ли кампания эмоциональный отклик у&nbsp;потребителя и&nbsp;какой.</p>

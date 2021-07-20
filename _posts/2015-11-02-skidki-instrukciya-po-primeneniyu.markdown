@@ -4,7 +4,7 @@ title:  "Cкидки: как предлагать правильно"
 name: "Скидки — инструкция по применению"
 description: "В&nbsp;рамках маркетинговой кампании предлагайте скидки на&nbsp;условиях, которые подчеркивают ценность бренда и&nbsp;укрепляют отличия от&nbsp;конкурентов."
 date:   2015-11-12
-last_modified_at: 2019-01-06
+last_modified_at: 2020-07-20
 categories: инструкции
 permalink: "/instrukcii/skidki-instrukciya-po-primeneniyu/"
 tags: "инструменты"
@@ -14,7 +14,14 @@ image: /images/tizer-11.jpg
 
 <p>Если вы&nbsp;собираетесь привлекать клиентов скидками, снижайте стоимость правильно. Не&nbsp;делайте скидки центральным пунктом продвижения товара, если не&nbsp;работаете в&nbsp;низком ценовом сегменте. В&nbsp;рамках маркетинговой кампании предлагаете скидки на&nbsp;условиях, которые подчеркивают ценность бренда и&nbsp;укрепляют отличия от&nbsp;конкурентов.</p>
 
-<img src="/images/discount1.jpg" alt="скидки">
+<figure itemscope itemtype="http://schema.org/ImageObject">
+<picture>
+                <source srcset="/images/discount1.avif" type="image/avif">
+                 <source srcset="/images/discount1.webp" type="image/webp">               
+               <img loading="lazy" src="/images/discount1.jpg" alt="скидки" width="695" height="583"  class="img-responsive" itemprop="contentUrl"/>
+    </picture>
+</figure>
+
 
 <h2>Что упускают маркетологи</h2>
 <ul>

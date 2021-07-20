@@ -14,40 +14,23 @@ keywords: "мышление маркетолога"
 
 <p>Рассуждаю вслух, почему важно и&nbsp;что значит думать, как маркетолог. </p>
 
+
 <figure>
-<div class="video" itemscope itemtype="http://schema.org/VideoObject" >
-<iframe
-  width="560"
-  height="315"
-  src="https://www.youtube.com/embed/fXspplVnrEM"
-  srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/fXspplVnrEM?autoplay=1><img src=https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1588528339/site/001.png alt='Акция не сработает, если не думать как маркетолог'><span>▶</span></a>"
-  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen
-  title="Акция не сработает, если не думать как маркетолог"></iframe>
-
-  <link itemprop="url" href="https://www.youtube-nocookie.com/embed/fXspplVnrEM">
-  <meta itemprop="name" content="Акция не сработает, если не думать как маркетолог">
-  <meta itemprop="description" content="Почему важно и что значит думать как маркетолог">
-  <meta itemprop="uploadDate" content="2020-02-29T00:00:00">
-  <meta itemprop="duration" content="PT30M54S">
-  <meta itemprop="isFamilyFriendly" content="true">
-    <meta itemprop="genre" content="education">
-   <meta itemprop="inLanguage" content="RU">
-    <meta itemprop="videoQuality" content="HD">
-  <span itemprop="thumbnail" itemscope itemtype="http://schema.org/ImageObject">
-        <link itemprop="contentUrl" href="/images/tizer-63.png">
-        <meta itemprop="width" content="600">
-        <meta itemprop="height" content="314">
-      </span>
-  <meta itemprop="thumbnailUrl" content="tizer-63.png" />
-
-  </div>
+	<div class="video ">
+		   <a class="video__link " href="https://youtu.be/fXspplVnrEM" target="_blank" rel="noopener nofollow noreferrer">
+			   <picture>
+				   <source srcset="https://i.ytimg.com/vi_webp/fXspplVnrEM/maxresdefault.webp" type="image/webp">
+				   <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/fXspplVnrEM/maxresdefault.jpg" alt="Акция не сработает, если не думать как маркетолог" width="1280" height="720"/>
+			   </picture>
+		   </a>
+		   <button class="video__button" aria-label="Запустить видео">
+			   <svg width="68" height="48" viewBox="0 0 68 48"><path class="video__button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path class="video__button-icon" d="M 45,24 27,14 27,34"></path></svg>
+		   </button>
+   </div>
 <figcaption>
 Запись выступления
 </figcaption>
 </figure>
-
-
 
 
 

@@ -14,7 +14,18 @@ image: /images/tizer-2.jpg
 
 <p>Компания «Атлант Телеком» выделяется агрессивным продвижением услуг и&nbsp;не&nbsp;всегда грамотной подачей. В&nbsp;статье я&nbsp;рассмотрю текст рекламной листовки, которую сотрудники предприятия оставляют в&nbsp;дверях квартир потенциальных клиентов. Отмечу, что мне не&nbsp;нравится в&nbsp;тексте, и&nbsp;в&nbsp;конце статьи предложу свой вариант листовки.</p>
 
-<p><img src="/images/atlant.jpg" alt="Рекламное объявление Атлант Телеком" width="695" height="390" class="img-responsive"/></p>
+<figure itemscope itemtype="http://schema.org/ImageObject">
+<picture>
+                <source srcset="/images/atlant.avif" type="image/avif">
+                 <source srcset="/images/atlant.webp" type="image/webp">               
+               <img loading="lazy" src="/images/atlant.jpg" alt="Рекламное объявление Атлант Телеком" width="695" height="390" class="img-responsive" itemprop="contentUrl" >
+    </picture>
+	<figcaption>
+	фото листовки
+	</figcaption>
+</figure>
+
+
 
 <h2>Анализирую текст</h2>
 <p class=" ">Начнем с&nbsp;первой фразы:</p>

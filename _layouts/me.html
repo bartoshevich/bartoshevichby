@@ -115,25 +115,25 @@ layout: compress
 <br/>
 		<p class="block-content_title"> Разработал рекламные кампании, координировал проведение</p>
 		<p><b>Видео</b></p>
-		<figure>
-			<div class="video">
-				<iframe
-						width="560"
-						height="315"
-						src="https://www.youtube-nocookie.com/embed/1Kq8PenQVvY"
-						srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube-nocookie.com/embed/1Kq8PenQVvY?autoplay=1><img src=https://res.cloudinary.com/bartoshevich/image/upload/q_auto,f_auto/v1588289928/video/photo_hormann.jpg alt='Проморолик белорусского офиса Hörmann'><span>▶</span></a>"
 
-						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen
-						title="Проморолик белорусского офиса Hörmann"
-				></iframe>
-			</div>
-		
-			<figcaption>
+		<figure>						
+			<div class="video ">
+				   <a class="video__link " href="https://youtu.be/1Kq8PenQVvY" target="_blank" rel="noopener nofollow noreferrer">
+					   <picture>
+						   <source srcset="https://i.ytimg.com/vi_webp/1Kq8PenQVvY/maxresdefault.webp" type="image/webp">
+						   <img loading="lazy" class="video__media " src="https://i.ytimg.com/vi/1Kq8PenQVvY/maxresdefault.jpg" alt="Проморолик белорусского офиса Hörmann" width="1280" height="720"/>
+					   </picture>
+				   </a>
+				   <button class="video__button" aria-label="Запустить видео">
+					   <svg width="68" height="48" viewBox="0 0 68 48"><path class="video__button-shape" d="M66.52,7.74c-0.78-2.93-2.49-5.41-5.42-6.19C55.79,.13,34,0,34,0S12.21,.13,6.9,1.55 C3.97,2.33,2.27,4.81,1.48,7.74C0.06,13.05,0,24,0,24s0.06,10.95,1.48,16.26c0.78,2.93,2.49,5.41,5.42,6.19 C12.21,47.87,34,48,34,48s21.79-0.13,27.1-1.55c2.93-0.78,4.64-3.26,5.42-6.19C67.94,34.95,68,24,68,24S67.94,13.05,66.52,7.74z"></path><path class="video__button-icon" d="M 45,24 27,14 27,34"></path></svg>
+				   </button>
+		   </div>
+		   <figcaption>
 			Проморолик белорусского офиса Hörmann.
-			Идея&nbsp;— Дмитрий Бартошевич. Режиссер&nbsp;— <a href="https://www.youtube.com/user/bondaray" target="_blank" rel="noopener">Александр Бондарев</a>. Больше видео <a href="https://www.youtube.com/channel/UCyEPzGj0pU3OdwV2uvO9cmw" target="_blank" rel="noopener">на&nbsp;youtube-канале компании</a>
-			</figcaption>
-		</figure>
+Идея&nbsp;— Дмитрий Бартошевич. Режиссер&nbsp;— <a href="https://www.youtube.com/user/bondaray" target="_blank" rel="noopener">Александр Бондарев</a>. Больше видео <a href="https://www.youtube.com/channel/UCyEPzGj0pU3OdwV2uvO9cmw" target="_blank" rel="noopener">на&nbsp;youtube-канале компании</a>
+		   </figcaption>
+		   </figure>
+
 		<br/>
 		<p><b>Аудио</b></p>
 		<figure>
@@ -612,6 +612,7 @@ layout: compress
 
 	{% include footer.html %}
 	{% include scripts.html %}
+	{% include script-video.html %}
 
 
 </body>

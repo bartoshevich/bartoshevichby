@@ -19,20 +19,35 @@ image: /images/tizer-4.jpg
 <p>Несколько фото</p>
 
 <figure itemscope itemtype="http://schema.org/ImageObject">
-<img loading="lazy" src='/images/bar1.jpg' alt="Дмитрий Бартошевич" width="695" height="462" class="img-responsive" itemprop="contentUrl"/>
+<picture>
+                <source srcset="/images/bar1.avif" type="image/avif">
+                 <source srcset="/images/bar1.webp" type="image/webp">               
+               <img loading="lazy" src='/images/bar1.jpg' alt="Дмитрий Бартошевич" width="695" height="462" class="img-responsive" itemprop="contentUrl"/>
+    </picture>
 <figcaption itemprop="name">
 Дмитрий Бартошевич. Фото: Павел Вилюха
 </figcaption>
 </figure>
+
+
 <figure>
-<img loading="lazy" src='/images/bar2.jpg' alt="Дмитрий Григорьев" width="695" height="509" class="img-responsive"/>
+<picture>
+                <source srcset="/images/bar2.avif" type="image/avif">
+                 <source srcset="/images/bar2.webp" type="image/webp">               
+               <img loading="lazy" src='/images/bar2.jpg' alt="Дмитрий Григорьев" width="695" height="509" class="img-responsive" />
+    </picture>
 <figcaption>
 Дмитрий Григорьев. Фото: Павел Вилюха
 </figcaption>
 </figure>
 
 <figure>
-<img loading="lazy" src='/images/bar3.jpg' alt="Сергей Дробышевский" width="695" height="550" class="img-responsive"/>
+<picture>
+                <source srcset="/images/bar3.avif" type="image/avif">
+                 <source srcset="/images/bar3.webp" type="image/webp">               
+               <img loading="lazy" src='/images/bar3.jpg' alt="Сергей Дробышевский" width="695" height="550" class="img-responsive" />
+    </picture>
+
 <figcaption>
 Сергей Дробышевский. Фото: Павел Вилюха
 </figcaption>

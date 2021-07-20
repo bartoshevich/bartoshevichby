@@ -4,7 +4,7 @@ title:  "Стратегия бренда 3Dom"
 name: "Кейс: стратегия бренда 3Dom"
 description: "Рассказываю, как создавал и&nbsp;развивал концепцию и&nbsp;стратегию развития бренда корпусной мебели."
 date:   2016-02-25
-last_modified_at: 2019-01-06
+last_modified_at: 2021-07-20
 categories: опыт
 permalink: "/opyt/3dom-mebel-dlya-semi/"
 tags: "кейсы"
@@ -31,7 +31,10 @@ image: /images/tizer-16.jpg
 <p>Предполагаю, у&nbsp;компаний нет четкого фокуса в&nbsp;маркетинговой активности&nbsp;и, как следствие, затраты на&nbsp;продвижение могут быть завышены. Кроме того, без внятного позиционирования у&nbsp;покупателя нет побудительных причин для выбора торговой марки, что для предприятия означает риск снижения продаж.</p>
 
 <figure itemscope itemtype="http://schema.org/ImageObject">
-<img loading="lazy" src="/images/3dom2.jpg" alt="формула мебельного бренда" width="630" height="415" itemprop="contentUrl"/>
+<picture>
+                <source srcset="/images/3dom2.webp" type="image/webp">
+                <img loading="lazy" src="/images/3dom2.jpg" alt="формула мебельного бренда" width="630" height="415" itemprop="contentUrl"/>
+    </picture>
 </figure>
 
 
@@ -45,7 +48,11 @@ image: /images/tizer-16.jpg
 <p>Задумку реализовал вместе с&nbsp;бэби-театром «Бусы». Поделюсь некоторыми эпизодами новогодней программы.</p>
 
 <figure itemscope itemtype="http://schema.org/ImageObject">
-<img loading="lazy" src="/images/3dom3.jpg" alt="праздник 3Dom" width="695" height="463" itemprop="contentUrl"/>
+<picture>
+                <source srcset="/images/3dom3.webp" type="image/webp">
+                <img loading="lazy" src="/images/3dom3.jpg" alt="праздник 3Dom" width="695" height="463" itemprop="contentUrl"/>
+    </picture>
+
 </figure>
 
 <p>Через маленькую щелочку приоткрытой двери шкафа дети смотрели на&nbsp;северное сияние. Видя удивление на&nbsp;лицах, родители пытались подойти ближе, посмотреть и&nbsp;узнать, что&nbsp;же там придумал 3Dom.</p>
@@ -53,11 +60,20 @@ image: /images/tizer-16.jpg
 <p>Семейные ценности сближают компании. В&nbsp;празднике участвовал и&nbsp;<a href="http://kovrova.by/" target="_blank" rel="noopener">Семейный центр Катерины Ковровой</a> с&nbsp;благотворительной акцией «Коробка смелости». Желающие приобретали гипсовую игрушку для раскраски и&nbsp;помогали детям, находящимся на&nbsp;лечении во&nbsp;<span class="noperenos">2-ой</span> городской детской клинической больнице г.Минска.</p>
 
 <figure itemscope itemtype="http://schema.org/ImageObject">
-<img loading="lazy" src="/images/3dom4.jpg" alt="семейный центр Ковровой" title="Семейный центр Катерины Ковровой готовится к празднику 3Dom" width="695" height="458" itemprop="contentUrl"/>
+<picture>
+                <source srcset="/images/3dom4.webp" type="image/webp">
+               <img loading="lazy" src="/images/3dom4.jpg" alt="семейный центр Ковровой" title="Семейный центр Катерины Ковровой готовится к празднику 3Dom" width="695" height="458" itemprop="contentUrl"/>
+    </picture>
+
+
 </figure>
 
 <figure itemscope itemtype="http://schema.org/ImageObject">
-<img loading="lazy" src="/images/3dom5.jpg" alt="благодарность от центра Ковровой" title="благодарность от центра Катерины Ковровой" width="626" height="962" itemprop="contentUrl"/>
+<picture>
+                <source srcset="/images/3dom5.webp" type="image/webp">
+              <img loading="lazy" src="/images/3dom5.jpg" alt="благодарность от центра Ковровой" title="благодарность от центра Катерины Ковровой" width="626" height="962" itemprop="contentUrl"/>
+    </picture>
+
 </figure>
 
 <p>Я&nbsp;описал крупными мазками опыт работы с&nbsp;торговой маркой 3Dom. Постепенно появятся новые статьи о&nbsp;развитии концепции «мебель для семьи», примеры решения задач других предприятий. Подписывайтесь, чтобы ничего не&nbsp;пропустить.</p>
